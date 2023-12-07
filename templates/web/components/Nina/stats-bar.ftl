@@ -20,8 +20,8 @@
             
         <div class="stats-bar-detail-list">
             
-            <div class="stats-bar-detail-item">
-                <img class="image lazyload-img" data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/room/ninahospitality-numberofbeds-icon.png?rev=186e289a53b44b5ea11273da640d293b" alt="Nina Hospitality number of beds" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/room/ninahospitality-numberofbeds-icon.png?rev=186e289a53b44b5ea11273da640d293b">
+            <div class="stats-bar-detail-item" $index=index>
+                <@crafter.img class="image lazyload-img" data-src="${item.image_s}">
                 <p class="stats-bar-detail-desc">Accommodation</p>
             </div>
             
