@@ -5,6 +5,10 @@
 <div class="stats-bar-wrapper" data-bg-color="#fff">
 
     <div class="stats-bar-detail-wrapper">
+    
+                            <@crafter.h3 $field="title_s">
+                ${contentModel.title_s!""}
+                </@crafter.h3>
 
 <#--
         <@crafter.h2 class="stats-bar-title" $field="title_s">${contentModel.title_s!""}</@crafter.h2>
