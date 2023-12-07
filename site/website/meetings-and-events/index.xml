@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-07T12:41:48.362Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-07T12:41:48.362Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-07T13:15:37.286Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-07T13:15:37.286Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -50,17 +50,21 @@
 	<value>New Intro Card</value>
 	<disableFlattening>false</disableFlattening>
 <component id="9b3e4080-424b-4fc1-9c56-8cc70155593e">
-        <content-type>/component/introcard</content-type>
-        <display-template>/templates/web/components/Nina/intro-card.ftl</display-template>
-        <internal-name><![CDATA[New Intro Card]]></internal-name>
-        <file-name>9b3e4080-424b-4fc1-9c56-8cc70155593e.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-07T08:46:35.185Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-07T08:46:35.185Z</lastModifiedDate_dt>
-        <objectId>9b3e4080-424b-4fc1-9c56-8cc70155593e</objectId>
-        <title_s/>
-        <bodyContent_html/>
-      </component>
+	<content-type>/component/introcard</content-type>
+	<display-template>/templates/web/components/Nina/intro-card.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Intro Card</internal-name>
+	<file-name>9b3e4080-424b-4fc1-9c56-8cc70155593e.xml</file-name>
+	<createdDate_dt>2023-12-07T13:16:00.877Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-12-07T13:16:00.877Z</lastModifiedDate_dt>
+	<objectId>9b3e4080-424b-4fc1-9c56-8cc70155593e</objectId>
+	<title_s>Class leading facilities in Tsuen Wan</title_s>
+	<bodyContent_html>&lt;p&gt;With ten individual event spaces, including three that combine to create one of the city&amp;rsquo;s most spacious and spectacular venues, this Nina will impress.&amp;nbsp; Able to welcome between 15 to 1,600 guests, and hosted within Hong Kong&amp;rsquo;s largest hotel, this is a MICE destination that has every eventuality covered.&lt;/p&gt;</bodyContent_html>
+	<folder-name/>
+	<createdDate>2023-12-07T13:16:00.877Z</createdDate>
+	<lastModifiedDate>2023-12-07T13:16:00.877Z</lastModifiedDate>
+</component>
 	</item>	<item inline="true">	<key>be921e1d-f243-4676-a530-72d9468ea02b</key>
 	<value>New Stats Bar</value>
 	<disableFlattening>false</disableFlattening>
