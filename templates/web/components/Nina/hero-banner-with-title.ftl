@@ -14,7 +14,7 @@
  </#if> 
  -->
  <div class="row"></div>
- <@crafter.h1 class="common-header layout--center" $field=(title_t!"")>${contentModel.title_t}</@crafter.h1>
+ <@crafter.h1 class="common-header layout--center" $field="title_t">${contentModel.title_t}</@crafter.h1>
 
           </div>
     </div>
