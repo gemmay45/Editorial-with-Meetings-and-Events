@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
 	<content-type>/page/eventlanding</content-type>
-	<display-template>/templates/web/event-landing.ftl</display-template>
+	<display-template>/templates/web/pages/event-landing.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>ae5a</objectGroupId>
@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-07T08:29:51.829Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-07T08:29:51.829Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-07T08:37:03.641Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-07T08:37:03.641Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
