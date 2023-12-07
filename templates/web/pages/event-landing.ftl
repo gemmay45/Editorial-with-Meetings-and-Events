@@ -23,8 +23,7 @@
       <!-- Header -->
       <@renderComponent component=contentModel.header_o.item />
 
-      <!-- Section -->
-      <@crafter.section $model=contentModel>
+
       		    <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
 
         <#--<header class="main">
@@ -55,7 +54,6 @@
             </@crafter.article>
           </#list>
         </div>-->
-      </@crafter.section>
 
     </div>
   </div>
