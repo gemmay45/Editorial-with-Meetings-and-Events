@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/stats-bar.ftl</value>
+			<value>/templates/web/components/Nina/stats-bar.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/single-card.ftl</value>
+			<value>/templates/web/components/Nina/single-card.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
