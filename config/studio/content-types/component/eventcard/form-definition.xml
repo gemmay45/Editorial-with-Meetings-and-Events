@@ -390,7 +390,7 @@
 					<type>dropdown</type>
 					<id>cTA_s</id>
 					<iceId></iceId>
-					<title>CTA</title>
+					<title>CTA Name</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
