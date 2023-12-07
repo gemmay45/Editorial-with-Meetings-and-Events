@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>84dd</objectGroupId>
+	<objectId>84dd1738-cf20-f33d-86d4-c05b11e0f260</objectId>
+	<items item-list="true">	<item>	<key>layout--left</key>
+	<value>Left</value>
+	</item>	<item>	<key>layout--right</key>
+	<value>Right</value>
+	</item></items>
+	<internal-name>Image Position</internal-name>
+	<file-name>image-position.xml</file-name>
+	<folder-name/>
+	<createdDate>2023-12-07T07:40:14.528Z</createdDate>
+	<createdDate_dt>2023-12-07T07:40:14.528Z</createdDate_dt>
+	<lastModifiedDate>2023-12-07T07:40:14.528Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-07T07:40:14.528Z</lastModifiedDate_dt>
+</component>
