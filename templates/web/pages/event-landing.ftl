@@ -21,7 +21,7 @@
     <div class="inner">
 
       <!-- Header -->
-      <@renderComponent component=contentModel.header_o.item />
+      <#--<@renderComponent component=contentModel.header_o.item />-->
 
       <!-- Section -->
       <@crafter.section $model=contentModel>
@@ -59,7 +59,7 @@
   </div>
 
   <!-- Left Rail -->
-  <@renderComponent component=contentModel.left_rail_o.item />
+  <#--<@renderComponent component=contentModel.left_rail_o.item />-->
 
 </div>
 
