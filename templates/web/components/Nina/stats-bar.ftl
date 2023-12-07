@@ -1,3 +1,5 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
 <div class="component nina-stat-bar need-to-control-bg col-12" style="background: rgb(255, 255, 255);">
         <div class="component-content">
 
@@ -5,14 +7,9 @@
 <div class="stats-bar-wrapper" data-bg-color="#fff">
 
     <div class="stats-bar-detail-wrapper">
-    
-                            <@crafter.h3 $field="title_s">
-                ${contentModel.title_s!""}
-                </@crafter.h3>
 
-<#--
         <@crafter.h2 class="stats-bar-title" $field="title_s">${contentModel.title_s!""}</@crafter.h2>
-<font color="#817456"></font>-->
+<font color="#817456"></font>
 
         <div class="stats-bar-detail-list">
             
