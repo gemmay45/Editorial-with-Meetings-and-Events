@@ -10,7 +10,9 @@
             <div class="horizontal-line"></div>
             <#if contentModel.bodyContent_html?has_content>
                 <div class="body">
-
+                    <div id="gtx-trans" style="position: absolute; left: -50px; top: -25px;">
+                        <div class="gtx-trans-icon">&nbsp;</div>
+                    </div> 
                 </div>
             </#if>
         </div>
