@@ -12,7 +12,8 @@
 
 <@crafter.renderRepeatGroup
               $field="statsItems_o"
-              $containerTag="dl"
+              $containerTag="div"
+              $containerAttributes={"class":"stats-bar-detail-list"}
               $itemTag="div";
               item, index
             >
