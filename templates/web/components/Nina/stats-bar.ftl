@@ -5,8 +5,9 @@
 <div class="stats-bar-wrapper" data-bg-color="#fff">
 
     <div class="stats-bar-detail-wrapper">
-        
-        <@crafter.h2 class="stats-bar-title" $field="title_s">${contentModel.title_s!""}</@crafter.h2>
+                        <@crafter.h3 $field="title_s">
+                ${contentModel.title_s!""}
+                </@crafter.h3>
 <#--<font color="#817456">--</font>
 
         <div class="stats-bar-detail-list">
