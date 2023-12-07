@@ -11,7 +11,7 @@
     <#include "/templates/web/fragments/head.ftl">
     <@crafter.head/>
 </head>
-<body>
+<body class="default-device bodyclass">
 <@crafter.body_top/>
 <!-- Wrapper -->
 <div id="wrapper">
