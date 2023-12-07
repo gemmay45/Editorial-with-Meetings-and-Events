@@ -202,8 +202,8 @@
 	</sections>
 	<datasources>				<datasource>
 					<type>components</type>
-					<id>pageSections</id>
-					<title>Page Sections</title>
+					<id>pageSectionsSource</id>
+					<title>Page Sections Source</title>
 					<interface>item</interface>
 					<properties>
 						<property>
@@ -238,7 +238,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value></value>
+							<value>/component/eventcard,/component/fullwidthcallout,/component/herobannerwithtitle,/component/introcard,/component/singlecard,/component/statsbar</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
