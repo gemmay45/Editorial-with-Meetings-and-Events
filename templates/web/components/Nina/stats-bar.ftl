@@ -11,7 +11,7 @@
         <h2 class="stats-bar-title" ><@crafter.tag $tag="font" color="#817456" $field="title_s">${contentModel.title_s!""}</@crafter.tag></h2>
 
 <@crafter.renderRepeatGroup
-              $field="event_o"
+              $field="statsItems_o"
               $containerTag="dl"
               $itemTag="div";
               item, index
