@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/eventlanding</content-type>
+	<display-template>/templates/web/event-landing.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ae5a</objectGroupId>
+	<objectId>ae5a2104-ffc6-bb07-4bce-869c47d95414</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>meetings-and-events</folder-name>
+	<internal-name>Meetings and Events</internal-name>
+	<navLabel>Meetings and Events</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
+	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
+	<lastModifiedDate>2023-12-07T08:22:09.676Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-07T08:22:09.676Z</lastModifiedDate_dt>
+</page>
