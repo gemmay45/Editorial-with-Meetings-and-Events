@@ -30616,18 +30616,18 @@ body[data-page-type=lodgewood-page] .interactive-map-wrapper.map-has-title .inte
     letter-spacing: .6px
 }
 
-body .brand-intro {
+body main .brand-intro {
     width: 100%;
     margin: 0 auto;
     padding: 72px 0
 }
 
-body .brand-intro,body .brand-intro *,body .brand-intro ::after,body .brand-intro ::before {
+body main .brand-intro,body main .brand-intro *,body main .brand-intro ::after,body main .brand-intro ::before {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent
 }
 
-body .brand-intro .component-content {
+body main .brand-intro .component-content {
     display: flex;
     width: 57.01388888888889%;
     max-width: 821px;
@@ -30636,31 +30636,31 @@ body .brand-intro .component-content {
     align-items: center
 }
 
-body .brand-intro .brand-intro-content {
+body main .brand-intro .brand-intro-content {
     display: flex;
     flex-direction: column;
     align-items: center
 }
 
-body .brand-intro .image-wrapper {
+body main .brand-intro .image-wrapper {
     margin: 0 0 32px 0
 }
 
-body .brand-intro.vivva-theme {
+body main .brand-intro.vivva-theme {
     padding: 67px 0 29px 0
 }
 
-body .brand-intro.vivva-theme .title {
+body main .brand-intro.vivva-theme .title {
     margin-bottom: 44px
 }
 
-body .brand-intro.vivva-theme .horizontal-line {
+body main .brand-intro.vivva-theme .horizontal-line {
     margin: 0 0 40px 0;
     height: 1px;
     background: #251f1b
 }
 
-body .brand-intro .title {
+body main .brand-intro .title {
     width: 100%;
     margin: 0 0 32px 0;
     color: #5a4132;
@@ -30675,13 +30675,13 @@ body .brand-intro .title {
     overflow: hidden
 }
 
-body .brand-intro .horizontal-line {
+body main .brand-intro .horizontal-line {
     height: 2px;
     margin: 0 0 32px 0;
     background: #000
 }
 
-body .brand-intro .body {
+body main .brand-intro .body {
     width: 100%;
     font-size: 14px;
     line-height: 21px;
@@ -30690,53 +30690,53 @@ body .brand-intro .body {
     color: #000
 }
 
-body .brand-intro .learn-more-btn {
+body main .brand-intro .learn-more-btn {
     margin: 32px 0 0 0
 }
 
-body .brand-intro .learn-more-btn::before {
+body main .brand-intro .learn-more-btn::before {
     left: -2px;
     width: calc(100% + 2px)
 }
 
-body .brand-intro.layout--left .brand-intro-content,body .brand-intro.layout--left .component-content {
+body main .brand-intro.layout--left .brand-intro-content,body main .brand-intro.layout--left .component-content {
     align-items: flex-start
 }
 
-body .brand-intro.layout--left .body,body .brand-intro.layout--left .title {
+body main .brand-intro.layout--left .body,body main .brand-intro.layout--left .title {
     text-align: left
 }
 
-body .brand-intro.layout--left .learn-more-btn {
+body main .brand-intro.layout--left .learn-more-btn {
     margin-right: 12px
 }
 
-body .brand-intro.layout--left .learn-more-btn::before {
+body main .brand-intro.layout--left .learn-more-btn::before {
     left: 0;
     width: 100%
 }
 
-body .brand-intro.layout--right .brand-intro-content,body main .brand-intro.layout--right .component-content {
+body main .brand-intro.layout--right .brand-intro-content,body main .brand-intro.layout--right .component-content {
     align-items: flex-end
 }
 
-body .brand-intro.layout--right .body,body main .brand-intro.layout--right .title {
+body main .brand-intro.layout--right .body,body main .brand-intro.layout--right .title {
     text-align: right
 }
 
-body .brand-intro.layout--right .learn-more-btn {
+body main .brand-intro.layout--right .learn-more-btn {
     margin-right: 12px
 }
 
-body .brand-intro.bg-gray {
+body main .brand-intro.bg-gray {
     background: rgba(241,241,241,.6)
 }
 
-body .brand-intro.property-listing {
+body main .brand-intro.property-listing {
     padding: 72px 0
 }
 
-body .brand-intro.property-listing .component-content {
+body main .brand-intro.property-listing .component-content {
     display: flex;
     width: 57.01388888888889%;
     max-width: 821px;
@@ -30745,11 +30745,11 @@ body .brand-intro.property-listing .component-content {
     align-items: center
 }
 
-body .brand-intro.property-listing .image-wrapper {
+body main .brand-intro.property-listing .image-wrapper {
     margin: 0 0 32px 0
 }
 
-body .brand-intro.property-listing .title {
+body main .brand-intro.property-listing .title {
     width: 100%;
     margin: 0 0 32px 0;
     color: #000;
@@ -30765,13 +30765,13 @@ body .brand-intro.property-listing .title {
     overflow: hidden
 }
 
-body .brand-intro.property-listing .horizontal-line {
+body main .brand-intro.property-listing .horizontal-line {
     height: 2px;
     margin: 0 0 32px 0;
     background: #000
 }
 
-body .brand-intro.property-listing .body {
+body main .brand-intro.property-listing .body {
     width: 100%;
     color: #000;
     font-size: 14px;
@@ -30785,7 +30785,7 @@ body .brand-intro.property-listing .body {
     overflow: hidden
 }
 
-body .brand-intro.property-listing .learn-more-btn {
+body main .brand-intro.property-listing .learn-more-btn {
     margin: 31.5px 0 0 0
 }
 
