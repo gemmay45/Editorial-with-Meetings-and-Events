@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/hero-banner-with-title.ftl</value>
+			<value>/templates/web/components/Nina/hero-banner-with-title.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
