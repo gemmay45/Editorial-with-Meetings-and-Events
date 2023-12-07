@@ -11,7 +11,7 @@
 
  <div class="row"></div>
  <@crafter.h1 class="common-header layout--center" $field=(title_t!"")>
+ </#if> 
           </div>
     </div>
-</#if>    
 </div>
