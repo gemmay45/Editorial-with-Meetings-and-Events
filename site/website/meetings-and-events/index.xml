@@ -15,7 +15,7 @@
   <createdDate>2023-12-07T08:22:09.676Z</createdDate>
   <createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
   <lastModifiedDate>2023-12-07T08:37:03.641Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-07T08:46:35.186Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-07T08:47:15.083Z</lastModifiedDate_dt>
   <header_o item-list="true">
     <item>
       <key>/site/components/headers/header.xml</key>
@@ -63,6 +63,22 @@
         <objectId>9b3e4080-424b-4fc1-9c56-8cc70155593e</objectId>
         <title_s/>
         <bodyContent_html/>
+      </component>
+    </item>
+    <item inline="true">
+      <key>be921e1d-f243-4676-a530-72d9468ea02b</key>
+      <value><![CDATA[New Stats Bar]]></value>
+      <component id="be921e1d-f243-4676-a530-72d9468ea02b">
+        <content-type>/component/statsbar</content-type>
+        <display-template>/templates/web/components/Nina/stats-bar.ftl</display-template>
+        <internal-name><![CDATA[New Stats Bar]]></internal-name>
+        <file-name>be921e1d-f243-4676-a530-72d9468ea02b.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-07T08:47:15.082Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-07T08:47:15.082Z</lastModifiedDate_dt>
+        <objectId>be921e1d-f243-4676-a530-72d9468ea02b</objectId>
+        <title_s/>
+        <statsItems_o/>
       </component>
     </item>
   </pageSections_o>
