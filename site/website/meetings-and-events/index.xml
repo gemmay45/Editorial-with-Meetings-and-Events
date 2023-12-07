@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-07T13:15:37.286Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-07T13:15:37.286Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-07T13:48:49.716Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-07T13:48:49.716Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -69,17 +69,21 @@
 	<value>New Stats Bar</value>
 	<disableFlattening>false</disableFlattening>
 <component id="be921e1d-f243-4676-a530-72d9468ea02b">
-        <content-type>/component/statsbar</content-type>
-        <display-template>/templates/web/components/Nina/stats-bar.ftl</display-template>
-        <internal-name><![CDATA[New Stats Bar]]></internal-name>
-        <file-name>be921e1d-f243-4676-a530-72d9468ea02b.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-07T08:47:15.082Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-07T08:47:15.082Z</lastModifiedDate_dt>
-        <objectId>be921e1d-f243-4676-a530-72d9468ea02b</objectId>
-        <title_s/>
-        <statsItems_o/>
-      </component>
+	<content-type>/component/statsbar</content-type>
+	<display-template>/templates/web/components/Nina/stats-bar.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Stats Bar</internal-name>
+	<file-name>be921e1d-f243-4676-a530-72d9468ea02b.xml</file-name>
+	<createdDate_dt>2023-12-07T13:48:54.429Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-12-07T13:48:54.429Z</lastModifiedDate_dt>
+	<objectId>be921e1d-f243-4676-a530-72d9468ea02b</objectId>
+	<title_s>SERVICES WE OFFER</title_s>
+	<statsItems_o item-list="true"/>
+	<folder-name/>
+	<createdDate>2023-12-07T13:48:54.429Z</createdDate>
+	<lastModifiedDate>2023-12-07T13:48:54.429Z</lastModifiedDate>
+</component>
 	</item>	<item inline="true">	<key>45154f29-436e-4bcc-ab79-86e1f4b1f339</key>
 	<value>New Single Card</value>
 	<disableFlattening>false</disableFlattening>
