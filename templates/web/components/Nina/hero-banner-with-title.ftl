@@ -8,7 +8,7 @@
             <@crafter.img $field="imageforDesktop_s" src=(contentModel.imageforDesktop_s) alt="" />
         </div>
 
-
+            <div class="for-mobile"><@crafter.img $field="imageforMobile_s" src=(contentModel.imageforMobile_s) alt="" /></div>
  
              <div class="row"></div>
              <@crafter.h1 class="common-header layout--center" $field="title_s">${contentModel.title_s!""}</@crafter.h1>
