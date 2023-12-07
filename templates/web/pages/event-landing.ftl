@@ -21,7 +21,7 @@
     <div class="inner">
 
       <!-- Header -->
-      <#--<@renderComponent component=contentModel.header_o.item />-->
+      <@renderComponent component=contentModel.header_o.item />
 
       <!-- Section -->
       <@crafter.section $model=contentModel>
