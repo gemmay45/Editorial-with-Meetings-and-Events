@@ -6,7 +6,7 @@
 
         <div data-bg-color="" class="brand-intro-content">
     
-            <@crafter.h2 class="title" $field="title_s">${contentModel.title_s}</@crafter.h2>
+            <@crafter.h2 class="title" $field="title_s">${contentModel.title_s!""}</@crafter.h2>
             <div class="horizontal-line"></div>
             <#if item.bodyContent_html?has_content>
                 <div class="body">
