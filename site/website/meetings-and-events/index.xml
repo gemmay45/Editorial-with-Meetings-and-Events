@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-07T12:34:56.976Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-07T12:34:56.976Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-07T12:41:48.362Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-07T12:41:48.362Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -28,6 +28,7 @@
 	</item></leftRail_o>
 	<pageSections_o item-list="true">	<item inline="true">	<key>b592da54-fe93-49db-90a5-1e9adf983a7e</key>
 	<value>New Hero Banner with Title</value>
+	<disableFlattening>false</disableFlattening>
 <component id="b592da54-fe93-49db-90a5-1e9adf983a7e">
 	<content-type>/component/herobannerwithtitle</content-type>
 	<display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
@@ -36,16 +37,15 @@
 	<internal-name>New Hero Banner with Title</internal-name>
 	<file-name>b592da54-fe93-49db-90a5-1e9adf983a7e.xml</file-name>
 	<createdDate_dt>2023-12-07T12:35:00.851Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-07T12:35:00.851Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-07T12:42:05.964Z</lastModifiedDate_dt>
 	<objectId>b592da54-fe93-49db-90a5-1e9adf983a7e</objectId>
-	<title_s/>
+	<title_s>Meetings and Events</title_s>
 	<imageforDesktop_s>/static-assets/images/nina/meeting-and-events/20220829_tww_nina-ballroom_classroom_re_1440x480.jpg</imageforDesktop_s>
 	<imageforMobile_s>/static-assets/images/nina/meeting-and-events/20220829_tww_nina-ballroom_classroom_re_767x667.jpg</imageforMobile_s>
 	<folder-name/>
 	<createdDate>2023-12-07T12:35:00.851Z</createdDate>
-	<lastModifiedDate>2023-12-07T12:35:00.851Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-07T12:42:05.964Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>9b3e4080-424b-4fc1-9c56-8cc70155593e</key>
 	<value>New Intro Card</value>
 	<disableFlattening>false</disableFlattening>
