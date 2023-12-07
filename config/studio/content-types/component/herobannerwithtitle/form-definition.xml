@@ -248,7 +248,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/image/nina</value>
+							<value>/static-assets/images/nina</value>
 								<type>content-path-input</type>
 						</property>
 					</properties>
