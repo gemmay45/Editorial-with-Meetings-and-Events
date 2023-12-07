@@ -6,9 +6,9 @@
 
 <div class="stats-bar-wrapper" data-bg-color="#fff">
 
-    <div class="stats-bar-detail-wrapper">
+    <h2 class="stats-bar-title" ><@crafter.tag $tag="font" color="#817456" $field="title_s">${contentModel.title_s!""}</@crafter.tag></h2>
 
-        <h2 class="stats-bar-title" ><@crafter.tag $tag="font" color="#817456" $field="title_s">${contentModel.title_s!""}</@crafter.tag></h2>
+    <div class="stats-bar-detail-wrapper">
 
 <@crafter.renderRepeatGroup
               $field="statsItems_o"
