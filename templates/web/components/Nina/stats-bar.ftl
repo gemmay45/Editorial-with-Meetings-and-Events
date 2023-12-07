@@ -20,10 +20,6 @@
             
         <div class="stats-bar-detail-list">
             
-            <@crafter.div class="stats-bar-detail-item" $index=index>
-                <@crafter.img $field="statsItems_o" class="image lazyload-img" data-src="${item.icon_s}" />
-                <@crafter.p $field="statsItems_o" class="stats-bar-detail-desc">${item.name_s}</@crafter.p>
-            </@crafter.div>
             
             <#--<div class="stats-bar-detail-item">
                 <img class="image lazyload-img" data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/meetings-and-weddings/ninahospitality-audiosoundsystem-icon.svg?rev=6cbb94d6bfaa49269f9e4c35ac6af9a1" alt="Nina Hospitality audio sound system" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/meetings-and-weddings/ninahospitality-audiosoundsystem-icon.svg?rev=6cbb94d6bfaa49269f9e4c35ac6af9a1">
