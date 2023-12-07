@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/eventlanding</content-type>
-	<display-template>/templates/web/pages/event-landing.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>ae5a</objectGroupId>
-	<objectId>ae5a2104-ffc6-bb07-4bce-869c47d95414</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>meetings-and-events</folder-name>
-	<internal-name>Meetings and Events</internal-name>
-	<navLabel>Meetings and Events</navLabel>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
-	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-07T08:37:03.641Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-07T08:37:03.641Z</lastModifiedDate_dt>
-	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
-	<value>Header</value>
-	<include>/site/components/headers/header.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></header_o>
-	<leftRail_o item-list="true">	<item>	<key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
-	<value>Left Rail with No Articles</value>
-	<include>/site/components/left-rails/left-rail-with-no-articles.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></leftRail_o>
+  <content-type>/page/eventlanding</content-type>
+  <display-template>/templates/web/pages/event-landing.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>ae5a</objectGroupId>
+  <objectId>ae5a2104-ffc6-bb07-4bce-869c47d95414</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>meetings-and-events</folder-name>
+  <internal-name>Meetings and Events</internal-name>
+  <navLabel>Meetings and Events</navLabel>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <createdDate>2023-12-07T08:22:09.676Z</createdDate>
+  <createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
+  <lastModifiedDate>2023-12-07T08:37:03.641Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-07T08:44:36.159Z</lastModifiedDate_dt>
+  <header_o item-list="true">
+    <item>
+      <key>/site/components/headers/header.xml</key>
+      <value>Header</value>
+      <include>/site/components/headers/header.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+  </header_o>
+  <leftRail_o item-list="true">
+    <item>
+      <key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
+      <value>Left Rail with No Articles</value>
+      <include>/site/components/left-rails/left-rail-with-no-articles.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+  </leftRail_o>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>f1c2440a-d690-4f87-abc2-d0a466911ab0</key>
+      <value><![CDATA[New Hero Banner with Title]]></value>
+      <component id="f1c2440a-d690-4f87-abc2-d0a466911ab0">
+        <content-type>/component/herobannerwithtitle</content-type>
+        <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+        <internal-name><![CDATA[New Hero Banner with Title]]></internal-name>
+        <file-name>f1c2440a-d690-4f87-abc2-d0a466911ab0.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-07T08:44:36.158Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-07T08:44:36.158Z</lastModifiedDate_dt>
+        <objectId>f1c2440a-d690-4f87-abc2-d0a466911ab0</objectId>
+        <title_s/>
+        <image_s/>
+      </component>
+    </item>
+  </pageSections_o>
 </page>
