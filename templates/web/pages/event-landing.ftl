@@ -17,7 +17,7 @@
 <div id="wrapper">
 
   <!-- Main -->
-  <div id="main">
+   <main>
     <div class="inner">
 
       <!-- Header -->
@@ -56,7 +56,7 @@
         </div>-->
 
     </div>
-  </div>
+  </main>
 
   <!-- Left Rail -->
   <@renderComponent component=contentModel.left_rail_o.item />
