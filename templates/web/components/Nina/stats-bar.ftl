@@ -3,7 +3,7 @@
 
 
 <div class="stats-bar-wrapper" data-bg-color="#fff">
-    <h2 class="stats-bar-title"> <font color="#817456">SERVICES WE OFFER</font></h2>
+    <@crafter.h2 class="stats-bar-title" $field="title_s"> <font color="#817456">${contentModel.title_s}</font></@crafter.h2>
 
     <div class="stats-bar-detail-wrapper">
         
