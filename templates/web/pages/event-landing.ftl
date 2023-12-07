@@ -25,6 +25,8 @@
 
       <!-- Section -->
       <@crafter.section $model=contentModel>
+      		    <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
+
         <#--<header class="main">
           <h1>${contentModel.articles_title_t}</h1>
         </header>
