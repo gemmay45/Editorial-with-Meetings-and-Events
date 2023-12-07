@@ -10,6 +10,13 @@
 
         <h2 class="stats-bar-title" ><@crafter.tag $tag="font" color="#817456" $field="title_s">${contentModel.title_s!""}</@crafter.tag></h2>
 
+<@crafter.renderRepeatGroup
+              $field="event_o"
+              $containerTag="dl"
+              $itemTag="div";
+              item, index
+            >
+            
         <div class="stats-bar-detail-list">
             
             <div class="stats-bar-detail-item">
@@ -28,7 +35,7 @@
             </div>
             
         </div>
-
+</@crafter.renderRepeatGroup>
         
     </div>
 </div>
