@@ -30622,7 +30622,7 @@ body .brand-intro {
     padding: 72px 0
 }
 
-body .brand-intro,body main .brand-intro *,body main .brand-intro ::after,body main .brand-intro ::before {
+body .brand-intro,body .brand-intro *,body .brand-intro ::after,body .brand-intro ::before {
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent
 }
