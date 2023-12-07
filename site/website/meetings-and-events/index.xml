@@ -1,58 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/eventlanding</content-type>
-  <display-template>/templates/web/pages/event-landing.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>ae5a</objectGroupId>
-  <objectId>ae5a2104-ffc6-bb07-4bce-869c47d95414</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>meetings-and-events</folder-name>
-  <internal-name>Meetings and Events</internal-name>
-  <navLabel>Meetings and Events</navLabel>
-  <placeInNav>false</placeInNav>
-  <orderDefault_f>-1</orderDefault_f>
-  <createdDate>2023-12-07T08:22:09.676Z</createdDate>
-  <createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-  <lastModifiedDate>2023-12-07T08:37:03.641Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-07T08:49:58.225Z</lastModifiedDate_dt>
-  <header_o item-list="true">
-    <item>
-      <key>/site/components/headers/header.xml</key>
-      <value>Header</value>
-      <include>/site/components/headers/header.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
-  </header_o>
-  <leftRail_o item-list="true">
-    <item>
-      <key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
-      <value>Left Rail with No Articles</value>
-      <include>/site/components/left-rails/left-rail-with-no-articles.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
-  </leftRail_o>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>f1c2440a-d690-4f87-abc2-d0a466911ab0</key>
-      <value><![CDATA[New Hero Banner with Title]]></value>
-      <component id="f1c2440a-d690-4f87-abc2-d0a466911ab0">
-        <content-type>/component/herobannerwithtitle</content-type>
-        <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
-        <internal-name><![CDATA[New Hero Banner with Title]]></internal-name>
-        <file-name>f1c2440a-d690-4f87-abc2-d0a466911ab0.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-07T08:44:36.158Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-07T08:44:36.158Z</lastModifiedDate_dt>
-        <objectId>f1c2440a-d690-4f87-abc2-d0a466911ab0</objectId>
-        <title_s/>
-        <image_s/>
-      </component>
-    </item>
-    <item inline="true">
-      <key>9b3e4080-424b-4fc1-9c56-8cc70155593e</key>
-      <value><![CDATA[New Intro Card]]></value>
-      <component id="9b3e4080-424b-4fc1-9c56-8cc70155593e">
+	<content-type>/page/eventlanding</content-type>
+	<display-template>/templates/web/pages/event-landing.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ae5a</objectGroupId>
+	<objectId>ae5a2104-ffc6-bb07-4bce-869c47d95414</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>meetings-and-events</folder-name>
+	<internal-name>Meetings and Events</internal-name>
+	<navLabel>Meetings and Events</navLabel>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
+	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
+	<lastModifiedDate>2023-12-07T12:27:12.422Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-07T12:27:12.422Z</lastModifiedDate_dt>
+	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
+	<value>Header</value>
+	<include>/site/components/headers/header.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></header_o>
+	<leftRail_o item-list="true">	<item>	<key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
+	<value>Left Rail with No Articles</value>
+	<include>/site/components/left-rails/left-rail-with-no-articles.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></leftRail_o>
+	<pageSections_o item-list="true">	<item inline="true">	<key>f1c2440a-d690-4f87-abc2-d0a466911ab0</key>
+	<value>New Hero Banner with Title</value>
+<component id="f1c2440a-d690-4f87-abc2-d0a466911ab0">
+	<content-type>/component/herobannerwithtitle</content-type>
+	<display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Hero Banner with Title</internal-name>
+	<file-name>f1c2440a-d690-4f87-abc2-d0a466911ab0.xml</file-name>
+	<createdDate_dt>2023-12-07T12:27:16.871Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-12-07T12:27:16.871Z</lastModifiedDate_dt>
+	<objectId>f1c2440a-d690-4f87-abc2-d0a466911ab0</objectId>
+	<title_s>xxx</title_s>
+	<folder-name/>
+	<imageforDesktop_s/>
+	<imageforMobile_s/>
+	<createdDate>2023-12-07T12:27:16.871Z</createdDate>
+	<lastModifiedDate>2023-12-07T12:27:16.871Z</lastModifiedDate>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>9b3e4080-424b-4fc1-9c56-8cc70155593e</key>
+	<value>New Intro Card</value>
+<component id="9b3e4080-424b-4fc1-9c56-8cc70155593e">
         <content-type>/component/introcard</content-type>
         <display-template>/templates/web/components/Nina/intro-card.ftl</display-template>
         <internal-name><![CDATA[New Intro Card]]></internal-name>
@@ -64,11 +60,10 @@
         <title_s/>
         <bodyContent_html/>
       </component>
-    </item>
-    <item inline="true">
-      <key>be921e1d-f243-4676-a530-72d9468ea02b</key>
-      <value><![CDATA[New Stats Bar]]></value>
-      <component id="be921e1d-f243-4676-a530-72d9468ea02b">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>be921e1d-f243-4676-a530-72d9468ea02b</key>
+	<value>New Stats Bar</value>
+<component id="be921e1d-f243-4676-a530-72d9468ea02b">
         <content-type>/component/statsbar</content-type>
         <display-template>/templates/web/components/Nina/stats-bar.ftl</display-template>
         <internal-name><![CDATA[New Stats Bar]]></internal-name>
@@ -80,11 +75,10 @@
         <title_s/>
         <statsItems_o/>
       </component>
-    </item>
-    <item inline="true">
-      <key>45154f29-436e-4bcc-ab79-86e1f4b1f339</key>
-      <value><![CDATA[New Single Card]]></value>
-      <component id="45154f29-436e-4bcc-ab79-86e1f4b1f339">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>45154f29-436e-4bcc-ab79-86e1f4b1f339</key>
+	<value>New Single Card</value>
+<component id="45154f29-436e-4bcc-ab79-86e1f4b1f339">
         <content-type>/component/singlecard</content-type>
         <display-template>/templates/web/components/Nina/single-card.ftl</display-template>
         <internal-name><![CDATA[New Single Card]]></internal-name>
@@ -98,11 +92,10 @@
         <image_s/>
         <imagePosition_s/>
       </component>
-    </item>
-    <item inline="true">
-      <key>b008f273-4638-4115-ad24-f90ac793dcf0</key>
-      <value><![CDATA[New Fullwidth Callout]]></value>
-      <component id="b008f273-4638-4115-ad24-f90ac793dcf0">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>b008f273-4638-4115-ad24-f90ac793dcf0</key>
+	<value>New Fullwidth Callout</value>
+<component id="b008f273-4638-4115-ad24-f90ac793dcf0">
         <content-type>/component/fullwidthcallout</content-type>
         <display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
         <internal-name><![CDATA[New Fullwidth Callout]]></internal-name>
@@ -117,6 +110,6 @@
         <CTAName_s/>
         <link_s/>
       </component>
-    </item>
-  </pageSections_o>
+	<disableFlattening>false</disableFlattening>
+	</item></pageSections_o>
 </page>
