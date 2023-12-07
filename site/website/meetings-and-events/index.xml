@@ -15,7 +15,7 @@
   <createdDate>2023-12-07T08:22:09.676Z</createdDate>
   <createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
   <lastModifiedDate>2023-12-07T08:37:03.641Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-07T08:47:15.083Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-07T08:48:25.520Z</lastModifiedDate_dt>
   <header_o item-list="true">
     <item>
       <key>/site/components/headers/header.xml</key>
@@ -79,6 +79,24 @@
         <objectId>be921e1d-f243-4676-a530-72d9468ea02b</objectId>
         <title_s/>
         <statsItems_o/>
+      </component>
+    </item>
+    <item inline="true">
+      <key>45154f29-436e-4bcc-ab79-86e1f4b1f339</key>
+      <value><![CDATA[New Single Card]]></value>
+      <component id="45154f29-436e-4bcc-ab79-86e1f4b1f339">
+        <content-type>/component/singlecard</content-type>
+        <display-template>/templates/web/components/Nina/single-card.ftl</display-template>
+        <internal-name><![CDATA[New Single Card]]></internal-name>
+        <file-name>45154f29-436e-4bcc-ab79-86e1f4b1f339.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-07T08:48:25.520Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-07T08:48:25.520Z</lastModifiedDate_dt>
+        <objectId>45154f29-436e-4bcc-ab79-86e1f4b1f339</objectId>
+        <title_s/>
+        <description_html/>
+        <image_s/>
+        <imagePosition_s/>
       </component>
     </item>
   </pageSections_o>
