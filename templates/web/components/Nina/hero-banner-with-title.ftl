@@ -6,7 +6,7 @@
 <@crafter.img $field="imageforDesktop_s" src=(contentModel.imageforDesktop_s) alt="">
 </div>
 
-<#if ${imageforMobile_s}>
+<#if ${imageforMobile_s}!="">
 <div class="for-mobile"><@crafter.img $field="imageforMobile_s" src=(contentModel.imageforMobile_s) alt=""></div>
 
  <div class="row"></div>
