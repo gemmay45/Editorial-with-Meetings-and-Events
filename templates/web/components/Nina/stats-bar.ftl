@@ -21,8 +21,8 @@
         <div class="stats-bar-detail-list">
             
             <div class="stats-bar-detail-item" $index=index>
-                <@crafter.img class="image lazyload-img" data-src="${item.image_s}">
-                <p class="stats-bar-detail-desc">Accommodation</p>
+                <@crafter.img class="image lazyload-img" data-src="${item.image_s}" />
+                <p class="stats-bar-detail-desc">${item.title_s}</p>
             </div>
             
             <#--<div class="stats-bar-detail-item">
