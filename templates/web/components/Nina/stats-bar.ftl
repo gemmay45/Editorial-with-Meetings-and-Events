@@ -8,7 +8,9 @@
                         <@crafter.h3 $field="title_s">
                 ${contentModel.title_s!""}
                 </@crafter.h3>
-<#--<font color="#817456">--</font>
+<#--
+        <@crafter.h2 class="stats-bar-title" $field="title_s">${contentModel.title_s!""}</@crafter.h2>
+<font color="#817456"></font>-->
 
         <div class="stats-bar-detail-list">
             
