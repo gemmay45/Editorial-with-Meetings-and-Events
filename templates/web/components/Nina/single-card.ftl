@@ -17,7 +17,7 @@
             					<#assign image = "/static-assets/images/placeholder.png"/>
             				</#if>
 
-                            <@crafter.img $field="image_s" src=${image} />
+                            <@crafter.img $field="image_s" src="${image}" />
                         </div>
                     </div>
                 </li>
