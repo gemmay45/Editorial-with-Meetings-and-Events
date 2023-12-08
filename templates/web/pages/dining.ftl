@@ -6,58 +6,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html class="js no-applicationcache geolocation history postmessage svg websockets localstorage sessionstorage no-websqldatabase webworkers hashchange audio canvas canvastext webgl video cssgradients opacity multiplebgs rgba inlinesvg hsla supports svgclippaths smil generatedcontent fontface textshadow cssanimations borderimage backgroundsize boxshadow borderradius csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox cssreflections csstransforms csstransitions csstransforms3d indexeddb indexeddb-deletedatabase" lang="en" style=""><!--<![endif]--><head>
-<link href="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/feature/experience-accelerator/bootstrap-4/bootstrap-4/styles/optimized-min.css?rev=64b554f6a6b54ca2bf09a92011c0de94&amp;t=20200902T060907Z" rel="stylesheet"><link href="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/base-themes/core-libraries/styles/optimized-min.css?rev=7b242fb8cc9549a09d9339f31f70f75e&amp;t=20200902T060908Z" rel="stylesheet"><link href="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/base-themes/main-theme/styles/optimized-min.css?rev=b4767235dcb5417aa114de20adbc7af1&amp;t=20201026T100432Z" rel="stylesheet"><link href="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/themes/nina-uat-theme/nina-uat-theme/styles/pre-optimized-min.css?rev=3202b27082c44c009833fa569e0fcfca&amp;t=20231130T024656Z" rel="stylesheet">    
-    <iframe style="height:0; width: 0; display:none;" src="https://static.sojern.com/cip/c/11.html?f_v=cp_v3_js&amp;p_v=1&amp;version=5&amp;auto_url=https%3A%2F%2Fwww.ninahotelgroup.com%2Fen%2Fnina-hotel-tsuen-wan-west%2Fdining%2Fcafe-circles&amp;auto_ccid=kwj8e-8ky7u-6c5qe-khrfi-7861e&amp;auto_ga=1355779122.1701933039&amp;e_eml=null&amp;auto_eml=&amp;auto_eml_count=0&amp;auto_eml_domain=&amp;ws=1512x765&amp;tz=-480&amp;n=tf%3ANGd8MTB8MTUwfDh8MTJ8ZW4tR0J8ZW4tR0IsZW4tVVMsZW58TWFjSW50ZWx8ZmFsc2V8bWFjT1N8MnwzMHwzMHwxNTEyfDg4Mnw0Mjk0NzA1MTUyfEFzaWEvSG9uZ19Lb25nfGZhbHNl&amp;hpr=Nina%20Hotel%20Tsuen%20Wan%20West&amp;hpid=64396&amp;sha256_eml=&amp;sha1_eml=&amp;md5_eml=&amp;ccid=&amp;pt=TRACKING&amp;et="></iframe><link rel="stylesheet" type="text/css" href="https://app.userguest.com/uguest.css?1702009546128"></head><body id="grand" class="default-device bodyclass"><div class="row"></div>
-    
+<html class="js no-applicationcache geolocation history postmessage svg websockets localstorage sessionstorage no-websqldatabase webworkers hashchange audio canvas canvastext webgl video cssgradients opacity multiplebgs rgba inlinesvg hsla supports svgclippaths smil generatedcontent fontface textshadow cssanimations borderimage backgroundsize boxshadow borderradius csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox cssreflections csstransforms csstransitions csstransforms3d indexeddb indexeddb-deletedatabase" lang="en" style=""><!--<![endif]-->
 
+<body id="grand" class="default-device bodyclass">
 
-<!-- Google Tag Manager --><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-RZD8YYX9M7&amp;cx=c&amp;_slc=1"></script><script src="https://connect.facebook.net/signals/config/917643129079809?v=2.9.138&amp;r=stable&amp;domain=www.ninahotelgroup.com" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="https://s.yimg.com/wi/ytc.js" async=""></script><script src="//hm.baidu.com/hm.js?db67eea2ae529d161d4cd05c165717f7"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-XDZ19TDS7M&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-T72CZLW0PR&amp;l=dataLayer&amp;cx=c"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5W9F8T"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5W9F8T');</script><!-- End Google Tag Manager --> 
-
-    <title>Café Circles - Nina Hotel Tsuen Wan West | Hotel Buffet Restaurant HK</title>
-
-
-<link rel="canonical" href="https://www.ninahotelgroup.com/en/nina-hotel-tsuen-wan-west/dining/cafe-circles">
-
-
-
-    <link href="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/favicon/ninahospitality-favicon-dark.svg?rev=2f94e9418c6145d0aaaabf07cef2e8ef" rel="shortcut icon">
-
-
-
-<meta property="og:description" content="Café Circles offers hotel international buffets and afternoon tea located in Nina Hotel Tsuen Wan West, your all-you-can-eat choice in Hong Kong. Book Now"><meta property="og:title" content="Café Circles | Hotel Buffet in Hong Kong | Nina Hotel Tsuen Wan West"><meta property="og:url" content="https://www.ninahotelgroup.com/en/nina-hotel-tsuen-wan-west/dining/cafe-circles">
-
-
-<meta name="description" content="Café Circles offers international buffets located in Nina Hotel Tsuen Wan West, formerly L'hotel. Discover the latest offers and Book Now!"><meta name="keywords" content="best buffet in tsuen wan, international buffet, hotel buffet, lunch buffet, dinner buffet, breakfast buffet, L'hotel, Nina hotel, L hotel tsuen wan, Nina hotel tsuen wan, cafe circles, afternoon tea in tsuen wan">
-
-
-<meta property="twitter:description" content="Café Circles offers hotel international buffets and afternoon tea located in Nina Hotel Tsuen Wan West, your all-you-can-eat choice in Hong Kong. Book Now"><meta property="twitter:title" content="Café Circles | Hotel Buffet in Hong Kong | Nina Hotel Tsuen Wan West"><meta property="twitter:card" content="summary_large_image">
-
-<link rel="stylesheet" href="https://use.typekit.net/noa1pcu.css">
-<meta name="format-detection" content="telephone=no">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
-<script src="/scripts/jquery-3.5.1.min.js"></script>
-<script src="/scripts/lazyload.min.js"></script>
-<script src="/scripts/aos.min.js"></script> 
-<script src="/scripts/nina/globalFunc.js"></script>
-<script src="/scripts/nina/uikit.min.js"></script>
-<script src="/scripts/nina/moment.min.js"></script>
-<script src="/scripts/nina/moment-locales.min.js"></script>
-<script src="/scripts/nina/dateRangePicker.js"></script>
-<script src="/scripts/nina/navigation.js?v=1"></script>            <link rel="alternate" href="https://www.ninahotelgroup.com/zh-hk/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="zh-hk">
-            <link rel="alternate" href="https://www.ninahotelgroup.com/zh-cn/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="zh-cn">
-            <link rel="alternate" href="https://www.ninahotelgroup.com/en/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="en-hk">
-
-<link rel="alternate" href="https://www.ninahotelgroup.com/zh-hk/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="x-default">
-
-
-<script src="/scripts/nina/datepicker.min.js"></script>
-
-
-    
-
-
-<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5W9F8T"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+    <div class="row"></div>
     
 <!-- #wrapper -->
 <div id="wrapper">
