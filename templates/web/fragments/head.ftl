@@ -6,5 +6,4 @@
 <link rel="stylesheet" href="/static-assets/css/social-media-widget.css?site=${siteContext.siteName}"/>
 
 <link rel="stylesheet" href="/static-assets/css/optimized.css?site=${siteContext.siteName}"/>
-<!--
-<link rel="stylesheet" href="/static-assets/css/pre-optimized.css?site=${siteContext.siteName}"/>-->
+<link rel="stylesheet" href="/static-assets/css/pre-optimized.css?site=${siteContext.siteName}"/>
