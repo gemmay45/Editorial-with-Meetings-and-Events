@@ -10,12 +10,14 @@
 	<value>Explore more</value>
 	</item>	<item>	<key>Learn more</key>
 	<value>Learn more</value>
+	</item>	<item>	<key>Order now</key>
+	<value>Order now</value>
 	</item></items>
 	<internal-name>CTA Names</internal-name>
 	<file-name>cta-names.xml</file-name>
 	<folder-name/>
 	<createdDate>2023-12-07T08:01:06.213Z</createdDate>
 	<createdDate_dt>2023-12-07T08:01:06.213Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T03:37:41.158Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T03:37:41.158Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T07:01:31.011Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T07:01:31.011Z</lastModifiedDate_dt>
 </component>
