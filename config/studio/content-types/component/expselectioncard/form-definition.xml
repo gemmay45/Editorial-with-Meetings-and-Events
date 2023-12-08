@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/exp-selection-card.ftl</value>
+			<value>/templates/web/components/exp-selection-card.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
