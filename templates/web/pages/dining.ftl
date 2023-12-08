@@ -8,6 +8,11 @@
 -->
 <html class="js no-applicationcache geolocation history postmessage svg websockets localstorage sessionstorage no-websqldatabase webworkers hashchange audio canvas canvastext webgl video cssgradients opacity multiplebgs rgba inlinesvg hsla supports svgclippaths smil generatedcontent fontface textshadow cssanimations borderimage backgroundsize boxshadow borderradius csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside flexbox cssreflections csstransforms csstransitions csstransforms3d indexeddb indexeddb-deletedatabase" lang="en" style=""><!--<![endif]-->
 
+<head>
+    <#include "/templates/web/fragments/head.ftl">
+    <@crafter.head/>
+</head>
+
 <body id="grand" class="default-device bodyclass">
 
     <div class="row"></div>
