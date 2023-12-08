@@ -1,3 +1,6 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
+
 <div class="component exp-selection experience-selection property-homepage need-to-control-bg col-12">
         <div class="component-content">
 
