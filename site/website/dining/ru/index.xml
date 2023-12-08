@@ -1,24 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/dining</content-type>
-	<display-template>/templates/web/pages/dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>c933</objectGroupId>
-	<objectId>c933d9d9-025b-e3c1-d9cb-d8d7a8154a77</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>ru</folder-name>
-	<internal-name>RÚ</internal-name>
-	<navLabel>RÚ</navLabel>
-	<disabled>false</disabled>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<header_o item-list="true"/>
-	<leftRail_o item-list="true"/>
-	<pageSections_o item-list="true"/>
-	<relatedOffers_o item-list="true"/>
-	<createdDate>2023-12-08T13:39:56.453Z</createdDate>
-	<createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T13:39:56.453Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T13:39:56.453Z</lastModifiedDate_dt>
+  <content-type>/page/dining</content-type>
+  <display-template>/templates/web/pages/dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>c933</objectGroupId>
+  <objectId>c933d9d9-025b-e3c1-d9cb-d8d7a8154a77</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>ru</folder-name>
+  <internal-name>RÚ</internal-name>
+  <navLabel>RÚ</navLabel>
+  <disabled>false</disabled>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <header_o item-list="true"/>
+  <leftRail_o item-list="true"/>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>094271db-7759-402b-af7b-c3a4f80a9508</key>
+      <value><![CDATA[New Hero Banner with Title]]></value>
+      <component id="094271db-7759-402b-af7b-c3a4f80a9508">
+        <content-type>/component/herobannerwithtitle</content-type>
+        <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+        <internal-name><![CDATA[New Hero Banner with Title]]></internal-name>
+        <file-name>094271db-7759-402b-af7b-c3a4f80a9508.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-08T13:42:16.239Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T13:42:16.239Z</lastModifiedDate_dt>
+        <objectId>094271db-7759-402b-af7b-c3a4f80a9508</objectId>
+        <title_s/>
+        <imageforDesktop_s/>
+        <imageforMobile_s/>
+      </component>
+    </item>
+  </pageSections_o>
+  <relatedOffers_o item-list="true"/>
+  <createdDate>2023-12-08T13:39:56.453Z</createdDate>
+  <createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
+  <lastModifiedDate>2023-12-08T13:39:56.453Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-08T13:42:16.239Z</lastModifiedDate_dt>
 </page>
