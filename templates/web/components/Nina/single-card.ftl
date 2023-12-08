@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<div class="component sclwg-list module-component single-card-layout-wrapper">
+<div class="component sclwg-list module-component single-card-layout-wrapper ${contentModel.imagePosition_s}">
     <div class="component-content">
 
     <div uk-slider="center: true; finite: true;" class="single-card-layout-slider-wrapper uk-slider uk-slider-container">
