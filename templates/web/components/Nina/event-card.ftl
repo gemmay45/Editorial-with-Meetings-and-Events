@@ -47,7 +47,7 @@
 						
                         <div class="events-card-content-logo">
                                  <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/room/ninahospitality-roomsize-icon.png?rev=3d95a6297f2f4dd8bc3dc7541e77ced6" alt="">
-                                <span>1,680 sqm / 18,080 sq. ft.</span>
+                                <@crafter.span $field="area_s">${contentModel.area_s}</@crafter.span>
                             <!-- </a> -->
                         </div>
 						
