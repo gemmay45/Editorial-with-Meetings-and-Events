@@ -15,3 +15,15 @@
 <@crafter.body_top/>
 <!-- Wrapper -->
 <div id="wrapper">
+
+
+
+  <!-- Left Rail -->
+  <@renderComponent component=contentModel.left_rail_o.item />
+
+</div>
+
+<#include "/templates/web/fragments/scripts.ftl">
+
+<@crafter.body_bottom/>
+</body>
