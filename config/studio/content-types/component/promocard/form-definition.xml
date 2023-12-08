@@ -210,8 +210,8 @@
 				</datasource>
 				<datasource>
 					<type>simpleTaxonomy</type>
-					<id>sub_sectionTitle</id>
-					<title>Sub-section Title</title>
+					<id>sub_sectionTitles</id>
+					<title>Sub-section Titles</title>
 					<interface>item</interface>
 					<properties>
 						<property>
@@ -221,7 +221,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>/site/taxonomy/sub-section-title.xml</value>
+							<value>/site/taxonomy/sub-section-titles.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
