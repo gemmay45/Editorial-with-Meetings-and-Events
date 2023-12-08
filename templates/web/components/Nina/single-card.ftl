@@ -12,11 +12,7 @@
                     <div class="uk-card uk-card-default custom-slider-card">
                         <div class="uk-card-media-top custom-slider-card-media-top">
 
-	<@crafter.img
-		$field="image_s"
-		src=contentModel.image_s?then(contentModel.image_s, "/static-assets/images/placeholder.png")
-		alt=""
-	/>
+	<@crafter.img $field="image_s" src="${contentModel.image_s!""} alt="" />
                         </div>
                     </div>
                 </li>
