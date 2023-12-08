@@ -13,20 +13,1385 @@
 </head>
 <body id="grand" class="default-device bodyclass">
 
-<#--<@crafter.body_top/>-->
-
-<!-- Wrapper -->
 <div id="wrapper">
-	<!-- Main -->
-	<#--<div id="main">-->
-	<main>
-    			<!-- Header -->
-    			<#--<@renderComponent component = contentModel.header_o.item />-->
-    			
-    	<div id="content" class="">
+    <!-- #header -->
+    <header>
+        <div id="header" class="">
+            
+    <div class="component nina-navigation custom-navigation-wrapper custom-navigation-wrapper-new need-to-control-bg">
+        <div class="component-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+<div class="custom-navigation-component-content" data-bg-color="">
+    <div class="custom-navigation-top-wrapper">
+        
+        
+        <div class="custom-navigation-top-left-part">
+            <!-- new part start: page location -->
+            <div class="custom-navigation-location-wrapper for-desktop">
+                <div class="custom-navigation-location">
+                    
+                    <div class="custom-navigation-location-left">
+                        
+                        
+                        
+                        
+                        
+                        <a class="custom-navigation-location-left-link" href="/en">
+                            
+                            <img class="custom-navigation-location-icon normal-location-icon" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/logos/ninahospitalitygroup-logomark-white.svg?rev=03f7e533386d45e2b81d06f7596e307d" alt="Ninahospitalitygroup-Logomark-White">
+                            
+                            
+                            <img class="custom-navigation-location-icon hover-location-icon" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/logos/ninahospitalitygroup-logomark-rgb.svg?rev=582c427bc85040a3ad7875eb09366181" alt="Ninahospitalitygroup-Logomark-RGB">
+                            
+                            
+                            <span class="custom-navigation-location-desc">Nina Hospitality</span>
+                            
+                        </a>
+                    </div>
+                    
+                    <div class="custom-navigation-location-right">
+                        
+                        <div class="custom-navigation-location-property">Our Locations</div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <ul class="custom-navigation-location-property-lists">
+                            
+                            <li class="custom-navigation-location-property-title">
+                                HOTELS &amp; RESIDENCES
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li class="custom-navigation-location-property-list">
+                                <a class="custom-navigation-location-property-link" href="/en/nina-hotel-tsuen-wan-west">NINA HOTEL TSUEN WAN WEST</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li class="custom-navigation-location-property-list">
+                                <a class="custom-navigation-location-property-link" href="/en/nina-hotel-island-south">NINA HOTEL ISLAND SOUTH</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li class="custom-navigation-location-property-list">
+                                <a class="custom-navigation-location-property-link" href="/en/nina-hotel-causeway-bay">NINA HOTEL CAUSEWAY BAY</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li class="custom-navigation-location-property-list">
+                                <a class="custom-navigation-location-property-link" href="/en/nina-hotel-kowloon-east">NINA HOTEL KOWLOON EAST</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li class="custom-navigation-location-property-list">
+                                <a class="custom-navigation-location-property-link" href="/en/lodgewood-mong-kok">LODGEWOOD MONG KOK</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li class="custom-navigation-location-property-list">
+                                <a class="custom-navigation-location-property-link" href="/en/lodgewood-wan-chai">LODGEWOOD WAN CHAI</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <li class="custom-navigation-location-property-list">
+                                <a class="custom-navigation-location-property-link" href="/en/the-lily">THE LILY</a>
+                            </li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <a class="custom-navigation-menu-icon"></a>
+            
+            <a class="custom-navigation-phone-icon" href="tel:+85222802898"></a>
+            
+            
+            <a href="https://goo.gl/maps/wHCsRB76Gm7njzGo6" rel="noopener noreferrer" data-location="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/logos/hotel-logos/20231009_webstie-logos_website_tww_en.svg?rev=3bbe0f645be045be8a59fe8fc5750221" class="custom-navigation-location-icon" target="_blank">8 Yeung Uk Road, Tsuen Wan, Hong Kong</a>
+            
+        </div>
+        <div class="custom-navigation-top-center-part">
+            <a class="custom-navigation-top-center-logo-link" href="/en/nina-hotel-tsuen-wan-west" data-template="en">
+                <img class="custom-navigation-top-center-logo for-normal-logo " src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/logos/hotel-logos/20231009_webstie-logos_website_tww_en_w.svg?rev=08eac3afb6774361b71f6261dc19d9c8" alt="">
+                <img class="custom-navigation-top-center-logo for-expend-logo " src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/logos/hotel-logos/20231009_webstie-logos_website_tww_en.svg?rev=3bbe0f645be045be8a59fe8fc5750221" alt="Nina Hotel Tsuen Wan West">
+            </a>
+        </div>
+        <div class="custom-navigation-top-right-part">
+            <div class="row"></div>
             <div class="row">
 
-<div class="page-hero-banner-container">
+<div class="custom-navigation-language-wrapper">
+    <a class="custom-navigation-language-icon">
+EN    </a>
+        <ul class="custom-navigation-language-dropdown-wrapper" style="display: none;">
+                        <li class="custom-navigation-language-dropdown-list active">
+                            <a class="custom-navigation-language lang-en" href="/en/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="en-hk">
+                                English
+                            </a>
+                        </li> 
+                        <li class="custom-navigation-language-dropdown-list">
+                            <a class="custom-navigation-language lang-zh-hk" href="/zh-hk/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="zh-hk">
+                                繁體中文
+                            </a>
+                        </li>
+                        <li class="custom-navigation-language-dropdown-list">
+                            <a class="custom-navigation-language lang-zh-cn" href="/zh-cn/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="zh-cn">
+                                简体中文
+                            </a>
+                        </li>
+        </ul>
+</div></div>
+            
+            
+            <a href="https://www.chinachemgroup.com/ccg-hearts/registrationform" rel="noopener noreferrer" class="custom-navigation-login" target="_blank">Join us</a> 
+            
+            <div class="custom-navigation-book-wrapper">
+                <a class="nav-book-btn" href="javascript:void(0)">Book now</a>
+            </div>
+            <a href="https://www.chinachemgroup.com/ccg-hearts/registrationform" data-user="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/themes/nina-uat-theme/nina-uat-theme/images/icon-btn-user-mocha.svg?rev=4a04dc8d4c4445aba2b56f91fa4a2b3b" rel="noopener noreferrer" class="for-tablet for-mobile custom-navigation-user-icon" target="_blank">1</a>
+           
+        </div>
+    </div>
+    <div class="custom-navigation-bottom-wrapper">
+        <ul class="custom-navigation-bottom-nav-wrapper">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="custom-navigation-bottom-nav-list">
+                <a class="custom-navigation-bottom-nav" href="/en/nina-hotel-tsuen-wan-west/rooms">ROOMS</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="custom-navigation-bottom-nav-list active">
+                <a class="custom-navigation-bottom-nav" href="/en/nina-hotel-tsuen-wan-west/dining">RESTAURANTS</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="custom-navigation-bottom-nav-list">
+                <a class="custom-navigation-bottom-nav" href="/en/nina-hotel-tsuen-wan-west/meetings-and-events">MEETINGS AND EVENTS</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="custom-navigation-bottom-nav-list">
+                <a class="custom-navigation-bottom-nav" href="/en/nina-hotel-tsuen-wan-west/weddings">WEDDINGS</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="custom-navigation-bottom-nav-list">
+                <a class="custom-navigation-bottom-nav" href="/en/nina-hotel-tsuen-wan-west/services-and-facilities">SERVICES AND FACILITIES</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="custom-navigation-bottom-nav-list">
+                <a class="custom-navigation-bottom-nav" href="/en/nina-hotel-tsuen-wan-west/offers">OFFERS</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="custom-navigation-bottom-nav-list" data-hhi="{529F86A5-1E88-4409-917B-54F13D40E0F2}" data-ng-hide="{529F86A5-1E88-4409-917B-54F13D40E0F2}">
+                <a href="https://www.chinachemgroup.com/ccg-hearts" rel="noopener noreferrer" class="custom-navigation-bottom-nav" target="_blank">CCG HEARTS</a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </ul>
+    </div>
+</div>
+<div class="hamburger-menu-cover"></div>
+<div class="hamburger-menu-content-wrapper">
+    <div class="hamburger-menu-content-innerwrap">
+        <div class="hamburger-menu-content-top">
+            <span class="hamburger-menu-back-btn"></span>
+            <a class="hamburger-menu-logo-link" href="/en/nina-hotel-tsuen-wan-west">
+                <img class="hamburger-menu-logo " src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/logos/hotel-logos/20231009_webstie-logos_website_tww_en.svg?rev=3bbe0f645be045be8a59fe8fc5750221" alt="Nina Hotel Tsuen Wan West">
+            </a>
+            <span class="hamburger-menu-close-btn"></span>
+        </div>
+        <div class="hamburger-menu-content-middle">
+            <ul class="hamburger-menu-content-main-nav-wrapper">
+                <li class="hamburger-menu-content-main-nav has-submenu">
+                    <a class="hamburger-menu-content-main-nav-link" href="#">
+                        <span>HOTEL</span>
+                    </a>
+                    <ul class="hamburger-menu-content-main-submenu-wrapper">
+                        
+
+                        <li class="hamburger-menu-content-main-title">
+                            <span>HOTELS &amp; RESIDENCES</span>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li class="hamburger-menu-content-main-submenu">
+                            <a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west">NINA HOTEL TSUEN WAN WEST</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="hamburger-menu-content-main-submenu">
+                            <a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-island-south">NINA HOTEL ISLAND SOUTH</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="hamburger-menu-content-main-submenu">
+                            <a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-causeway-bay">NINA HOTEL CAUSEWAY BAY</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="hamburger-menu-content-main-submenu">
+                            <a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-kowloon-east">NINA HOTEL KOWLOON EAST</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="hamburger-menu-content-main-submenu">
+                            <a class="hamburger-menu-content-main-submenu-link" href="/en/lodgewood-wan-chai">LODGEWOOD WAN CHAI</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="hamburger-menu-content-main-submenu">
+                            <a class="hamburger-menu-content-main-submenu-link" href="/en/lodgewood-mong-kok">LODGEWOOD MONG KOK</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        <li class="hamburger-menu-content-main-submenu">
+                            <a class="hamburger-menu-content-main-submenu-link" href="/en/the-lily">THE LILY</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="hamburger-menu-content-main-nav has-submenu"><a class="hamburger-menu-content-main-nav-link" href="#"><span>ROOMS</span></a><ul class="hamburger-menu-content-main-submenu-wrapper"><li class="hamburger-menu-content-main-submenu current-page-link"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms">ROOMS</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms/superior-room">SUPERIOR ROOM</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms/deluxe-room">DELUXE ROOM</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms/deluxe-corner-room">DELUXE CORNER ROOM</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms/premier-room">PREMIER ROOM</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms/premier-corner-room">PREMIER CORNER ROOM</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms/executive-room">EXECUTIVE ROOM</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms/premier-suite">DELUXE SUITE</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms/executive-apartment">EXECUTIVE APARTMENT</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/rooms/executive-harbour-corner-apartment">EXECUTIVE CORNER APARTMENT</a></li></ul></li>
+                
+                <li class="hamburger-menu-content-main-nav"><a class="hamburger-menu-content-main-nav-link" href="/en/nina-hotel-tsuen-wan-west/dining"><span>RESTAURANTS</span></a></li>
+                
+                <li class="hamburger-menu-content-main-nav"><a class="hamburger-menu-content-main-nav-link" href="/en/sitecore/content/nina/nina/home/nina-hotel-tsuen-wan-west/meetings-and-events"><span>MEETINGS AND EVENTS</span></a></li>
+                
+                <li class="hamburger-menu-content-main-nav"><a class="hamburger-menu-content-main-nav-link" href="/en/nina-hotel-tsuen-wan-west/weddings"><span>WEDDINGS</span></a></li>
+                
+                <li class="hamburger-menu-content-main-nav"><a class="hamburger-menu-content-main-nav-link" href="/en/nina-hotel-tsuen-wan-west/services-and-facilities"><span>SERVICES AND FACILITIES</span></a></li>
+                
+                <li class="hamburger-menu-content-main-nav"><a class="hamburger-menu-content-main-nav-link" href="/en/nina-hotel-tsuen-wan-west/location"><span>LOCATION</span></a></li>
+                
+                <li class="hamburger-menu-content-main-nav has-submenu"><a class="hamburger-menu-content-main-nav-link" href="#"><span>OFFERS</span></a><ul class="hamburger-menu-content-main-submenu-wrapper"><li class="hamburger-menu-content-main-submenu current-page-link"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers">OFFERS</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/exclusive-dining-privileges">DINING PRIVILEGES FOR HOTEL GUEST </a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/extended-long-stay-package">FLEXI-STAY 7/ 14/ 21 DAYS PACKAGE</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/stay-and-dine-experience-lunch-buffet">STAY AND DINE EXPERIENCE - LUNCH BUFFET </a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/stay-and-dine-experience-buffet-dinner">STAY AND DINE EXPERIENCE - BUFFET DINNER</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/bed-and-breakfast">BED &amp; BREAKFAST</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/a-bonus-night-offer">A BONUS NIGHT OFFER </a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/crab-fiesta-buffet">CRAB FIESTA BUFFET</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/ru-experience-menu">RÚ EXPERIENCE MENU</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/fall-in-love-with-matcha-x-sweet-potato-afternoon-tea-buffet">FALL IN LOVE WITH MATCHA x SWEET POTATO WEEKEND AFTERNOON TEA BUFFET</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/ru-signature-tasting-menu">RÚ SIGNATURE TASTING MENU</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/wine-n-cheese-oclock">WINE N CHEESE O'CLOCK</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/ru-golden-hairy-crab-feast">RÚ PRESENTS GOLDEN HAIRY CRAB FEAST</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/ru-winter-delicacies-feast">RÚ WINTER DELICACIES FEAST</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/limited-time-stay-offer">LIMITED-TIME STAY OFFER</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/a-festive-gourmet-voyage">A FESTIVE GOURMET VOYAGE</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/festive-gourmet-voyage">A FESTIVE GOURMET VOYAGE</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/offers/december-2023-long-stay-open-day">LONG STAYING OPEN DAY</a></li></ul></li>
+                
+                <li class="hamburger-menu-content-main-nav has-submenu"><a class="hamburger-menu-content-main-nav-link" href="#"><span>NEWS</span></a><ul class="hamburger-menu-content-main-submenu-wrapper"><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/news/awards-and-accolades">AWARDS AND ACCOLADES</a></li><li class="hamburger-menu-content-main-submenu"><a class="hamburger-menu-content-main-submenu-link" href="/en/nina-hotel-tsuen-wan-west/news/fact-sheet">FACT SHEET</a></li></ul></li>
+                
+                <li class="hamburger-menu-content-main-nav"><a class="hamburger-menu-content-main-nav-link" href="/en/nina-hotel-tsuen-wan-west/contact-us"><span>CONTACT US</span></a></li>
+                
+                <li class="hamburger-menu-content-main-nav"><a href="https://www.chinachemgroup.com/ccg-hearts" rel="noopener noreferrer" class="hamburger-menu-content-main-nav-link" target="_blank">CCG HEARTS</a></li>
+                
+                
+            </ul>
+            <ul class="hamburger-menu-content-other-nav-wrapper">
+                
+                <li class="hamburger-menu-content-other-nav">
+                    <a class="hamburger-menu-content-other-nav-link" href="/en/privacy-policy">Privacy Policy</a>
+                </li>
+                
+                <li class="hamburger-menu-content-other-nav">
+                    <a class="hamburger-menu-content-other-nav-link" href="/en/disclaimer">Disclaimer</a>
+                </li>
+                
+            </ul>
+            <div class="row">
+<ul class="hamburger-menu-content-lang-nav-wrapper" style="display: none;">
+    <li class="hamburger-menu-content-lang-nav">
+        <a class="hamburger-menu-content-lang-nav-link">
+            <span>
+                EN
+            </span>
+        </a>
+            <ul class="hamburger-menu-content-lang-nav-dropdown-wrapper">
+                                <li class="custom-navigation-language-dropdown-list active">
+                                    <a class="hamburger-menu-content-lang-nav-dropdown-link lang-en" href="/en/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="">
+                                        English
+                                    </a>
+                                </li>
+                                <li class="custom-navigation-language-dropdown-list">
+                                    <a class="hamburger-menu-content-lang-nav-dropdown-link lang-zh-hk" href="/zh-hk/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="">
+                                        繁體中文
+                                    </a>
+                                </li>
+                                <li class="custom-navigation-language-dropdown-list">
+                                    <a class="hamburger-menu-content-lang-nav-dropdown-link lang-zh-cn" href="/zh-cn/nina-hotel-tsuen-wan-west/dining/cafe-circles" hreflang="">
+                                        简体中文
+                                    </a>
+                                </li>
+            </ul>
+    </li>
+</ul> </div>
+        </div>
+        <div class="hamburger-menu-content-fixed-wrapper">
+            <div class="hamburger-menu-content-fixed-icons">
+                <a class="custom-navigation-back-home" href="/en" data-home="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/favicon/ninahospitality-favicon-white.svg?rev=c6bcc21638954fa1bba6a2689ae9c49b" style="background-image: url(&quot;https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/favicon/ninahospitality-favicon-white.svg?rev=c6bcc21638954fa1bba6a2689ae9c49b&quot;);"></a>
+                
+                <a href="https://goo.gl/maps/wHCsRB76Gm7njzGo6" rel="noopener noreferrer" data-location="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/themes/nina-uat-theme/nina-uat-theme/images/icon-location-mocha.svg?rev=ffeed042700c4d1db788817523c8ef8d" class="custom-navigation-location-icon" target="_blank" style="background-image: url(&quot;https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/themes/nina-uat-theme/nina-uat-theme/images/icon-location-mocha.svg?rev=ffeed042700c4d1db788817523c8ef8d&quot;);">8 Yeung Uk Road, Tsuen Wan, Hong Kong</a>
+                <a href="https://www.chinachemgroup.com/ccg-hearts/registrationform" data-user="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/themes/nina-uat-theme/nina-uat-theme/images/icon-btn-user-mocha.svg?rev=4a04dc8d4c4445aba2b56f91fa4a2b3b" rel="noopener noreferrer" class="custom-navigation-user-icon" target="_blank" style="background-image: url(&quot;https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/themes/nina-uat-theme/nina-uat-theme/images/icon-btn-user-mocha.svg?rev=4a04dc8d4c4445aba2b56f91fa4a2b3b&quot;);">1</a>
+            </div>
+            <div class="custom-navigation-language-wrapper for-tablet for-mobile">
+                <a class="custom-navigation-language-icon">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    EN
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="custom-navigation-book-dialog-wrapper">
+    <div class="custom-navigation-book-dialog-inner">
+        <span class="booking-close-btn"></span>
+        <div class="booking-detail-panel">
+            <div class="booking-table-wrapper">
+                <div class="booking-hotel-wrapper disabled">
+                    <div class="booking-hotel-title">Booking Title</div>
+                    <div class="booking-hotel-chosen-wrapper">
+                        <span class="booking-hotel-chosen" data-value="64396">Nina Tsuen Wan West</span>
+                        <span class="booking-hotel-chosen-arrow"></span>
+                    </div>
+                    <ul class="booking-hotel-detail">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+
+                        
+                        <li class="booking-hotel-detail-list active" data-value="64396">
+                            <span class="booking-hotel-list-name">Nina Tsuen Wan West</span>
+                            <span class="booking-hotel-address">8 Yuen Road. Tsuen Wan West, Hong Kong</span>
+                        </li>
+                        
+                    </ul>
+                    <div class="error-message-wrapper">
+                        <img class="error-message-icon" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/direct-booking-perks/ninahospitality-roombookingwidget-alert-icon.svg?rev=47bcf3eb2b78432e87e9afcb615e19f8" alt="Nina Hospitality room booking widget alert icon">
+                        <span class="error-message">Please choose a hotel on the above</span>
+                    </div>
+                </div>
+                <div class="booking-chosen-dates-wrapper">
+                    <div class="booking-chosen-dates-title">Check In</div>
+                    <div class="booking-chosen-dates">
+                        <span class="booking-chosen-dates-detail">Sat, 09 Dec 2023 - Sun, 10 Dec 2023</span>
+                        <span class="booking-chosen-night">1 night</span>
+                    </div>
+                    <div class="booking-date-picker-wrapper" style="">
+                        <div class="booking-date-picker-mobile-chosen">
+                            <div class="date-picker-mobile-back"></div>
+
+                            <div class="booking-date-picker-check booking-date-picker-checkin">
+                                <span class="date-picker-check-title check-in-title">Check In</span>
+                                <span class="date-picker-check-date check-in-detail-date">9, Dec</span>
+                            </div>
+
+                            <div class="booking-date-picker-separator"></div>
+
+                            <div class="booking-date-picker-check booking-date-picker-checkout">
+                                <span class="date-picker-check-title check-out-title">Check Out</span>
+                                <span class="date-picker-check-date check-out-detail-date">10, Dec</span>
+                            </div>
+                        </div>
+                    <div class="date-range-picker-wrapper no-shortcuts no-gap two-months" unselectable="on" style="display: none; top: 4px; left: -825.5px; user-select: none;">
+                  <div class="month-wrapper">
+                      <div class="month1 month">
+                          <div class="caption">
+                              <span class="prev disabled"></span>
+                              <div class="month-name"><div class="month-element">DECEMBER</div> <div class="month-element">2023</div></div>
+                              <span class="next "></span>
+                          </div>
+
+                          <div class="week-name"><span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span></div>
+
+                          <div class="days-body"><div class="day-row"><div time="1700972745404" data-tooltip="" class="day lastMonth  invalid "><span>26</span></div><div time="1701059145404" data-tooltip="" class="day lastMonth  invalid "><span>27</span></div><div time="1701145545404" data-tooltip="" class="day lastMonth  invalid "><span>28</span></div><div time="1701231945404" data-tooltip="" class="day lastMonth  invalid "><span>29</span></div><div time="1701318345404" data-tooltip="" class="day lastMonth  invalid "><span>30</span></div><div time="1701404745404" data-tooltip="" class="day toMonth  invalid "><span>1</span></div><div time="1701491145404" data-tooltip="" class="day toMonth  invalid "><span>2</span></div></div><div class="day-row"><div time="1701577545404" data-tooltip="" class="day toMonth  invalid "><span>3</span></div><div time="1701663945404" data-tooltip="" class="day toMonth  invalid "><span>4</span></div><div time="1701750345404" data-tooltip="" class="day toMonth  invalid "><span>5</span></div><div time="1701836745404" data-tooltip="" class="day toMonth  invalid "><span>6</span></div><div time="1701923145404" data-tooltip="" class="day toMonth  invalid "><span>7</span></div><div time="1702009545404" data-tooltip="" class="day toMonth  valid real-today"><span>8</span></div><div time="1702095945404" data-tooltip="" class="day toMonth  valid "><span>9</span></div></div><div class="day-row"><div time="1702182345404" data-tooltip="" class="day toMonth  valid "><span>10</span></div><div time="1702268745404" data-tooltip="" class="day toMonth  valid "><span>11</span></div><div time="1702355145404" data-tooltip="" class="day toMonth  valid "><span>12</span></div><div time="1702441545404" data-tooltip="" class="day toMonth  valid "><span>13</span></div><div time="1702527945404" data-tooltip="" class="day toMonth  valid "><span>14</span></div><div time="1702614345404" data-tooltip="" class="day toMonth  valid "><span>15</span></div><div time="1702700745404" data-tooltip="" class="day toMonth  valid "><span>16</span></div></div><div class="day-row"><div time="1702787145404" data-tooltip="" class="day toMonth  valid "><span>17</span></div><div time="1702873545404" data-tooltip="" class="day toMonth  valid "><span>18</span></div><div time="1702959945404" data-tooltip="" class="day toMonth  valid "><span>19</span></div><div time="1703046345404" data-tooltip="" class="day toMonth  valid "><span>20</span></div><div time="1703132745404" data-tooltip="" class="day toMonth  valid "><span>21</span></div><div time="1703219145404" data-tooltip="" class="day toMonth  valid "><span>22</span></div><div time="1703305545404" data-tooltip="" class="day toMonth  valid "><span>23</span></div></div><div class="day-row"><div time="1703391945404" data-tooltip="" class="day toMonth  valid "><span>24</span></div><div time="1703478345404" data-tooltip="" class="day toMonth  valid "><span>25</span></div><div time="1703564745404" data-tooltip="" class="day toMonth  valid "><span>26</span></div><div time="1703651145404" data-tooltip="" class="day toMonth  valid "><span>27</span></div><div time="1703737545404" data-tooltip="" class="day toMonth  valid "><span>28</span></div><div time="1703823945404" data-tooltip="" class="day toMonth  valid "><span>29</span></div><div time="1703910345404" data-tooltip="" class="day toMonth  valid "><span>30</span></div></div><div class="day-row"><div time="1703996745404" data-tooltip="" class="day toMonth  valid "><span>31</span></div><div time="1704083145404" data-tooltip="" class="day nextMonth  valid "><span>1</span></div><div time="1704169545404" data-tooltip="" class="day nextMonth  valid "><span>2</span></div><div time="1704255945404" data-tooltip="" class="day nextMonth  valid "><span>3</span></div><div time="1704342345404" data-tooltip="" class="day nextMonth  valid "><span>4</span></div><div time="1704428745404" data-tooltip="" class="day nextMonth  valid "><span>5</span></div><div time="1704515145404" data-tooltip="" class="day nextMonth  valid "><span>6</span></div></div></div>
+                      </div>
+              
+                      <div class="month2 month">
+                          <div class="caption">
+                              <span class="prev disabled"></span>
+                              <div class="month-name"><div class="month-element">JANUARY</div> <div class="month-element">2024</div></div>
+                              <span class="next "></span>
+                          </div>
+
+                          <div class="week-name"><span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span></div>
+
+                          <div class="days-body"><div class="day-row"><div time="1703996745404" data-tooltip="" class="day lastMonth  valid "><span>31</span></div><div time="1704083145404" data-tooltip="" class="day toMonth  valid "><span>1</span></div><div time="1704169545404" data-tooltip="" class="day toMonth  valid "><span>2</span></div><div time="1704255945404" data-tooltip="" class="day toMonth  valid "><span>3</span></div><div time="1704342345404" data-tooltip="" class="day toMonth  valid "><span>4</span></div><div time="1704428745404" data-tooltip="" class="day toMonth  valid "><span>5</span></div><div time="1704515145404" data-tooltip="" class="day toMonth  valid "><span>6</span></div></div><div class="day-row"><div time="1704601545404" data-tooltip="" class="day toMonth  valid "><span>7</span></div><div time="1704687945404" data-tooltip="" class="day toMonth  valid "><span>8</span></div><div time="1704774345404" data-tooltip="" class="day toMonth  valid "><span>9</span></div><div time="1704860745404" data-tooltip="" class="day toMonth  valid "><span>10</span></div><div time="1704947145404" data-tooltip="" class="day toMonth  valid "><span>11</span></div><div time="1705033545404" data-tooltip="" class="day toMonth  valid "><span>12</span></div><div time="1705119945404" data-tooltip="" class="day toMonth  valid "><span>13</span></div></div><div class="day-row"><div time="1705206345404" data-tooltip="" class="day toMonth  valid "><span>14</span></div><div time="1705292745404" data-tooltip="" class="day toMonth  valid "><span>15</span></div><div time="1705379145404" data-tooltip="" class="day toMonth  valid "><span>16</span></div><div time="1705465545404" data-tooltip="" class="day toMonth  valid "><span>17</span></div><div time="1705551945404" data-tooltip="" class="day toMonth  valid "><span>18</span></div><div time="1705638345404" data-tooltip="" class="day toMonth  valid "><span>19</span></div><div time="1705724745404" data-tooltip="" class="day toMonth  valid "><span>20</span></div></div><div class="day-row"><div time="1705811145404" data-tooltip="" class="day toMonth  valid "><span>21</span></div><div time="1705897545404" data-tooltip="" class="day toMonth  valid "><span>22</span></div><div time="1705983945404" data-tooltip="" class="day toMonth  valid "><span>23</span></div><div time="1706070345404" data-tooltip="" class="day toMonth  valid "><span>24</span></div><div time="1706156745404" data-tooltip="" class="day toMonth  valid "><span>25</span></div><div time="1706243145404" data-tooltip="" class="day toMonth  valid "><span>26</span></div><div time="1706329545404" data-tooltip="" class="day toMonth  valid "><span>27</span></div></div><div class="day-row"><div time="1706415945404" data-tooltip="" class="day toMonth  valid "><span>28</span></div><div time="1706502345404" data-tooltip="" class="day toMonth  valid "><span>29</span></div><div time="1706588745404" data-tooltip="" class="day toMonth  valid "><span>30</span></div><div time="1706675145404" data-tooltip="" class="day toMonth  valid "><span>31</span></div><div time="1706761545404" data-tooltip="" class="day nextMonth  valid "><span>1</span></div><div time="1706847945404" data-tooltip="" class="day nextMonth  valid "><span>2</span></div><div time="1706934345404" data-tooltip="" class="day nextMonth  valid "><span>3</span></div></div></div>
+                      </div>
+                  </div><div class="footer"><div class="custom-date-footer"><div class="custom-date-footer-left"><div class="custom-today-tip">TODAY</div><div class="custom-selected-tip">SELECTED</div></div><div class="custom-date-footer-right"><div class="custom-reset-btn">RESET</div><div class="custom-done-btn">Done</div></div></div></div><div class="date-range-length-tip"></div></div></div>
+                </div>
+                <div class="booking-room-wrapper booking-hotel-detail-wrapper">
+                    <div class="booking-operate-title">Rooms</div>
+                    <div class="booking-operate-wrapper">
+                        <span class="booking-operate-reduce"></span>
+                        <span class="booking-operate-num">1</span>
+                        <span class="booking-operate-add"></span>
+                    </div>
+                </div>
+                <div class="booking-people-wrapper booking-hotel-detail-wrapper">
+                    <div class="booking-operate-title">Adults</div>
+                    <div class="booking-operate-wrapper">
+                        <span class="booking-operate-reduce"></span>
+                        <span class="booking-operate-num">1</span>
+                        <span class="booking-operate-add"></span>
+                    </div>
+                </div>
+                <div class="booking-children-wrapper booking-hotel-detail-wrapper">
+                    <div class="booking-operate-title">Children</div>
+                    <div class="booking-operate-wrapper">
+                        <span class="booking-operate-reduce"></span>
+                        <span class="booking-operate-num">0</span>
+                        <span class="booking-operate-add"></span>
+                    </div>
+                </div>
+                <div class="booking-promotional-code">
+                    <div class="booking-promotional-code-operate">
+                        <span class="booking-promotional-code-operate-icon icon--cross"></span>
+                        <span class="booking-promotional-code-operate-text">Promo Code</span>
+                    </div>
+                    <input name="promotionalCode" value="" class="promotional-code-input" autocomplete="off">
+                </div>
+                
+                
+                <button class="booking-check-rate-btn" data-href="https://booking.ninahotelgroup.com/" data-target="_blank">Book Now</button> 
+            </div>
+            <div class="hotel-simple-intro-wrapper">
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>  
+        </div>
+    </div>
+
+        </div>
+    </header>
+    <!-- /#header -->
+    <!-- #content -->
+    <main>
+        <div id="content" class="">
+            <div class="row"><div class="page-hero-banner-container">
     <div class="component hero-carousel module-component container-fluid banner-wrapper contact-banner-wrapper">
         <div class="component-content">
  
@@ -853,25 +2218,365 @@ Price: HK$468* for 2 persons</p>
 
         </div>
     </div>
-
-
-    			<!-- Content -->
-                <#--<@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>-->
-            </div>
-		</div>
-	</div>
-
-	<#assign articleCategories = contentModel.queryValues("//categories_o/item/key")/>
-	<#assign articlePath = contentModel.storeUrl />
-	<#assign additionalModel = {"articleCategories": articleCategories, "articlePath": articlePath }/>
-
-	<!-- Left Rail -->
-	<@renderComponent component = contentModel.left_rail_o.item additionalModel = additionalModel />
+</div>
+        </div>
     </main>
-<#--</div>-->
+    <!-- /#content -->
+    <!-- #footer -->
+    <footer>
+        <div id="footer" class="">
+            <div class="row">
+    <div class="component brand-newsletter-form-wrapper col-12">
+        <div class="component-content">
+<h2 class="newsletter-form-title">Keep in touch with Nina</h2>
+<div class="vertical-line for-desktop"></div>
+<div class="horizontal-line for-tablet"></div>
+<div class="row">
 
-<#include "/templates/web/fragments/scripts.ftl">
 
-<@crafter.body_bottom/>
+
+<div class="component sitecore-form brand-newsletter-right">
+    <div class="component-content">
+        <div class="row"><form action="/formbuilder?sc_site=Nina&amp;fxb.FormItemId=a7b9878b-f0ef-47ff-9bae-20a62eabc665&amp;fxb.HtmlPrefix=fxb.28840854-e6b8-496c-b947-093739e6e6fe" data-ajax="true" data-ajax-failure="ajaxFailure(xhr, status, error);" data-ajax-method="Post" data-ajax-mode="replace-with" data-ajax-success="$.validator.unobtrusive.parse('#fxb_28840854-e6b8-496c-b947-093739e6e6fe_a7b9878b-f0ef-47ff-9bae-20a62eabc665');$.fxbFormTracker.parse('#fxb_28840854-e6b8-496c-b947-093739e6e6fe_a7b9878b-f0ef-47ff-9bae-20a62eabc665');$.fxbConditions.parse('#fxb_28840854-e6b8-496c-b947-093739e6e6fe_a7b9878b-f0ef-47ff-9bae-20a62eabc665')" data-ajax-update="#fxb_28840854-e6b8-496c-b947-093739e6e6fe_a7b9878b-f0ef-47ff-9bae-20a62eabc665" data-sc-fxb="a7b9878b-f0ef-47ff-9bae-20a62eabc665" enctype="multipart/form-data" id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_a7b9878b-f0ef-47ff-9bae-20a62eabc665" method="post" novalidate="novalidate"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_FormSessionId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.FormSessionId" type="hidden" value="1cdea5d4-5ffa-4989-b0ac-2f223f6a0d95"><input name="__RequestVerificationToken" type="hidden" value="ih99FO5LneDGTU-aowMOGG9wVgAYmBFLRi2vzg92qvwDwc4i2yfBNx0xJlv0j0a0E-Ep7O9zJh-jidQrNxosXT6QpjuT5BExRPquc7P0dfg1"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_FormItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.FormItemId" type="hidden" value="a7b9878b-f0ef-47ff-9bae-20a62eabc665"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_PageItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.PageItemId" type="hidden" value="d0418d92-b4e4-4f20-ae34-d0407a83de98">
+<div data-sc-field-key="00C7B80689FA4E988603158113298658" class="brand-newsletter-submit-row">
+    <input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_Index_19d3db07-58bd-4c1a-b1f1-8921cf95b0d2" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields.Index" type="hidden" value="19d3db07-58bd-4c1a-b1f1-8921cf95b0d2"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_19d3db07-58bd-4c1a-b1f1-8921cf95b0d2__ItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[19d3db07-58bd-4c1a-b1f1-8921cf95b0d2].ItemId" type="hidden" value="19d3db07-58bd-4c1a-b1f1-8921cf95b0d2">    <input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_19d3db07-58bd-4c1a-b1f1-8921cf95b0d2__Value" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[19d3db07-58bd-4c1a-b1f1-8921cf95b0d2].Value" type="hidden" value="" data-sc-tracking="True" data-sc-field-name="Firstname" data-sc-field-key="3660CBBA30A54D1E9713705FB6A0B75D">  
+<input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_Index_8cb49486-f791-4d41-be26-ee68613b37f8" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields.Index" type="hidden" value="8cb49486-f791-4d41-be26-ee68613b37f8"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_8cb49486-f791-4d41-be26-ee68613b37f8__ItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[8cb49486-f791-4d41-be26-ee68613b37f8].ItemId" type="hidden" value="8cb49486-f791-4d41-be26-ee68613b37f8">    <input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_8cb49486-f791-4d41-be26-ee68613b37f8__Value" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[8cb49486-f791-4d41-be26-ee68613b37f8].Value" type="hidden" value="" data-sc-tracking="True" data-sc-field-name="Lastname" data-sc-field-key="5C2E247C3ABA43C0A6B7BEF1939ACF8B">  
+<input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_Index_7f3b49ed-2563-4200-b09c-f01325259a39" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields.Index" type="hidden" value="7f3b49ed-2563-4200-b09c-f01325259a39"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_7f3b49ed-2563-4200-b09c-f01325259a39__ItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[7f3b49ed-2563-4200-b09c-f01325259a39].ItemId" type="hidden" value="7f3b49ed-2563-4200-b09c-f01325259a39"><label for="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_7f3b49ed-2563-4200-b09c-f01325259a39__Value" class=""></label>
+<input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_7f3b49ed-2563-4200-b09c-f01325259a39__Value" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[7f3b49ed-2563-4200-b09c-f01325259a39].Value" class="brand-newsletter-email-input" type="email" value="" maxlength="255" placeholder="Email address" data-sc-tracking="True" data-sc-field-name="Email" data-sc-field-key="E8689D8FB8C94FF9893E9865667A6D1B" data-val-regex=" contains an invalid email address." data-val-regex-pattern="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,17}$" data-val="true">
+<span class="field-validation-valid" data-valmsg-for="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[7f3b49ed-2563-4200-b09c-f01325259a39].Value" data-valmsg-replace="true"></span>
+
+<input value="Subscribe" type="submit" class="brand-newsletter-submit-btn check-terms" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.a28fb113-0fed-4ac1-b145-36d597b6df01" data-sc-field-key="337E07726C714F44B84113D043CC7A57">
+<input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_NavigationButtons" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.NavigationButtons" type="hidden" value="a28fb113-0fed-4ac1-b145-36d597b6df01">
+<input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_a28fb113-0fed-4ac1-b145-36d597b6df01" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.a28fb113-0fed-4ac1-b145-36d597b6df01" type="hidden" value="0">
+</div>
+<div data-sc-field-key="D0AE635D08EE4209A892E1EDD39B7529" class="brand-newsletter-content-span">
+    <p data-sc-field-key="37288ACC6D5045C1B321B340AAE59D7E" class="form__error-msg" style="display: block;">Please enter a valid email address</p><p class="brand-newsletter-content-text">By entering your email address you agree to our <a href="https://www.ninahotelgroup.com/en/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and consent to receive emails from Nina Hospitality.</p>
+</div>
+<div data-sc-field-key="D1FCC43CBCFB4D64BF1F8C003FF7B73A" class="custom__form__checkbox newsletter">
+    <p data-sc-field-key="7AD7ECAB7CE84C778B5638D4E76F6752" class="custom__form__checkbox--title-yes-no required" aria-required="true">Are you resided or located in Mainland China?</p><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_Index_715458c4-c3c5-4c8a-adeb-2330c84bc838" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields.Index" type="hidden" value="715458c4-c3c5-4c8a-adeb-2330c84bc838"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_715458c4-c3c5-4c8a-adeb-2330c84bc838__ItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[715458c4-c3c5-4c8a-adeb-2330c84bc838].ItemId" type="hidden" value="715458c4-c3c5-4c8a-adeb-2330c84bc838"><label class="custom__form__checkbox__label--yes">
+    <input type="checkbox" id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_715458c4-c3c5-4c8a-adeb-2330c84bc838__Value" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[715458c4-c3c5-4c8a-adeb-2330c84bc838].Value" class="custom__form__checkbox--yes" value="true" data-sc-tracking="True" data-sc-field-name="Yes" data-sc-field-key="12C94921297E48C8952C41AF772C0FDB" data-val-required="The Value field is required." data-val="true">Yes
+    <input type="hidden" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[715458c4-c3c5-4c8a-adeb-2330c84bc838].Value" value="false">
+</label>
+<span class="field-validation-valid" data-valmsg-for="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[715458c4-c3c5-4c8a-adeb-2330c84bc838].Value" data-valmsg-replace="true"></span><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_Index_c462201e-3a0d-463d-89a3-6efcbfed26bd" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields.Index" type="hidden" value="c462201e-3a0d-463d-89a3-6efcbfed26bd"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_c462201e-3a0d-463d-89a3-6efcbfed26bd__ItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[c462201e-3a0d-463d-89a3-6efcbfed26bd].ItemId" type="hidden" value="c462201e-3a0d-463d-89a3-6efcbfed26bd"><label class="custom__form__checkbox__label--no">
+    <input type="checkbox" id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_c462201e-3a0d-463d-89a3-6efcbfed26bd__Value" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[c462201e-3a0d-463d-89a3-6efcbfed26bd].Value" class="custom__form__checkbox--no" value="true" data-sc-tracking="True" data-sc-field-name="No" data-sc-field-key="BE2B2ECBEC7A4241887AA8B5ABE8FEE1" data-val-required="The Value field is required." data-val="true">No
+    <input type="hidden" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[c462201e-3a0d-463d-89a3-6efcbfed26bd].Value" value="false">
+</label>
+<span class="field-validation-valid" data-valmsg-for="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[c462201e-3a0d-463d-89a3-6efcbfed26bd].Value" data-valmsg-replace="true"></span><span class="form__error-msg">Please enter.</span>
+</div>
+<div data-sc-field-key="E02581A0A4D54862AF072B9D89A79A37" class="custom__form__checkbox  newsletter step2">
+    <p class="custom_form__checkbox--title">Please tick the required fields *</p>
+<p class="custom_form__checkbox--title">If you are resided or located in Mainland China, then before using our services, please read carefully our <a rel="noopener noreferrer" href="https://www.ninahotelgroup.com/en/privacy-policy" target="_blank">Privacy Policy</a>&nbsp;and its <a rel="noopener noreferrer" href="https://www.ninahotelgroup.com/en/privacy-policy#prc-addendum" target="_blank">addendum</a>, and tick the box before the item that applies to your situation: </p><span class="form__error-msg">You must read our Privacy Policy and its addendum carefully, and agree to the terms and conditions below.</span><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_Index_4b4d7225-0eef-4e96-ad73-0a825fc5e914" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields.Index" type="hidden" value="4b4d7225-0eef-4e96-ad73-0a825fc5e914"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_4b4d7225-0eef-4e96-ad73-0a825fc5e914__ItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[4b4d7225-0eef-4e96-ad73-0a825fc5e914].ItemId" type="hidden" value="4b4d7225-0eef-4e96-ad73-0a825fc5e914"><label class="custom__form__checkbox__label--item required" aria-required="true">
+    <input type="checkbox" id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_4b4d7225-0eef-4e96-ad73-0a825fc5e914__Value" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[4b4d7225-0eef-4e96-ad73-0a825fc5e914].Value" class="custom__form__checkbox--item " value="true" data-sc-tracking="True" data-sc-field-name="checkbox_1" data-sc-field-key="AA30E65D3F8C4C709DCF4FF265C8F6EF" data-val-required="The Value field is required." data-val="true">I have fully read and understood the contents of the Privacy Policy of Nina Hospitality and its addendum. I agree that Nina Hospitality may process and protect the personal data that I provide to Nina Hospitality pursuant to the Privacy Policy and its addendum. 
+    <input type="hidden" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[4b4d7225-0eef-4e96-ad73-0a825fc5e914].Value" value="false">
+</label>
+<span class="field-validation-valid" data-valmsg-for="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[4b4d7225-0eef-4e96-ad73-0a825fc5e914].Value" data-valmsg-replace="true"></span><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_Index_f1e2f410-3c18-4e7a-a47f-1ae5836beacf" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields.Index" type="hidden" value="f1e2f410-3c18-4e7a-a47f-1ae5836beacf"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_f1e2f410-3c18-4e7a-a47f-1ae5836beacf__ItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[f1e2f410-3c18-4e7a-a47f-1ae5836beacf].ItemId" type="hidden" value="f1e2f410-3c18-4e7a-a47f-1ae5836beacf"><label class="custom__form__checkbox__label--item required" aria-required="true">
+    <input type="checkbox" id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_f1e2f410-3c18-4e7a-a47f-1ae5836beacf__Value" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[f1e2f410-3c18-4e7a-a47f-1ae5836beacf].Value" class="custom__form__checkbox--item" value="true" data-sc-tracking="True" data-sc-field-name="checkbox_2" data-sc-field-key="9B8CA680422B46E381F897EB1B37C3B1" data-val-required="The Value field is required." data-val="true">I understand and acknowledge that the personal data that I provide to Nina Hospitality may contain sensitive personal information, and I agree to authorize Nina Hospitality to process such sensitive personal information pursuant to the Privacy Policy and its addendum.
+    <input type="hidden" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[f1e2f410-3c18-4e7a-a47f-1ae5836beacf].Value" value="false">
+</label>
+<span class="field-validation-valid" data-valmsg-for="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[f1e2f410-3c18-4e7a-a47f-1ae5836beacf].Value" data-valmsg-replace="true"></span><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_Index_c0f59d71-ce27-46f9-9cd1-32fd01e7655d" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields.Index" type="hidden" value="c0f59d71-ce27-46f9-9cd1-32fd01e7655d"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_c0f59d71-ce27-46f9-9cd1-32fd01e7655d__ItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[c0f59d71-ce27-46f9-9cd1-32fd01e7655d].ItemId" type="hidden" value="c0f59d71-ce27-46f9-9cd1-32fd01e7655d"><label class="custom__form__checkbox__label--item required" aria-required="true">
+    <input type="checkbox" id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_c0f59d71-ce27-46f9-9cd1-32fd01e7655d__Value" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[c0f59d71-ce27-46f9-9cd1-32fd01e7655d].Value" class="custom__form__checkbox--item" value="true" data-sc-tracking="True" data-sc-field-name="checkbox_3" data-sc-field-key="DC97349823F34FDA881B361AD001880C" data-val-required="The Value field is required." data-val="true">I agree that the personal data that I provide to Nina Hospitality may be transmitted and stored by Nina Hospitality at its domicile or any other location it may designate. 
+    <input type="hidden" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[c0f59d71-ce27-46f9-9cd1-32fd01e7655d].Value" value="false">
+</label>
+<span class="field-validation-valid" data-valmsg-for="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[c0f59d71-ce27-46f9-9cd1-32fd01e7655d].Value" data-valmsg-replace="true"></span><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_Index_be989449-7620-4390-a943-ce3a18288e23" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields.Index" type="hidden" value="be989449-7620-4390-a943-ce3a18288e23"><input id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_be989449-7620-4390-a943-ce3a18288e23__ItemId" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[be989449-7620-4390-a943-ce3a18288e23].ItemId" type="hidden" value="be989449-7620-4390-a943-ce3a18288e23"><label class="custom__form__checkbox__label--item required" aria-required="true">
+    <input type="checkbox" id="fxb_28840854-e6b8-496c-b947-093739e6e6fe_Fields_be989449-7620-4390-a943-ce3a18288e23__Value" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[be989449-7620-4390-a943-ce3a18288e23].Value" class="custom__form__checkbox--item" value="true" data-sc-tracking="True" data-sc-field-name="checkbox_4" data-sc-field-key="7F3F61957C9C4C4191961CE5A92A26A7" data-val-required="The Value field is required." data-val="true">I agree that Nina Hospitality may disclose to and/or share with any related third party the personal data that I provide to it, pursuant to the Privacy Policy and its addendum, if it is necessary to do so in light of its business needs.
+    <input type="hidden" name="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[be989449-7620-4390-a943-ce3a18288e23].Value" value="false">
+</label>
+<span class="field-validation-valid" data-valmsg-for="fxb.28840854-e6b8-496c-b947-093739e6e6fe.Fields[be989449-7620-4390-a943-ce3a18288e23].Value" data-valmsg-replace="true"></span>
+</div>
+<script src="/scripts/newLetterNewTerms.js"></script>        <input type="hidden" data-sc-fxb-condition="" value="{
+  &quot;fieldConditions&quot;: [
+    {
+      &quot;matchType&quot;: &quot;any&quot;,
+      &quot;conditions&quot;: [
+        {
+          &quot;fieldId&quot;: &quot;E8689D8FB8C94FF9893E9865667A6D1B&quot;,
+          &quot;operator&quot;: &quot;contains&quot;,
+          &quot;value&quot;: &quot;@&quot;
+        }
+      ],
+      &quot;actions&quot;: [
+        {
+          &quot;fieldId&quot;: &quot;37288ACC6D5045C1B321B340AAE59D7E&quot;,
+          &quot;actionType&quot;: &quot;hide&quot;,
+          &quot;value&quot;: null
+        }
+      ]
+    },
+    {
+      &quot;matchType&quot;: &quot;any&quot;,
+      &quot;conditions&quot;: [
+        {
+          &quot;fieldId&quot;: &quot;E8689D8FB8C94FF9893E9865667A6D1B&quot;,
+          &quot;operator&quot;: &quot;does not contain&quot;,
+          &quot;value&quot;: &quot;@&quot;
+        },
+        {
+          &quot;fieldId&quot;: &quot;E8689D8FB8C94FF9893E9865667A6D1B&quot;,
+          &quot;operator&quot;: &quot;is equal to&quot;,
+          &quot;value&quot;: &quot;&quot;
+        }
+      ],
+      &quot;actions&quot;: [
+        {
+          &quot;fieldId&quot;: &quot;37288ACC6D5045C1B321B340AAE59D7E&quot;,
+          &quot;actionType&quot;: &quot;show&quot;,
+          &quot;value&quot;: null
+        }
+      ]
+    }
+  ]
+}">
+</form>
+</div>
+    </div>
+</div>
+
+</div>        </div>
+    </div>
+
+    <div class="component nina-footer-wrapper nina-footer-wrapper col-12">
+        <div class="component-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--/en/nina-hotel-tsuen-wan-west-->
+<div class="footer-top-wrapper">
+    <div class="footer-top-col-wrapper">
+        <div class="footer-top-left-part">
+            <h3 class="footer-col-title">Nina Hotel Tsuen Wan West</h3>
+            <div class="footer-info-content-wrapper">
+                
+                
+                
+                
+                
+                
+                
+                <a rel="noopener noreferrer" class="footer-info-address footer-col-link">8 Yeung Uk Road, Tsuen Wan, Hong Kong</a>
+                
+                <a href="tel:+85222802898" rel="noopener noreferrer" class="footer-info-contact-phone footer-col-link">+852 2280 2898</a>
+                
+                <a href="mailto:info.tww@ninahotelgroup.com" rel="noopener noreferrer" class="footer-info-contact-email footer-col-link">info.tww@ninahotelgroup.com</a>
+                
+                
+                
+                
+            </div>
+        </div>
+        <div class="footer-top-right-part">
+            
+            
+            
+            
+            <div class="footer-col-wrapper">
+                <h3>About</h3>
+                
+                
+                <ul>
+                    
+                    <li>
+                        <a href="/en" rel="noopener noreferrer" class="footer-col-link">Nina Hospitality</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/hotels-and-residences" rel="noopener noreferrer" class="footer-col-link">Hotels and residences</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/careers" rel="noopener noreferrer" class="footer-col-link">Careers</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/nina-hotel-tsuen-wan-west/contact-us" rel="noopener noreferrer" class="footer-col-link">Contact us</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.chinachemgroup.com/en/" rel="noopener noreferrer" class="footer-col-link" target="_blank">Chinachem Group</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+            
+            
+            
+            
+            
+            <div class="footer-col-wrapper">
+                <h3>Enjoy</h3>
+                
+                
+                <ul>
+                    
+                    <li>
+                        <a href="/en/nina-hotel-tsuen-wan-west/rooms" rel="noopener noreferrer" class="footer-col-link">Rooms</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/nina-hotel-tsuen-wan-west/dining" rel="noopener noreferrer" class="footer-col-link">Restaurants</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/nina-hotel-tsuen-wan-west/offers" rel="noopener noreferrer" class="footer-col-link">Offers</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/nina-hotel-tsuen-wan-west/meetings-and-events" rel="noopener noreferrer" class="footer-col-link">Meetings and events</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/nina-hotel-tsuen-wan-west/weddings" rel="noopener noreferrer" class="footer-col-link">Weddings</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+            
+            
+            
+            
+            
+            <div class="footer-col-wrapper">
+                <h3>Support</h3>
+                
+                
+                <ul>
+                    
+                    <li>
+                        <a href="/en/news/latest-news" rel="noopener noreferrer" class="footer-col-link">Latest news</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/nina-hotel-tsuen-wan-west/news/awards-and-accolades" rel="noopener noreferrer" class="footer-col-link">Awards and accolades</a>
+                    </li>
+                    
+                    <li>
+                        <a rel="noopener noreferrer" class="footer-col-link">Multimedia library</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/nina-hotel-tsuen-wan-west/news/fact-sheet" rel="noopener noreferrer" class="footer-col-link">Fact sheet</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/en/gds" rel="noopener noreferrer" class="footer-col-link">GDS Code</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+            
+            
+            
+            
+            
+            <div class="footer-col-wrapper">
+                <h3>Loyalty Programme&ZeroWidthSpace;</h3>
+                
+                
+                <ul>
+                    
+                    <li>
+                        <a href="https://www.chinachemgroup.com/ccg-hearts" rel="noopener noreferrer" class="footer-col-link">CCG Hearts</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <div class="footer-top-scroll-wrapper">
+        
+        
+        <!--/sitecore/content/Nina/Nina/Nina Dictionary/Scroll To Top-->
+        <a class="footer-top-scroll-btn" title="Scroll To Top">Scroll to top</a>
+    </div>
+    
+</div>
+<div class="footer-bottom-wrapper">
+    <div class="footer-bottom-left-part">
+        <div class="row">
+            <div class="component link-list col-12">
+                <div class="component-content">
+                    <ul>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li>
+                            <div class="field-link">
+                                <a href="https://www.facebook.com/ninahoteltsuenwanwest/" rel="noopener noreferrer" class=" footer-social-facebook" target="_blank">Facebook</a>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="field-link">
+                                <a href="https://www.instagram.com/ninahoteltsuenwanwest/" rel="noopener noreferrer" class=" footer-social-instagram" target="_blank">Instagram</a>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="field-link">
+                                <a href="https://hk.linkedin.com/company/ninahospitality" rel="noopener noreferrer" class=" footer-social-linkin" target="_blank">LinkedIn</a>
+                            </div>
+                        </li>
+                        
+                        
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-upload-text-wrapper">
+            <span class="footer-bottom-upload-text"></span>
+        </div>
+    </div>
+
+    <div class="footer-bottom-right-part">
+        <div class="footer-bottom-right-part-content">
+            <span class="footer-bottom-right-copyright">© 2023 Nina Hospitality</span>
+            <span class="vertical-line"></span>
+            <a href="/en/disclaimer" rel="noopener noreferrer" class="footer-bottom-right-link">Disclaimer</a>
+            <span class="vertical-line"></span>
+            <a href="/en/privacy-policy" rel="noopener noreferrer" class="footer-bottom-right-link">Privacy Policy</a>
+        </div>
+        <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/logos/footer/amemberofchinachem-logo-revised.svg?rev=e41a6198a7cc4b988769b6791b85bd48" class="footer-bottom-right-part-logo">
+    </div>
+</div>        </div>
+    </div>
+</div>
+        </div>
+    </footer>
+    <!-- /#footer -->
+</div>
 </body>
 </html>
