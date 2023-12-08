@@ -16,13 +16,13 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
-    <div id="main">
+    <#--<div id="main">-->
     	<!-- Main -->
        <main>
         <div class="inner">
     
             <!-- Header -->
-            <#--<@renderComponent component=contentModel.header_o.item />-->
+            <@renderComponent component=contentModel.header_o.item />
 
     <@crafter.section $model=contentModel>
             <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
@@ -30,7 +30,8 @@
     
             </div>
       </main>
-    </div>
+    <#--</div>-->
+    
   <!-- Left Rail -->
   <@renderComponent component=contentModel.left_rail_o.item />
 
