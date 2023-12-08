@@ -388,7 +388,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value></value>
+							<value>/site/taxonomy/themes.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
