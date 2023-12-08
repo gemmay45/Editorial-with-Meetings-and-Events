@@ -14,15 +14,13 @@
               $field="statsItems_o"
               $containerTag="div"
               $containerAttributes={"class":"stats-bar-detail-list"}
+              $itemAttributes={"class":"stats-bar-detail-item"}
               $itemTag="div";
               item, index
             >
             
-        <div class="stats-bar-detail-list">
-            <@crafter.div class="stats-bar-detail-item">
                 <@crafter.img $field="statsItems_o" class="image lazyload-img" src="${item.icon_s}" />
                 <@crafter.p $field="statsItems_o" class="stats-bar-detail-desc">${item.name_s}</@crafter.p>
-            </@crafter.div>
 
             
             <#--<div class="stats-bar-detail-item">
@@ -35,7 +33,6 @@
                 <p class="stats-bar-detail-desc">Food &amp; Beverage</p>
             </div>
             -->
-        </div>
 </@crafter.renderRepeatGroup>
         
     </div>
