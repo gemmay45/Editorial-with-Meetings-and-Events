@@ -12,7 +12,11 @@
     <@crafter.h2 $field="title_s" class="desc-title"><font color="#817456">${contentModel.title_s!""}</font></@crafter.h2>
     <h3 class="desc-subtitle"></h3>
     <div class="horizontal-line"></div>
-    <p class="desc-body">Café Circles is a unique setting for any occasion. Centred around a 12-metre long communal table that encourages everyone to be social, the café attracts a crowd who loves its famous buffet. Open all day, and the perfect place to congregate or escape, Café Circles serves delicious international and Asian food, to a backdrop of views across Tsuen Wan and the Rambler Channel.</p>
+    <@crafter.div class="desc-body" $field="description_html">
+        <div>
+        ${contentModel.description_html}
+        </div>
+    </@crafter.div>
 </div>
 
 
