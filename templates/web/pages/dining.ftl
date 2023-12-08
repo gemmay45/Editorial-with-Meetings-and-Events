@@ -24,7 +24,8 @@
     			
     	<div id="content" class="">
             <div class="row">
-<div class="row"><div class="page-hero-banner-container">
+
+<div class="page-hero-banner-container">
     <div class="component hero-carousel module-component container-fluid banner-wrapper contact-banner-wrapper">
         <div class="component-content">
  
@@ -851,7 +852,7 @@ Price: HK$468* for 2 persons</p>
 
         </div>
     </div>
-</div>
+
 
     			<!-- Content -->
                 <#--<@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>-->
