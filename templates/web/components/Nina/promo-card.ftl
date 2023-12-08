@@ -39,8 +39,8 @@
     
     <div class="single-card-content-wrapper">
         <h3 class="single-card-content-title"></h3>
-        <p class="single-card-content"></p><p>With over 30 years of culinary experience, Chef Ken specializes in Western Cuisines and is passionate about infusing innovative cooking techniques into traditional dishes. An award-winning Chef, Ken has participated in different international culinary competitions and has received numerous recognitions over the years. He is a core member of the Hong Kong Culinary National Team and has won 1 Gold and 1 Silver medal in both the Culinary World Cup 2018 and IKA Culinary Olympics 2016, in the Western Cuisine Cold Display and Hot Cooking categories. </p>
-<p>Prior to joining Nina Hotel, Chef Ken previously held key positions at the Hong Kong Jockey Club and the Hong Kong Disneyland. With his extensive culinary experience and creativity, Café Circles will surely curate a brand-new dining experience for all diners.</p><p></p>
+        <p class="single-card-content"></p>
+        <@crafter.span $field="description_html">${contentModel.description_html!""}</@crafter.span>
         
     </div>
 </div>
