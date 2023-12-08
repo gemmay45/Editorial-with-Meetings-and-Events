@@ -10,7 +10,7 @@
         <div class="desc-wrapper">
             <div class="desc">
                 <@crafter.h2 $field="title_s" class="title"><span style="color: #817456;">${contentModel.title_s}</span></@crafter.h2>
-                <@crafter.div $field="bodyContent_t" class="body">${contentModel.bodyContent_t}</@crafter.div>
+                <@crafter.div $field="bodyContent_t" class="body">${contentModel.bodyContent_t!""}</@crafter.div>
                 <#if contentModel.link_s?hasContent>
                     <@crafter.a $field="CTAName_s" class="explore-more-btn" href="${contentModel.link_s}">${contentModel.CTAName_s}</@crafter.a>
                 </#if>
