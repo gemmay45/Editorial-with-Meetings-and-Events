@@ -29,7 +29,7 @@
     </div>
 
         <div class="single-card-layout-content-wrapper">
-            <h2 class="single-card-layout-content-title">Plugged In</h2>
+            <@crafter.h2 class="single-card-layout-content-title">${contentModel.title_s}</@crafter.h2>
             <div class="horizontal-line"></div>
             <div class="single-card-layout-content">
                 Technology plays a key role in pretty much every one of our business get togethers these days.&nbsp; That’s why Nina has invested in the most up to date hardware, and why our tech team is always on standby to connect you and keep you tuned in.
