@@ -16,7 +16,7 @@
   <createdDate>2023-12-08T04:02:40.338Z</createdDate>
   <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
   <lastModifiedDate>2023-12-08T06:35:34.901Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-08T06:55:54.238Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-08T06:57:10.192Z</lastModifiedDate_dt>
   <pageSections_o item-list="true">
     <item inline="true">
       <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
@@ -102,6 +102,25 @@
         <createdDate_dt>2023-12-08T06:55:54.237Z</createdDate_dt>
         <lastModifiedDate_dt>2023-12-08T06:55:54.237Z</lastModifiedDate_dt>
         <objectId>e1c349f1-1d97-4716-9ad8-23888fa88116</objectId>
+      </component>
+    </item>
+    <item inline="true">
+      <key>988c47cf-1dce-432a-bf69-d86cd6a2567b</key>
+      <value><![CDATA[New Fullwidth Callout]]></value>
+      <component id="988c47cf-1dce-432a-bf69-d86cd6a2567b">
+        <content-type>/component/fullwidthcallout</content-type>
+        <display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
+        <internal-name><![CDATA[New Fullwidth Callout]]></internal-name>
+        <file-name>988c47cf-1dce-432a-bf69-d86cd6a2567b.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-08T06:57:10.192Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T06:57:10.192Z</lastModifiedDate_dt>
+        <objectId>988c47cf-1dce-432a-bf69-d86cd6a2567b</objectId>
+        <title_s/>
+        <bodyContent_t/>
+        <image_s/>
+        <CTAName_s/>
+        <link_s/>
       </component>
     </item>
   </pageSections_o>
