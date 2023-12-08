@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/booking-widget.ftl</value>
+			<value>/templates/web/components/Nina/booking-widget.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
