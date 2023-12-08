@@ -11,7 +11,7 @@
             <#if contentModel.imageforMobile_s?hasContent>
                 <div class="for-mobile"><@crafter.img $field="imageforMobile_s" src=(contentModel.imageforMobile_s) alt="" /></div>
             <#else>
-                <div class="for-mobile"><@crafter.img $field="imageforMobile_s" src=(contentModel.imageforDesktop_s) alt="" /></div>
+                <div class="for-mobile"><@crafter.img src=(contentModel.imageforDesktop_s) alt="" /></div>
             </#if>
             
              <div class="row"></div>
