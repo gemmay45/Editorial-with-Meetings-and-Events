@@ -59,9 +59,13 @@
                             </div>
                         </#if>						
                     </div>
+
                     <div class="events-card-content-links">
 						<a href="/en/event-enquiry" rel="noopener noreferrer" class="reserve-now-btn">Reserve now</a> 
-						<a href="/en/nina-hotel-tsuen-wan-west/meetings-and-events/nina-ballroom" rel="noopener noreferrer" class="explore-more-btn">Explore more</a> 
+						
+						<#if contentModel.link_s?hasContent>
+                            <@crafter.a $field="CTAName_s" class="explore-more-btn" href="${contentModel.link_s}" rel="noopener noreferrer" class="explore-more-btn">${contentModel.CTAName_s}</@crafter.a>
+                        </#if>
                     </div>
                 </div>
             </div>
