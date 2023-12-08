@@ -306,7 +306,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>/site/taxonomy/image-positions</value>
+							<value>/site/taxonomy/image-position</value>
 								<type>string</type>
 						</property>
 					</properties>
