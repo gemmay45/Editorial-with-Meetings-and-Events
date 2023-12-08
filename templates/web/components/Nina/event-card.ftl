@@ -61,8 +61,10 @@
                     </div>
 
                     <div class="events-card-content-links">
-						<a href="/en/event-enquiry" rel="noopener noreferrer" class="reserve-now-btn">Reserve now</a> 
-						
+						<#if contentModel.reserveLink_s?hasContent>
+						    <a href="${contentModel.reserveLink_s}" rel="noopener noreferrer" class="reserve-now-btn">Reserve now</a> 
+						</#if>
+						                        
 						<#if contentModel.link_s?hasContent>
                             <@crafter.a $field="CTAName_s" class="explore-more-btn" href="${contentModel.link_s}" rel="noopener noreferrer" class="explore-more-btn">${contentModel.CTAName_s}</@crafter.a>
                         </#if>
