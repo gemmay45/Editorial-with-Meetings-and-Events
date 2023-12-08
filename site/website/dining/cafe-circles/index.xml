@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T06:15:56.085Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T06:15:56.085Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T06:29:55.307Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T06:29:55.307Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -39,6 +39,7 @@
       </component>
 	</item>	<item inline="true">	<key>01d29a67-748f-44d4-8eab-186ba25be890</key>
 	<value>New Exp Selection Card</value>
+	<disableFlattening>false</disableFlattening>
 <component id="01d29a67-748f-44d4-8eab-186ba25be890">
 	<content-type>/component/expselectioncard</content-type>
 	<display-template>/templates/web/components/Nina/exp-selection-card.ftl</display-template>
@@ -47,13 +48,15 @@
 	<internal-name>New Exp Selection Card</internal-name>
 	<file-name>01d29a67-748f-44d4-8eab-186ba25be890.xml</file-name>
 	<createdDate_dt>2023-12-08T06:16:00.112Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T06:16:00.112Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T06:29:56.267Z</lastModifiedDate_dt>
 	<objectId>01d29a67-748f-44d4-8eab-186ba25be890</objectId>
 	<folder-name/>
 	<createdDate>2023-12-08T06:16:00.112Z</createdDate>
-	<lastModifiedDate>2023-12-08T06:16:00.112Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T06:29:56.267Z</lastModifiedDate>
+	<title_s>Café Circles</title_s>
+	<image_s/>
+	<description_html>&lt;p&gt;Caf&amp;eacute; Circles is a unique setting for any occasion. Centred around a 12-metre long communal table that encourages everyone to be social, the caf&amp;eacute; attracts a crowd who loves its famous buffet. Open all day, and the perfect place to congregate or escape, Caf&amp;eacute; Circles serves delicious international and Asian food, to a backdrop of views across Tsuen Wan and the Rambler Channel.&lt;/p&gt;</description_html>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
