@@ -16,7 +16,7 @@
   <createdDate>2023-12-08T04:02:40.338Z</createdDate>
   <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
   <lastModifiedDate>2023-12-08T12:32:44.958Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-08T12:38:52.961Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-08T12:39:03.184Z</lastModifiedDate_dt>
   <pageSections_o item-list="true">
     <item inline="true">
       <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
@@ -110,24 +110,6 @@
         <createdDate>2023-12-08T06:58:39.747Z</createdDate>
         <lastModifiedDate>2023-12-08T07:19:54.615Z</lastModifiedDate>
         <description_html>&lt;p&gt;Nina has for many years been known for her authentic Palmier biscuits, and noting everyone&amp;rsquo;s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.&lt;/p&gt;</description_html>
-      </component>
-    </item>
-    <item inline="true">
-      <key>fd0869ce-76ae-4c88-b93d-71ce549ab458</key>
-      <value><![CDATA[New Promo Card]]></value>
-      <component id="fd0869ce-76ae-4c88-b93d-71ce549ab458">
-        <content-type>/component/promocard</content-type>
-        <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
-        <internal-name><![CDATA[New Promo Card]]></internal-name>
-        <file-name>fd0869ce-76ae-4c88-b93d-71ce549ab458.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-08T12:38:52.960Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-08T12:38:52.960Z</lastModifiedDate_dt>
-        <objectId>fd0869ce-76ae-4c88-b93d-71ce549ab458</objectId>
-        <title_s/>
-        <subtitle_s/>
-        <image_s/>
-        <description_html/>
       </component>
     </item>
   </pageSections_o>
