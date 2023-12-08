@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T03:13:12.504Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T03:13:12.504Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T03:13:57.781Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T03:13:57.781Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -191,7 +191,7 @@
 	<internal-name>New Event Card</internal-name>
 	<file-name>35d1d23c-081b-4917-8b9b-88a2625d5254.xml</file-name>
 	<createdDate_dt>2023-12-08T03:04:36.662Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T03:13:13.522Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T03:13:58.917Z</lastModifiedDate_dt>
 	<objectId>35d1d23c-081b-4917-8b9b-88a2625d5254</objectId>
 	<title_s>Nina Ballroom</title_s>
 	<description_html>&lt;p&gt;Being one of the largest ballrooms in Hong Kong, the Nina Ballroom combines splendid designs and stylish d&amp;eacute;cor inspired by the elegance of nature, together with the most advanced audio and visual facilities, spacious pre-function area and the exquisitely crafted bridal room The Moment. It is the most ideal setting for delivering heartfelt moments to every guest in any occasion.&lt;/p&gt;</description_html>
@@ -203,7 +203,7 @@
 	<link_s>#</link_s>
 	<folder-name/>
 	<createdDate>2023-12-08T03:04:36.662Z</createdDate>
-	<lastModifiedDate>2023-12-08T03:13:13.522Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T03:13:58.917Z</lastModifiedDate>
 </component>
 	</item></pageSections_o>
 </page>
