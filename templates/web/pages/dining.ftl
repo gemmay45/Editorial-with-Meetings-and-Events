@@ -17,10 +17,10 @@
 <!-- Wrapper -->
 <div id="wrapper">
 	<!-- Main -->
-	<div id="main">
+	<#--<div id="main">-->
 	<main>
     			<!-- Header -->
-    			<@renderComponent component = contentModel.header_o.item />
+    			<#--<@renderComponent component = contentModel.header_o.item />-->
     			
     	<div id="content" class="">
             <div class="row">
@@ -866,7 +866,7 @@ Price: HK$468* for 2 persons</p>
 	<!-- Left Rail -->
 	<@renderComponent component = contentModel.left_rail_o.item additionalModel = additionalModel />
     </main>
-</div>
+<#--</div>-->
 
 <#include "/templates/web/fragments/scripts.ftl">
 
