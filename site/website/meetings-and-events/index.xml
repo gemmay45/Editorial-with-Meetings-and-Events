@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T03:32:16.290Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T03:32:16.290Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T03:32:46.145Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T03:32:46.145Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -242,20 +242,21 @@
 	<internal-name>New Event Card</internal-name>
 	<file-name>f02689ae-dd17-4e35-a2dc-17203c87c98e.xml</file-name>
 	<createdDate_dt>2023-12-08T03:31:58.004Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T03:31:58.004Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T03:32:47.034Z</lastModifiedDate_dt>
 	<objectId>f02689ae-dd17-4e35-a2dc-17203c87c98e</objectId>
-	<title_s/>
-	<description_html/>
+	<title_s>Function Rooms</title_s>
+	<description_html>&lt;p&gt;Extremely flexible and spacious facilities make Nina Hotel Tsuen Wan West the best place to host your special occasions.&lt;/p&gt;</description_html>
 	<image_s>/static-assets/images/nina/meeting-and-events/20220829_function-room-2_365_hdr_high-res_final-v2_r_1440x500.jpg</image_s>
 	<imagePosition_s/>
-	<area_s/>
-	<seatings_s/>
-	<CTAName_s/>
-	<link_s/>
-	<reserveLink_s/>
+	<area_s>942 sqm / 10,140 sq. ft.</area_s>
+	<seatings_s>up to 690 seatings</seatings_s>
+	<CTAName_s>Explore more</CTAName_s>
+	<link_s>#</link_s>
+	<reserveLink_s>#</reserveLink_s>
 	<folder-name/>
 	<createdDate>2023-12-08T03:31:58.004Z</createdDate>
-	<lastModifiedDate>2023-12-08T03:31:58.004Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T03:32:47.034Z</lastModifiedDate>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 </page>
