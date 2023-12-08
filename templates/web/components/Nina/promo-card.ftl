@@ -5,7 +5,7 @@
 
 
 <div class="single-card-top-wrapper" data-bg-color="">
-    <h2 class="single-card-top-title">The talent behind the taste</h2>
+    <@crafter.h2 $field="title_s" class="single-card-top-title">${contentModel.title_s!""}</@crafter.h2>
     <span class="single-card-top-subtitle">Ken Tse | Executive Chef</span>
 </div>
 <div class="single-card-bottom-wrapper">
