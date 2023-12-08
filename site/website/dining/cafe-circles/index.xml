@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/dining</content-type>
-	<display-template>/templates/web/pages/dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>adbe</objectGroupId>
-	<objectId>adbef803-8d20-55b2-29d6-dc16f6f2de91</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>cafe-circles</folder-name>
-	<internal-name>Café Circles</internal-name>
-	<navLabel>Café Circles</navLabel>
-	<relatedOffers_o item-list="true"/>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
-	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T12:32:44.958Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T12:32:44.958Z</lastModifiedDate_dt>
-	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
-	<value>New Hero Banner with Title</value>
-	<disableFlattening>false</disableFlattening>
-<component id="406462c0-3751-4206-8dbb-f94e4a9aa88a">
+  <content-type>/page/dining</content-type>
+  <display-template>/templates/web/pages/dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>adbe</objectGroupId>
+  <objectId>adbef803-8d20-55b2-29d6-dc16f6f2de91</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>cafe-circles</folder-name>
+  <internal-name>Café Circles</internal-name>
+  <navLabel>Café Circles</navLabel>
+  <relatedOffers_o item-list="true"/>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <createdDate>2023-12-08T04:02:40.338Z</createdDate>
+  <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
+  <lastModifiedDate>2023-12-08T12:32:44.958Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-08T12:38:52.961Z</lastModifiedDate_dt>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
+      <value>New Hero Banner with Title</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="406462c0-3751-4206-8dbb-f94e4a9aa88a">
         <content-type>/component/herobannerwithtitle</content-type>
         <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
         <no-template-required/>
@@ -37,10 +39,12 @@
         <createdDate>2023-12-08T04:56:26.573Z</createdDate>
         <lastModifiedDate>2023-12-08T04:58:35.902Z</lastModifiedDate>
       </component>
-	</item>	<item inline="true">	<key>01d29a67-748f-44d4-8eab-186ba25be890</key>
-	<value>New Exp Selection Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="01d29a67-748f-44d4-8eab-186ba25be890">
+    </item>
+    <item inline="true">
+      <key>01d29a67-748f-44d4-8eab-186ba25be890</key>
+      <value>New Exp Selection Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="01d29a67-748f-44d4-8eab-186ba25be890">
         <content-type>/component/expselectioncard</content-type>
         <display-template>/templates/web/components/Nina/exp-selection-card.ftl</display-template>
         <no-template-required/>
@@ -57,54 +61,77 @@
         <image_s>/static-assets/images/nina/dining/cafe-circles/dessert-buffet-table---wide-shot_600x900.jpg</image_s>
         <description_html>&lt;p&gt;Caf&amp;eacute; Circles is a unique setting for any occasion. Centred around a 12-metre long communal table that encourages everyone to be social, the caf&amp;eacute; attracts a crowd who loves its famous buffet. Open all day, and the perfect place to congregate or escape, Caf&amp;eacute; Circles serves delicious international and Asian food, to a backdrop of views across Tsuen Wan and the Rambler Channel.&lt;/p&gt;</description_html>
       </component>
-	</item>	<item inline="true">	<key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
-	<value>New Promo Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="e1c349f1-1d97-4716-9ad8-23888fa88116">
-	<content-type>/component/promocard</content-type>
-	<display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Promo Card</internal-name>
-	<file-name>e1c349f1-1d97-4716-9ad8-23888fa88116.xml</file-name>
-	<createdDate_dt>2023-12-08T07:44:39.827Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T08:01:29.901Z</lastModifiedDate_dt>
-	<objectId>e1c349f1-1d97-4716-9ad8-23888fa88116</objectId>
-	<folder-name/>
-	<title_s>The talent behind the taste</title_s>
-	<image_s>/static-assets/images/nina/dining/cafe-circles/1025_chef-ken_560x303_3.jpg</image_s>
-	<createdDate>2023-12-08T07:44:39.827Z</createdDate>
-	<lastModifiedDate>2023-12-08T08:01:29.901Z</lastModifiedDate>
-	<subtitle_s>Ken Tse | Executive Chef</subtitle_s>
-	<description_html>&lt;p&gt;With over 30 years of culinary experience, Chef Ken specializes in Western Cuisines and is passionate about infusing innovative cooking techniques into traditional dishes. An award-winning Chef, Ken has participated in different international culinary competitions and has received numerous recognitions over the years. He is a core member of the Hong Kong Culinary National Team and has won 1 Gold and 1 Silver medal in both the Culinary World Cup 2018 and IKA Culinary Olympics 2016, in the Western Cuisine Cold Display and Hot Cooking categories.&lt;/p&gt;
+    </item>
+    <item inline="true">
+      <key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
+      <value>New Promo Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="e1c349f1-1d97-4716-9ad8-23888fa88116">
+        <content-type>/component/promocard</content-type>
+        <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Promo Card</internal-name>
+        <file-name>e1c349f1-1d97-4716-9ad8-23888fa88116.xml</file-name>
+        <createdDate_dt>2023-12-08T07:44:39.827Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T08:01:29.901Z</lastModifiedDate_dt>
+        <objectId>e1c349f1-1d97-4716-9ad8-23888fa88116</objectId>
+        <folder-name/>
+        <title_s>The talent behind the taste</title_s>
+        <image_s>/static-assets/images/nina/dining/cafe-circles/1025_chef-ken_560x303_3.jpg</image_s>
+        <createdDate>2023-12-08T07:44:39.827Z</createdDate>
+        <lastModifiedDate>2023-12-08T08:01:29.901Z</lastModifiedDate>
+        <subtitle_s>Ken Tse | Executive Chef</subtitle_s>
+        <description_html>&lt;p&gt;With over 30 years of culinary experience, Chef Ken specializes in Western Cuisines and is passionate about infusing innovative cooking techniques into traditional dishes. An award-winning Chef, Ken has participated in different international culinary competitions and has received numerous recognitions over the years. He is a core member of the Hong Kong Culinary National Team and has won 1 Gold and 1 Silver medal in both the Culinary World Cup 2018 and IKA Culinary Olympics 2016, in the Western Cuisine Cold Display and Hot Cooking categories.&lt;/p&gt;
 &lt;p&gt;Prior to joining Nina Hotel, Chef Ken previously held key positions at the Hong Kong Jockey Club and the Hong Kong Disneyland. With his extensive culinary experience and creativity, Caf&amp;eacute; Circles will surely curate a brand-new dining experience for all diners.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
-</component>
-	</item>	<item inline="true">	<key>988c47cf-1dce-432a-bf69-d86cd6a2567b</key>
-	<value>New Fullwidth Callout</value>
-	<disableFlattening>false</disableFlattening>
-<component id="988c47cf-1dce-432a-bf69-d86cd6a2567b">
-	<content-type>/component/fullwidthcallout</content-type>
-	<display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Fullwidth Callout</internal-name>
-	<file-name>988c47cf-1dce-432a-bf69-d86cd6a2567b.xml</file-name>
-	<createdDate_dt>2023-12-08T06:58:39.747Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T07:19:54.615Z</lastModifiedDate_dt>
-	<objectId>988c47cf-1dce-432a-bf69-d86cd6a2567b</objectId>
-	<title_s>Nina Patisserie</title_s>
-	<bodyContent_t>Nina has for many years been known for her authentic Palmier biscuits, and noting everyone’s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.</bodyContent_t>
-	<image_s>/static-assets/images/nina/dining/cafe-circles/ninapatisserie_eshopbanner_1441x501-01.jpg</image_s>
-	<CTAName_s>Order now</CTAName_s>
-	<link_s>#</link_s>
-	<folder-name/>
-	<createdDate>2023-12-08T06:58:39.747Z</createdDate>
-	<lastModifiedDate>2023-12-08T07:19:54.615Z</lastModifiedDate>
-	<description_html>&lt;p&gt;Nina has for many years been known for her authentic Palmier biscuits, and noting everyone&amp;rsquo;s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.&lt;/p&gt;</description_html>
-</component>
-	</item></pageSections_o>
-	<disabled>false</disabled>
-	<header_o item-list="true"/>
-	<leftRail_o item-list="true"/>
+      </component>
+    </item>
+    <item inline="true">
+      <key>988c47cf-1dce-432a-bf69-d86cd6a2567b</key>
+      <value>New Fullwidth Callout</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="988c47cf-1dce-432a-bf69-d86cd6a2567b">
+        <content-type>/component/fullwidthcallout</content-type>
+        <display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Fullwidth Callout</internal-name>
+        <file-name>988c47cf-1dce-432a-bf69-d86cd6a2567b.xml</file-name>
+        <createdDate_dt>2023-12-08T06:58:39.747Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T07:19:54.615Z</lastModifiedDate_dt>
+        <objectId>988c47cf-1dce-432a-bf69-d86cd6a2567b</objectId>
+        <title_s>Nina Patisserie</title_s>
+        <bodyContent_t>Nina has for many years been known for her authentic Palmier biscuits, and noting everyone’s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.</bodyContent_t>
+        <image_s>/static-assets/images/nina/dining/cafe-circles/ninapatisserie_eshopbanner_1441x501-01.jpg</image_s>
+        <CTAName_s>Order now</CTAName_s>
+        <link_s>#</link_s>
+        <folder-name/>
+        <createdDate>2023-12-08T06:58:39.747Z</createdDate>
+        <lastModifiedDate>2023-12-08T07:19:54.615Z</lastModifiedDate>
+        <description_html>&lt;p&gt;Nina has for many years been known for her authentic Palmier biscuits, and noting everyone&amp;rsquo;s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.&lt;/p&gt;</description_html>
+      </component>
+    </item>
+    <item inline="true">
+      <key>fd0869ce-76ae-4c88-b93d-71ce549ab458</key>
+      <value><![CDATA[New Promo Card]]></value>
+      <component id="fd0869ce-76ae-4c88-b93d-71ce549ab458">
+        <content-type>/component/promocard</content-type>
+        <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
+        <internal-name><![CDATA[New Promo Card]]></internal-name>
+        <file-name>fd0869ce-76ae-4c88-b93d-71ce549ab458.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-08T12:38:52.960Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T12:38:52.960Z</lastModifiedDate_dt>
+        <objectId>fd0869ce-76ae-4c88-b93d-71ce549ab458</objectId>
+        <title_s/>
+        <subtitle_s/>
+        <image_s/>
+        <description_html/>
+      </component>
+    </item>
+  </pageSections_o>
+  <disabled>false</disabled>
+  <header_o item-list="true"/>
+  <leftRail_o item-list="true"/>
 </page>
