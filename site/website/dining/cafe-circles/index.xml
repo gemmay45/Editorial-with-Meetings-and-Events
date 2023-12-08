@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T07:01:57.685Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T07:01:57.685Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T07:19:49.763Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T07:19:49.763Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -107,7 +107,7 @@
 	<internal-name>New Fullwidth Callout</internal-name>
 	<file-name>988c47cf-1dce-432a-bf69-d86cd6a2567b.xml</file-name>
 	<createdDate_dt>2023-12-08T06:58:39.747Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T07:01:58.779Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T07:19:54.615Z</lastModifiedDate_dt>
 	<objectId>988c47cf-1dce-432a-bf69-d86cd6a2567b</objectId>
 	<title_s>Nina Patisserie</title_s>
 	<bodyContent_t>Nina has for many years been known for her authentic Palmier biscuits, and noting everyone’s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.</bodyContent_t>
@@ -116,7 +116,8 @@
 	<link_s>#</link_s>
 	<folder-name/>
 	<createdDate>2023-12-08T06:58:39.747Z</createdDate>
-	<lastModifiedDate>2023-12-08T07:01:58.779Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T07:19:54.615Z</lastModifiedDate>
+	<description_html>&lt;p&gt;Nina has for many years been known for her authentic Palmier biscuits, and noting everyone&amp;rsquo;s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.&lt;/p&gt;</description_html>
 </component>
 	</item></pageSections_o>
 	<disabled>false</disabled>
