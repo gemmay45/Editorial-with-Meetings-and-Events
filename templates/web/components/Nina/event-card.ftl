@@ -46,15 +46,13 @@
                     <div class="events-card-content-logos-wrapper">
 						
                         <div class="events-card-content-logo">
-                                 <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/room/ninahospitality-roomsize-icon.png?rev=3d95a6297f2f4dd8bc3dc7541e77ced6" alt="">
+                                <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/room/ninahospitality-roomsize-icon.png?rev=3d95a6297f2f4dd8bc3dc7541e77ced6" alt="">
                                 <@crafter.span $field="area_s">${contentModel.area_s}</@crafter.span>
-                            <!-- </a> -->
                         </div>
 						
                         <div class="events-card-content-logo">
-                                 <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/nhg-features/ninahospitality-clubhouse-icon.svg?rev=41be2099aecb4a95adc122638c30a8b1" alt="">
-                                <span>up to 1,100 seatings</span>
-                            <!-- </a> -->
+                                <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/nhg-features/ninahospitality-clubhouse-icon.svg?rev=41be2099aecb4a95adc122638c30a8b1" alt="">
+                                <@crafter.span $field="seatings_s">${contentModel.seatings_s}</@crafter.span>
                         </div>
 						
                     </div>
