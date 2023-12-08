@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<div class="component events-card-wrapper col-12 with-icon-and-desc">
+<div class="component events-card-wrapper col-12 with-icon-and-desc ${contentModel.imagePosition_s}">
         <div class="component-content">
         <div class="component sclwg-list module-component events-card-wrapper with-icon-and-desc">
             <div class="component-content">
