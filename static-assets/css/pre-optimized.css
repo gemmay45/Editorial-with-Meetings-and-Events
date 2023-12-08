@@ -55089,7 +55089,7 @@ body#global .experience-selection {
 
 body#global .experience-selection::before {
     content: "";
-    background-image: url(../images/Global-Logo-pattern.svg);
+    background-image: url(../images/nina/grand/Global-Logo-pattern.svg);
     background-repeat: round;
     position: absolute;
     width: 40%;
@@ -56548,7 +56548,7 @@ body#grand .single-card-layout-wrapper .single-card-layout-content-wrapper {
 
 body#grand .single-card-layout-wrapper .single-card-layout-content-wrapper::before {
     content: "";
-    background-image: url(../images/Grand-Logo-pattern.svg);
+    background-image: url(../images/nina/grand/Grand-Logo-pattern.svg);
     position: absolute;
     top: 0;
     right: 0;
