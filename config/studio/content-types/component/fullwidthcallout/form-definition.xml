@@ -329,7 +329,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>/site/taxonomy/cta-names</value>
+							<value>/site/taxonomy/cta-names,xml</value>
 								<type>string</type>
 						</property>
 					</properties>
