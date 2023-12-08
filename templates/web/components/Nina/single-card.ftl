@@ -1,3 +1,5 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
 <div class="component sclwg-list module-component single-card-layout-wrapper">
     <div class="component-content">
 
