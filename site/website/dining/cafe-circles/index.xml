@@ -16,7 +16,7 @@
   <createdDate>2023-12-08T04:02:40.338Z</createdDate>
   <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
   <lastModifiedDate>2023-12-08T12:32:44.958Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-08T13:09:44.359Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-08T13:27:36.534Z</lastModifiedDate_dt>
   <pageSections_o item-list="true">
     <item inline="true">
       <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
@@ -38,6 +38,20 @@
         <folder-name/>
         <createdDate>2023-12-08T04:56:26.573Z</createdDate>
         <lastModifiedDate>2023-12-08T04:58:35.902Z</lastModifiedDate>
+      </component>
+    </item>
+    <item inline="true">
+      <key>570dc970-d35b-408b-ad08-abd725348634</key>
+      <value><![CDATA[New Booking Widget]]></value>
+      <component id="570dc970-d35b-408b-ad08-abd725348634">
+        <content-type>/component/bookingwidget</content-type>
+        <display-template>/templates/web/components/Nina/booking-widget.ftl</display-template>
+        <internal-name><![CDATA[New Booking Widget]]></internal-name>
+        <file-name>570dc970-d35b-408b-ad08-abd725348634.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-08T13:27:36.533Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T13:27:36.533Z</lastModifiedDate_dt>
+        <objectId>570dc970-d35b-408b-ad08-abd725348634</objectId>
       </component>
     </item>
     <item inline="true">
