@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T03:32:46.145Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T03:32:46.145Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T07:18:37.571Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T07:18:37.571Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -143,24 +143,25 @@
 	<value>New Fullwidth Callout</value>
 	<disableFlattening>false</disableFlattening>
 <component id="b008f273-4638-4115-ad24-f90ac793dcf0">
-        <content-type>/component/fullwidthcallout</content-type>
-        <display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Fullwidth Callout</internal-name>
-        <file-name>b008f273-4638-4115-ad24-f90ac793dcf0.xml</file-name>
-        <createdDate_dt>2023-12-08T02:29:02.455Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-08T02:50:18.071Z</lastModifiedDate_dt>
-        <objectId>b008f273-4638-4115-ad24-f90ac793dcf0</objectId>
-        <title_s>Meeting Package</title_s>
-        <bodyContent_t>Get the very best from planning and booking your corporate event with professional catering team to achieve your business objectives.</bodyContent_t>
-        <image_s>/static-assets/images/nina/meeting-and-events/20220829_function-room-2_365_hdr_high-res_final-v2_r_1440x500.jpg</image_s>
-        <CTAName_s>Explore more</CTAName_s>
-        <link_s>#</link_s>
-        <folder-name/>
-        <createdDate>2023-12-08T02:29:02.455Z</createdDate>
-        <lastModifiedDate>2023-12-08T02:50:18.071Z</lastModifiedDate>
-      </component>
+	<content-type>/component/fullwidthcallout</content-type>
+	<display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Fullwidth Callout</internal-name>
+	<file-name>b008f273-4638-4115-ad24-f90ac793dcf0.xml</file-name>
+	<createdDate_dt>2023-12-08T02:29:02.455Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-12-08T07:18:41.776Z</lastModifiedDate_dt>
+	<objectId>b008f273-4638-4115-ad24-f90ac793dcf0</objectId>
+	<title_s>Meeting Package</title_s>
+	<bodyContent_t>Get the very best from planning and booking your corporate event with professional catering team to achieve your business objectives.</bodyContent_t>
+	<image_s>/static-assets/images/nina/meeting-and-events/20220829_function-room-2_365_hdr_high-res_final-v2_r_1440x500.jpg</image_s>
+	<CTAName_s>Explore more</CTAName_s>
+	<link_s>#</link_s>
+	<folder-name/>
+	<createdDate>2023-12-08T02:29:02.455Z</createdDate>
+	<lastModifiedDate>2023-12-08T07:18:41.776Z</lastModifiedDate>
+	<description_html>&lt;p&gt;Get the very best from planning and booking your corporate event with professional catering team to achieve your business objectives.&lt;/p&gt;</description_html>
+</component>
 	</item>	<item inline="true">	<key>7ffd58f5-4a3b-4890-bf06-388bfbdd8e3c</key>
 	<value>New Intro Card</value>
 	<disableFlattening>false</disableFlattening>
@@ -234,6 +235,7 @@
 </component>
 	</item>	<item inline="true">	<key>f02689ae-dd17-4e35-a2dc-17203c87c98e</key>
 	<value>New Event Card</value>
+	<disableFlattening>false</disableFlattening>
 <component id="f02689ae-dd17-4e35-a2dc-17203c87c98e">
 	<content-type>/component/eventcard</content-type>
 	<display-template>/templates/web/components/Nina/event-card.ftl</display-template>
@@ -257,6 +259,5 @@
 	<createdDate>2023-12-08T03:31:58.004Z</createdDate>
 	<lastModifiedDate>2023-12-08T03:32:47.034Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 </page>
