@@ -29,6 +29,7 @@
         </div>
     </div>
 
+        <#--
         <div class="single-card-layout-content-wrapper">
             <@crafter.h2 $field="title_s" class="single-card-layout-content-title">${contentModel.title_s}</@crafter.h2>
             <div class="horizontal-line"></div>
@@ -51,7 +52,8 @@
             </div>
             <br>
         </div>
-
+        -->
+        
         <script src="/scripts/nina/singleCardLayout.js"></script>
         <script src="/scripts/nina/playVideo.js"></script>
     </div>
