@@ -14,7 +14,7 @@
 
 	<@crafter.img
 		$field="image_s"
-		src=(contentModel.image_s)
+		src="${(contentModel.image_s)?has_content?then(contentModel.image_s, "/static-assets/images/placeholder.png")}"
 		alt=""
 	/>
                         </div>
