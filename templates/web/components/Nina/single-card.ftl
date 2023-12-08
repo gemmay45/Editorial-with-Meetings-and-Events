@@ -29,7 +29,6 @@
         </div>
     </div>
 
-        <#--
         <div class="single-card-layout-content-wrapper">
             <@crafter.h2 $field="title_s" class="single-card-layout-content-title">${contentModel.title_s}</@crafter.h2>
             <div class="horizontal-line"></div>
@@ -38,6 +37,7 @@
             </@crafter.div>
             <div class="single-card-layout-content-logos-wrapper">
                 
+                <#--
                 <div class="single-card-layout-content-logo">
                     <a href="/en/nina-hotel-tsuen-wan-west" target="_blank" rel="noopener noreferrer">
                         <img data-src="" alt="" class="lazyload-img">
@@ -49,10 +49,10 @@
                         <img data-src="" alt="" class="lazyload-img">
                     </a>
                 </div>
+                -->
             </div>
             <br>
         </div>
-        -->
         
         <script src="/scripts/nina/singleCardLayout.js"></script>
         <script src="/scripts/nina/playVideo.js"></script>
