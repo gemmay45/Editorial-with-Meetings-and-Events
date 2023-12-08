@@ -56683,7 +56683,7 @@ body#grand .events-card-wrapper .component-content .events-card-content-wrapper 
 
 body#grand .events-card-wrapper .component-content .events-card-content-wrapper::before {
     content: "";
-    background-image: url(../images/Grand-Logo-pattern.svg);
+    background-image: url(../images/nina/grand/Grand-Logo-pattern.svg);
     position: absolute;
     top: 0;
     right: 0;
