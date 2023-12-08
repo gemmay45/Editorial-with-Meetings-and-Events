@@ -24,33 +24,8 @@
 			<@renderComponent component = contentModel.header_o.item />
 
 			<!-- Content -->
-			<section>
+            <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
 
-			<#--
-			<#if contentModel.image_s??>
-				<#assign image = contentModel.image_s/>
-				<#else>
-					<#assign image = "/static-assets/images/placeholder.png"/>
-				</#if>
-				<span class="image main">
-          <@crafter.img $field='image_s' src="${image}" alt=""/>
-        </span>
-        -->
-        
-        <@crafter.renderRepeatGroup
-          $field="sections_o"
-          $containerAttributes={'style': 'list-style: none; padding-left: 0;'};
-          item, index
-        >
-          <@crafter.div
-            $field="sections_o.section_html"
-            $index=index
-          >
-            ${item.section_html}
-          </@crafter.div>
-          <hr class="major" />
-        </@crafter.renderRepeatGroup>
-			</section>
 		</div>
 	</div>
 
