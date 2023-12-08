@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T07:44:35.253Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T07:44:35.253Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T07:48:41.386Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T07:48:41.386Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -94,13 +94,14 @@
 	<internal-name>New Promo Card</internal-name>
 	<file-name>e1c349f1-1d97-4716-9ad8-23888fa88116.xml</file-name>
 	<createdDate_dt>2023-12-08T07:44:39.827Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T07:44:39.827Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T07:48:42.432Z</lastModifiedDate_dt>
 	<objectId>e1c349f1-1d97-4716-9ad8-23888fa88116</objectId>
 	<folder-name/>
 	<title_s>The talent behind the taste</title_s>
 	<image_s/>
 	<createdDate>2023-12-08T07:44:39.827Z</createdDate>
-	<lastModifiedDate>2023-12-08T07:44:39.827Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T07:48:42.432Z</lastModifiedDate>
+	<subtitle_s>Ken Tse | Executive Chef</subtitle_s>
 </component>
 	</item>	<item inline="true">	<key>988c47cf-1dce-432a-bf69-d86cd6a2567b</key>
 	<value>New Fullwidth Callout</value>
