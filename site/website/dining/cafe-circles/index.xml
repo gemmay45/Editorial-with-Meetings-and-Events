@@ -15,10 +15,11 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T04:56:25.605Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T04:56:25.605Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T04:58:34.921Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T04:58:34.921Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
+	<disableFlattening>false</disableFlattening>
 <component id="406462c0-3751-4206-8dbb-f94e4a9aa88a">
 	<content-type>/component/herobannerwithtitle</content-type>
 	<display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
@@ -27,16 +28,15 @@
 	<internal-name>New Hero Banner with Title</internal-name>
 	<file-name>406462c0-3751-4206-8dbb-f94e4a9aa88a.xml</file-name>
 	<createdDate_dt>2023-12-08T04:56:26.573Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T04:56:26.573Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T04:58:35.902Z</lastModifiedDate_dt>
 	<objectId>406462c0-3751-4206-8dbb-f94e4a9aa88a</objectId>
-	<title_s/>
-	<imageforDesktop_s/>
+	<title_s>Café Circles</title_s>
+	<imageforDesktop_s>/static-assets/images/nina/dining/cafe-circles/220706_cafe-cirlces_seafood-on-ice.jpg</imageforDesktop_s>
 	<imageforMobile_s/>
 	<folder-name/>
 	<createdDate>2023-12-08T04:56:26.573Z</createdDate>
-	<lastModifiedDate>2023-12-08T04:56:26.573Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T04:58:35.902Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
