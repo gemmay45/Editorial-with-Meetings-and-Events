@@ -12,7 +12,8 @@
 	<@crafter.head/>
 </head>
 <body id="grand" class="default-device bodyclass">
-<@crafter.body_top/>
+
+<#--<@crafter.body_top/>-->
 
 <!-- Wrapper -->
 <div id="wrapper">
