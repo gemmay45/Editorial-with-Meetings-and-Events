@@ -73,6 +73,7 @@
       </component>
 	</item>	<item inline="true">	<key>2bf9c1af-e42e-4b52-b885-f53e5261e54c</key>
 	<value>New Promo Card</value>
+	<disableFlattening>false</disableFlattening>
 <component id="2bf9c1af-e42e-4b52-b885-f53e5261e54c">
 	<content-type>/component/promocard</content-type>
 	<display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
@@ -81,7 +82,7 @@
 	<internal-name>New Promo Card</internal-name>
 	<file-name>2bf9c1af-e42e-4b52-b885-f53e5261e54c.xml</file-name>
 	<createdDate_dt>2023-12-08T13:47:07.439Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T13:47:07.439Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T13:56:49.916Z</lastModifiedDate_dt>
 	<objectId>2bf9c1af-e42e-4b52-b885-f53e5261e54c</objectId>
 	<title_s>Private Dining Experience</title_s>
 	<subtitle_s/>
@@ -91,13 +92,13 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
 	<folder-name/>
 	<createdDate>2023-12-08T13:47:07.439Z</createdDate>
-	<lastModifiedDate>2023-12-08T13:47:07.439Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T13:56:49.916Z</lastModifiedDate>
+	<theme_s>white</theme_s>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<relatedOffers_o item-list="true"/>
 	<createdDate>2023-12-08T13:39:56.453Z</createdDate>
 	<createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T13:47:06.417Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T13:47:06.417Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T13:56:48.898Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T13:56:48.898Z</lastModifiedDate_dt>
 </page>
