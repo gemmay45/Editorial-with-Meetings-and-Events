@@ -56102,7 +56102,7 @@ body#grand .trip-advisor-reviews {
 
 body#grand .trip-advisor-reviews::before {
     content: "";
-    background-image: url(../images/Grand-Logo-pattern.svg);
+    background-image: url(static-assets/images/nina/grand/Grand-Logo-pattern.svg);
     position: absolute;
     height: 138px;
     top: calc(100% - 138px);
