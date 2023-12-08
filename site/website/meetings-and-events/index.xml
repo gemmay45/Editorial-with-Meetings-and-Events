@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T03:26:28.194Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T03:26:28.194Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T03:26:49.551Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T03:26:49.551Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -208,6 +208,7 @@
       </component>
 	</item>	<item inline="true">	<key>2f798800-16d3-4a27-bc61-c6e115a7aabe</key>
 	<value>New Event Card</value>
+	<disableFlattening>false</disableFlattening>
 <component id="2f798800-16d3-4a27-bc61-c6e115a7aabe">
 	<content-type>/component/eventcard</content-type>
 	<display-template>/templates/web/components/Nina/event-card.ftl</display-template>
@@ -216,10 +217,10 @@
 	<internal-name>New Event Card</internal-name>
 	<file-name>2f798800-16d3-4a27-bc61-c6e115a7aabe.xml</file-name>
 	<createdDate_dt>2023-12-08T03:26:29.210Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T03:26:29.210Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T03:26:50.561Z</lastModifiedDate_dt>
 	<objectId>2f798800-16d3-4a27-bc61-c6e115a7aabe</objectId>
-	<title_s/>
-	<description_html/>
+	<title_s>Sky Lounge</title_s>
+	<description_html>&lt;p&gt;As a business hotel in Hong Kong, Nina Hotel Tsuen Wan West&amp;rsquo;s versatility makes it the ultimate meeting venue for large conferences and regional or international exhibitions.&lt;br /&gt;&lt;br /&gt;The flexible meeting spaces are complemented with a team of catering professionals who comfortably handle all dining and drinking needs.&lt;/p&gt;</description_html>
 	<image_s/>
 	<imagePosition_s>layout--right</imagePosition_s>
 	<area_s/>
@@ -229,8 +230,7 @@
 	<reserveLink_s/>
 	<folder-name/>
 	<createdDate>2023-12-08T03:26:29.210Z</createdDate>
-	<lastModifiedDate>2023-12-08T03:26:29.210Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T03:26:50.561Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 </page>
