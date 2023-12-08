@@ -18,6 +18,7 @@
 <div id="wrapper">
 	<!-- Main -->
 	<div id="main">
+	<main>
 		<div class="inner">
 
 			<!-- Header -->
@@ -35,7 +36,7 @@
 
 	<!-- Left Rail -->
 	<@renderComponent component = contentModel.left_rail_o.item additionalModel = additionalModel />
-
+    </main>
 </div>
 
 <#include "/templates/web/fragments/scripts.ftl">
