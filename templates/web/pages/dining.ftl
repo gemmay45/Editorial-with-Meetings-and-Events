@@ -19,7 +19,7 @@
     <div id="main">
     	<!-- Main -->
        <main>
-        <div class="inner">
+        <div class="content">
     
             <!-- Header -->
             <@renderComponent component=contentModel.header_o.item />
