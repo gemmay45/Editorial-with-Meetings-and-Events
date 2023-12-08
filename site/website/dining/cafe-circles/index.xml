@@ -16,7 +16,7 @@
   <createdDate>2023-12-08T04:02:40.338Z</createdDate>
   <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
   <lastModifiedDate>2023-12-08T12:32:44.958Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-08T13:09:32.017Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-08T13:09:44.359Z</lastModifiedDate_dt>
   <pageSections_o item-list="true">
     <item inline="true">
       <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
@@ -74,6 +74,20 @@
         <createdDate_dt>2023-12-08T13:09:32.016Z</createdDate_dt>
         <lastModifiedDate_dt>2023-12-08T13:09:32.016Z</lastModifiedDate_dt>
         <objectId>173e8121-4402-45cf-9427-7ae56b976e7a</objectId>
+      </component>
+    </item>
+    <item inline="true">
+      <key>2794d623-6937-4af8-80b0-f1df6a9137f4</key>
+      <value><![CDATA[New Open Menu]]></value>
+      <component id="2794d623-6937-4af8-80b0-f1df6a9137f4">
+        <content-type>/component/openmenu</content-type>
+        <display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
+        <internal-name><![CDATA[New Open Menu]]></internal-name>
+        <file-name>2794d623-6937-4af8-80b0-f1df6a9137f4.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-08T13:09:44.359Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T13:09:44.359Z</lastModifiedDate_dt>
+        <objectId>2794d623-6937-4af8-80b0-f1df6a9137f4</objectId>
       </component>
     </item>
     <item inline="true">
