@@ -16,19 +16,20 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
-  <!-- Main -->
-   <main>
-    <div class="inner">
-
-        <!-- Header -->
-        <@renderComponent component=contentModel.header_o.item />
-
-
-        <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
-
+    <div id="main">
+    	<!-- Main -->
+       <main>
+        <div class="inner">
+    
+            <!-- Header -->
+            <@renderComponent component=contentModel.header_o.item />
+    
+    
+            <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
+    
+        </div>
+      </main>
     </div>
-  </main>
-
   <!-- Left Rail -->
   <@renderComponent component=contentModel.left_rail_o.item />
 
