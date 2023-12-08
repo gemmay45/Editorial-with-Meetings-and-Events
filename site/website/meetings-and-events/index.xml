@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T01:10:25.986Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T01:10:25.986Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T01:10:47.630Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T01:10:47.630Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -108,15 +108,15 @@
 	<internal-name>New Single Card</internal-name>
 	<file-name>45154f29-436e-4bcc-ab79-86e1f4b1f339.xml</file-name>
 	<createdDate_dt>2023-12-08T00:50:30.386Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T01:10:27.005Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T01:10:48.515Z</lastModifiedDate_dt>
 	<objectId>45154f29-436e-4bcc-ab79-86e1f4b1f339</objectId>
 	<title_s>Plugged In</title_s>
 	<description_html>&lt;p&gt;Technology plays a key role in pretty much every one of our business get togethers these days.&amp;nbsp; That&amp;rsquo;s why Nina has invested in the most up to date hardware, and why our tech team is always on standby to connect you and keep you tuned in.&lt;/p&gt;</description_html>
-	<image_s>/static-assets/images/nina/meeting-and-events/tww_nina-ballroom_u-shape_re_1000x660.jpg</image_s>
+	<image_s/>
 	<imagePosition_s/>
 	<folder-name/>
 	<createdDate>2023-12-08T00:50:30.386Z</createdDate>
-	<lastModifiedDate>2023-12-08T01:10:27.005Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T01:10:48.515Z</lastModifiedDate>
 </component>
 	</item>	<item inline="true">	<key>b008f273-4638-4115-ad24-f90ac793dcf0</key>
 	<value>New Fullwidth Callout</value>
