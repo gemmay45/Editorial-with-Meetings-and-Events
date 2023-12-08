@@ -5,7 +5,7 @@
     <div class="component-content">
 
         <div class="image-wrapper" data-bg-color="">
-            <@crafter.img $field="image_s" data-src=src=(contentModel.imageforDesktop_s) class="image lazyload-img" alt="" src=src=(contentModel.imageforDesktop_s) />
+            <@crafter.img $field="image_s" data-src=src=(contentModel.image_s) class="image lazyload-img" alt="" src=src=(contentModel.image_s) />
         </div>
         <div class="desc-wrapper">
             <div class="desc">
