@@ -19,11 +19,11 @@
 	<!-- Main -->
 	<div id="main">
 	<main>
-        <div id="content" class="">
-            <div class="row">
-
     			<!-- Header -->
     			<@renderComponent component = contentModel.header_o.item />
+    			
+    	<div id="content" class="">
+            <div class="row">
     
     			<!-- Content -->
                 <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
