@@ -5,7 +5,7 @@
     <div class="component-content">
 
         <div class="image-wrapper" data-bg-color="">
-            <img data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/meeting/meeting-and-events-photo-aug/20220829_function-room-2_365_hdr_high-res_final-v2_r_1440x500.jpg?rev=8a575622b36d46fcbc58de42292e8a57" class="image lazyload-img" alt="" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/meeting/meeting-and-events-photo-aug/20220829_function-room-2_365_hdr_high-res_final-v2_r_1440x500.jpg?rev=8a575622b36d46fcbc58de42292e8a57">
+            <@crafter.img $field="image_s" data-src="contentModel.image_s" class="image lazyload-img" alt="" src="" />
         </div>
         <div class="desc-wrapper">
             <div class="desc">
