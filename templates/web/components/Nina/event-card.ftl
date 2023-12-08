@@ -34,8 +34,15 @@
 				
 
                 <div class="events-card-content-wrapper">
-                    <h2 class="events-card-content-title">Nina Ballroom</h2>
-                    <div class="events-card-content"><div>Being one of the largest ballrooms in Hong Kong, the Nina Ballroom combines splendid designs and stylish décor inspired by the elegance of nature, together with the most advanced audio and visual facilities, spacious pre-function area and the exquisitely crafted bridal room The Moment. It is the most ideal setting for delivering heartfelt moments to every guest in any occasion.</div></div>
+                    <@crafter.h2 $field="title_s" class="events-card-content-title">${contentModel.title_s}</@crafter.h2>
+ 
+                    <@crafter.div class="events-card-content" $field="description_html">
+                        <div>
+                        ${contentModel.description_html}
+                        </div>
+                    </@crafter.div>
+
+
                     <div class="events-card-content-logos-wrapper">
 						
                         <div class="events-card-content-logo">
