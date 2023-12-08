@@ -11,7 +11,7 @@
                             <li tabindex="-1" class="uk-active">
                                 <div class="uk-card uk-card-default custom-slider-card">
                                     <div class="uk-card-media-top custom-slider-card-media-top">
-                                        <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/meeting/20230731_tww_nina-ballroom_meeting_1600x1200.jpg?rev=476b9afc8f274ac8818a80cf60b5712c" class="m-image" alt="" width="609" height="376">
+                                        <@crafter.img $field="image_s" src=(contentModel.image_s!"") class="m-image" alt="" width="609" height="376" alt="" />
                                     </div>
                                 </div>
                             </li>
