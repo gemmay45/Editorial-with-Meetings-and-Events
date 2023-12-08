@@ -1,99 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/eventlanding</content-type>
-	<display-template>/templates/web/pages/event-landing.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>ae5a</objectGroupId>
-	<objectId>ae5a2104-ffc6-bb07-4bce-869c47d95414</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>meetings-and-events</folder-name>
-	<internal-name>Meetings and Events</internal-name>
-	<navLabel>Meetings and Events</navLabel>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
-	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-07T23:15:57.789Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-07T23:15:57.789Z</lastModifiedDate_dt>
-	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
-	<value>Header</value>
-	<include>/site/components/headers/header.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></header_o>
-	<leftRail_o item-list="true">	<item>	<key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
-	<value>Left Rail with No Articles</value>
-	<include>/site/components/left-rails/left-rail-with-no-articles.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></leftRail_o>
-	<pageSections_o item-list="true">	<item inline="true">	<key>b592da54-fe93-49db-90a5-1e9adf983a7e</key>
-	<value>New Hero Banner with Title</value>
-	<disableFlattening>false</disableFlattening>
-<component id="b592da54-fe93-49db-90a5-1e9adf983a7e">
-	<content-type>/component/herobannerwithtitle</content-type>
-	<display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Hero Banner with Title</internal-name>
-	<file-name>b592da54-fe93-49db-90a5-1e9adf983a7e.xml</file-name>
-	<createdDate_dt>2023-12-07T12:35:00.851Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-07T12:42:05.964Z</lastModifiedDate_dt>
-	<objectId>b592da54-fe93-49db-90a5-1e9adf983a7e</objectId>
-	<title_s>Meetings and Events</title_s>
-	<imageforDesktop_s>/static-assets/images/nina/meeting-and-events/20220829_tww_nina-ballroom_classroom_re_1440x480.jpg</imageforDesktop_s>
-	<imageforMobile_s>/static-assets/images/nina/meeting-and-events/20220829_tww_nina-ballroom_classroom_re_767x667.jpg</imageforMobile_s>
-	<folder-name/>
-	<createdDate>2023-12-07T12:35:00.851Z</createdDate>
-	<lastModifiedDate>2023-12-07T12:42:05.964Z</lastModifiedDate>
-</component>
-	</item>	<item inline="true">	<key>9b3e4080-424b-4fc1-9c56-8cc70155593e</key>
-	<value>New Intro Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="9b3e4080-424b-4fc1-9c56-8cc70155593e">
-	<content-type>/component/introcard</content-type>
-	<display-template>/templates/web/components/Nina/intro-card.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Intro Card</internal-name>
-	<file-name>9b3e4080-424b-4fc1-9c56-8cc70155593e.xml</file-name>
-	<createdDate_dt>2023-12-07T13:16:00.877Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-07T13:16:00.877Z</lastModifiedDate_dt>
-	<objectId>9b3e4080-424b-4fc1-9c56-8cc70155593e</objectId>
-	<title_s>Class leading facilities in Tsuen Wan</title_s>
-	<bodyContent_html>&lt;p&gt;With ten individual event spaces, including three that combine to create one of the city&amp;rsquo;s most spacious and spectacular venues, this Nina will impress.&amp;nbsp; Able to welcome between 15 to 1,600 guests, and hosted within Hong Kong&amp;rsquo;s largest hotel, this is a MICE destination that has every eventuality covered.&lt;/p&gt;</bodyContent_html>
-	<folder-name/>
-	<createdDate>2023-12-07T13:16:00.877Z</createdDate>
-	<lastModifiedDate>2023-12-07T13:16:00.877Z</lastModifiedDate>
-</component>
-	</item>	<item inline="true">	<key>be921e1d-f243-4676-a530-72d9468ea02b</key>
-	<value>New Stats Bar</value>
-	<disableFlattening>false</disableFlattening>
-<component id="be921e1d-f243-4676-a530-72d9468ea02b">
-	<content-type>/component/statsbar</content-type>
-	<display-template>/templates/web/components/Nina/stats-bar.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Stats Bar</internal-name>
-	<file-name>be921e1d-f243-4676-a530-72d9468ea02b.xml</file-name>
-	<createdDate_dt>2023-12-07T13:48:54.429Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-07T23:15:58.680Z</lastModifiedDate_dt>
-	<objectId>be921e1d-f243-4676-a530-72d9468ea02b</objectId>
-	<title_s>SERVICES WE OFFER</title_s>
-	<statsItems_o item-list="true">	<item>	<name_s>Accommodation</name_s>
-	<icon_s>/static-assets/images/nina/icons/ninahospitality-numberofbeds-icon.png</icon_s>
-	</item>	<item>	<name_s>Audio &amp; Visual Equipment</name_s>
-	<icon_s>/static-assets/images/nina/icons/ninahospitality-audiosoundsystem-icon.svg</icon_s>
-	</item>	<item>	<name_s>Food &amp; Beverage</name_s>
-	<icon_s>/static-assets/images/nina/icons/ninahospitality-minibar-icon.svg</icon_s>
-	</item></statsItems_o>
-	<folder-name/>
-	<createdDate>2023-12-07T13:48:54.429Z</createdDate>
-	<lastModifiedDate>2023-12-07T23:15:58.680Z</lastModifiedDate>
-</component>
-	</item>	<item inline="true">	<key>45154f29-436e-4bcc-ab79-86e1f4b1f339</key>
-	<value>New Single Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="45154f29-436e-4bcc-ab79-86e1f4b1f339">
+  <content-type>/page/eventlanding</content-type>
+  <display-template>/templates/web/pages/event-landing.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>ae5a</objectGroupId>
+  <objectId>ae5a2104-ffc6-bb07-4bce-869c47d95414</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>meetings-and-events</folder-name>
+  <internal-name>Meetings and Events</internal-name>
+  <navLabel>Meetings and Events</navLabel>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <createdDate>2023-12-07T08:22:09.676Z</createdDate>
+  <createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
+  <lastModifiedDate>2023-12-07T23:15:57.789Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-08T00:44:12.099Z</lastModifiedDate_dt>
+  <header_o item-list="true">
+    <item>
+      <key>/site/components/headers/header.xml</key>
+      <value>Header</value>
+      <include>/site/components/headers/header.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+  </header_o>
+  <leftRail_o item-list="true">
+    <item>
+      <key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
+      <value>Left Rail with No Articles</value>
+      <include>/site/components/left-rails/left-rail-with-no-articles.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+  </leftRail_o>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>b592da54-fe93-49db-90a5-1e9adf983a7e</key>
+      <value>New Hero Banner with Title</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="b592da54-fe93-49db-90a5-1e9adf983a7e">
+        <content-type>/component/herobannerwithtitle</content-type>
+        <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Hero Banner with Title</internal-name>
+        <file-name>b592da54-fe93-49db-90a5-1e9adf983a7e.xml</file-name>
+        <createdDate_dt>2023-12-07T12:35:00.851Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-07T12:42:05.964Z</lastModifiedDate_dt>
+        <objectId>b592da54-fe93-49db-90a5-1e9adf983a7e</objectId>
+        <title_s>Meetings and Events</title_s>
+        <imageforDesktop_s>/static-assets/images/nina/meeting-and-events/20220829_tww_nina-ballroom_classroom_re_1440x480.jpg</imageforDesktop_s>
+        <imageforMobile_s>/static-assets/images/nina/meeting-and-events/20220829_tww_nina-ballroom_classroom_re_767x667.jpg</imageforMobile_s>
+        <folder-name/>
+        <createdDate>2023-12-07T12:35:00.851Z</createdDate>
+        <lastModifiedDate>2023-12-07T12:42:05.964Z</lastModifiedDate>
+      </component>
+    </item>
+    <item inline="true">
+      <key>9b3e4080-424b-4fc1-9c56-8cc70155593e</key>
+      <value>New Intro Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="9b3e4080-424b-4fc1-9c56-8cc70155593e">
+        <content-type>/component/introcard</content-type>
+        <display-template>/templates/web/components/Nina/intro-card.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Intro Card</internal-name>
+        <file-name>9b3e4080-424b-4fc1-9c56-8cc70155593e.xml</file-name>
+        <createdDate_dt>2023-12-07T13:16:00.877Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-07T13:16:00.877Z</lastModifiedDate_dt>
+        <objectId>9b3e4080-424b-4fc1-9c56-8cc70155593e</objectId>
+        <title_s>Class leading facilities in Tsuen Wan</title_s>
+        <bodyContent_html>&lt;p&gt;With ten individual event spaces, including three that combine to create one of the city&amp;rsquo;s most spacious and spectacular venues, this Nina will impress.&amp;nbsp; Able to welcome between 15 to 1,600 guests, and hosted within Hong Kong&amp;rsquo;s largest hotel, this is a MICE destination that has every eventuality covered.&lt;/p&gt;</bodyContent_html>
+        <folder-name/>
+        <createdDate>2023-12-07T13:16:00.877Z</createdDate>
+        <lastModifiedDate>2023-12-07T13:16:00.877Z</lastModifiedDate>
+      </component>
+    </item>
+    <item inline="true">
+      <key>be921e1d-f243-4676-a530-72d9468ea02b</key>
+      <value>New Stats Bar</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="be921e1d-f243-4676-a530-72d9468ea02b">
+        <content-type>/component/statsbar</content-type>
+        <display-template>/templates/web/components/Nina/stats-bar.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Stats Bar</internal-name>
+        <file-name>be921e1d-f243-4676-a530-72d9468ea02b.xml</file-name>
+        <createdDate_dt>2023-12-07T13:48:54.429Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T00:44:12.098Z</lastModifiedDate_dt>
+        <objectId>be921e1d-f243-4676-a530-72d9468ea02b</objectId>
+        <title_s>SERVICES WE OFFER</title_s>
+        <statsItems_o item-list="true">
+          <item>
+            <name_s>Accommodation</name_s>
+            <icon_s>/static-assets/images/nina/icons/ninahospitality-numberofbeds-icon.png</icon_s>
+          </item>
+          <item>
+            <name_s>Food &amp; Beverage</name_s>
+            <icon_s>/static-assets/images/nina/icons/ninahospitality-minibar-icon.svg</icon_s>
+          </item>
+          <item>
+            <name_s>Audio &amp; Visual Equipment</name_s>
+            <icon_s>/static-assets/images/nina/icons/ninahospitality-audiosoundsystem-icon.svg</icon_s>
+          </item>
+        </statsItems_o>
+        <folder-name/>
+        <createdDate>2023-12-07T13:48:54.429Z</createdDate>
+        <lastModifiedDate>2023-12-07T23:15:58.680Z</lastModifiedDate>
+      </component>
+    </item>
+    <item inline="true">
+      <key>45154f29-436e-4bcc-ab79-86e1f4b1f339</key>
+      <value>New Single Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="45154f29-436e-4bcc-ab79-86e1f4b1f339">
         <content-type>/component/singlecard</content-type>
         <display-template>/templates/web/components/Nina/single-card.ftl</display-template>
         <internal-name><![CDATA[New Single Card]]></internal-name>
@@ -107,10 +128,12 @@
         <image_s/>
         <imagePosition_s/>
       </component>
-	</item>	<item inline="true">	<key>b008f273-4638-4115-ad24-f90ac793dcf0</key>
-	<value>New Fullwidth Callout</value>
-	<disableFlattening>false</disableFlattening>
-<component id="b008f273-4638-4115-ad24-f90ac793dcf0">
+    </item>
+    <item inline="true">
+      <key>b008f273-4638-4115-ad24-f90ac793dcf0</key>
+      <value>New Fullwidth Callout</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="b008f273-4638-4115-ad24-f90ac793dcf0">
         <content-type>/component/fullwidthcallout</content-type>
         <display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
         <internal-name><![CDATA[New Fullwidth Callout]]></internal-name>
@@ -125,5 +148,6 @@
         <CTAName_s/>
         <link_s/>
       </component>
-	</item></pageSections_o>
+    </item>
+  </pageSections_o>
 </page>
