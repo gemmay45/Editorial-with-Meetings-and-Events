@@ -35,6 +35,8 @@
 
 </div>
 
+<#include "/templates/web/fragments/footer.ftl">
+
 <#include "/templates/web/fragments/scripts.ftl">
 
 <@crafter.body_bottom/>
