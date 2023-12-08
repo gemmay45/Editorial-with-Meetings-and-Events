@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T08:01:28.902Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T08:01:28.902Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T12:32:16.841Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T12:32:16.841Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -69,19 +69,6 @@
         <createdDate_dt>2023-12-08T06:47:04.766Z</createdDate_dt>
         <lastModifiedDate_dt>2023-12-08T06:47:04.766Z</lastModifiedDate_dt>
         <objectId>c55e657e-e841-46df-b3dd-6bc2a531dfc0</objectId>
-      </component>
-	</item>	<item inline="true">	<key>1988ad71-2b26-4479-8da6-11dec04daae7</key>
-	<value>New Open Menu</value>
-	<disableFlattening>false</disableFlattening>
-<component id="1988ad71-2b26-4479-8da6-11dec04daae7">
-        <content-type>/component/openmenu</content-type>
-        <display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
-        <internal-name><![CDATA[New Open Menu]]></internal-name>
-        <file-name>1988ad71-2b26-4479-8da6-11dec04daae7.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-08T06:51:19.498Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-08T06:51:19.498Z</lastModifiedDate_dt>
-        <objectId>1988ad71-2b26-4479-8da6-11dec04daae7</objectId>
       </component>
 	</item>	<item inline="true">	<key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
 	<value>New Promo Card</value>
