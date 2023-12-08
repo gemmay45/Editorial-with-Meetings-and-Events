@@ -16,7 +16,7 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
-    <#--<div id="main">-->
+    <div id="main">
     	<!-- Main -->
        <main>
         <div class="inner">
@@ -30,7 +30,7 @@
     
             </div>
       </main>
-    <#--</div>-->
+    </div>
     
   <!-- Left Rail -->
   <@renderComponent component=contentModel.left_rail_o.item />
