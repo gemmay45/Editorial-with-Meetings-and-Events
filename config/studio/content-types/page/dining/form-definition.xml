@@ -458,7 +458,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/herobannerwithtitle</value>
+							<value>/component/herobannerwithtitle,/component/expselectioncard</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
