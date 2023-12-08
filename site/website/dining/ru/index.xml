@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/dining</content-type>
-	<display-template>/templates/web/pages/dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>c933</objectGroupId>
-	<objectId>c933d9d9-025b-e3c1-d9cb-d8d7a8154a77</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>ru</folder-name>
-	<internal-name>RÚ</internal-name>
-	<navLabel>RÚ</navLabel>
-	<disabled>false</disabled>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<header_o item-list="true"/>
-	<leftRail_o item-list="true"/>
-	<pageSections_o item-list="true">	<item inline="true">	<key>094271db-7759-402b-af7b-c3a4f80a9508</key>
-	<value>New Hero Banner with Title</value>
-	<disableFlattening>false</disableFlattening>
-<component id="094271db-7759-402b-af7b-c3a4f80a9508">
+  <content-type>/page/dining</content-type>
+  <display-template>/templates/web/pages/dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>c933</objectGroupId>
+  <objectId>c933d9d9-025b-e3c1-d9cb-d8d7a8154a77</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>ru</folder-name>
+  <internal-name>RÚ</internal-name>
+  <navLabel>RÚ</navLabel>
+  <disabled>false</disabled>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <header_o item-list="true"/>
+  <leftRail_o item-list="true"/>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>094271db-7759-402b-af7b-c3a4f80a9508</key>
+      <value>New Hero Banner with Title</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="094271db-7759-402b-af7b-c3a4f80a9508">
         <content-type>/component/herobannerwithtitle</content-type>
         <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
         <no-template-required/>
@@ -35,9 +37,11 @@
         <createdDate>2023-12-08T13:42:24.494Z</createdDate>
         <lastModifiedDate>2023-12-08T13:42:24.494Z</lastModifiedDate>
       </component>
-	</item>	<item inline="true">	<key>388667d6-3edb-4809-9a07-31b8b4e91c1d</key>
-	<value>New Booking Widget</value>
-<component id="388667d6-3edb-4809-9a07-31b8b4e91c1d">
+    </item>
+    <item inline="true">
+      <key>388667d6-3edb-4809-9a07-31b8b4e91c1d</key>
+      <value>New Booking Widget</value>
+      <component id="388667d6-3edb-4809-9a07-31b8b4e91c1d">
         <content-type>/component/bookingwidget</content-type>
         <display-template>/templates/web/components/Nina/booking-widget.ftl</display-template>
         <internal-name><![CDATA[New Booking Widget]]></internal-name>
@@ -47,34 +51,55 @@
         <lastModifiedDate_dt>2023-12-08T13:43:35.753Z</lastModifiedDate_dt>
         <objectId>388667d6-3edb-4809-9a07-31b8b4e91c1d</objectId>
       </component>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item inline="true">	<key>8f9aeb59-e715-4b09-8424-ba061e0b2e68</key>
-	<value>New Promo Card</value>
-<component id="8f9aeb59-e715-4b09-8424-ba061e0b2e68">
-	<content-type>/component/promocard</content-type>
-	<display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Promo Card</internal-name>
-	<file-name>8f9aeb59-e715-4b09-8424-ba061e0b2e68.xml</file-name>
-	<createdDate_dt>2023-12-08T13:44:50.943Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T13:44:50.943Z</lastModifiedDate_dt>
-	<objectId>8f9aeb59-e715-4b09-8424-ba061e0b2e68</objectId>
-	<title_s>The talent behind the taste</title_s>
-	<subtitle_s>Edmond Ip | Executive Chinese Chef</subtitle_s>
-	<image_s>/static-assets/images/nina/dining/ru/230309_chef-edmond-portrait.jpg</image_s>
-	<description_html>&lt;p&gt;Chef Edmond Ip has crafted his culinary talent to the forefront of modern Chinese Cuisine scene, including his experience at one of Asia's 50 Best Restaurants &amp;ldquo;WING&amp;rdquo; and some other top restaurants in Hong Kong. He respects Cantonese cuisine traditions but also loves exploring and reinterpreting age-old recipes for the modern tastebuds.&lt;/p&gt;
+      <disableFlattening>false</disableFlattening>
+    </item>
+    <item inline="true">
+      <key>8f9aeb59-e715-4b09-8424-ba061e0b2e68</key>
+      <value>New Promo Card</value>
+      <component id="8f9aeb59-e715-4b09-8424-ba061e0b2e68">
+        <content-type>/component/promocard</content-type>
+        <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Promo Card</internal-name>
+        <file-name>8f9aeb59-e715-4b09-8424-ba061e0b2e68.xml</file-name>
+        <createdDate_dt>2023-12-08T13:44:50.943Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T13:44:50.943Z</lastModifiedDate_dt>
+        <objectId>8f9aeb59-e715-4b09-8424-ba061e0b2e68</objectId>
+        <title_s>The talent behind the taste</title_s>
+        <subtitle_s>Edmond Ip | Executive Chinese Chef</subtitle_s>
+        <image_s>/static-assets/images/nina/dining/ru/230309_chef-edmond-portrait.jpg</image_s>
+        <description_html>&lt;p&gt;Chef Edmond Ip has crafted his culinary talent to the forefront of modern Chinese Cuisine scene, including his experience at one of Asia's 50 Best Restaurants &amp;ldquo;WING&amp;rdquo; and some other top restaurants in Hong Kong. He respects Cantonese cuisine traditions but also loves exploring and reinterpreting age-old recipes for the modern tastebuds.&lt;/p&gt;
 &lt;p&gt;Chef Edmond handpicks all fresh and sustainable ingredients, adding a delightful new twist to satisfy guests&amp;rsquo; palates while maintaining them unexpected surprises.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
-	<folder-name/>
-	<createdDate>2023-12-08T13:44:50.943Z</createdDate>
-	<lastModifiedDate>2023-12-08T13:44:50.943Z</lastModifiedDate>
-</component>
-	<disableFlattening>false</disableFlattening>
-	</item></pageSections_o>
-	<relatedOffers_o item-list="true"/>
-	<createdDate>2023-12-08T13:39:56.453Z</createdDate>
-	<createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T13:44:49.930Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T13:44:49.930Z</lastModifiedDate_dt>
+        <folder-name/>
+        <createdDate>2023-12-08T13:44:50.943Z</createdDate>
+        <lastModifiedDate>2023-12-08T13:44:50.943Z</lastModifiedDate>
+      </component>
+      <disableFlattening>false</disableFlattening>
+    </item>
+    <item inline="true">
+      <key>2bf9c1af-e42e-4b52-b885-f53e5261e54c</key>
+      <value><![CDATA[New Promo Card]]></value>
+      <component id="2bf9c1af-e42e-4b52-b885-f53e5261e54c">
+        <content-type>/component/promocard</content-type>
+        <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
+        <internal-name><![CDATA[New Promo Card]]></internal-name>
+        <file-name>2bf9c1af-e42e-4b52-b885-f53e5261e54c.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-08T13:47:00.091Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T13:47:00.091Z</lastModifiedDate_dt>
+        <objectId>2bf9c1af-e42e-4b52-b885-f53e5261e54c</objectId>
+        <title_s/>
+        <subtitle_s/>
+        <image_s/>
+        <description_html/>
+      </component>
+    </item>
+  </pageSections_o>
+  <relatedOffers_o item-list="true"/>
+  <createdDate>2023-12-08T13:39:56.453Z</createdDate>
+  <createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
+  <lastModifiedDate>2023-12-08T13:44:49.930Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-08T13:47:00.091Z</lastModifiedDate_dt>
 </page>
