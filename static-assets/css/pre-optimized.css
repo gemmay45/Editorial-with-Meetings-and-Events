@@ -56102,7 +56102,7 @@ body#grand .trip-advisor-reviews {
 
 body#grand .trip-advisor-reviews::before {
     content: "";
-    background-image: url(/static-assets/images/nina/grand/Grand-Logo-pattern.svg);
+    background-image: url(../images/nina/grand/Grand-Logo-pattern.svg);
     position: absolute;
     height: 138px;
     top: calc(100% - 138px);
@@ -56164,15 +56164,15 @@ body#grand .trip-advisor-reviews .component-content .advisor-body .reviews-stati
 }
 
 body#grand .trip-advisor-reviews .component-content .advisor-body .reviews-static .reviews-static-desc .review-dots-wrapper .icon-rating-circle-full {
-    background-image: url(/static-assets/images/nina/grand/grand-icon-rating-circle-full.svg)
+    background-image: url(../images/grand-icon-rating-circle-full.svg)
 }
 
 body#grand .trip-advisor-reviews .component-content .advisor-body .reviews-static .reviews-static-desc .review-dots-wrapper .icon-rating-circle-half {
-    background-image: url(/static-assets/images/nina/grand/grand-icon-rating-circle-half.svg)
+    background-image: url(../images/grand-icon-rating-circle-half.svg)
 }
 
 body#grand .trip-advisor-reviews .component-content .advisor-body .reviews-static .reviews-static-desc .review-dots-wrapper .icon-rating-circle-empty {
-    background-image: url(/static-assets/images/nina/grand/grand-icon-rating-circle-empty.svg)
+    background-image: url(../images/grand-icon-rating-circle-empty.svg)
 }
 
 body#grand .trip-advisor-reviews .component-content .advisor-body .reviews-static .reviews-static-desc .review-ranking {
