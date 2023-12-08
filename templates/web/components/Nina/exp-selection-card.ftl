@@ -12,11 +12,13 @@
     <@crafter.h2 $field="title_s" class="desc-title"><font color="#817456">${contentModel.title_s!""}</font></@crafter.h2>
     <h3 class="desc-subtitle"></h3>
     <div class="horizontal-line"></div>
-    <@crafter.div class="desc-body" $field="description_html">
-        <div>
-        ${contentModel.description_html}
-        </div>
-    </@crafter.div>
+    <#if contentModel.description_html?hasContent>
+        <@crafter.div class="desc-body" $field="description_html">
+            <div>
+            ${contentModel.description_html}
+            </div>
+        </@crafter.div>
+    </#if>
 </div>
 
 
