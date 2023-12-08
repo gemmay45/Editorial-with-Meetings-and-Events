@@ -20,7 +20,7 @@
                 <li tabindex="-1" class="uk-active">
                     <div class="uk-card uk-card-default custom-slider-card">
                         <div class="uk-card-media-top custom-slider-card-media-top">
-                            <@crafter.img data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/dining/1025_chef-ken_560x303_3.jpg?rev=83f3237de33546c4b3bf9625db9c09ab" class="m-image lazyload-img" alt="" width="609" height="376" src=${contentModel.image_s!""} />
+                            <@crafter.img data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/dining/1025_chef-ken_560x303_3.jpg?rev=83f3237de33546c4b3bf9625db9c09ab" class="m-image lazyload-img" alt="" width="609" height="376" src=(contentModel.image_s!"") />
                         </div>
                     </div>
                 </li>
