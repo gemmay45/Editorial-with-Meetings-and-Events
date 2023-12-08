@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>3779</objectGroupId>
+	<objectId>3779da1a-d81b-b2bc-1cca-e4201f2741e5</objectId>
+	<items item-list="true">	<item>	<key>Menu</key>
+	<value>Menu</value>
+	</item>	<item>	<key>The talent behind the taste</key>
+	<value>The talent behind the taste</value>
+	</item>	<item>	<key>Private Dining Experience</key>
+	<value>Private Dining Experience</value>
+	</item></items>
+	<internal-name>Sub-section Titles</internal-name>
+	<file-name>sub-section-titles.xml</file-name>
+	<folder-name/>
+	<createdDate>2023-12-08T07:28:00.519Z</createdDate>
+	<createdDate_dt>2023-12-08T07:28:00.519Z</createdDate_dt>
+	<lastModifiedDate>2023-12-08T07:28:00.519Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T07:28:00.519Z</lastModifiedDate_dt>
+</component>
