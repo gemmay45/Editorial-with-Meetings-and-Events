@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T03:12:09.793Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T03:12:09.793Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T03:12:25.904Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T03:12:25.904Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -182,6 +182,7 @@
       </component>
 	</item>	<item inline="true">	<key>35d1d23c-081b-4917-8b9b-88a2625d5254</key>
 	<value>New Event Card</value>
+	<disableFlattening>false</disableFlattening>
 <component id="35d1d23c-081b-4917-8b9b-88a2625d5254">
 	<content-type>/component/eventcard</content-type>
 	<display-template>/templates/web/components/Nina/event-card.ftl</display-template>
@@ -190,20 +191,19 @@
 	<internal-name>New Event Card</internal-name>
 	<file-name>35d1d23c-081b-4917-8b9b-88a2625d5254.xml</file-name>
 	<createdDate_dt>2023-12-08T03:04:36.662Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T03:12:10.886Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T03:12:27.050Z</lastModifiedDate_dt>
 	<objectId>35d1d23c-081b-4917-8b9b-88a2625d5254</objectId>
 	<title_s/>
 	<description_html/>
 	<image_s>/static-assets/images/nina/meeting-and-events/20230731_tww_nina-ballroom_meeting_1600x1200.jpg</image_s>
 	<imagePosition_s/>
-	<area_s/>
+	<area_s>1,680 sqm / 18,080 sq. ft.</area_s>
 	<seatings_s>up to 1,100 seatings</seatings_s>
 	<CTAName_s>Explore more</CTAName_s>
 	<link_s>#</link_s>
 	<folder-name/>
 	<createdDate>2023-12-08T03:04:36.662Z</createdDate>
-	<lastModifiedDate>2023-12-08T03:12:10.886Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T03:12:27.050Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 </page>
