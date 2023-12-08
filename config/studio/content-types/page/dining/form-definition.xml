@@ -458,7 +458,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/herobannerwithtitle,/component/expselectioncard,/component/oidcard</value>
+							<value>/component/herobannerwithtitle,/component/expselectioncard,/component/oidcard,/component/openmenu</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
