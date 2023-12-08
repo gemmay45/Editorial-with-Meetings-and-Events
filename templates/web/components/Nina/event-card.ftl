@@ -52,11 +52,12 @@
                             </div>
                         </#if>
 						
-                        <div class="events-card-content-logo">
-                                <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/nhg-features/ninahospitality-clubhouse-icon.svg?rev=41be2099aecb4a95adc122638c30a8b1" alt="">
-                                <@crafter.span $field="seatings_s">${contentModel.seatings_s}</@crafter.span>
-                        </div>
-						
+                        <#if contentModel.seatings_s?hasContent>
+                            <div class="events-card-content-logo">
+                                    <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/nhg-features/ninahospitality-clubhouse-icon.svg?rev=41be2099aecb4a95adc122638c30a8b1" alt="">
+                                    <@crafter.span $field="seatings_s">${contentModel.seatings_s}</@crafter.span>
+                            </div>
+                        </#if>						
                     </div>
                     <div class="events-card-content-links">
 						<a href="/en/event-enquiry" rel="noopener noreferrer" class="reserve-now-btn">Reserve now</a> 
