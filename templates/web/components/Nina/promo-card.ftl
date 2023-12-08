@@ -1,3 +1,5 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
 <div class="component scwl-promo module-component single-card-wrapper need-to-control-bg col-12">
         <div class="component-content">
 
