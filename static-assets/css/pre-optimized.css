@@ -57459,7 +57459,7 @@ body#grand .experience-selection {
 
 body#grand .experience-selection::before {
     content: "";
-    background-image: url(../images/Grand-Logo-pattern-2.svg);
+    background-image: url(../images/nina/grand/Grand-Logo-pattern-2.svg);
     position: absolute;
     width: 40%;
     height: 100%;
@@ -57473,7 +57473,7 @@ body#grand .experience-selection::before {
 body#grand .experience-selection .component-content {
     align-items: center;
     gap: 52px;
-    background-image: url(../images/Grand-Logo-pattern-3.svg);
+    background-image: url(../images/nina/grand/Grand-Logo-pattern-3.svg);
     background-repeat: no-repeat;
     background-position: calc(60% + 70px) 100%;
     margin: 0 auto;
