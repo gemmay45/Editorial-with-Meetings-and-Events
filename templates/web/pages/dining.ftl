@@ -16,6 +16,18 @@
 <!-- Wrapper -->
 <div id="wrapper">
 
+  <!-- Main -->
+   <main>
+    <div class="inner">
+
+        <!-- Header -->
+        <@renderComponent component=contentModel.header_o.item />
+
+
+        <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
+
+    </div>
+  </main>
 
 
   <!-- Left Rail -->
