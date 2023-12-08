@@ -22,7 +22,7 @@
         <div class="inner">
     
             <!-- Header -->
-            <@renderComponent component=contentModel.header_o.item />
+            <#--<@renderComponent component=contentModel.header_o.item />-->
 
     <@crafter.section $model=contentModel>
             <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
