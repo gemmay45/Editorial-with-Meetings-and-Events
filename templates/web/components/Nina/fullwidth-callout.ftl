@@ -1,3 +1,6 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
+
 <div class="component fwec-card full-width-experience-callout need-to-control-bg">
     <div class="component-content">
 
