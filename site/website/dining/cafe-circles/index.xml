@@ -16,7 +16,7 @@
   <createdDate>2023-12-08T04:02:40.338Z</createdDate>
   <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
   <lastModifiedDate>2023-12-08T12:32:44.958Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-08T12:39:03.184Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-08T13:09:32.017Z</lastModifiedDate_dt>
   <pageSections_o item-list="true">
     <item inline="true">
       <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
@@ -60,6 +60,20 @@
         <title_s>Café Circles</title_s>
         <image_s>/static-assets/images/nina/dining/cafe-circles/dessert-buffet-table---wide-shot_600x900.jpg</image_s>
         <description_html>&lt;p&gt;Caf&amp;eacute; Circles is a unique setting for any occasion. Centred around a 12-metre long communal table that encourages everyone to be social, the caf&amp;eacute; attracts a crowd who loves its famous buffet. Open all day, and the perfect place to congregate or escape, Caf&amp;eacute; Circles serves delicious international and Asian food, to a backdrop of views across Tsuen Wan and the Rambler Channel.&lt;/p&gt;</description_html>
+      </component>
+    </item>
+    <item inline="true">
+      <key>173e8121-4402-45cf-9427-7ae56b976e7a</key>
+      <value><![CDATA[New OID Card]]></value>
+      <component id="173e8121-4402-45cf-9427-7ae56b976e7a">
+        <content-type>/component/oidcard</content-type>
+        <display-template>/templates/web/components/Nina/oid-card.ftl</display-template>
+        <internal-name><![CDATA[New OID Card]]></internal-name>
+        <file-name>173e8121-4402-45cf-9427-7ae56b976e7a.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-08T13:09:32.016Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T13:09:32.016Z</lastModifiedDate_dt>
+        <objectId>173e8121-4402-45cf-9427-7ae56b976e7a</objectId>
       </component>
     </item>
     <item inline="true">
