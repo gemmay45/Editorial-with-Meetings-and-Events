@@ -25,14 +25,7 @@
 
 			<!-- Content -->
 			<section>
-				<header class="main">
-          <@crafter.h1 $field="subject_t">
-            ${contentModel.subject_t!""}
-          </@crafter.h1>
-          <div>
-            by <@crafter.span $field"author_s">${contentModel.author_s!""}</@crafter.span>
-          </div>
-				</header>
+
 				<#if contentModel.image_s??>
 					<#assign image = contentModel.image_s/>
 				<#else>
