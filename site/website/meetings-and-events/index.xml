@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-07T08:22:09.676Z</createdDate>
 	<createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T02:09:43.850Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T02:09:43.850Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-08T02:13:45.333Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T02:13:45.333Z</lastModifiedDate_dt>
 	<header_o item-list="true">	<item>	<key>/site/components/headers/header.xml</key>
 	<value>Header</value>
 	<include>/site/components/headers/header.xml</include>
@@ -120,6 +120,7 @@
       </component>
 	</item>	<item inline="true">	<key>7c04a3db-2ce8-4e5c-87c7-d3a66e2a01ba</key>
 	<value>New Single Card</value>
+	<disableFlattening>false</disableFlattening>
 <component id="7c04a3db-2ce8-4e5c-87c7-d3a66e2a01ba">
 	<content-type>/component/singlecard</content-type>
 	<display-template>/templates/web/components/Nina/single-card.ftl</display-template>
@@ -128,17 +129,16 @@
 	<internal-name>New Single Card</internal-name>
 	<file-name>7c04a3db-2ce8-4e5c-87c7-d3a66e2a01ba.xml</file-name>
 	<createdDate_dt>2023-12-08T02:09:58.672Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T02:09:58.672Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-08T02:13:46.301Z</lastModifiedDate_dt>
 	<objectId>7c04a3db-2ce8-4e5c-87c7-d3a66e2a01ba</objectId>
-	<title_s/>
-	<description_html/>
+	<title_s>Making memories from flavours</title_s>
+	<description_html>&lt;p&gt;The expertise of Nina&amp;rsquo;s Executive Chef is on hand to help you create an experience that your guests will remember fondly. Whatever your requirements, talk to us and we can look after even the most demanding of attendees.&lt;/p&gt;</description_html>
 	<image_s/>
 	<imagePosition_s>layout--right</imagePosition_s>
 	<folder-name/>
 	<createdDate>2023-12-08T02:09:58.672Z</createdDate>
-	<lastModifiedDate>2023-12-08T02:09:58.672Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-08T02:13:46.301Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>b008f273-4638-4115-ad24-f90ac793dcf0</key>
 	<value>New Fullwidth Callout</value>
 	<disableFlattening>false</disableFlattening>
