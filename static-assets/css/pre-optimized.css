@@ -53817,7 +53817,7 @@ body#global .single-card-layout-wrapper .single-card-layout-content-wrapper {
 
 body#global .single-card-layout-wrapper .single-card-layout-content-wrapper::before {
     content: "";
-    background-image: url(../images/Global-Logo-pattern.svg);
+    background-image: url(../images/nina/grand/Global-Logo-pattern.svg);
     background-repeat: round;
     position: absolute;
     top: 0;
@@ -53961,7 +53961,7 @@ body#global .events-card-wrapper .component-content .events-card-content-wrapper
 
 body#global .events-card-wrapper .component-content .events-card-content-wrapper::before {
     content: "";
-    background-image: url(../images/Global-Logo-pattern.svg);
+    background-image: url(../images/nina/grand/Global-Logo-pattern.svg);
     background-repeat: round;
     position: absolute;
     top: 0;
