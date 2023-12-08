@@ -1,44 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/dining</content-type>
-	<display-template>/templates/web/pages/dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>adbe</objectGroupId>
-	<objectId>adbef803-8d20-55b2-29d6-dc16f6f2de91</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>cafe-circles</folder-name>
-	<internal-name>Café Circles</internal-name>
-	<navLabel>Café Circles</navLabel>
-	<relatedOffers_o item-list="true"/>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
-	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T04:58:34.921Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T04:58:34.921Z</lastModifiedDate_dt>
-	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
-	<value>New Hero Banner with Title</value>
-	<disableFlattening>false</disableFlattening>
-<component id="406462c0-3751-4206-8dbb-f94e4a9aa88a">
-	<content-type>/component/herobannerwithtitle</content-type>
-	<display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Hero Banner with Title</internal-name>
-	<file-name>406462c0-3751-4206-8dbb-f94e4a9aa88a.xml</file-name>
-	<createdDate_dt>2023-12-08T04:56:26.573Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T04:58:35.902Z</lastModifiedDate_dt>
-	<objectId>406462c0-3751-4206-8dbb-f94e4a9aa88a</objectId>
-	<title_s>Café Circles</title_s>
-	<imageforDesktop_s>/static-assets/images/nina/dining/cafe-circles/220706_cafe-cirlces_seafood-on-ice.jpg</imageforDesktop_s>
-	<imageforMobile_s/>
-	<folder-name/>
-	<createdDate>2023-12-08T04:56:26.573Z</createdDate>
-	<lastModifiedDate>2023-12-08T04:58:35.902Z</lastModifiedDate>
-</component>
-	</item></pageSections_o>
-	<disabled>false</disabled>
-	<header_o item-list="true"/>
-	<leftRail_o item-list="true"/>
+  <content-type>/page/dining</content-type>
+  <display-template>/templates/web/pages/dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>adbe</objectGroupId>
+  <objectId>adbef803-8d20-55b2-29d6-dc16f6f2de91</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>cafe-circles</folder-name>
+  <internal-name>Café Circles</internal-name>
+  <navLabel>Café Circles</navLabel>
+  <relatedOffers_o item-list="true"/>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <createdDate>2023-12-08T04:02:40.338Z</createdDate>
+  <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
+  <lastModifiedDate>2023-12-08T04:58:34.921Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-08T06:00:33.902Z</lastModifiedDate_dt>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
+      <value>New Hero Banner with Title</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="406462c0-3751-4206-8dbb-f94e4a9aa88a">
+        <content-type>/component/herobannerwithtitle</content-type>
+        <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Hero Banner with Title</internal-name>
+        <file-name>406462c0-3751-4206-8dbb-f94e4a9aa88a.xml</file-name>
+        <createdDate_dt>2023-12-08T04:56:26.573Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T04:58:35.902Z</lastModifiedDate_dt>
+        <objectId>406462c0-3751-4206-8dbb-f94e4a9aa88a</objectId>
+        <title_s>Café Circles</title_s>
+        <imageforDesktop_s>/static-assets/images/nina/dining/cafe-circles/220706_cafe-cirlces_seafood-on-ice.jpg</imageforDesktop_s>
+        <imageforMobile_s/>
+        <folder-name/>
+        <createdDate>2023-12-08T04:56:26.573Z</createdDate>
+        <lastModifiedDate>2023-12-08T04:58:35.902Z</lastModifiedDate>
+      </component>
+    </item>
+    <item inline="true">
+      <key>01d29a67-748f-44d4-8eab-186ba25be890</key>
+      <value><![CDATA[New Exp Selection Card]]></value>
+      <component id="01d29a67-748f-44d4-8eab-186ba25be890">
+        <content-type>/component/expselectioncard</content-type>
+        <display-template>/templates/web/components/exp-selection-card.ftl</display-template>
+        <internal-name><![CDATA[New Exp Selection Card]]></internal-name>
+        <file-name>01d29a67-748f-44d4-8eab-186ba25be890.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-08T06:00:33.901Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T06:00:33.901Z</lastModifiedDate_dt>
+        <objectId>01d29a67-748f-44d4-8eab-186ba25be890</objectId>
+      </component>
+    </item>
+  </pageSections_o>
+  <disabled>false</disabled>
+  <header_o item-list="true"/>
+  <leftRail_o item-list="true"/>
 </page>
