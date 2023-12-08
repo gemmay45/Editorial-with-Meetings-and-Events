@@ -29,7 +29,6 @@
     </div>
   </main>
 
-
   <!-- Left Rail -->
   <@renderComponent component=contentModel.left_rail_o.item />
 
