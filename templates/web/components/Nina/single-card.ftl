@@ -11,8 +11,13 @@
                 <li tabindex="-1" class="uk-active">
                     <div class="uk-card uk-card-default custom-slider-card">
                         <div class="uk-card-media-top custom-slider-card-media-top">
-                            <img src="${contentModel.image_s???then(contentModel.image_s, "/static-assets/images/placeholder.png")}" />
-                            <#--<@crafter.img $field="image_s" src=contentModel.image_s??then(contentModel.image_s, "/static-assets/images/placeholder.png") />-->
+                            <#if contentModel.image_s??>
+            					<#assign image = contentModel.image_s/>
+            				<#else>
+            					<#assign image = "/static-assets/images/placeholder.png"/>
+            				</#if>
+
+                            <@crafter.img $field="image_s" src=${image} />
                         </div>
                     </div>
                 </li>
