@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/dining</content-type>
-  <display-template>/templates/web/pages/dining.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>adbe</objectGroupId>
-  <objectId>adbef803-8d20-55b2-29d6-dc16f6f2de91</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>cafe-circles</folder-name>
-  <internal-name>Café Circles</internal-name>
-  <navLabel>Café Circles</navLabel>
-  <relatedOffers_o item-list="true"/>
-  <placeInNav>false</placeInNav>
-  <orderDefault_f>-1</orderDefault_f>
-  <createdDate>2023-12-08T04:02:40.338Z</createdDate>
-  <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-  <lastModifiedDate>2023-12-08T06:35:34.901Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-08T06:57:10.192Z</lastModifiedDate_dt>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
-      <value>New Hero Banner with Title</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="406462c0-3751-4206-8dbb-f94e4a9aa88a">
+	<content-type>/page/dining</content-type>
+	<display-template>/templates/web/pages/dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>adbe</objectGroupId>
+	<objectId>adbef803-8d20-55b2-29d6-dc16f6f2de91</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>cafe-circles</folder-name>
+	<internal-name>Café Circles</internal-name>
+	<navLabel>Café Circles</navLabel>
+	<relatedOffers_o item-list="true"/>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
+	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
+	<lastModifiedDate>2023-12-08T06:58:38.343Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-08T06:58:38.343Z</lastModifiedDate_dt>
+	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
+	<value>New Hero Banner with Title</value>
+	<disableFlattening>false</disableFlattening>
+<component id="406462c0-3751-4206-8dbb-f94e4a9aa88a">
         <content-type>/component/herobannerwithtitle</content-type>
         <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
         <no-template-required/>
@@ -39,12 +37,10 @@
         <createdDate>2023-12-08T04:56:26.573Z</createdDate>
         <lastModifiedDate>2023-12-08T04:58:35.902Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>01d29a67-748f-44d4-8eab-186ba25be890</key>
-      <value>New Exp Selection Card</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="01d29a67-748f-44d4-8eab-186ba25be890">
+	</item>	<item inline="true">	<key>01d29a67-748f-44d4-8eab-186ba25be890</key>
+	<value>New Exp Selection Card</value>
+	<disableFlattening>false</disableFlattening>
+<component id="01d29a67-748f-44d4-8eab-186ba25be890">
         <content-type>/component/expselectioncard</content-type>
         <display-template>/templates/web/components/Nina/exp-selection-card.ftl</display-template>
         <no-template-required/>
@@ -61,11 +57,9 @@
         <image_s>/static-assets/images/nina/dining/cafe-circles/dessert-buffet-table---wide-shot_600x900.jpg</image_s>
         <description_html>&lt;p&gt;Caf&amp;eacute; Circles is a unique setting for any occasion. Centred around a 12-metre long communal table that encourages everyone to be social, the caf&amp;eacute; attracts a crowd who loves its famous buffet. Open all day, and the perfect place to congregate or escape, Caf&amp;eacute; Circles serves delicious international and Asian food, to a backdrop of views across Tsuen Wan and the Rambler Channel.&lt;/p&gt;</description_html>
       </component>
-    </item>
-    <item inline="true">
-      <key>c55e657e-e841-46df-b3dd-6bc2a531dfc0</key>
-      <value><![CDATA[New OID Card]]></value>
-      <component id="c55e657e-e841-46df-b3dd-6bc2a531dfc0">
+	</item>	<item inline="true">	<key>c55e657e-e841-46df-b3dd-6bc2a531dfc0</key>
+	<value>New OID Card</value>
+<component id="c55e657e-e841-46df-b3dd-6bc2a531dfc0">
         <content-type>/component/oidcard</content-type>
         <display-template>/templates/web/components/Nina/oid-card.ftl</display-template>
         <internal-name><![CDATA[New OID Card]]></internal-name>
@@ -75,11 +69,10 @@
         <lastModifiedDate_dt>2023-12-08T06:47:04.766Z</lastModifiedDate_dt>
         <objectId>c55e657e-e841-46df-b3dd-6bc2a531dfc0</objectId>
       </component>
-    </item>
-    <item inline="true">
-      <key>1988ad71-2b26-4479-8da6-11dec04daae7</key>
-      <value><![CDATA[New Open Menu]]></value>
-      <component id="1988ad71-2b26-4479-8da6-11dec04daae7">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>1988ad71-2b26-4479-8da6-11dec04daae7</key>
+	<value>New Open Menu</value>
+<component id="1988ad71-2b26-4479-8da6-11dec04daae7">
         <content-type>/component/openmenu</content-type>
         <display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
         <internal-name><![CDATA[New Open Menu]]></internal-name>
@@ -89,11 +82,10 @@
         <lastModifiedDate_dt>2023-12-08T06:51:19.498Z</lastModifiedDate_dt>
         <objectId>1988ad71-2b26-4479-8da6-11dec04daae7</objectId>
       </component>
-    </item>
-    <item inline="true">
-      <key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
-      <value><![CDATA[New Promo Card]]></value>
-      <component id="e1c349f1-1d97-4716-9ad8-23888fa88116">
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
+	<value>New Promo Card</value>
+<component id="e1c349f1-1d97-4716-9ad8-23888fa88116">
         <content-type>/component/promocard</content-type>
         <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
         <internal-name><![CDATA[New Promo Card]]></internal-name>
@@ -103,28 +95,31 @@
         <lastModifiedDate_dt>2023-12-08T06:55:54.237Z</lastModifiedDate_dt>
         <objectId>e1c349f1-1d97-4716-9ad8-23888fa88116</objectId>
       </component>
-    </item>
-    <item inline="true">
-      <key>988c47cf-1dce-432a-bf69-d86cd6a2567b</key>
-      <value><![CDATA[New Fullwidth Callout]]></value>
-      <component id="988c47cf-1dce-432a-bf69-d86cd6a2567b">
-        <content-type>/component/fullwidthcallout</content-type>
-        <display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
-        <internal-name><![CDATA[New Fullwidth Callout]]></internal-name>
-        <file-name>988c47cf-1dce-432a-bf69-d86cd6a2567b.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-08T06:57:10.192Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-08T06:57:10.192Z</lastModifiedDate_dt>
-        <objectId>988c47cf-1dce-432a-bf69-d86cd6a2567b</objectId>
-        <title_s/>
-        <bodyContent_t/>
-        <image_s/>
-        <CTAName_s/>
-        <link_s/>
-      </component>
-    </item>
-  </pageSections_o>
-  <disabled>false</disabled>
-  <header_o item-list="true"/>
-  <leftRail_o item-list="true"/>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>988c47cf-1dce-432a-bf69-d86cd6a2567b</key>
+	<value>New Fullwidth Callout</value>
+<component id="988c47cf-1dce-432a-bf69-d86cd6a2567b">
+	<content-type>/component/fullwidthcallout</content-type>
+	<display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Fullwidth Callout</internal-name>
+	<file-name>988c47cf-1dce-432a-bf69-d86cd6a2567b.xml</file-name>
+	<createdDate_dt>2023-12-08T06:58:39.747Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-12-08T06:58:39.747Z</lastModifiedDate_dt>
+	<objectId>988c47cf-1dce-432a-bf69-d86cd6a2567b</objectId>
+	<title_s/>
+	<bodyContent_t/>
+	<image_s>/static-assets/images/nina/dining/cafe-circles/ninapatisserie_eshopbanner_1441x501-01.jpg</image_s>
+	<CTAName_s/>
+	<link_s/>
+	<folder-name/>
+	<createdDate>2023-12-08T06:58:39.747Z</createdDate>
+	<lastModifiedDate>2023-12-08T06:58:39.747Z</lastModifiedDate>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item></pageSections_o>
+	<disabled>false</disabled>
+	<header_o item-list="true"/>
+	<leftRail_o item-list="true"/>
 </page>
