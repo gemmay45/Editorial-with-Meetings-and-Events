@@ -11,7 +11,7 @@
                 <li tabindex="-1" class="uk-active">
                     <div class="uk-card uk-card-default custom-slider-card">
                         <div class="uk-card-media-top custom-slider-card-media-top">
-                            <img data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/meeting/tww_nina-ballroom_u-shape_re_1000x660.jpg?rev=fb7e64ff4ad14eb284a9178ecd8b5cfe" class="m-image lazyload-img" alt="Hong Kong Hotel Meeting Venue | Nina Hotel Tsuen Wan West" width="609" height="376" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/meeting/tww_nina-ballroom_u-shape_re_1000x660.jpg?rev=fb7e64ff4ad14eb284a9178ecd8b5cfe">
+                            <@crafter.img $field="image_s" src="contentModel.image_s">
                         </div>
                     </div>
                 </li>
