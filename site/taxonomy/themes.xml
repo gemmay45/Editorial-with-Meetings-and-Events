@@ -6,9 +6,9 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>b4a1</objectGroupId>
 	<objectId>b4a1e630-0a95-4169-215d-0242f1d3a223</objectId>
-	<items item-list="true">	<item>	<key>rgba(175, 162, 133, 0.2)</key>
+	<items item-list="true">	<item>	<key>background:rgba(175, 162, 133, 0.2)</key>
 	<value>Grey</value>
-	</item>	<item>	<key>white</key>
+	</item>	<item>	<key>background:white</key>
 	<value>White</value>
 	</item></items>
 	<file-name>themes.xml</file-name>
@@ -16,6 +16,6 @@
 	<internal-name>Themes</internal-name>
 	<createdDate>2023-12-08T13:50:54.103Z</createdDate>
 	<createdDate_dt>2023-12-08T13:50:54.103Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T13:50:54.103Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T13:50:54.103Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-09T13:07:03.134Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-09T13:07:03.134Z</lastModifiedDate_dt>
 </component>
