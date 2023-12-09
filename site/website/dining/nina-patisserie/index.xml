@@ -33,10 +33,29 @@
         <imageforMobile_s/>
       </component>
     </item>
+    <item inline="true">
+      <key>9c746d64-61e3-496b-a13b-b2c95c539dcb</key>
+      <value><![CDATA[New Fullwidth Callout]]></value>
+      <component id="9c746d64-61e3-496b-a13b-b2c95c539dcb">
+        <content-type>/component/fullwidthcallout</content-type>
+        <display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
+        <internal-name><![CDATA[New Fullwidth Callout]]></internal-name>
+        <file-name>9c746d64-61e3-496b-a13b-b2c95c539dcb.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-09T14:31:26.566Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-09T14:31:26.566Z</lastModifiedDate_dt>
+        <objectId>9c746d64-61e3-496b-a13b-b2c95c539dcb</objectId>
+        <title_s/>
+        <description_html/>
+        <image_s><![CDATA[/static-assets/images/placeholder.png]]></image_s>
+        <CTAName_s/>
+        <link_s/>
+      </component>
+    </item>
   </pageSections_o>
   <relatedOffers_o item-list="true"/>
   <createdDate>2023-12-09T13:43:17.825Z</createdDate>
   <createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
   <lastModifiedDate>2023-12-09T13:43:17.825Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-09T14:30:26.820Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-09T14:31:26.566Z</lastModifiedDate_dt>
 </page>
