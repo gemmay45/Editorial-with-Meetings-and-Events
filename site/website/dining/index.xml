@@ -1,22 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/dininglanding</content-type>
-	<display-template>/templates/web/pages/dining-landing.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>e0df</objectGroupId>
-	<objectId>e0dfbc0b-3c4f-bc63-834f-9784b346c75c</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>dining</folder-name>
-	<disabled>false</disabled>
-	<internal-name>Dining</internal-name>
-	<navLabel>Dining</navLabel>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<header_o item-list="true"/>
-	<leftRail_o item-list="true"/>
-	<createdDate>2023-12-08T04:01:02.411Z</createdDate>
-	<createdDate_dt>2023-12-08T04:01:02.411Z</createdDate_dt>
-	<lastModifiedDate>2023-12-09T15:19:01.041Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-09T15:19:01.041Z</lastModifiedDate_dt>
+  <content-type>/page/dininglanding</content-type>
+  <display-template>/templates/web/pages/dining-landing.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>e0df</objectGroupId>
+  <objectId>e0dfbc0b-3c4f-bc63-834f-9784b346c75c</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>dining</folder-name>
+  <disabled>false</disabled>
+  <internal-name>Dining</internal-name>
+  <navLabel>Dining</navLabel>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <header_o item-list="true"/>
+  <leftRail_o item-list="true"/>
+  <createdDate>2023-12-08T04:01:02.411Z</createdDate>
+  <createdDate_dt>2023-12-08T04:01:02.411Z</createdDate_dt>
+  <lastModifiedDate>2023-12-09T15:19:01.041Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-09T15:19:40.608Z</lastModifiedDate_dt>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>9c2135bc-4e90-4187-b622-16f0eda1a8fa</key>
+      <value><![CDATA[New Hero Banner with Title]]></value>
+      <component id="9c2135bc-4e90-4187-b622-16f0eda1a8fa">
+        <content-type>/component/herobannerwithtitle</content-type>
+        <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+        <internal-name><![CDATA[New Hero Banner with Title]]></internal-name>
+        <file-name>9c2135bc-4e90-4187-b622-16f0eda1a8fa.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-09T15:19:40.607Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-09T15:19:40.607Z</lastModifiedDate_dt>
+        <objectId>9c2135bc-4e90-4187-b622-16f0eda1a8fa</objectId>
+        <title_s><![CDATA[[Title goes here]]]></title_s>
+        <imageforDesktop_s><![CDATA[/static-assets/images/placeholder.png]]></imageforDesktop_s>
+        <imageforMobile_s/>
+      </component>
+    </item>
+  </pageSections_o>
 </page>
