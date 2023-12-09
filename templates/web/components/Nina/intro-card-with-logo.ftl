@@ -17,8 +17,8 @@
             })();
         </script>
     </div>
-    <div class="offersContent-section-text">
-        <@crafter.span $field="bodyContent_html">${contentModel.bodyContent_html!""}</@crafter.span>
+    <div class="offersContent-section-text" $field="bodyContent_html">
+        ${contentModel.bodyContent_html!""}
         <span class="offersContent-section-subtitle"></span>
     </div>
 </div>
