@@ -98,7 +98,7 @@
 					<id>title_s</id>
 					<iceId></iceId>
 					<title>Title</title>
-					<description>[Title goes here]</description>
+					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
@@ -109,7 +109,7 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value>true</value>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -131,8 +131,8 @@
 					<id>subtitle_s</id>
 					<iceId></iceId>
 					<title>Subtitle</title>
-					<description>[Subtitle goes here]</description>
-					<defaultValue></defaultValue>
+					<description></description>
+					<defaultValue>[Subtitle goes here]</defaultValue>
 					<help></help>
 					<properties>
 						<property>
