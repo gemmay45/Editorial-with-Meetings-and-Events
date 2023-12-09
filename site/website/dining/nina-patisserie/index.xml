@@ -33,29 +33,10 @@
         <imageforMobile_s/>
       </component>
     </item>
-    <item inline="true">
-      <key>222c83b6-adf1-4231-8313-5f6fcf1e57bd</key>
-      <value><![CDATA[New Promo Card]]></value>
-      <component id="222c83b6-adf1-4231-8313-5f6fcf1e57bd">
-        <content-type>/component/promocard</content-type>
-        <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
-        <internal-name><![CDATA[New Promo Card]]></internal-name>
-        <file-name>222c83b6-adf1-4231-8313-5f6fcf1e57bd.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-09T14:13:11.076Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-09T14:13:11.076Z</lastModifiedDate_dt>
-        <objectId>222c83b6-adf1-4231-8313-5f6fcf1e57bd</objectId>
-        <title_s/>
-        <subtitle_s/>
-        <image_s><![CDATA[/static-assets/images/placeholder.png]]></image_s>
-        <description_html/>
-        <theme_s/>
-      </component>
-    </item>
   </pageSections_o>
   <relatedOffers_o item-list="true"/>
   <createdDate>2023-12-09T13:43:17.825Z</createdDate>
   <createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
   <lastModifiedDate>2023-12-09T13:43:17.825Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-09T14:13:11.076Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-09T14:13:18.129Z</lastModifiedDate_dt>
 </page>
