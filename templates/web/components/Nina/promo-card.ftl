@@ -20,7 +20,7 @@
                 <li tabindex="-1" class="uk-active">
                     <div class="uk-card uk-card-default custom-slider-card">
                         <div class="uk-card-media-top custom-slider-card-media-top">
-                            <@crafter.img class="m-image lazyload-img" alt="" width="609" height="376" src=(contentModel.image_s!"") />
+                            <@crafter.img class="m-image lazyload-img" alt="" width="609" height="376" src=(contentModel.image_s!"/static-assets/images/placeholder.png") />
                         </div>
                     </div>
                 </li>
