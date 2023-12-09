@@ -109,7 +109,7 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value>true</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -121,7 +121,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[true]]></value>
+							<value><![CDATA[false]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
