@@ -7,7 +7,7 @@
         <#if contentModel.logo_s?hasContent>
             <@crafter.img $field="logo_s" class="offersContent-section-new" style="margin:auto;" src=(contentModel.logo_s) alt="" />
         <#else>
-            <@crafter.img $field="logo_s" class="offersContent-section-new" style="margin:auto;" src="/static-assets/images/placeholder.png" alt="" />
+            <@crafter.img $field="logo_s" class="offersContent-section-new" style="margin:auto;width:180px" src="/static-assets/images/placeholder.png" alt="" />
         </#if>
         <div class="offersContent-section-share">
         <script>
