@@ -36,7 +36,7 @@
     </div>
     
     <div class="single-card-content-wrapper">
-        <@crafter.h3 $field="contentTitle_s" class="single-card-content-title"><font color="#817456">${contentModel.contentTitle_s!""}</font></@crafter.h3>
+        <h3 class="single-card-content-title"><@crafter.font $field="contentTitle_s" color="#817456">${contentModel.contentTitle_s!""}</@crafter.font></h3>
         <p class="single-card-content"></p>
         <@crafter.span $field="description_html">${contentModel.description_html!""}</@crafter.span>
         
