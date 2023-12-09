@@ -147,7 +147,7 @@
 					<iceId></iceId>
 					<title>Body Content</title>
 					<description></description>
-					<defaultValue>[Content goes here]</defaultValue>
+					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
