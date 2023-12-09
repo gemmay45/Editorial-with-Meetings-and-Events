@@ -98,7 +98,7 @@
 					<id>title_s</id>
 					<iceId></iceId>
 					<title>Title</title>
-					<description></description>
+					<description>[Title goes here]</description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
@@ -131,7 +131,7 @@
 					<id>subtitle_s</id>
 					<iceId></iceId>
 					<title>Subtitle</title>
-					<description></description>
+					<description>[Subtitle goes here]</description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
@@ -227,7 +227,7 @@
 					<id>description_html</id>
 					<iceId></iceId>
 					<title>Description</title>
-					<description></description>
+					<description>[Description goes here]</description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
