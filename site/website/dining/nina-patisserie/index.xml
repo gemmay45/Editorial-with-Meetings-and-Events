@@ -15,10 +15,28 @@
   <orderDefault_f>-1</orderDefault_f>
   <header_o item-list="true"/>
   <leftRail_o item-list="true"/>
-  <pageSections_o item-list="true"/>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>22b903df-5a9d-458c-bd2d-3dbdc2a5f429</key>
+      <value><![CDATA[New Hero Banner with Title]]></value>
+      <component id="22b903df-5a9d-458c-bd2d-3dbdc2a5f429">
+        <content-type>/component/herobannerwithtitle</content-type>
+        <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+        <internal-name><![CDATA[New Hero Banner with Title]]></internal-name>
+        <file-name>22b903df-5a9d-458c-bd2d-3dbdc2a5f429.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-09T14:40:57.590Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-09T14:40:57.590Z</lastModifiedDate_dt>
+        <objectId>22b903df-5a9d-458c-bd2d-3dbdc2a5f429</objectId>
+        <title_s><![CDATA[[Title goes here]]]></title_s>
+        <imageforDesktop_s><![CDATA[/static-assets/images/placeholder.png]]></imageforDesktop_s>
+        <imageforMobile_s/>
+      </component>
+    </item>
+  </pageSections_o>
   <relatedOffers_o item-list="true"/>
   <createdDate>2023-12-09T13:43:17.825Z</createdDate>
   <createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
   <lastModifiedDate>2023-12-09T13:43:17.825Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-09T14:39:09.515Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-09T14:40:57.590Z</lastModifiedDate_dt>
 </page>
