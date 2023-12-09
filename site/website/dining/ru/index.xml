@@ -50,6 +50,7 @@
       </component>
 	</item>	<item inline="true">	<key>41b64a79-fdd3-4a13-bee8-36e3d6a36720</key>
 	<value>New Intro Card with Logo</value>
+	<disableFlattening>false</disableFlattening>
 <component id="41b64a79-fdd3-4a13-bee8-36e3d6a36720">
 	<content-type>/component/introcardwithlogo</content-type>
 	<display-template>/templates/web/components/Nina/intro-card-with-logo.ftl</display-template>
@@ -66,7 +67,6 @@
 	<createdDate>2023-12-09T13:36:32.938Z</createdDate>
 	<lastModifiedDate>2023-12-09T13:36:32.938Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>8f9aeb59-e715-4b09-8424-ba061e0b2e68</key>
 	<value>New Promo Card</value>
 	<disableFlattening>false</disableFlattening>
@@ -119,6 +119,7 @@
 	<relatedOffers_o item-list="true"/>
 	<createdDate>2023-12-08T13:39:56.453Z</createdDate>
 	<createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
-	<lastModifiedDate>2023-12-09T13:36:25.266Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-09T13:36:25.266Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-09T15:11:53.651Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-09T15:11:53.651Z</lastModifiedDate_dt>
+	<teaserImage_s>/static-assets/images/nina/dining/ru/221223_new-ru_group-shot_500x500.jpg</teaserImage_s>
 </page>
