@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/dining</content-type>
-  <display-template>/templates/web/pages/dining.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>8c3c</objectGroupId>
-  <objectId>8c3c3de2-977c-27ff-3637-1d38da91c20e</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>nina-patisserie</folder-name>
-  <internal-name>Nina Patisserie</internal-name>
-  <navLabel>Nina Patisserie</navLabel>
-  <disabled>false</disabled>
-  <placeInNav>false</placeInNav>
-  <orderDefault_f>-1</orderDefault_f>
-  <header_o item-list="true"/>
-  <leftRail_o item-list="true"/>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>22b903df-5a9d-458c-bd2d-3dbdc2a5f429</key>
-      <value>New Hero Banner with Title</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="22b903df-5a9d-458c-bd2d-3dbdc2a5f429">
+	<content-type>/page/dining</content-type>
+	<display-template>/templates/web/pages/dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8c3c</objectGroupId>
+	<objectId>8c3c3de2-977c-27ff-3637-1d38da91c20e</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>nina-patisserie</folder-name>
+	<internal-name>Nina Patisserie</internal-name>
+	<navLabel>Nina Patisserie</navLabel>
+	<disabled>false</disabled>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<header_o item-list="true"/>
+	<leftRail_o item-list="true"/>
+	<pageSections_o item-list="true">	<item inline="true">	<key>22b903df-5a9d-458c-bd2d-3dbdc2a5f429</key>
+	<value>New Hero Banner with Title</value>
+	<disableFlattening>false</disableFlattening>
+<component id="22b903df-5a9d-458c-bd2d-3dbdc2a5f429">
         <content-type>/component/herobannerwithtitle</content-type>
         <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
         <no-template-required/>
@@ -37,12 +35,10 @@
         <createdDate>2023-12-09T14:42:18.739Z</createdDate>
         <lastModifiedDate>2023-12-09T14:42:18.739Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>62e10027-08da-4186-8ec1-5b508c1f2f7f</key>
-      <value>New Intro Card with Logo</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="62e10027-08da-4186-8ec1-5b508c1f2f7f">
+	</item>	<item inline="true">	<key>62e10027-08da-4186-8ec1-5b508c1f2f7f</key>
+	<value>New Intro Card with Logo</value>
+	<disableFlattening>false</disableFlattening>
+<component id="62e10027-08da-4186-8ec1-5b508c1f2f7f">
         <content-type>/component/introcardwithlogo</content-type>
         <display-template>/templates/web/components/Nina/intro-card-with-logo.ftl</display-template>
         <no-template-required/>
@@ -58,12 +54,10 @@
         <createdDate>2023-12-09T14:44:54.326Z</createdDate>
         <lastModifiedDate>2023-12-09T14:44:54.326Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>63c172b1-e2c8-4c60-afb5-a63ed92d2344</key>
-      <value>New Promo Card</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="63c172b1-e2c8-4c60-afb5-a63ed92d2344">
+	</item>	<item inline="true">	<key>63c172b1-e2c8-4c60-afb5-a63ed92d2344</key>
+	<value>New Promo Card</value>
+	<disableFlattening>false</disableFlattening>
+<component id="63c172b1-e2c8-4c60-afb5-a63ed92d2344">
         <content-type>/component/promocard</content-type>
         <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
         <no-template-required/>
@@ -83,30 +77,32 @@
         <lastModifiedDate>2023-12-09T14:56:38.268Z</lastModifiedDate>
         <contentTitle_s><![CDATA[HELLO KITTY X NINA PATISSERIE]]></contentTitle_s>
       </component>
-    </item>
-    <item inline="true">
-      <key>fb677e6e-bb75-4789-a94e-9908f4e0e786</key>
-      <value><![CDATA[New Fullwidth Callout]]></value>
-      <component id="fb677e6e-bb75-4789-a94e-9908f4e0e786">
-        <content-type>/component/fullwidthcallout</content-type>
-        <display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
-        <internal-name><![CDATA[New Fullwidth Callout]]></internal-name>
-        <file-name>fb677e6e-bb75-4789-a94e-9908f4e0e786.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-09T15:05:13.224Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-09T15:05:13.224Z</lastModifiedDate_dt>
-        <objectId>fb677e6e-bb75-4789-a94e-9908f4e0e786</objectId>
-        <title_s/>
-        <description_html><![CDATA[[Description goes here]]]></description_html>
-        <image_s><![CDATA[/static-assets/images/placeholder.png]]></image_s>
-        <CTAName_s/>
-        <link_s/>
-      </component>
-    </item>
-  </pageSections_o>
-  <relatedOffers_o item-list="true"/>
-  <createdDate>2023-12-09T13:43:17.825Z</createdDate>
-  <createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
-  <lastModifiedDate>2023-12-09T14:56:37.257Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-09T15:05:13.225Z</lastModifiedDate_dt>
+	</item>	<item inline="true">	<key>fb677e6e-bb75-4789-a94e-9908f4e0e786</key>
+	<value>New Fullwidth Callout</value>
+<component id="fb677e6e-bb75-4789-a94e-9908f4e0e786">
+	<content-type>/component/fullwidthcallout</content-type>
+	<display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Fullwidth Callout</internal-name>
+	<file-name>fb677e6e-bb75-4789-a94e-9908f4e0e786.xml</file-name>
+	<createdDate_dt>2023-12-09T15:05:19.717Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-12-09T15:05:19.717Z</lastModifiedDate_dt>
+	<objectId>fb677e6e-bb75-4789-a94e-9908f4e0e786</objectId>
+	<title_s>Bring Your Own Container</title_s>
+	<description_html>&lt;p&gt;Save the Planet and your wallet! Join hands with us and bring your own containers / cups for takeaway at our restaurants to enjoy HK$3 off drinks or HK$5 off food. Takeaway? Zero-waste! T&amp;amp;C apply.&lt;/p&gt;</description_html>
+	<image_s>/static-assets/images/nina/dining/nina-patisserie/ninahospitality-dining-bringyourowncontainer-1440x500px-1.jpg</image_s>
+	<CTAName_s/>
+	<link_s/>
+	<folder-name/>
+	<createdDate>2023-12-09T15:05:19.717Z</createdDate>
+	<lastModifiedDate>2023-12-09T15:05:19.717Z</lastModifiedDate>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item></pageSections_o>
+	<relatedOffers_o item-list="true"/>
+	<createdDate>2023-12-09T13:43:17.825Z</createdDate>
+	<createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
+	<lastModifiedDate>2023-12-09T15:05:18.649Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-09T15:05:18.649Z</lastModifiedDate_dt>
 </page>
