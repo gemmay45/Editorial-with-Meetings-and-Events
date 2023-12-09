@@ -227,8 +227,8 @@
 					<id>description_html</id>
 					<iceId></iceId>
 					<title>Description</title>
-					<description>[Description goes here]</description>
-					<defaultValue></defaultValue>
+					<description></description>
+					<defaultValue>[Description goes here]</defaultValue>
 					<help></help>
 					<properties>
 						<property>
