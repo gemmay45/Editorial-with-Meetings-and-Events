@@ -79,6 +79,7 @@
       </component>
 	</item>	<item inline="true">	<key>fb677e6e-bb75-4789-a94e-9908f4e0e786</key>
 	<value>New Fullwidth Callout</value>
+	<disableFlattening>false</disableFlattening>
 <component id="fb677e6e-bb75-4789-a94e-9908f4e0e786">
 	<content-type>/component/fullwidthcallout</content-type>
 	<display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
@@ -87,7 +88,7 @@
 	<internal-name>New Fullwidth Callout</internal-name>
 	<file-name>fb677e6e-bb75-4789-a94e-9908f4e0e786.xml</file-name>
 	<createdDate_dt>2023-12-09T15:05:19.717Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-09T15:05:19.717Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-09T15:07:01.987Z</lastModifiedDate_dt>
 	<objectId>fb677e6e-bb75-4789-a94e-9908f4e0e786</objectId>
 	<title_s>Bring Your Own Container</title_s>
 	<description_html>&lt;p&gt;Save the Planet and your wallet! Join hands with us and bring your own containers / cups for takeaway at our restaurants to enjoy HK$3 off drinks or HK$5 off food. Takeaway? Zero-waste! T&amp;amp;C apply.&lt;/p&gt;</description_html>
@@ -96,13 +97,12 @@
 	<link_s/>
 	<folder-name/>
 	<createdDate>2023-12-09T15:05:19.717Z</createdDate>
-	<lastModifiedDate>2023-12-09T15:05:19.717Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-09T15:07:01.987Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<relatedOffers_o item-list="true"/>
 	<createdDate>2023-12-09T13:43:17.825Z</createdDate>
 	<createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
-	<lastModifiedDate>2023-12-09T15:05:18.649Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-09T15:05:18.649Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-09T15:07:00.971Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-09T15:07:00.971Z</lastModifiedDate_dt>
 </page>
