@@ -5,7 +5,7 @@
 
     <div class="offersContent-section" data-bg-color="">
         <#if contentModel.logo_s.hasContent>
-            <@crafter.img $field="logo_s" class="offersContent-section-new" style="margin:auto;" src="(contentModel.logo_s)" alt="" />
+            <@crafter.img $field="logo_s" class="offersContent-section-new" style="margin:auto;" src=(contentModel.logo_s) alt="" />
         </#if>
         <div class="offersContent-section-share">
         <script>
