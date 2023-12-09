@@ -52,25 +52,26 @@
 	<value>New Promo Card</value>
 	<disableFlattening>false</disableFlattening>
 <component id="8f9aeb59-e715-4b09-8424-ba061e0b2e68">
-        <content-type>/component/promocard</content-type>
-        <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Promo Card</internal-name>
-        <file-name>8f9aeb59-e715-4b09-8424-ba061e0b2e68.xml</file-name>
-        <createdDate_dt>2023-12-08T13:44:50.943Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-08T13:44:50.943Z</lastModifiedDate_dt>
-        <objectId>8f9aeb59-e715-4b09-8424-ba061e0b2e68</objectId>
-        <title_s>The talent behind the taste</title_s>
-        <subtitle_s>Edmond Ip | Executive Chinese Chef</subtitle_s>
-        <image_s>/static-assets/images/nina/dining/ru/230309_chef-edmond-portrait.jpg</image_s>
-        <description_html>&lt;p&gt;Chef Edmond Ip has crafted his culinary talent to the forefront of modern Chinese Cuisine scene, including his experience at one of Asia's 50 Best Restaurants &amp;ldquo;WING&amp;rdquo; and some other top restaurants in Hong Kong. He respects Cantonese cuisine traditions but also loves exploring and reinterpreting age-old recipes for the modern tastebuds.&lt;/p&gt;
+	<content-type>/component/promocard</content-type>
+	<display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Promo Card</internal-name>
+	<file-name>8f9aeb59-e715-4b09-8424-ba061e0b2e68.xml</file-name>
+	<createdDate_dt>2023-12-08T13:44:50.943Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-12-09T13:08:44.585Z</lastModifiedDate_dt>
+	<objectId>8f9aeb59-e715-4b09-8424-ba061e0b2e68</objectId>
+	<title_s>The talent behind the taste</title_s>
+	<subtitle_s>Edmond Ip | Executive Chinese Chef</subtitle_s>
+	<image_s>/static-assets/images/nina/dining/ru/230309_chef-edmond-portrait.jpg</image_s>
+	<description_html>&lt;p&gt;Chef Edmond Ip has crafted his culinary talent to the forefront of modern Chinese Cuisine scene, including his experience at one of Asia's 50 Best Restaurants &amp;ldquo;WING&amp;rdquo; and some other top restaurants in Hong Kong. He respects Cantonese cuisine traditions but also loves exploring and reinterpreting age-old recipes for the modern tastebuds.&lt;/p&gt;
 &lt;p&gt;Chef Edmond handpicks all fresh and sustainable ingredients, adding a delightful new twist to satisfy guests&amp;rsquo; palates while maintaining them unexpected surprises.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
-        <folder-name/>
-        <createdDate>2023-12-08T13:44:50.943Z</createdDate>
-        <lastModifiedDate>2023-12-08T13:44:50.943Z</lastModifiedDate>
-      </component>
+	<folder-name/>
+	<createdDate>2023-12-08T13:44:50.943Z</createdDate>
+	<lastModifiedDate>2023-12-09T13:08:44.585Z</lastModifiedDate>
+	<theme_s>background:rgba(175, 162, 133, 0.2)</theme_s>
+</component>
 	</item>	<item inline="true">	<key>2bf9c1af-e42e-4b52-b885-f53e5261e54c</key>
 	<value>New Promo Card</value>
 	<disableFlattening>false</disableFlattening>
@@ -99,6 +100,6 @@
 	<relatedOffers_o item-list="true"/>
 	<createdDate>2023-12-08T13:39:56.453Z</createdDate>
 	<createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T13:57:50.272Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T13:57:50.272Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-09T13:08:43.562Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-09T13:08:43.562Z</lastModifiedDate_dt>
 </page>
