@@ -15,27 +15,10 @@
   <orderDefault_f>-1</orderDefault_f>
   <header_o item-list="true"/>
   <leftRail_o item-list="true"/>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>4ff8652f-627e-4185-aa05-4c124dce6603</key>
-      <value><![CDATA[New Intro Card]]></value>
-      <component id="4ff8652f-627e-4185-aa05-4c124dce6603">
-        <content-type>/component/introcard</content-type>
-        <display-template>/templates/web/components/Nina/intro-card.ftl</display-template>
-        <internal-name><![CDATA[New Intro Card]]></internal-name>
-        <file-name>4ff8652f-627e-4185-aa05-4c124dce6603.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-09T14:37:54.838Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-09T14:37:54.838Z</lastModifiedDate_dt>
-        <objectId>4ff8652f-627e-4185-aa05-4c124dce6603</objectId>
-        <title_s><![CDATA[[Title goes here]]]></title_s>
-        <bodyContent_html/>
-      </component>
-    </item>
-  </pageSections_o>
+  <pageSections_o item-list="true"/>
   <relatedOffers_o item-list="true"/>
   <createdDate>2023-12-09T13:43:17.825Z</createdDate>
   <createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
   <lastModifiedDate>2023-12-09T13:43:17.825Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-09T14:39:04.365Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-09T14:39:09.515Z</lastModifiedDate_dt>
 </page>
