@@ -83,7 +83,7 @@
 	<internal-name>New Promo Card</internal-name>
 	<file-name>2bf9c1af-e42e-4b52-b885-f53e5261e54c.xml</file-name>
 	<createdDate_dt>2023-12-08T13:47:07.439Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-08T13:57:58.036Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-09T13:09:00.401Z</lastModifiedDate_dt>
 	<objectId>2bf9c1af-e42e-4b52-b885-f53e5261e54c</objectId>
 	<title_s>Private Dining Experience</title_s>
 	<subtitle_s/>
@@ -93,13 +93,13 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
 	<folder-name/>
 	<createdDate>2023-12-08T13:47:07.439Z</createdDate>
-	<lastModifiedDate>2023-12-08T13:57:58.036Z</lastModifiedDate>
-	<theme_s>white</theme_s>
+	<lastModifiedDate>2023-12-09T13:09:00.401Z</lastModifiedDate>
+	<theme_s>background:white</theme_s>
 </component>
 	</item></pageSections_o>
 	<relatedOffers_o item-list="true"/>
 	<createdDate>2023-12-08T13:39:56.453Z</createdDate>
 	<createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
-	<lastModifiedDate>2023-12-09T13:08:43.562Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-09T13:08:43.562Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-09T13:08:59.394Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-09T13:08:59.394Z</lastModifiedDate_dt>
 </page>
