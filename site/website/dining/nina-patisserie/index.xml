@@ -33,22 +33,7 @@
         <imageforMobile_s/>
       </component>
     </item>
-    <item inline="true">
-      <key>8efea5f6-a87c-4ab6-9992-67eaf51652b5</key>
-      <value><![CDATA[New Intro Card with Logo]]></value>
-      <component id="8efea5f6-a87c-4ab6-9992-67eaf51652b5">
-        <content-type>/component/introcardwithlogo</content-type>
-        <display-template>/templates/web/components/Nina/intro-card-with-logo.ftl</display-template>
-        <internal-name><![CDATA[New Intro Card with Logo]]></internal-name>
-        <file-name>8efea5f6-a87c-4ab6-9992-67eaf51652b5.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-09T14:03:47.494Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-09T14:03:47.494Z</lastModifiedDate_dt>
-        <objectId>8efea5f6-a87c-4ab6-9992-67eaf51652b5</objectId>
-        <logo_s/>
-        <bodyContent_html/>
-      </component>
-    </item>
+
     <item inline="true">
       <key>b5af1455-6f3f-4e2f-9712-dfc978333267</key>
       <value><![CDATA[New Promo Card]]></value>
@@ -73,5 +58,5 @@
   <createdDate>2023-12-09T13:43:17.825Z</createdDate>
   <createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
   <lastModifiedDate>2023-12-09T13:43:17.825Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-09T14:03:47.494Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-09T14:04:12.669Z</lastModifiedDate_dt>
 </page>
