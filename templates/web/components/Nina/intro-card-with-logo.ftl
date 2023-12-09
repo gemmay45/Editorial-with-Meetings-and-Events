@@ -18,7 +18,7 @@
         </script>
     </div>
     <div class="offersContent-section-text">
-        <@crafter.span>${contentModel.bodyContent_html<@crafter.span>
+        <@crafter.span>${contentModel.bodyContent_html!""}<@crafter.span>
         <span class="offersContent-section-subtitle"></span>
     </div>
 </div>
