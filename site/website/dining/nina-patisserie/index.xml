@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/dining</content-type>
+	<display-template>/templates/web/pages/dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>8c3c</objectGroupId>
+	<objectId>8c3c3de2-977c-27ff-3637-1d38da91c20e</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>nina-patisserie</folder-name>
+	<internal-name>Nina Patisserie</internal-name>
+	<navLabel>Nina Patisserie</navLabel>
+	<disabled>false</disabled>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<header_o item-list="true"/>
+	<leftRail_o item-list="true"/>
+	<pageSections_o item-list="true"/>
+	<relatedOffers_o item-list="true"/>
+	<createdDate>2023-12-09T13:43:17.825Z</createdDate>
+	<createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
+	<lastModifiedDate>2023-12-09T13:43:17.825Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-09T13:43:17.825Z</lastModifiedDate_dt>
+</page>
