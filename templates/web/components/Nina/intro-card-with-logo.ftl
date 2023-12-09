@@ -3,13 +3,11 @@
 <div class="component dsb-intro offersContent need-to-control-bg col-12">
         <div class="component-content">
 
-<div class="offersContent-section" data-bg-color="">
-    <@crafter.img $field="logo_s" class="offersContent-section-new" style="margin:auto;" src="(contentModel.logo_s)" alt="" />
-    <div class="offersContent-section-share">
-        
-        
-        
-        
+    <div class="offersContent-section" data-bg-color="">
+        <#if contentModel.logo_s.hasContent>
+            <@crafter.img $field="logo_s" class="offersContent-section-new" style="margin:auto;" src="(contentModel.logo_s)" alt="" />
+        </#if>
+        <div class="offersContent-section-share">
         <script>
             (function () {
                 $(".share-social").each(function (_, item) {
@@ -20,7 +18,7 @@
         </script>
     </div>
     <div class="offersContent-section-text">
-        <p>RÚ celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours. Sharing the same commitment to sustainability with our parent company Chinachem Group, ingredients are sourced locally and prepared authentically as an ode to the preservation of our environment and culture. The exquisite interior design pampers diners in a sophisticated ambience. With impeccable service that surprises and delights our guests, we transform a superior dining experience into a feast to remember.</p>
+        <@crafter.span>${contentModel.bodyContent_html<@crafter.span>
         <span class="offersContent-section-subtitle"></span>
     </div>
 </div>
