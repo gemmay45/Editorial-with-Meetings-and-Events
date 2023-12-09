@@ -35,26 +35,10 @@
         <theme_s/>
       </component>
     </item>
-    <item inline="true">
-      <key>e9e022ea-63bc-4b05-8675-ec724ded26b6</key>
-      <value><![CDATA[New Intro Card]]></value>
-      <component id="e9e022ea-63bc-4b05-8675-ec724ded26b6">
-        <content-type>/component/introcard</content-type>
-        <display-template>/templates/web/components/Nina/intro-card.ftl</display-template>
-        <internal-name><![CDATA[New Intro Card]]></internal-name>
-        <file-name>e9e022ea-63bc-4b05-8675-ec724ded26b6.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-09T14:36:55.388Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-09T14:36:55.388Z</lastModifiedDate_dt>
-        <objectId>e9e022ea-63bc-4b05-8675-ec724ded26b6</objectId>
-        <title_s/>
-        <bodyContent_html/>
-      </component>
-    </item>
   </pageSections_o>
   <relatedOffers_o item-list="true"/>
   <createdDate>2023-12-09T13:43:17.825Z</createdDate>
   <createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
   <lastModifiedDate>2023-12-09T13:43:17.825Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-09T14:36:55.389Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-09T14:37:09.653Z</lastModifiedDate_dt>
 </page>
