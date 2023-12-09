@@ -4,7 +4,7 @@
         <div class="component-content">
 
 <div class="offersContent-section" data-bg-color="">
-    <img class="offersContent-section-new" style="margin:auto;" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/dining/221228_ru-logo_180x128.png?rev=be7474ab79464db9866f89cbbb198d47" alt="">
+    <@crafter.img $field="logo_s" class="offersContent-section-new" style="margin:auto;" src="(contentModel.logo_s)" alt="" />
     <div class="offersContent-section-share">
         
         
