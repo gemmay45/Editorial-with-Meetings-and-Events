@@ -33,10 +33,27 @@
         <imageforMobile_s/>
       </component>
     </item>
+    <item inline="true">
+      <key>e3314746-dba7-4ded-8a86-5f14750c733c</key>
+      <value><![CDATA[New Hero Banner with Title]]></value>
+      <component id="e3314746-dba7-4ded-8a86-5f14750c733c">
+        <content-type>/component/herobannerwithtitle</content-type>
+        <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+        <internal-name><![CDATA[New Hero Banner with Title]]></internal-name>
+        <file-name>e3314746-dba7-4ded-8a86-5f14750c733c.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-09T14:22:46.174Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-09T14:22:46.174Z</lastModifiedDate_dt>
+        <objectId>e3314746-dba7-4ded-8a86-5f14750c733c</objectId>
+        <title_s/>
+        <imageforDesktop_s/>
+        <imageforMobile_s/>
+      </component>
+    </item>
   </pageSections_o>
   <relatedOffers_o item-list="true"/>
   <createdDate>2023-12-09T13:43:17.825Z</createdDate>
   <createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
   <lastModifiedDate>2023-12-09T13:43:17.825Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-09T14:22:38.870Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-09T14:22:46.174Z</lastModifiedDate_dt>
 </page>
