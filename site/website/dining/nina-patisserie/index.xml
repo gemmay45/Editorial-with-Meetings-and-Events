@@ -17,6 +17,7 @@
 	<leftRail_o item-list="true"/>
 	<pageSections_o item-list="true">	<item inline="true">	<key>22b903df-5a9d-458c-bd2d-3dbdc2a5f429</key>
 	<value>New Hero Banner with Title</value>
+	<disableFlattening>false</disableFlattening>
 <component id="22b903df-5a9d-458c-bd2d-3dbdc2a5f429">
         <content-type>/component/herobannerwithtitle</content-type>
         <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
@@ -34,9 +35,9 @@
         <createdDate>2023-12-09T14:42:18.739Z</createdDate>
         <lastModifiedDate>2023-12-09T14:42:18.739Z</lastModifiedDate>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>62e10027-08da-4186-8ec1-5b508c1f2f7f</key>
 	<value>New Intro Card with Logo</value>
+	<disableFlattening>false</disableFlattening>
 <component id="62e10027-08da-4186-8ec1-5b508c1f2f7f">
         <content-type>/component/introcardwithlogo</content-type>
         <display-template>/templates/web/components/Nina/intro-card-with-logo.ftl</display-template>
@@ -53,9 +54,9 @@
         <createdDate>2023-12-09T14:44:54.326Z</createdDate>
         <lastModifiedDate>2023-12-09T14:44:54.326Z</lastModifiedDate>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>63c172b1-e2c8-4c60-afb5-a63ed92d2344</key>
 	<value>New Promo Card</value>
+	<disableFlattening>false</disableFlattening>
 <component id="63c172b1-e2c8-4c60-afb5-a63ed92d2344">
 	<content-type>/component/promocard</content-type>
 	<display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
@@ -64,7 +65,7 @@
 	<internal-name>New Promo Card</internal-name>
 	<file-name>63c172b1-e2c8-4c60-afb5-a63ed92d2344.xml</file-name>
 	<createdDate_dt>2023-12-09T14:48:29.667Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-09T14:48:29.667Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-09T14:49:34.292Z</lastModifiedDate_dt>
 	<objectId>63c172b1-e2c8-4c60-afb5-a63ed92d2344</objectId>
 	<title_s/>
 	<subtitle_s/>
@@ -73,13 +74,12 @@
 	<theme_s/>
 	<folder-name/>
 	<createdDate>2023-12-09T14:48:29.667Z</createdDate>
-	<lastModifiedDate>2023-12-09T14:48:29.667Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-09T14:49:34.292Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<relatedOffers_o item-list="true"/>
 	<createdDate>2023-12-09T13:43:17.825Z</createdDate>
 	<createdDate_dt>2023-12-09T13:43:17.825Z</createdDate_dt>
-	<lastModifiedDate>2023-12-09T14:48:28.647Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-09T14:48:28.647Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-09T14:49:33.271Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-09T14:49:33.271Z</lastModifiedDate_dt>
 </page>
