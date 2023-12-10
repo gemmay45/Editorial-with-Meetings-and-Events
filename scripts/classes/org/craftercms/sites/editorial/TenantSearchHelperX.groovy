@@ -27,7 +27,7 @@ import org.apache.commons.lang3.StringUtils
 import org.craftercms.engine.service.UrlTransformationService
 import org.craftercms.search.opensearch.client.OpenSearchClientWrapper
 
-class TenantSearchHelperX {
+class TenantSearchHelper {
 
   static final String TENANT_CONTENT_TYPE = "/page/dining"
   static final List<String> TENANT_SEARCH_FIELDS = [
@@ -39,12 +39,10 @@ class TenantSearchHelperX {
   static final int DEFAULT_ROWS = 10
   static final String MULTIPLE_VALUES_SEARCH_ANALYZER = Analyzer.Kind.Whitespace.jsonValue()
   
-  xxx
-
   OpenSearchClientWrapper searchClient
   UrlTransformationService urlTransformationService
 
-  TenantSearchHelperX(OpenSearchClientWrapper searchClient, UrlTransformationService urlTransformationService) {
+  TenantSearchHelper(OpenSearchClientWrapper searchClient, UrlTransformationService urlTransformationService) {
     this.searchClient = searchClient
     this.urlTransformationService = urlTransformationService
   }
