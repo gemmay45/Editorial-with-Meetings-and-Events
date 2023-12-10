@@ -29,7 +29,7 @@ import org.craftercms.search.opensearch.client.OpenSearchClientWrapper
 
 class TenantSearchHelper {
 
-  static final String TENANT_CONTENT_TYPE = "/page/tenant"
+  static final String TENANT_CONTENT_TYPE = "/page/dining"
   static final List<String> TENANT_SEARCH_FIELDS = [
     'name_s^1.5',
     'sections_o.item.section_html^1.0'
