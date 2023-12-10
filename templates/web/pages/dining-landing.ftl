@@ -40,6 +40,7 @@
                             <#list tenants as tenant>
                             
                                 <div class="card-item">
+                                    <#--
                                     <div class="image-wrapper">
                                         <@crafter.img $model=tenant $field="image_s" data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1" class="image lazyload-img" alt="" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1" />
                                     </div>
@@ -48,6 +49,7 @@
                         	 
                                     <@crafter.p class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
                                     <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
+                                    -->
                                 </div>
                             </#list>
                         </div>
