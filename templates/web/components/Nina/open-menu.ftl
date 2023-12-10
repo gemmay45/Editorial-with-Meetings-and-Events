@@ -15,18 +15,70 @@
         <@crafter.renderRepeatGroup
           $field="menus_o"
           $containerTag="div"
-          $itemTag="div";
+          $containerAttributes={"class": "menu-information-expand-wrapper", "data-index":"${index}"}
+          $itemTag="div"
+          $itemAttributes={"class":"menu-information-expand-content-wrapper open", "style":"height: 297px;"};
           item, index
         >
-              <#if item.content_html?has_content>
-                <@crafter.tag $tag="dt" $field="event_o" $index=index><i $field="event_o" class="${item.icon_s}"></i></@crafter.tag>
-              </#if>
-              <#if item.content_html?has_content>
-                <@crafter.tag $tag="dd" $field="event_o" $index=index style="display:block;margin-inline-start:30px;">${item.content_html}</@crafter.tag>
-              </#if>
+              <div class="menu-information-expand-content">
+                  <div class="menu-information-expand-operate">
+                      <h5 class="menu-information-expand-operate-text">Breakfast </h5>
+                      <span class="menu-information-expand-operate-icon icon--cross"></span>
+                  </div>
+                  <div class="menu-information-expand-full-detail-wrapper" style="">
+                      <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-mobile uk-slider uk-slider-container">
+                          <div class="uk-position-relative uk-visible-toggle uk-light custom-slider-content" tabindex="0">
+                              <ul class="uk-slider-items uk-grid custom-slider-list" style="transform: translate3d(0px, 0px, 0px);">
+                                  
+                                  <li tabindex="-1" class="uk-active">
+                                      <div class="uk-card uk-card-default custom-slider-card">
+                                          <div class="uk-card-media-top custom-slider-card-media-top">
+                                              <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/dining/tww_dining_cafe-circles_breakfast-buffet.jpg?rev=be88754667634dad94fc5b3a8ea7c34c" class="m-image" alt="" width="609" height="376">
+                                          </div>
+                                      </div>
+                                  </li>
+                                  
+                              </ul>
+                              <div class="custom-slider-bottom-operate" style="display: none;">
+                                  <div class="custom-slider-arrow-wrapper">
+                                      <a class="custom-slider-prev coustom-slider-arrow uk-icon uk-slidenav-previous uk-slidenav uk-hidden uk-invisible" href="#" uk-slidenav-previous="" uk-slider-item="previous"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
+                                      <span class="custom-slider-item-num">01/01</span>
+                                      <a class="custom-slider-next coustom-slider-arrow uk-icon uk-slidenav-next uk-slidenav uk-hidden uk-invisible" href="#" uk-slidenav-next="" uk-slider-item="next"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-next"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="menu-information-expand-content-detail">
+                          <div class="menu-information-expand-content-time"></div>
+                          <div class="menu-information-expand-content-desc"><p><strong>Breakfast Buffet</strong></p>
+<p>7:00am -10:30am Daily (75 minutes from the time of seating)&nbsp;</p>
+<p>HK$168* (Adult) | HK$108* (Child, 3 - 11 years old)</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>
+Breakfast Set</strong></p>
+<p>7:30am - 10:30am Daily&nbsp;</p>
+<p>&nbsp;</p>
+<p>*All prices are subject to 10% service charge</p></div>
+                          <div class="menu-information-expand-links">
+                              <a href="/-/media/01---website-imagery/nina-hotels/properties/tww/dining/231003_cc-breakfast-alc-menu.pdf?rev=72c8f834c6a84f6497d9f7d2633bf4a0&amp;hash=618328F2C429EFB2ACDD85FEC351A1D1" rel="noopener noreferrer" class="menu-information-expand-link" target="_blank">View menu</a>
+                              
+                          </div>
+                          <div class="menu-information-expand-icons">
+                              
+                              <img class="menu-information-expand-icon" src="" alt="">
+                              
+                              <img class="menu-information-expand-icon" src="" alt="">
+                              
+                              <img class="menu-information-expand-icon" src="" alt="">
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
         </@crafter.renderRepeatGroup>      
       -->
       
+      <!--
       <div class="menu-information-expand-wrapper " data-index="0">
           <div class="menu-information-expand-content-wrapper open" style="height: 297px;">
               <div class="menu-information-expand-content">
@@ -432,7 +484,7 @@ Price: HK$468* for 2 persons</p>
               </div>
           </div>
       </div>
-      
+      -->
       
   </div>
   <div class="menu-information-right-part for-desktop-tablet">
