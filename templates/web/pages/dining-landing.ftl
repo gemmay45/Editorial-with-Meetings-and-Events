@@ -34,9 +34,11 @@
                     <div $model=contentModel class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
                     	
                         <h3 class="title"> Our Restaurants</h3>
+                        <#if tenants??>
                                                 <#list tenants as tenant>
                                                 xxx
                                                                         </#list>
+                        </#if>
 
                         <#--
                         <#list tenants as tenant>
