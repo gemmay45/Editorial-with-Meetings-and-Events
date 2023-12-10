@@ -40,11 +40,12 @@
                             <#list tenants as tenant>
                             
                                 <div class="card-item">
-                                    <#--
+
                                     <div class="image-wrapper">
-                                        <@crafter.img $model=tenant $field="image_s" data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1" class="image lazyload-img" alt="" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1" />
+                                        <@crafter.img $model=tenant $field="image_s" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1" />
                                     </div>
                         	
+                        	                                            <#--
                         	        <h4 class="card-item-title"><@crafter.tag $tag=font color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
                         	 
                                     <@crafter.p class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
