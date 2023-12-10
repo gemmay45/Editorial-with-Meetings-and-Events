@@ -39,7 +39,7 @@
                 
             
                 <#if mod == 0>
-                <div class="component did-list aboutus-twocards  need-to-control-bg" style="background: rgba(175, 162, 133, 0.2);">
+                <div class="component did-list aboutus-twocards  need-to-control-bg ${addClass}" style="background: rgba(175, 162, 133, 0.2);">
                     <div class="component-content">
                 
                         <div $model=contentModel class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
