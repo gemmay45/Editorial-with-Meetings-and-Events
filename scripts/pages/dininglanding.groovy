@@ -11,8 +11,7 @@ categoryItems.each { item ->
 
 def segment = ProfileUtils.getSegment(profile, siteItemService)
 def maxTenants = contentModel.maxTenants_i
-def siteLocale = request.getRequestURI().substring(1,3)
-def searchHelper = new TenantSearchHelper(searchClient, urlTransformationService, siteLocale)
+def searchHelper = new TenantSearchHelper(searchClient, urlTransformationService)
 def tenants = searchHelper.searchTenants(false, categories, segment, 0, maxTenants)
 
 templateModel.tenants = tenants
