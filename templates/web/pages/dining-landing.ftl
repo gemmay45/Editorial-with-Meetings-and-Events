@@ -84,8 +84,8 @@
                                 <p class="card-item-desc">RÚ celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours. </p>
                                 <a href="/en/nina-hotel-tsuen-wan-west/dining/ru" rel="noopener noreferrer" class="explore-more-btn">Learn more</a>
                             </div>
-                        </div>
                         -->
+                        </div>
                     </div>
                 </div>
             </div>
