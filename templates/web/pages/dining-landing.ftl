@@ -34,35 +34,33 @@
                     <div class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
                     	
                         <h3 class="title"> Our Restaurants</h3>
-                        <#--
-                                  <#list tenants as tenant>
-            <@crafter.article $model=tenant>
-                <a href="${tenant.url}" class="image">
-                <@crafter.img
-                  $model=tenant
-                  $field="images_o"
-                  src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png")
-                  alt="" width="320px"
-                />
-                </a>
-                    
-                <#list tenant.categories as category>
-                    [<@crafter.span $model=tenant $field="categories_o">${category}</@crafter.span>]
-                </#list>
-                
-                <h3>
-                    <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
-                        ${tenant.title}
-                    </@crafter.a>
-                </h3>
-                <@crafter.p $model=tenant $field="tagline_s">
-                    ${tenant.tagline}
-                </@crafter.p>
-        
-            </@crafter.article>
-          </#list>
 
-            -->
+                        <#list tenants as tenant>
+                            <@crafter.article $model=tenant>
+                                <a href="${tenant.url}" class="image">
+                                <@crafter.img
+                                  $model=tenant
+                                  $field="images_o"
+                                  src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png")
+                                  alt="" width="320px"
+                                />
+                                </a>
+                                    
+                                <#list tenant.categories as category>
+                                    [<@crafter.span $model=tenant $field="categories_o">${category}</@crafter.span>]
+                                </#list>
+                                
+                                <h3>
+                                    <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
+                                        ${tenant.title}
+                                    </@crafter.a>
+                                </h3>
+                            
+                            </@crafter.article>
+                        </#list>
+
+
+                        <!--
                         <div class="card-list">
                             
                             <div class="card-item">
@@ -87,6 +85,7 @@
                                 <a href="/en/nina-hotel-tsuen-wan-west/dining/ru" rel="noopener noreferrer" class="explore-more-btn">Learn more</a>
                             </div>
                         </div>
+                        -->
                     </div>
                 </div>
             </div>
