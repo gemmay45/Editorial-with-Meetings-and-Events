@@ -31,7 +31,7 @@
             <#list tenants as tenant>
 
                 <#assign mod = tenant?index % 2 />
-                <#assign addClass = tenant?index > 1 ?? "no-padding-top col-12"
+                <#assign addClass = tenant?index > 1 ? "no-padding-top col-12"
             
                 <#if mod == 0>
                 <div class="component did-list aboutus-twocards  need-to-control-bg ${addClass}" style="background: rgba(175, 162, 133, 0.2);">
