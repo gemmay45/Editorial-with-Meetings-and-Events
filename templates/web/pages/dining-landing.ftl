@@ -34,6 +34,25 @@
                     <div $model=contentModel class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
                     	
                         <h3 class="title"> Our Restaurants</h3>
+                        
+                        <div class="card-list">
+                            
+                            <#list tenants as tenant>
+                            
+                                <div class="card-item">
+                                    <div class="image-wrapper">
+                                        <@crafter.img $model=tenant $field="image_s" data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1" class="image lazyload-img" alt="" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1" />
+                                    </div>
+                        	
+                        	        <h4 class="card-item-title"><@crafter.tag $tag="font" color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
+                        	 
+                                    <p class="card-item-desc">${tenant.teaserDescription}</p>
+                                    <a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</a>
+                                </div>
+                            </#list>
+                        </div>
+                        
+                        <#--
                         <#list tenants as tenant>
                             <@crafter.article $model=tenant>
                                 <a href="${tenant.url}" class="image">
@@ -53,7 +72,8 @@
                             
                             </@crafter.article>
                         </#list>
-
+                        -->
+                        
                         <!--
                         <div class="card-list">
                             
