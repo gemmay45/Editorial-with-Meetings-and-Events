@@ -39,7 +39,7 @@
                             
                             <#list tenants as tenant>
 
-                                    <#assign mod = ${tenant?index % 2} />
+                                    <#assign mod = tenant?index % 2 />
                                 
                                     <div class="card-item">
 
