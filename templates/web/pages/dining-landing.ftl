@@ -39,9 +39,7 @@
                             
                             <#list tenants as tenant>
 
-                                <#if ${tenant?index % 2} == 0>
-                                    ${tenant?index}
-                                </#if>
+                                ${tenant?index % 2}
                                 
                                     <div class="card-item">
 
