@@ -2,7 +2,7 @@
 	<title>Dining Landing</title>
 	<description></description>
 	<objectType>page</objectType>
-	<content-type>/page/dininglanding</content-type>
+	<content-type>/page/dining-landing</content-type>
 	<imageThumbnail></imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>

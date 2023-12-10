@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/dininglanding</content-type>
+	<content-type>/page/dining-landing</content-type>
 	<display-template>/templates/web/pages/dining-landing.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>

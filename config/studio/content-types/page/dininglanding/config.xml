@@ -1,6 +1,6 @@
-<content-type name="/page/dininglanding" is-wcm-type="true">
+<content-type name="/page/dining-landing" is-wcm-type="true">
 	<label>Dining Landing</label>
-	<form>/page/dininglanding</form>
+	<form>/page/dining-landing</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
