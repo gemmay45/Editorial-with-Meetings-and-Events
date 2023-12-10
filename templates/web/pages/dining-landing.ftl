@@ -31,7 +31,7 @@
             <div class="component did-list aboutus-twocards  need-to-control-bg" style="background: rgba(175, 162, 133, 0.2);">
                 <div class="component-content">
             
-                    <div class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
+                    <div $model=contentModel class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
                     	
                         <h3 class="title"> Our Restaurants</h3>
                                                 <#list tenants as tenant>
