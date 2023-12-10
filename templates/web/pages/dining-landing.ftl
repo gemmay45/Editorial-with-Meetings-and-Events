@@ -63,9 +63,6 @@
                                     <@crafter.p class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
                                     <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
                                 </div>
-                </#if>
-
-                <#if mod == 0>
                             </div>
                         </div>
                     </div>
