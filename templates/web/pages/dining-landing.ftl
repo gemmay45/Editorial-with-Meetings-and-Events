@@ -45,7 +45,7 @@
                         <div $model=contentModel class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
                         	
                             <#if tenant?index == 0>
-                                <@crafter.h3 class="title" $field="title_s">${contentModel.title_s}</@crafter.h3>
+                                <@crafter.h3 class="title" $field="title_s">${contentModel.title_s!""}</@crafter.h3>
                             </#if>
                             
                             <div class="card-list">
