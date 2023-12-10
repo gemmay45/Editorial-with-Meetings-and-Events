@@ -38,6 +38,8 @@ class TenantSearchHelperX {
   static final int DEFAULT_START = 0
   static final int DEFAULT_ROWS = 10
   static final String MULTIPLE_VALUES_SEARCH_ANALYZER = Analyzer.Kind.Whitespace.jsonValue()
+  
+  xxx
 
   OpenSearchClientWrapper searchClient
   UrlTransformationService urlTransformationService
