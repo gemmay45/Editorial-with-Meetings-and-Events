@@ -38,8 +38,8 @@
                         <div class="card-list">
                             
                             <#list tenants as tenant>
-                            
-                                <#if (tenant?index)/2 % 0>
+
+                                <#if ${tenant?index % 2} == 0>
                                     ${tenant?index}
                                 </#if>
                                 
