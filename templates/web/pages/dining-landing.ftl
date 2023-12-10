@@ -38,7 +38,9 @@
                 
                         <div $model=contentModel class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
                         	
-                            <h3 class="title"> Our Restaurants</h3>
+                            <#if tenant?index == 0>
+                                <h3 class="title"> Our Restaurants</h3>
+                            </#if>
                             
                             <div class="card-list">
 
