@@ -16,4 +16,4 @@ def searchHelper = new TenantSearchHelper(searchClient, urlTransformationService
 def tenants = searchHelper.searchTenants(false, null, segment, 0, maxTenants)
 
 templateModel.tenants = tenants
-templateModel.categories = categories
+/*templateModel.categories = categories*/
