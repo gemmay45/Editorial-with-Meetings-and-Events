@@ -11,7 +11,6 @@
 <div class="menu-information-bottom-wrapper" data-bg-color="rgba(175, 162, 133, 0.2)">
   <div class="menu-information-left-part">
       
-      <#--
         <@crafter.renderRepeatGroup
           $field="menus_o"
           $containerTag="div"
@@ -76,7 +75,6 @@ Breakfast Set</strong></p>
                   </div>
               </div>
         </@crafter.renderRepeatGroup>      
-      -->
       
       <!--
       <div class="menu-information-expand-wrapper " data-index="0">
