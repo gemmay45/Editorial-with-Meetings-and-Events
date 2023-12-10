@@ -1,3 +1,5 @@
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
 <div class="component OPM menu-information-wrapper col-12 need-to-control-bg" style="background: rgba(175, 162, 133, 0.2);">
         <div class="component-content">
 <div class="menu-information-top-wrapper">
