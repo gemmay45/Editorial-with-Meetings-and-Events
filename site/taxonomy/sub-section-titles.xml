@@ -8,6 +8,8 @@
 	<objectId>3779da1a-d81b-b2bc-1cca-e4201f2741e5</objectId>
 	<items item-list="true">	<item>	<key>Menu</key>
 	<value>Menu</value>
+	</item>	<item>	<key>Our Restaurants</key>
+	<value>Our Restaurants</value>
 	</item>	<item>	<key>The talent behind the taste</key>
 	<value>The talent behind the taste</value>
 	</item>	<item>	<key>Private Dining Experience</key>
@@ -18,6 +20,6 @@
 	<folder-name/>
 	<createdDate>2023-12-08T07:28:00.519Z</createdDate>
 	<createdDate_dt>2023-12-08T07:28:00.519Z</createdDate_dt>
-	<lastModifiedDate>2023-12-08T07:28:00.519Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-08T07:28:00.519Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-10T23:36:16.766Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-10T23:36:16.766Z</lastModifiedDate_dt>
 </component>
