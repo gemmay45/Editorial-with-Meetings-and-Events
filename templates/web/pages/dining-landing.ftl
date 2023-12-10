@@ -41,8 +41,9 @@
 
                                     <#assign mod = tenant?index % 2 />
                                 
-                                    <div class="card-item">
-
+                                    <#if mod == 0>
+                                        <div class="card-item">
+                                    </#if>
                                 
                                     <div class="image-wrapper">
                                         <@crafter.img $model=tenant $field="image_s" class="image lazyload-img" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
@@ -53,7 +54,9 @@
                                     <@crafter.p class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
                                     <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
                                 
-                                    </div>
+                                    <#if mod == 0>
+                                        </div>
+                                    </#if>
                             </#list>
                         </div>
 
