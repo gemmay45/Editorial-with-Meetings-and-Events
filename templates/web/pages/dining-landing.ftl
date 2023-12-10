@@ -44,10 +44,6 @@
                                   alt="" width="320px"
                                 />
                                 </a>
-                                    
-                                <#list tenant.categories as category>
-                                    [<@crafter.span $model=tenant $field="categories_o">${category}</@crafter.span>]
-                                </#list>
                                 
                                 <h3>
                                     <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
