@@ -42,7 +42,7 @@
                                 <div class="card-item">
 
                                     <div class="image-wrapper">
-                                        <@crafter.img $model=tenant $field="image_s" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1" />
+                                        <@crafter.img $model=tenant $field="image_s" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
                                     </div>
                         	
                         	                                            <#--
