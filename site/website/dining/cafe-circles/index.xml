@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-10T08:00:36.962Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-10T08:00:36.962Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-10T23:29:55.685Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-10T23:29:55.685Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -87,15 +87,20 @@
 	<value>New Open Menu</value>
 	<disableFlattening>false</disableFlattening>
 <component id="2794d623-6937-4af8-80b0-f1df6a9137f4">
-        <content-type>/component/openmenu</content-type>
-        <display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
-        <internal-name><![CDATA[New Open Menu]]></internal-name>
-        <file-name>2794d623-6937-4af8-80b0-f1df6a9137f4.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-08T13:09:44.359Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-08T13:09:44.359Z</lastModifiedDate_dt>
-        <objectId>2794d623-6937-4af8-80b0-f1df6a9137f4</objectId>
-      </component>
+	<content-type>/component/openmenu</content-type>
+	<display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Open Menu</internal-name>
+	<file-name>2794d623-6937-4af8-80b0-f1df6a9137f4.xml</file-name>
+	<createdDate_dt>2023-12-10T23:30:03.890Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-12-10T23:30:03.890Z</lastModifiedDate_dt>
+	<objectId>2794d623-6937-4af8-80b0-f1df6a9137f4</objectId>
+	<folder-name/>
+	<title_s>Menu</title_s>
+	<createdDate>2023-12-10T23:30:03.890Z</createdDate>
+	<lastModifiedDate>2023-12-10T23:30:03.890Z</lastModifiedDate>
+</component>
 	</item>	<item inline="true">	<key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
 	<value>New Promo Card</value>
 	<disableFlattening>false</disableFlattening>
