@@ -28,7 +28,6 @@
             <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
             
             <!-- dining list -->
-            <#--
             <div class="component did-list aboutus-twocards  need-to-control-bg" style="background: rgba(175, 162, 133, 0.2);">
                 <div class="component-content">
             
@@ -61,7 +60,7 @@
                         </#list>
 
 
-                        
+                        <!--
                         <div class="card-list">
                             
                             <div class="card-item">
@@ -87,11 +86,11 @@
                             </div>
                         
                         </div>
+                        -->
                     </div>
                 </div>
             </div>
-            -->
-            
+
             <!-- end dinsing list -->
     
         </div>
