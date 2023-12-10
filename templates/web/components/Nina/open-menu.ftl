@@ -13,7 +13,7 @@
       
       <#--
         <@crafter.renderRepeatGroup
-          $field="menu_o"
+          $field="menus_o"
           $containerTag="div"
           $itemTag="div";
           item, index
