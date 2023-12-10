@@ -299,7 +299,7 @@
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>sub_sectionTitles</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
