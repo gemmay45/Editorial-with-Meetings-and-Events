@@ -28,6 +28,7 @@
             <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
             
             <!-- dining list -->
+            <#--
             <div class="component did-list aboutus-twocards  need-to-control-bg" style="background: rgba(175, 162, 133, 0.2);">
                 <div class="component-content">
             
@@ -60,7 +61,7 @@
                         </#list>
 
 
-                        <!--
+                        
                         <div class="card-list">
                             
                             <div class="card-item">
@@ -84,11 +85,12 @@
                                 <p class="card-item-desc">RÚ celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours. </p>
                                 <a href="/en/nina-hotel-tsuen-wan-west/dining/ru" rel="noopener noreferrer" class="explore-more-btn">Learn more</a>
                             </div>
-                        -->
+                        
                         </div>
                     </div>
                 </div>
             </div>
+            -->
             
             <!-- end dinsing list -->
     
