@@ -45,7 +45,7 @@
                                         <@crafter.img $model=tenant $field="image_s" class="image lazyload-img" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
                                     </div>
                         	
-                        	        <h4 class="card-item-title"><@crafter.tag $tag=font color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
+                        	        <h4 class="card-item-title"><@crafter.tag $tag="font" color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
                         	 
                                     <@crafter.p class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
                                     <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
