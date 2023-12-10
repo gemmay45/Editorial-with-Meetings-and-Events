@@ -230,20 +230,9 @@ class TenantSearchHelper {
         tenant.path = doc.localId
         tenant.storeUrl = doc.localId
         tenant.title = doc.name_s
-        tenant.summary = doc.summary_t
         tenant.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
-        tenant.image = doc.images_o.item[0].image_s
-        tenant.tagline = doc.tagline_s
-        
-        
-        def categories = doc.categories_o.item.value_smv
-
-        def catCount = (doc.categories_o.item[1]) ? doc.categories_o.item.value_smv.size() : 1
-        if (catCount==1) {
-            tenant.categories = [categories]
-        }else {
-            tenant.categories = categories
-        }
+        tenant.image = doc.teaserImages_s
+        tenant.teaserDescription_html = doc.teaserDescription_html
         
         tenants << tenant
       }
