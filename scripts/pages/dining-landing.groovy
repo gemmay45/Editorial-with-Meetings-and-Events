@@ -15,7 +15,5 @@ def maxTenants = contentModel.maxTenants_i
 def searchHelper = new TenantSearchHelper(searchClient, urlTransformationService)
 def tenants = searchHelper.searchTenants(false, null, segment, 0, maxTenants)
 
-println("xxx")
-
 templateModel.tenants = tenants
 /*templateModel.categories = categories*/
