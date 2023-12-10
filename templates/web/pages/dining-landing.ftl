@@ -39,7 +39,7 @@
                                 <a href="${tenant.url}" class="image">
                                 <@crafter.img
                                   $model=tenant
-                                  $field="images_o"
+                                  $field="images_s"
                                   src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png")
                                   alt="" width="320px"
                                 />
