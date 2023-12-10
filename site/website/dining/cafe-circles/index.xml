@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-09T15:11:33.462Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-09T15:11:33.462Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-10T08:00:36.962Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-10T08:00:36.962Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -148,4 +148,6 @@
 	<header_o item-list="true"/>
 	<leftRail_o item-list="true"/>
 	<teaserImage_s>/static-assets/images/nina/dining/cafe-circles/tww_cafecircles_food.jpg</teaserImage_s>
+	<name_s>Café Circles</name_s>
+	<teaserDescription_html>&lt;p&gt;Choose from tasty international and Asian dishes in the all-day dining caf&amp;eacute;, accompanied with high ceilings, elegant modern d&amp;eacute;cor, generous seating and expansive sea and city views. The caf&amp;eacute; attracts patrons from all corners of Hong Kong with the international cuisine buffet, a major draw for food lovers of all ages. The palatable dishes, grand-looking restaurant layout with seating for 200 people make the caf&amp;eacute; a great place for businesses and families to hold dinners and parties of all occasions.&lt;/p&gt;</teaserDescription_html>
 </page>
