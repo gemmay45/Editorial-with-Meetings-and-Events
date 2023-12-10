@@ -26,6 +26,43 @@
     
     
             <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
+            
+            <!-- dining list -->
+            <div class="component did-list aboutus-twocards  need-to-control-bg" style="background: rgba(175, 162, 133, 0.2);">
+                <div class="component-content">
+            
+                    <div class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
+                    	
+                        <h3 class="title"> Our Restaurants</h3>
+                        <div class="card-list">
+                            
+                            <div class="card-item">
+                                <div class="image-wrapper">
+                                    <img data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1" class="image lazyload-img" alt="" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/lhotel-nina-et-convention-centrefbcafe-circleslong-table-final540x540/tww_cafecircles_food.jpg?rev=-1">
+                                </div>
+                    	
+                    	     <h4 class="card-item-title"><font color="#817456">Café Circles</font></h4>
+                    	 
+                                <p class="card-item-desc">Choose from tasty international and Asian dishes in the all-day dining café, accompanied with high ceilings, elegant modern décor, generous seating and expansive sea and city views. The café attracts patrons from all corners of Hong Kong with the international cuisine buffet, a major draw for food lovers of all ages. The palatable dishes, grand-looking restaurant layout with seating for 200 people make the café a great place for businesses and families to hold dinners and parties of all occasions.</p>
+                                <a href="/en/nina-hotel-tsuen-wan-west/dining/cafe-circles" rel="noopener noreferrer" class="explore-more-btn">Learn more</a>
+                            </div>
+                            
+                            
+                            <div class="card-item">
+                                <div class="image-wrapper">
+                                    <img data-src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/dining/221223_new-ru_group-shot_500x500.jpg?rev=90eaaa6d324b493f9e138da4a1d97b6d" class="image lazyload-img" alt="" src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/properties/tww/dining/221223_new-ru_group-shot_500x500.jpg?rev=90eaaa6d324b493f9e138da4a1d97b6d">
+                                </div>
+                    	
+                    	     <h4 class="card-item-title"><font color="#817456">RÚ</font></h4>
+                                <p class="card-item-desc">RÚ celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours. </p>
+                                <a href="/en/nina-hotel-tsuen-wan-west/dining/ru" rel="noopener noreferrer" class="explore-more-btn">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- end dinsing list -->
     
         </div>
       </main>
