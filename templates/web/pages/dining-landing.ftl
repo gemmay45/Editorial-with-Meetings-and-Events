@@ -28,41 +28,42 @@
             <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
             
             <!-- dining list -->
-            <div class="component did-list aboutus-twocards  need-to-control-bg" style="background: rgba(175, 162, 133, 0.2);">
-                <div class="component-content">
+            <#list tenants as tenant>
+
+                <#assign mod = tenant?index % 2 />
             
-                    <div $model=contentModel class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
-                    	
-                        <h3 class="title"> Our Restaurants</h3>
-                        
-                        <#list tenants as tenant>
+                <#if mod == 0>
+                <div class="component did-list aboutus-twocards  need-to-control-bg" style="background: rgba(175, 162, 133, 0.2);">
+                    <div class="component-content">
+                
+                        <div $model=contentModel class="aboutus-twocards-padding" data-bg-color="rgba(175, 162, 133, 0.2)">
+                        	
+                            <h3 class="title"> Our Restaurants</h3>
+                            
+                            <div class="card-list">
+                </#if>
 
-                            <#assign mod = tenant?index % 2 />
-                        
-                            <#if mod == 0>
-                                <div class="card-list">
-                            </#if>
-                                
-                            <div class="card-item">
-                                <div class="image-wrapper">
-                                    <@crafter.img $model=tenant $field="image_s" class="image lazyload-img" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
+                                    
+                                <div class="card-item">
+                                    <div class="image-wrapper">
+                                        <@crafter.img $model=tenant $field="image_s" class="image lazyload-img" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
+                                    </div>
+                        	
+                        	        <h4 class="card-item-title"><@crafter.tag $tag="font" color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
+                        	 
+                                    <@crafter.p class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
+                                    <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
                                 </div>
-                    	
-                    	        <h4 class="card-item-title"><@crafter.tag $tag="font" color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
-                    	 
-                                <@crafter.p class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
-                                <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
+                
+                <#if mod == 0>
                             </div>
-
-                           <#if mod == 0>
-                                </div>
-                            </#if>
-                        </#list>
+                        </div>
                     </div>
                 </div>
-            </div>
+                </#if>
+            </#list>
 
-            <!-- end dinsing list -->
+            <!-- end dining list -->
     
         </div>
       </main>
