@@ -31,7 +31,7 @@
             <#list tenants as tenant>
 
                 <#assign mod = tenant?index % 2 />
-                <#if tenant?index > 1>
+                <#if tenant?index >= 2 >
                     <#assign addClass = "no-padding-top col-12" />
                 <#else>
                     <#assign addClass = "" />
