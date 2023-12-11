@@ -15,7 +15,7 @@
           $containerTag="div"
           $containerAttributes={'class': 'menu-information-left-part'}
           $itemTag="div"
-          $itemAttributes={'class': 'menu-information-expand-wrapper'};
+          $itemAttributes={'class': 'menu-information-expand-wrapper', 'data-index':'${index}'};
           item, index
         >
 
