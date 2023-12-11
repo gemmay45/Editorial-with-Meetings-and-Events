@@ -84,7 +84,15 @@
           $itemTag="div";
           item, index
         >
-            <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-desktop-tablet uk-slider uk-slider-container">
+        
+            <#if index==0>
+                <#assign styleAttr = "display:none" />
+            <#else>
+                <#assign styleAttr = "" />
+            </#if>
+
+
+            <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-desktop-tablet uk-slider uk-slider-container" style="${styleAttr}">
     
               <div class="uk-position-relative uk-visible-toggle uk-light custom-slider-content" tabindex="-1">
                   <ul class="uk-slider-items uk-grid custom-slider-list" style="transform: translate3d(0px, 0px, 0px);">
