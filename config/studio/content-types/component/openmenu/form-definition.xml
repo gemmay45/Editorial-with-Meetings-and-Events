@@ -265,7 +265,7 @@
 				</field>
 				<field>
 					<type>node-selector</type>
-					<id>pDFMenu_o</id>
+					<id>PDFMenu_o</id>
 					<iceId></iceId>
 					<title>PDF Menu</title>
 					<description></description>
