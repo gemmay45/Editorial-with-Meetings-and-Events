@@ -48,7 +48,7 @@
                                 <@crafter.h3 class="title" $field="title_s">${contentModel.title_s!""}</@crafter.h3>
                             </#if>
                             
-                            <div class="card-list">
+                            <div $model=tenant class="card-list">
 
                                 <div class="card-item">
                                     <div class="image-wrapper">
@@ -68,7 +68,7 @@
                         	
                         	        <h4 class="card-item-title"><@crafter.tag $tag="font" color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
                         	 
-                                    <@crafter.p $model=tenant $field="teaserDescription_html" class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
+                                    <@crafter.p $field="teaserDescription_html" class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
                                     <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
                                 </div>
                             </div>
