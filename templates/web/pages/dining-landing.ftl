@@ -50,18 +50,18 @@
                             
                             <div class="card-list">
 
-                                <div $model=tenant class="card-item">
+                                <@crafter.div $model=tenant class="card-item">
                                     <div class="image-wrapper">
-                                        <@crafter.img $field="teaserImage_s" class="image lazyload-img" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
+                                        <@crafter.img $model=tenant $field="teaserImage_s" class="image lazyload-img" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
                                     </div>
                         	
                         	        <h4 class="card-item-title"><@crafter.tag $tag="font" color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
                         	 
                                     <@crafter.p $field="teaserDescription_html" class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
                                     <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
-                                </div>
+                                </@crafter.div>
                 <#else>
-                                <div $model=tenant class="card-item">
+                                <@crafter.div $model=tenant class="card-item">
                                     <div class="image-wrapper">
                                         <@crafter.img $model=tenant $field="image_s" class="image lazyload-img" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
                                     </div>
@@ -70,7 +70,7 @@
                         	 
                                     <@crafter.p $field="teaserDescription_html" class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
                                     <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
-                                </div>
+                                </@crafter.div>
                             </div>
                         </div>
                     </div>
