@@ -18,7 +18,7 @@
           $itemAttributes={'class': 'menu-information-expand-wrapper'};
           item, index
         >
-            <#if (item?index)==0>
+            <#if index==0>
                 <#assign styleAttr = "height: 297px" />
             <#else>
                 <#assign styleAttr = "height: 28px" />
