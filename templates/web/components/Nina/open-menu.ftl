@@ -10,14 +10,12 @@
 
 <div class="menu-information-bottom-wrapper" data-bg-color="rgba(175, 162, 133, 0.2)">
 
-        <#assign menuIndex = -1 />
-        
         <@crafter.renderRepeatGroup
           $field="menus_o"
           $containerTag="div"
           $containerAttributes={'class': 'menu-information-left-part'}
           $itemTag="div"
-          $itemAttributes={'class': 'menu-information-expand-wrapper', 'data-index':'${menuIndex=menuIndex+1}'};
+          $itemAttributes={'class': 'menu-information-expand-wrapper'};
           item, index
         >
 
