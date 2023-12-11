@@ -47,7 +47,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                  
+                                    </#if>
                                  </ul>
                                 </#if>
                               <div class="custom-slider-bottom-operate" style="display: none;"> <#--style="display: none;"-->
