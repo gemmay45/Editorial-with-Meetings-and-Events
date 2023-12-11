@@ -9,6 +9,8 @@
 <html lang="en">
 <head>
     <script src="/static-assets/js/jquery-3.5.1.min.js?site=${siteContext.siteName}"></script>
+    <script src="/static-assets/js/uikit.min.js"></script>
+
     <#include "/templates/web/fragments/head.ftl">
     <@crafter.head/>
 </head>
