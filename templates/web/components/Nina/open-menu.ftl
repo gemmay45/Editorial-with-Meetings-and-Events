@@ -34,7 +34,7 @@
                                   <li tabindex="-1" class="uk-active">
                                       <div class="uk-card uk-card-default custom-slider-card">
                                           <div class="uk-card-media-top custom-slider-card-media-top">
-                                              <@crafter.img $field="image1_s" src="${item.image1_s}" class="m-image" alt="" width="609" height="376" />
+                                              <@crafter.img src="${item.image1_s}" class="m-image" alt="" width="609" height="376" />
                                           </div>
                                       </div>
                                   </li>
@@ -43,7 +43,7 @@
                                     <li tabindex="-1" class="uk-active">
                                         <div class="uk-card uk-card-default custom-slider-card">
                                             <div class="uk-card-media-top custom-slider-card-media-top">
-                                                <@crafter.img $field="image2_s" src="${item.image2_s}" class="m-image" alt="" width="609" height="376" />
+                                                <@crafter.img src="${item.image2_s}" class="m-image" alt="" width="609" height="376" />
                                             </div>
                                         </div>
                                     </li>
