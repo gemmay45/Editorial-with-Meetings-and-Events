@@ -21,6 +21,7 @@
           item, index
         >
 
+            <#assign menuIndex = index />
 
             <div class="menu-information-expand-content-wrapper" style="height: 28px;">
               <div class="menu-information-expand-content">
