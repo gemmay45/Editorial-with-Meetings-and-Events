@@ -21,7 +21,7 @@
           item, index
         >
 
-            <#assign menuIndex = menuIndex+1 />
+            <#local menuIndex = menuIndex+1 />
 
             <div class="menu-information-expand-content-wrapper" style="height: 28px;">
               <div class="menu-information-expand-content">
