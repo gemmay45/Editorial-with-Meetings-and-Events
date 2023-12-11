@@ -21,7 +21,7 @@
           $itemAttributes={'class':'menu-information-expand-content-wrapper open', 'style':'height: 297px'};
           item, index
         >
-            <#assign menuIndex = ${index} />
+            <#assign menuIndex = index />
 
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
