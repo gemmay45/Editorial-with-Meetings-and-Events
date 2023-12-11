@@ -12,7 +12,7 @@
   <div class="menu-information-left-part">
     
         <#assign menuIndex = 0 />
-        <#assign openClass = "open" />
+        <#assign openClass = "openX" />
       
         <@crafter.renderRepeatGroup
           $field="menus_o"
