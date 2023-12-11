@@ -58,7 +58,7 @@
                       <div class="menu-information-expand-content-detail">
                           <div class="menu-information-expand-content-time"></div>
                           <@crafter.div $field="description_html" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
-                          <#if item.PDFMenu_o??>
+                          <#if item.PDFMenu_o?? && item.PDFMenu_o.item??>
                               <div class="menu-information-expand-links">
                                   <@crafter.a $field="PDFMenu_o" href="${item.PDFMenu_o.item[0].key}" rel="noopener noreferrer" class="menu-information-expand-link" target="_blank">View menu</@crafter.a>
                                   
