@@ -42,7 +42,7 @@
                                   </li>
                                   
                               </ul>
-                              <div class="custom-slider-bottom-operate" style="display: none;">
+                              <div class="custom-slider-bottom-operate"> <#--style="display: none;"-->
                                   <div class="custom-slider-arrow-wrapper">
                                       <a class="custom-slider-prev coustom-slider-arrow uk-icon uk-slidenav-previous uk-slidenav uk-hidden uk-invisible" href="#" uk-slidenav-previous="" uk-slider-item="previous"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
                                       <span class="custom-slider-item-num">01/01</span>
