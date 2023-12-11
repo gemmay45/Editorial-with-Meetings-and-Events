@@ -121,5 +121,6 @@
 </div>
 
 
-<script src="/scripts/nina/menuInformation.js"></script>         </div>
+    <script src="/static-assets/js/menuInformation.js"></script>
+         </div>
     </div>
