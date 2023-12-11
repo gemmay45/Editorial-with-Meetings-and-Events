@@ -10,8 +10,6 @@
 
 <div class="menu-information-bottom-wrapper" data-bg-color="rgba(175, 162, 133, 0.2)">
 
-        <#assign menuIndex = "0" />
-
         <@crafter.renderRepeatGroup
           $field="menus_o"
           $containerTag="div"
@@ -70,7 +68,6 @@
                       </div>
                   </div>
               </div>
-            </div>
         </@crafter.renderRepeatGroup>      
       
       <!--
