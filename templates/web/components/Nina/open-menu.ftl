@@ -14,7 +14,7 @@
         <@crafter.renderRepeatGroup
           $field="menus_o"
           $containerTag="div"
-          $containerAttributes={'class': 'menu-information-expand-wrapper', 'data-index':'0'}
+          $containerAttributes={'class': 'menu-information-expand-wrapper', 'data-index':${index}}
           $itemTag="div"
           $itemAttributes={'class':'menu-information-expand-content-wrapper open', 'style':'height: 297px'};
           item, index
