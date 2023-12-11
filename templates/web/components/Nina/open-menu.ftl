@@ -86,9 +86,9 @@
         >
         
             <#if index==0>
-                <#assign styleAttr = "display:none" />
-            <#else>
                 <#assign styleAttr = "" />
+            <#else>
+                <#assign styleAttr = "display:none" />
             </#if>
 
 
