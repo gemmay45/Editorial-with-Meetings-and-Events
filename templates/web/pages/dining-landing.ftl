@@ -48,9 +48,9 @@
                                 <@crafter.h3 class="title" $field="title_s">${contentModel.title_s!""}</@crafter.h3>
                             </#if>
                             
-                            <div $model=tenant class="card-list">
+                            <div class="card-list">
 
-                                <div class="card-item">
+                                <div $model=tenant class="card-item">
                                     <div class="image-wrapper">
                                         <@crafter.img $field="teaserImage_s" class="image lazyload-img" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
                                     </div>
@@ -61,7 +61,7 @@
                                     <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
                                 </div>
                 <#else>
-                                <div class="card-item">
+                                <div $model=tenant class="card-item">
                                     <div class="image-wrapper">
                                         <@crafter.img $model=tenant $field="image_s" class="image lazyload-img" src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png") />
                                     </div>
