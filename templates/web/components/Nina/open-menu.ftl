@@ -94,7 +94,7 @@
             </#if>
 
 
-            <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-desktop-tablet uk-slider uk-slider-container" style="${styleAttr}">
+            <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-desktop-tablet uk-slider uk-slider-container">
     
               <div class="uk-position-relative uk-visible-toggle uk-light custom-slider-content" tabindex="-1">
                   <ul class="uk-slider-items uk-grid custom-slider-list" style="transform: translate3d(0px, 0px, 0px);">
