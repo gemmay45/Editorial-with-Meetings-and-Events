@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-11T05:26:55.088Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-11T05:26:55.088Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-11T05:29:38.936Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-11T05:29:38.936Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -94,12 +94,12 @@
 	<internal-name>New Open Menu</internal-name>
 	<file-name>2794d623-6937-4af8-80b0-f1df6a9137f4.xml</file-name>
 	<createdDate_dt>2023-12-10T23:30:03.890Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-11T05:26:56.158Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-11T05:29:40.020Z</lastModifiedDate_dt>
 	<objectId>2794d623-6937-4af8-80b0-f1df6a9137f4</objectId>
 	<folder-name/>
 	<title_s>Menu</title_s>
 	<createdDate>2023-12-10T23:30:03.890Z</createdDate>
-	<lastModifiedDate>2023-12-11T05:26:56.158Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-11T05:29:40.020Z</lastModifiedDate>
 	<menus_o item-list="true">	<item>	<name_s>Breakfast</name_s>
 	<description_html>&lt;p&gt;&lt;strong&gt;Breakfast Buffet&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;7:00am -10:30am Daily (75 minutes from the time of seating)&amp;nbsp;&lt;/p&gt;
@@ -143,7 +143,7 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Booking and enquiry: 2280 2868 / 5970 0551 (WhatsApp)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;*Subject to 10% of service charge&lt;/p&gt;</description_html>
 	<PDFMenu_o item-list="true"/>
-	<image1_s/>
+	<image1_s>/static-assets/images/nina/dining/cafe-circles/231013_cc_xmas-buffet_07_540x400.jpg</image1_s>
 	<image2_s/>
 	</item>	<item>	<name_s>Christmas Wonderland Afternoon Tea</name_s>
 	<description_html>&lt;p&gt;Serving Period: 20 November - 31 December, 2023&lt;br /&gt;&lt;br /&gt;Serving Time: 2:30pm - 5:30pm&lt;br /&gt;&lt;br /&gt;Price: HK$468* for 2 persons&lt;/p&gt;
