@@ -12,18 +12,16 @@
   <div class="menu-information-left-part">
     
         <#assign menuIndex = 0 />
-        <#assign openClass = "openX" />
       
         <@crafter.renderRepeatGroup
           $field="menus_o"
           $containerTag="div"
           $containerAttributes={'class': 'menu-information-expand-wrapper', 'data-index':'${menuIndex}'}
           $itemTag="div"
-          $itemAttributes={'class':'menu-information-expand-content-wrapper ${openClass}', 'style':'height: 297px'};
+          $itemAttributes={'class':'menu-information-expand-content-wrapper ${(menuIndex==0)?then('open', '')}', 'style':'height: 297px'};
           item, index
         >
             <#assign menuIndex = index />
-            <#assign openClass = "" />
 
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
