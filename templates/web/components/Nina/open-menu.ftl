@@ -20,7 +20,7 @@
         >
             <#if index==0>
                 <#assign styleAttr = "height: 297px" />
-                <#assign classAttr = "menu-information-expand-content-wrapper open" />
+                <#assign classAttr = "menu-information-expand-content-wrapper" />
             <#else>
                 <#assign styleAttr = "height: 28px" />
                 <#assign classAttr = "menu-information-expand-content-wrapper" />
