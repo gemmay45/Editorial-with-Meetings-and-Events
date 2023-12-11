@@ -81,7 +81,7 @@
     </div>
 </div>
 
-<script src="/scripts/nina/consolidationOffers.js"></script>
+<script src="/static-assets/js/consolidationOffers.js"></script>
 
         </div>
     </div>
