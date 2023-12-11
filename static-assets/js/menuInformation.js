@@ -88,7 +88,7 @@
             $opened.css('height', `${openedInitH}px`);
 
             if (!isMobile) {
-                let idx = $parent.data('index');
+                let idx = $parent.data('craftercms-index');
 
                 toggleSlider(refs, idx);
             }
