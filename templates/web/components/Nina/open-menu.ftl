@@ -80,8 +80,13 @@
           $itemTag="div";
           item, index
         >
+            <#if index == 0>
+                <#assign styleAttr = '' />
+            <#else>
+                <#assign styleAttr = 'display: none;' />
+            </#if>
         
-            <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-desktop-tablet uk-slider uk-slider-container">
+            <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-desktop-tablet uk-slider uk-slider-container" style="${styleAttr}">
     
               <div class="uk-position-relative uk-visible-toggle uk-light custom-slider-content" tabindex="-1">
                 <#if item.image1_s?hasContent>
