@@ -58,7 +58,7 @@
                       <div class="menu-information-expand-content-detail">
                           <div class="menu-information-expand-content-time"></div>
                           <@crafter.div $field="description_html" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
-                          <#if >
+                          <#if item.PDFMenu_o?hasContent>
                               <div class="menu-information-expand-links">
                                   <a href="/-/media/01---website-imagery/nina-hotels/properties/tww/dining/231003_cc-breakfast-alc-menu.pdf?rev=72c8f834c6a84f6497d9f7d2633bf4a0&amp;hash=618328F2C429EFB2ACDD85FEC351A1D1" rel="noopener noreferrer" class="menu-information-expand-link" target="_blank">View menu</a>
                                   
