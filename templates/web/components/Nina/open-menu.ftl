@@ -109,7 +109,16 @@
                               </div>
                           </div>
                       </li>
-                      
+                    <#if item.image2_s?hasContent>
+                      <li tabindex="-1" class="uk-active">
+                          <div class="uk-card uk-card-default custom-slider-card">
+                              <div class="uk-card-media-top custom-slider-card-media-top">
+                                  <@crafter.img src="${item.image2_s}" class="m-image" alt="" width="609" height="376" />
+                              </div>
+                          </div>
+                      </li>
+                    </#if>
+
                   </ul>
                   </#if>
                   <div class="custom-slider-bottom-operate" style="display: none;">
