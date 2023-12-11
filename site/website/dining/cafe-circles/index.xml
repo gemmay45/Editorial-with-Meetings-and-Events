@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-11T01:53:28.518Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-11T01:53:28.518Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-11T01:55:25.541Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-11T01:55:25.541Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -94,12 +94,12 @@
 	<internal-name>New Open Menu</internal-name>
 	<file-name>2794d623-6937-4af8-80b0-f1df6a9137f4.xml</file-name>
 	<createdDate_dt>2023-12-10T23:30:03.890Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-11T01:53:29.770Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-11T01:55:26.679Z</lastModifiedDate_dt>
 	<objectId>2794d623-6937-4af8-80b0-f1df6a9137f4</objectId>
 	<folder-name/>
 	<title_s>Menu</title_s>
 	<createdDate>2023-12-10T23:30:03.890Z</createdDate>
-	<lastModifiedDate>2023-12-11T01:53:29.770Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-11T01:55:26.679Z</lastModifiedDate>
 	<menus_o item-list="true">	<item>	<name_s>Breakfast</name_s>
 	<description_html>&lt;p&gt;&lt;strong&gt;Breakfast Buffet&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;7:00am -10:30am Daily (75 minutes from the time of seating)&amp;nbsp;&lt;/p&gt;
@@ -133,6 +133,9 @@
 &lt;p&gt;Click&amp;nbsp;&lt;a href="https://ninaboutique.com/en/restaurant-offers-cafe-circles" target="_blank" rel="noopener noreferrer"&gt;&lt;span style="text-decoration-line: underline; font-size: 18px;"&gt;here&lt;/span&gt;&lt;/a&gt;&amp;nbsp;to order at Nina Boutique could enjoy up to 20% discount.&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Booking and enquiry: 2280 2868 / 5970 0551 (WhatsApp)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;*Subject to 10% of service charge&lt;/p&gt;</description_html>
+	</item>	<item>	<name_s>Christmas Wonderland Afternoon Tea</name_s>
+	<description_html>&lt;p&gt;Serving Period: 20 November - 31 December, 2023&lt;br /&gt;&lt;br /&gt;Serving Time: 2:30pm - 5:30pm&lt;br /&gt;&lt;br /&gt;Price: HK$468* for 2 persons&lt;/p&gt;
+&lt;p&gt;Booking and Enquiry: (852) 2280 2868&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;*Subject to 10% service charge on original prices | 3 days advance booking is required. Photos are for reference only.&amp;nbsp;&lt;/p&gt;</description_html>
 	</item></menus_o>
 </component>
 	</item>	<item inline="true">	<key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
