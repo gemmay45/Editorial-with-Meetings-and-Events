@@ -18,13 +18,6 @@
           $itemAttributes={'class': 'menu-information-expand-wrapper'};
           item, index
         >
-            <#if index==0>
-                <#assign styleAttr = "height: 297px" />
-                <#assign classAttr = "menu-information-expand-content-wrapper" />
-            <#else>
-                <#assign styleAttr = "height: 28px" />
-                <#assign classAttr = "menu-information-expand-content-wrapper" />
-            </#if>
 
             <div class="menu-information-expand-content-wrapper">
               <div class="menu-information-expand-content">
@@ -87,13 +80,6 @@
           item, index
         >
         
-            <#if index==0>
-                <#assign styleAttr = "" />
-            <#else>
-                <#assign styleAttr = "display:none" />
-            </#if>
-
-
             <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-desktop-tablet uk-slider uk-slider-container">
     
               <div class="uk-position-relative uk-visible-toggle uk-light custom-slider-content" tabindex="-1">
