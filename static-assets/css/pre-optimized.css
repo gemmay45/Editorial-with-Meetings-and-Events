@@ -19094,7 +19094,7 @@ body .date-range-picker-wrapper .month-wrapper .month .prev {
     left: 0;
     width: 17px;
     height: 24px;
-    background-image: url(../images/icon-btn-arrow-left.svg);
+    background-image: url(/static-assets/images/nina/icons/icon-btn-arrow-left.svg);
     background-repeat: no-repeat;
     background-size: 17px 24px
 }
@@ -19103,7 +19103,7 @@ body .date-range-picker-wrapper .month-wrapper .month .next {
     right: 0;
     width: 17px;
     height: 24px;
-    background-image: url(../images/icon-btn-arrow-right.svg);
+    background-image: url(/static-assets/images/nina/icons/icon-btn-arrow-right.svg);
     background-repeat: no-repeat;
     background-size: 17px 24px
 }
@@ -20184,7 +20184,7 @@ header .custom-navigation-wrapper .hamburger-menu-content-wrapper .hamburger-men
     left: 100%;
     width: 17px;
     height: 24px;
-    background-image: url(../images/icon-btn-arrow-right.svg);
+    background-image: url(/static-assets/images/nina/icons/icon-btn-arrow-right.svg);
     background-repeat: no-repeat;
     background-size: 17px 24px;
     transform: translateY(-50%);
@@ -20311,7 +20311,7 @@ header .custom-navigation-wrapper .hamburger-menu-content-wrapper .hamburger-men
     left: 100%;
     width: 17px;
     height: 24px;
-    background-image: url(../images/icon-btn-arrow-right.svg);
+    background-image: url(/static-assets/images/nina/icons/icon-btn-arrow-right.svg);
     background-repeat: no-repeat;
     background-size: 17px 24px;
     transform: translateY(-50%);
