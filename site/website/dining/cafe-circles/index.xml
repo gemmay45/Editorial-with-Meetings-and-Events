@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-11T02:13:13.089Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-11T02:13:13.089Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-11T05:20:59.116Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-11T05:20:59.116Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -94,12 +94,12 @@
 	<internal-name>New Open Menu</internal-name>
 	<file-name>2794d623-6937-4af8-80b0-f1df6a9137f4.xml</file-name>
 	<createdDate_dt>2023-12-10T23:30:03.890Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-11T02:13:14.186Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-11T05:21:03.456Z</lastModifiedDate_dt>
 	<objectId>2794d623-6937-4af8-80b0-f1df6a9137f4</objectId>
 	<folder-name/>
 	<title_s>Menu</title_s>
 	<createdDate>2023-12-10T23:30:03.890Z</createdDate>
-	<lastModifiedDate>2023-12-11T02:13:14.186Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-11T05:21:03.456Z</lastModifiedDate>
 	<menus_o item-list="true">	<item>	<name_s>Breakfast</name_s>
 	<description_html>&lt;p&gt;&lt;strong&gt;Breakfast Buffet&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;7:00am -10:30am Daily (75 minutes from the time of seating)&amp;nbsp;&lt;/p&gt;
@@ -113,6 +113,8 @@
 	<value>/static-assets/files/nina/dining/cafe-circles/231003_cc-breakfast-alc-menu.pdf</value>
 	<fileType_smv>pdf</fileType_smv>
 	</item></PDFMenu_o>
+	<image1_s>/static-assets/images/nina/dining/cafe-circles/tww_dining_cafe-circles_breakfast-buffet.jpg</image1_s>
+	<image2_s/>
 	</item>	<item>	<name_s>Lunch</name_s>
 	<description_html>&lt;p&gt;&lt;strong&gt;Crab Fiesta (Sep 1 - Dec 10)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Joyous Festive Buffet (Dec 11 - Jan 1)&lt;/strong&gt;&lt;/p&gt;
@@ -128,6 +130,8 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;&amp;Agrave; La Carte Menu is also available&amp;nbsp;&lt;/p&gt;</description_html>
 	<PDFMenu_o item-list="true"/>
+	<image1_s/>
+	<image2_s/>
 	</item>	<item>	<name_s>Weekend Afternoon Tea Buffet</name_s>
 	<description_html>&lt;p&gt;&lt;strong&gt;Fall in love with Matcha x Sweet Potato Afternoon Tea Buffet (Oct 7 - Dec 10)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Joyous Festive Tea Buffet&lt;strong&gt;&amp;nbsp;(Dec 11 - Jan 1)&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -139,10 +143,14 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Booking and enquiry: 2280 2868 / 5970 0551 (WhatsApp)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;*Subject to 10% of service charge&lt;/p&gt;</description_html>
 	<PDFMenu_o item-list="true"/>
+	<image1_s/>
+	<image2_s/>
 	</item>	<item>	<name_s>Christmas Wonderland Afternoon Tea</name_s>
 	<description_html>&lt;p&gt;Serving Period: 20 November - 31 December, 2023&lt;br /&gt;&lt;br /&gt;Serving Time: 2:30pm - 5:30pm&lt;br /&gt;&lt;br /&gt;Price: HK$468* for 2 persons&lt;/p&gt;
 &lt;p&gt;Booking and Enquiry: (852) 2280 2868&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;*Subject to 10% service charge on original prices | 3 days advance booking is required. Photos are for reference only.&amp;nbsp;&lt;/p&gt;</description_html>
 	<PDFMenu_o item-list="true"/>
+	<image1_s/>
+	<image2_s/>
 	</item></menus_o>
 </component>
 	</item>	<item inline="true">	<key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
