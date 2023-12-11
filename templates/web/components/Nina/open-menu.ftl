@@ -61,7 +61,7 @@
                       </div>
                       <div class="menu-information-expand-content-detail">
                           <div class="menu-information-expand-content-time"></div>
-                          <@crafter.div $field="description_html" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
+                          <@crafter.div $field="item" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
                           <#if item.PDFMenu_o?? && item.PDFMenu_o.item??>
                               <div class="menu-information-expand-links">
                                   <@crafter.a $field="PDFMenu_o" href="${item.PDFMenu_o.item[0].key}" rel="noopener noreferrer" class="menu-information-expand-link" target="_blank">View menu</@crafter.a>
@@ -105,7 +105,7 @@
                       <li tabindex="-1" class="uk-active">
                           <div class="uk-card uk-card-default custom-slider-card">
                               <div class="uk-card-media-top custom-slider-card-media-top">
-                                  <@crafter.img src="${item.image1_s}" class="m-image" alt="" width="609" height="376" />
+                                  <@crafter.img $field="image1_s" src="${item.image1_s}" class="m-image" alt="" width="609" height="376" />
                               </div>
                           </div>
                       </li>
@@ -113,7 +113,7 @@
                       <li tabindex="-1" class="uk-active">
                           <div class="uk-card uk-card-default custom-slider-card">
                               <div class="uk-card-media-top custom-slider-card-media-top">
-                                  <@crafter.img src="${item.image2_s}" class="m-image" alt="" width="609" height="376" />
+                                  <@crafter.img $field="image2_s" src="${item.image2_s}" class="m-image" alt="" width="609" height="376" />
                               </div>
                           </div>
                       </li>
