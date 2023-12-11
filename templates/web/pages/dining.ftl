@@ -8,6 +8,7 @@
 -->
 <html lang="en">
 <head>
+    <script src="/static-assets/js/jquery-3.5.1.min.js?site=${siteContext.siteName}"></script>
     <#include "/templates/web/fragments/head.ftl">
     <@crafter.head/>
 </head>
