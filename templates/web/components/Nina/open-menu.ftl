@@ -26,7 +26,7 @@
                 <#assign classAttr = "menu-information-expand-content-wrapper" />
             </#if>
 
-            <div class="${classAttr}" style="${styleAttr}">
+            <div class="menu-information-expand-content-wrapper">
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
                       <@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>
