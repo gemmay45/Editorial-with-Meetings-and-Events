@@ -8,7 +8,7 @@
 -->
 <html lang="en">
 <head>
-    <script src="/scripts/nina/menuInformation.js"></script>
+    <script src="/static-assets/js/menuInformation.js"></script>
     <#include "/templates/web/fragments/head.ftl">
     <@crafter.head/>
 </head>
