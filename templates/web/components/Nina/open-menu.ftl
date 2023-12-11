@@ -24,7 +24,7 @@
                 <#assign styleAttr = "height: 28px" />
             </#if>
 
-            <div class="menu-information-expand-content-wrapper" style=${styleAttr}>
+            <div class="menu-information-expand-content-wrapper" style="${styleAttr}">
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
                       <@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>
