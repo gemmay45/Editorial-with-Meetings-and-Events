@@ -9,8 +9,6 @@
 
 
 <div class="menu-information-bottom-wrapper" data-bg-color="rgba(175, 162, 133, 0.2)">
-
-        <#assign menuIndex = 0 />
         
         <@crafter.renderRepeatGroup
           $field="menus_o"
@@ -20,10 +18,13 @@
           $itemAttributes={'class': 'menu-information-expand-wrapper'};
           item, index
         >
+            <#if index==0>
+                <#assign styleAttr = "height: 297px;"
+            <#else>
+                <#assign styleAttr = "height: 28px;"
+            </#if>
 
-            <#assign menuIndex = menuIndex+1 />
-
-            <div class="menu-information-expand-content-wrapper" style="height: 28px;">
+            <div class="menu-information-expand-content-wrapper" style=${styleAttr}>
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
                       <@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>
