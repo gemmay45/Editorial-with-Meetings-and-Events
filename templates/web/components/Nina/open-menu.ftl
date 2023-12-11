@@ -25,7 +25,7 @@
 
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
-                      <h5 class="menu-information-expand-operate-text">Breakfast </h5>
+                      <@crafter.h5 class="menu-information-expand-operate-text">${item.name}</@crafter.h5>
                       <span class="menu-information-expand-operate-icon icon--cross"></span>
                   </div>
                   <div class="menu-information-expand-full-detail-wrapper" style="">
@@ -53,15 +53,7 @@
                       </div>
                       <div class="menu-information-expand-content-detail">
                           <div class="menu-information-expand-content-time"></div>
-                          <div class="menu-information-expand-content-desc"><p><strong>Breakfast Buffet</strong></p>
-<p>7:00am -10:30am Daily (75 minutes from the time of seating)&nbsp;</p>
-<p>HK$168* (Adult) | HK$108* (Child, 3 - 11 years old)</p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>
-Breakfast Set</strong></p>
-<p>7:30am - 10:30am Daily&nbsp;</p>
-<p>&nbsp;</p>
-<p>*All prices are subject to 10% service charge</p></div>
+                          <@crafter.div class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
                           <div class="menu-information-expand-links">
                               <a href="/-/media/01---website-imagery/nina-hotels/properties/tww/dining/231003_cc-breakfast-alc-menu.pdf?rev=72c8f834c6a84f6497d9f7d2633bf4a0&amp;hash=618328F2C429EFB2ACDD85FEC351A1D1" rel="noopener noreferrer" class="menu-information-expand-link" target="_blank">View menu</a>
                               
