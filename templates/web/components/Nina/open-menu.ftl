@@ -60,7 +60,7 @@
                           <@crafter.div $field="description_html" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
                           <#if item.PDFMenu_o?hasContent>
                               <div class="menu-information-expand-links">
-                                  <a href="${item.PDFMenu_o.item[0]}" rel="noopener noreferrer" class="menu-information-expand-link" target="_blank">View menu</a>
+                                  <a href="" rel="noopener noreferrer" class="menu-information-expand-link" target="_blank">View menu</a>
                                   
                               </div>
                           </#if>
