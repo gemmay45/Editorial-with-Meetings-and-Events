@@ -284,7 +284,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>uploadFiles,existingFiles</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -336,6 +336,32 @@
 							<name>componentPath</name>
 							<value>/site/taxonomy/sub-section-titles.xml</value>
 								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>file-desktop-upload</type>
+					<id>uploadFiles</id>
+					<title>Upload Files</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/files/nina</value>
+								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>file-browse-repo</type>
+					<id>existingFiles</id>
+					<title>Existing Files</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/files/nina</value>
+								<type>content-path-input</type>
 						</property>
 					</properties>
 				</datasource>
