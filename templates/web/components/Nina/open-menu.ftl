@@ -60,7 +60,7 @@
                           </div>
                       </div>
 
-                      <@crafter.div $model=item class="menu-information-expand-content-detail">
+                      <div $model=item class="menu-information-expand-content-detail">
                           <div class="menu-information-expand-content-time"></div>
                           <@crafter.div $model=item $field="description_html" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
                           <#if item.PDFMenu_o?? && item.PDFMenu_o.item??>
@@ -78,7 +78,7 @@
                               <img class="menu-information-expand-icon" src="" alt="">
                               
                           </div>
-                      </@crafter.div>
+                      </div>
 
                   </div>
               </div>
