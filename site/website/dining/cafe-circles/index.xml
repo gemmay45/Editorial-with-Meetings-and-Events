@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-12T22:58:51.209Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-12T22:58:51.209Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-12T23:31:57.246Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-12T23:31:57.246Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -211,6 +211,10 @@
         <lastModifiedDate>2023-12-08T07:19:54.615Z</lastModifiedDate>
         <description_html>&lt;p&gt;Nina has for many years been known for her authentic Palmier biscuits, and noting everyone&amp;rsquo;s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.&lt;/p&gt;</description_html>
       </component>
+	</item>	<item>	<key>/site/components/nina/d4dbeef8-82cf-da7f-7a87-55acc591067a.xml</key>
+	<value>Café Circles Lunch</value>
+	<include>/site/components/nina/d4dbeef8-82cf-da7f-7a87-55acc591067a.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
