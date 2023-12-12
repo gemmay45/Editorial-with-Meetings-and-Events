@@ -20,7 +20,7 @@
         >
 
             <div class="menu-information-expand-content-wrapper">
-              <div class="menu-information-expand-content">
+              <@crafter.div $model=item class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
                       <@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>
                       <span class="menu-information-expand-operate-icon icon--cross"></span>
@@ -57,7 +57,7 @@
                                       <a class="custom-slider-next coustom-slider-arrow uk-icon uk-slidenav-next uk-slidenav uk-hidden uk-invisible" href="#" uk-slidenav-next="" uk-slider-item="next"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-next"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
                                   </div>
                               </div>
-                          </div>
+                          </@crafter.div>
                       </div>
                       <div class="menu-information-expand-content-detail">
                           <div class="menu-information-expand-content-time"></div>
@@ -79,7 +79,7 @@
                           </div>
                       </div>
                   </div>
-              </div>
+              </@crafter.div>
             </div>
         </@crafter.renderRepeatGroup>      
 
@@ -98,7 +98,7 @@
         
             <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-desktop-tablet uk-slider uk-slider-container" style="${styleAttr}">
     
-              <div class="uk-position-relative uk-visible-toggle uk-light custom-slider-content" tabindex="-1">
+              <@crafter.div $model=item class="uk-position-relative uk-visible-toggle uk-light custom-slider-content" tabindex="-1">
                 <#if item.image1_s?hasContent>
                   <ul class="uk-slider-items uk-grid custom-slider-list" style="transform: translate3d(0px, 0px, 0px);">
                       
@@ -128,7 +128,7 @@
                           <a class="custom-slider-next coustom-slider-arrow uk-icon uk-slidenav-next uk-slidenav uk-hidden uk-invisible" href="#" uk-slidenav-next="" uk-slider-item="next"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-next"><polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline></svg></a>
                       </div>
                   </div>
-              </div>
+              </@crafter.div>
           </div>
         </@crafter.renderRepeatGroup> 
 </div>
