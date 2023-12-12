@@ -10,4 +10,12 @@
 	<quickCreatePath></quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail></image-thumbnail>
+	<paths>
+		<excludes>
+			<pattern>^/site/website/dining/.*</pattern>
+		</excludes>
+		<includes>
+			<pattern>^/site/website/(?!articles/)(.*)</pattern>
+		</includes>
+	</paths>
 </content-type>
