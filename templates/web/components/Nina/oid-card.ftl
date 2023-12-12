@@ -21,7 +21,7 @@
             <#if contentModel.openingHours_html?hasContent>
                 <div class="consolidation-subtitle">
                     <p><strong>Opening Hours:</strong></p>
-                        <@crafter.span>${contentModel.openingHours_html}</@crafter.span>
+                        <@crafter.span $field="openingHours_html">${contentModel.openingHours_html}</@crafter.span>
                 </div>
             </#if>
             
@@ -33,7 +33,7 @@
             
             
             <#if contentModel.address_html?hasContent>
-                <@crafter.div class="consolidation-contents">
+                <@crafter.div class="consolidation-contents" $field="address_html">
                     
                     ${contentModel.address_html}
                     
@@ -44,7 +44,7 @@
             <#if contentModel.mapLink_s?hasContent>
                 <div class="contact-link">
                     <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/contact/ninahospitality-location-icon.svg?rev=93e856e3400845d6a82a0b5cf9acc1d5" class="consolidation-link-img" alt="Nina Hospitality location">
-                    <@crafter.a href="${contentModel.mapLink_s}" rel="noopener noreferrer" class="consolidation-link">Open in Maps</@crafter.a>
+                    <@crafter.a $field="mapLink_s" href="${contentModel.mapLink_s}" rel="noopener noreferrer" class="consolidation-link">Open in Maps</@crafter.a>
                 </div>
             </#if>
             
