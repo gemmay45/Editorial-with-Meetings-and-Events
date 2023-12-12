@@ -33,10 +33,10 @@
                 </div>
 				
 
-                <div class="events-card-content-wrapper">
-                    <@crafter.h2 $model=contentModel $field="title_s" class="events-card-content-title">${contentModel.title_s}</@crafter.h2>
+                <@crafter.div $model=contentModel class="events-card-content-wrapper">
+                    <@crafter.h2 $field="title_s" class="events-card-content-title">${contentModel.title_s}</@crafter.h2>
  
-                    <@crafter.div class="events-card-content" $model=contentModel $field="description_html">
+                    <@crafter.div class="events-card-content" $field="description_html">
                         <div>
                         ${contentModel.description_html}
                         </div>
@@ -69,7 +69,7 @@
                             <@crafter.a $field="CTAName_s" class="explore-more-btn" href="${contentModel.link_s}" rel="noopener noreferrer" class="explore-more-btn">${contentModel.CTAName_s}</@crafter.a>
                         </#if>
                     </div>
-                </div>
+                </@crafter.div>
             </@crafter.div>
         </div>
 
