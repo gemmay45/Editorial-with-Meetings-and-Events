@@ -109,7 +109,7 @@
 	<internal-name>New Open Menu</internal-name>
 	<file-name>79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a.xml</file-name>
 	<createdDate_dt>2023-12-12T01:41:02.348Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-12T01:43:59.749Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-12T01:45:26.452Z</lastModifiedDate_dt>
 	<objectId>79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a</objectId>
 	<title_s>Menu</title_s>
 	<menus_o item-list="true">	<item>	<name_s>Lunch</name_s>
@@ -121,10 +121,15 @@
 &lt;p&gt;Saturday, Sunday and Public Holidays: 6:00pm - 10:30pm&lt;br /&gt;(last order 9:30pm)&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;*booking of a table for 4 or above at dinner session during Monday to Thursday between November 27 and December 21, 2023 could enjoy a complimentary dessert!&lt;/p&gt;</description_html>
+	</item>	<item>	<name_s>Executive Lunch</name_s>
+	<description_html>&lt;p&gt;from HK$480 per person (Minimum 2 persons)&lt;/p&gt;</description_html>
+	<PDFMenu_o item-list="true"/>
+	<image1_s/>
+	<image2_s/>
 	</item></menus_o>
 	<folder-name/>
 	<createdDate>2023-12-12T01:41:02.348Z</createdDate>
-	<lastModifiedDate>2023-12-12T01:43:59.749Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-12T01:45:26.452Z</lastModifiedDate>
 </component>
 	</item>	<item inline="true">	<key>8f9aeb59-e715-4b09-8424-ba061e0b2e68</key>
 	<value>New Promo Card</value>
@@ -178,8 +183,8 @@
 	<relatedOffers_o item-list="true"/>
 	<createdDate>2023-12-08T13:39:56.453Z</createdDate>
 	<createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
-	<lastModifiedDate>2023-12-12T01:43:58.729Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-12T01:43:58.729Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-12T01:45:25.176Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-12T01:45:25.176Z</lastModifiedDate_dt>
 	<teaserImage_s>/static-assets/images/nina/dining/ru/221223_new-ru_group-shot_500x500.jpg</teaserImage_s>
 	<name_s>RÚ</name_s>
 	<teaserDescription_html>&lt;p&gt;R&amp;Uacute; celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours.&lt;/p&gt;</teaserDescription_html>
