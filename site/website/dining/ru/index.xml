@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/dining</content-type>
-	<display-template>/templates/web/pages/dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>c933</objectGroupId>
-	<objectId>c933d9d9-025b-e3c1-d9cb-d8d7a8154a77</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>ru</folder-name>
-	<internal-name>RÚ</internal-name>
-	<navLabel>RÚ</navLabel>
-	<disabled>false</disabled>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<header_o item-list="true"/>
-	<leftRail_o item-list="true"/>
-	<pageSections_o item-list="true">	<item inline="true">	<key>094271db-7759-402b-af7b-c3a4f80a9508</key>
-	<value>New Hero Banner with Title</value>
-	<disableFlattening>false</disableFlattening>
-<component id="094271db-7759-402b-af7b-c3a4f80a9508">
+  <content-type>/page/dining</content-type>
+  <display-template>/templates/web/pages/dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>c933</objectGroupId>
+  <objectId>c933d9d9-025b-e3c1-d9cb-d8d7a8154a77</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>ru</folder-name>
+  <internal-name>RÚ</internal-name>
+  <navLabel>RÚ</navLabel>
+  <disabled>false</disabled>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <header_o item-list="true"/>
+  <leftRail_o item-list="true"/>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>094271db-7759-402b-af7b-c3a4f80a9508</key>
+      <value>New Hero Banner with Title</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="094271db-7759-402b-af7b-c3a4f80a9508">
         <content-type>/component/herobannerwithtitle</content-type>
         <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
         <no-template-required/>
@@ -35,10 +37,12 @@
         <createdDate>2023-12-08T13:42:24.494Z</createdDate>
         <lastModifiedDate>2023-12-08T13:42:24.494Z</lastModifiedDate>
       </component>
-	</item>	<item inline="true">	<key>388667d6-3edb-4809-9a07-31b8b4e91c1d</key>
-	<value>New Booking Widget</value>
-	<disableFlattening>false</disableFlattening>
-<component id="388667d6-3edb-4809-9a07-31b8b4e91c1d">
+    </item>
+    <item inline="true">
+      <key>388667d6-3edb-4809-9a07-31b8b4e91c1d</key>
+      <value>New Booking Widget</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="388667d6-3edb-4809-9a07-31b8b4e91c1d">
         <content-type>/component/bookingwidget</content-type>
         <display-template>/templates/web/components/Nina/booking-widget.ftl</display-template>
         <internal-name><![CDATA[New Booking Widget]]></internal-name>
@@ -48,10 +52,12 @@
         <lastModifiedDate_dt>2023-12-08T13:43:35.753Z</lastModifiedDate_dt>
         <objectId>388667d6-3edb-4809-9a07-31b8b4e91c1d</objectId>
       </component>
-	</item>	<item inline="true">	<key>41b64a79-fdd3-4a13-bee8-36e3d6a36720</key>
-	<value>New Intro Card with Logo</value>
-	<disableFlattening>false</disableFlattening>
-<component id="41b64a79-fdd3-4a13-bee8-36e3d6a36720">
+    </item>
+    <item inline="true">
+      <key>41b64a79-fdd3-4a13-bee8-36e3d6a36720</key>
+      <value>New Intro Card with Logo</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="41b64a79-fdd3-4a13-bee8-36e3d6a36720">
         <content-type>/component/introcardwithlogo</content-type>
         <display-template>/templates/web/components/Nina/intro-card-with-logo.ftl</display-template>
         <no-template-required/>
@@ -67,10 +73,12 @@
         <createdDate>2023-12-09T13:36:32.938Z</createdDate>
         <lastModifiedDate>2023-12-09T13:36:32.938Z</lastModifiedDate>
       </component>
-	</item>	<item inline="true">	<key>99b72113-56d4-4475-8227-d2cbb54279d8</key>
-	<value>New OID Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="99b72113-56d4-4475-8227-d2cbb54279d8">
+    </item>
+    <item inline="true">
+      <key>99b72113-56d4-4475-8227-d2cbb54279d8</key>
+      <value>New OID Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="99b72113-56d4-4475-8227-d2cbb54279d8">
         <content-type>/component/oidcard</content-type>
         <display-template>/templates/web/components/Nina/oid-card.ftl</display-template>
         <no-template-required/>
@@ -98,52 +106,63 @@
         <createdDate>2023-12-12T01:29:14.512Z</createdDate>
         <lastModifiedDate>2023-12-12T01:29:14.512Z</lastModifiedDate>
       </component>
-	</item>	<item inline="true">	<key>79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a</key>
-	<value>New Open Menu</value>
-	<disableFlattening>false</disableFlattening>
-<component id="79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a">
-	<content-type>/component/openmenu</content-type>
-	<display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Open Menu</internal-name>
-	<file-name>79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a.xml</file-name>
-	<createdDate_dt>2023-12-12T01:41:02.348Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-12T01:52:04.670Z</lastModifiedDate_dt>
-	<objectId>79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a</objectId>
-	<title_s>Menu</title_s>
-	<menus_o item-list="true">	<item>	<name_s>Lunch</name_s>
-	<PDFMenu_o item-list="true"/>
-	<image1_s>/static-assets/images/nina/dining/ru/230601_ru_executive-set-menu_01_540x400.jpg</image1_s>
-	<image2_s>/static-assets/images/nina/dining/ru/230601_ru_executive-set-menu_02_540x400.jpg</image2_s>
-	<description_html>&lt;p&gt;Monday to Friday: 6:00pm - 10:00pm&lt;br /&gt;(last order 9pm)&lt;/p&gt;
+    </item>
+    <item inline="true">
+      <key>79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a</key>
+      <value>New Open Menu</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a">
+        <content-type>/component/openmenu</content-type>
+        <display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Open Menu</internal-name>
+        <file-name>79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a.xml</file-name>
+        <createdDate_dt>2023-12-12T01:41:02.348Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-12T01:52:51.396Z</lastModifiedDate_dt>
+        <objectId>79f118b4-5fd0-4f85-9c3d-54d1a4d5ca6a</objectId>
+        <title_s>Menu</title_s>
+        <menus_o item-list="true">
+          <item>
+            <name_s>Lunch</name_s>
+            <PDFMenu_o item-list="true"/>
+            <image1_s>/static-assets/images/nina/dining/ru/230601_ru_executive-set-menu_01_540x400.jpg</image1_s>
+            <image2_s>/static-assets/images/nina/dining/ru/230601_ru_executive-set-menu_02_540x400.jpg</image2_s>
+            <description_html>&lt;p&gt;Monday to Friday: 6:00pm - 10:00pm&lt;br /&gt;(last order 9pm)&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Saturday, Sunday and Public Holidays: 6:00pm - 10:30pm&lt;br /&gt;(last order 9:30pm)&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;*booking of a table for 4 or above at dinner session during Monday to Thursday between November 27 and December 21, 2023 could enjoy a complimentary dessert!&lt;/p&gt;</description_html>
-	</item>	<item>	<name_s>Dinner</name_s>
-	<description_html>&lt;p&gt;Monday to Friday: 6:00pm - 10:00pm&lt;br /&gt;(last order 9pm)&lt;/p&gt;
+          </item>
+          <item>
+            <name_s>Executive Lunch</name_s>
+            <description_html>&lt;p&gt;from HK$480 per person (Minimum 2 persons)&lt;/p&gt;</description_html>
+            <PDFMenu_o item-list="true"/>
+            <image1_s>/static-assets/images/nina/dining/ru/230601_ru_executive-set-menu_01_540x400.jpg</image1_s>
+            <image2_s>/static-assets/images/nina/dining/ru/230601_ru_executive-set-menu_02_540x400.jpg</image2_s>
+          </item>
+          <item>
+            <name_s>Dinner</name_s>
+            <description_html>&lt;p&gt;Monday to Friday: 6:00pm - 10:00pm&lt;br /&gt;(last order 9pm)&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;Saturday, Sunday and Public Holidays: 6:00pm - 10:30pm&lt;br /&gt;(last order 9:30pm)&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;*booking of a table for 4 or above at dinner session during Monday to Thursday between November 27 and December 21, 2023 could enjoy a complimentary dessert!&lt;/p&gt;</description_html>
-	<PDFMenu_o item-list="true"/>
-	<image1_s>/static-assets/images/nina/dining/ru/221223_new-ru_goose-540x400.jpg</image1_s>
-	<image2_s>/static-assets/images/nina/dining/ru/221223_new-ru_crab-540x400.jpg</image2_s>
-	</item>	<item>	<name_s>Executive Lunch</name_s>
-	<description_html>&lt;p&gt;from HK$480 per person (Minimum 2 persons)&lt;/p&gt;</description_html>
-	<PDFMenu_o item-list="true"/>
-	<image1_s>/static-assets/images/nina/dining/ru/230601_ru_executive-set-menu_01_540x400.jpg</image1_s>
-	<image2_s>/static-assets/images/nina/dining/ru/230601_ru_executive-set-menu_02_540x400.jpg</image2_s>
-	</item></menus_o>
-	<folder-name/>
-	<createdDate>2023-12-12T01:41:02.348Z</createdDate>
-	<lastModifiedDate>2023-12-12T01:52:04.670Z</lastModifiedDate>
-</component>
-	</item>	<item inline="true">	<key>8f9aeb59-e715-4b09-8424-ba061e0b2e68</key>
-	<value>New Promo Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="8f9aeb59-e715-4b09-8424-ba061e0b2e68">
+            <PDFMenu_o item-list="true"/>
+            <image1_s>/static-assets/images/nina/dining/ru/221223_new-ru_goose-540x400.jpg</image1_s>
+            <image2_s>/static-assets/images/nina/dining/ru/221223_new-ru_crab-540x400.jpg</image2_s>
+          </item>
+        </menus_o>
+        <folder-name/>
+        <createdDate>2023-12-12T01:41:02.348Z</createdDate>
+        <lastModifiedDate>2023-12-12T01:52:04.670Z</lastModifiedDate>
+      </component>
+    </item>
+    <item inline="true">
+      <key>8f9aeb59-e715-4b09-8424-ba061e0b2e68</key>
+      <value>New Promo Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="8f9aeb59-e715-4b09-8424-ba061e0b2e68">
         <content-type>/component/promocard</content-type>
         <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
         <no-template-required/>
@@ -164,10 +183,12 @@
         <lastModifiedDate>2023-12-09T13:08:44.585Z</lastModifiedDate>
         <theme_s>background:rgba(175, 162, 133, 0.2)</theme_s>
       </component>
-	</item>	<item inline="true">	<key>2bf9c1af-e42e-4b52-b885-f53e5261e54c</key>
-	<value>New Promo Card</value>
-	<disableFlattening>false</disableFlattening>
-<component id="2bf9c1af-e42e-4b52-b885-f53e5261e54c">
+    </item>
+    <item inline="true">
+      <key>2bf9c1af-e42e-4b52-b885-f53e5261e54c</key>
+      <value>New Promo Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="2bf9c1af-e42e-4b52-b885-f53e5261e54c">
         <content-type>/component/promocard</content-type>
         <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
         <no-template-required/>
@@ -188,13 +209,14 @@
         <lastModifiedDate>2023-12-09T13:09:00.401Z</lastModifiedDate>
         <theme_s>background:white</theme_s>
       </component>
-	</item></pageSections_o>
-	<relatedOffers_o item-list="true"/>
-	<createdDate>2023-12-08T13:39:56.453Z</createdDate>
-	<createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
-	<lastModifiedDate>2023-12-12T01:52:03.325Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-12T01:52:03.325Z</lastModifiedDate_dt>
-	<teaserImage_s>/static-assets/images/nina/dining/ru/221223_new-ru_group-shot_500x500.jpg</teaserImage_s>
-	<name_s>RÚ</name_s>
-	<teaserDescription_html>&lt;p&gt;R&amp;Uacute; celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours.&lt;/p&gt;</teaserDescription_html>
+    </item>
+  </pageSections_o>
+  <relatedOffers_o item-list="true"/>
+  <createdDate>2023-12-08T13:39:56.453Z</createdDate>
+  <createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
+  <lastModifiedDate>2023-12-12T01:52:03.325Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-12T01:52:51.396Z</lastModifiedDate_dt>
+  <teaserImage_s>/static-assets/images/nina/dining/ru/221223_new-ru_group-shot_500x500.jpg</teaserImage_s>
+  <name_s>RÚ</name_s>
+  <teaserDescription_html>&lt;p&gt;R&amp;Uacute; celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours.&lt;/p&gt;</teaserDescription_html>
 </page>
