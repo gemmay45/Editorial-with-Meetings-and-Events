@@ -59,7 +59,7 @@
                 <span></span>
                 
                 <#if contentModel.contentNumber_s?hasContent>
-                    <#assign phoneLink = contentModel.contentNumber_s?replace(" ", "") />
+                    <#assign phoneLink = s[contentModel.contentNumber_s?replace(" ", "") />${s[2..]}
                     ${phoneLink}
                     <div class="contact-link">
                         <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/contact/ninahospitality-phoneandwhatsapp-icon.svg?rev=e460371c6bbb4f6193c575d99b810334" class="consolidation-link-img" alt="Nina Hospitality Phone and Whatsapp">
