@@ -41,11 +41,12 @@
             </#if>
             
             
-            <div class="contact-link">
-                <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/contact/ninahospitality-location-icon.svg?rev=93e856e3400845d6a82a0b5cf9acc1d5" class="consolidation-link-img" alt="Nina Hospitality location">
-                <a href="https://www.google.com/maps/place/Caf%C3%A9+Circles/@22.3685765,114.1108115,17z/data=!3m1!4b1!4m5!3m4!1s0x3403f8eeae3f67c9:0xffdb71d1c64c78a4!8m2!3d22.3685716!4d114.1130002" rel="noopener noreferrer" class="consolidation-link">Open in Maps</a>
-            </div>
-            
+            <#if contentModel.mapLink_s?hasContent>
+                <div class="contact-link">
+                    <img src="https://mc-1ba1fb3b-6c1c-4deb-94a0-831522-cdn-endpoint.azureedge.net/-/media/01---website-imagery/nina-hotels/icons/contact/ninahospitality-location-icon.svg?rev=93e856e3400845d6a82a0b5cf9acc1d5" class="consolidation-link-img" alt="Nina Hospitality location">
+                    <@crafter.a href="${contentModel.mapLink_s}" rel="noopener noreferrer" class="consolidation-link">Open in Maps</@crafter.a>
+                </div>
+            </#if>
             
         </div>
         
