@@ -60,9 +60,9 @@
                           </div>
                       </div>
 
-                      <div class="menu-information-expand-content-detail">
+                      <@crafter.div $model=item class="menu-information-expand-content-detail">
                           <div class="menu-information-expand-content-time"></div>
-                          <@crafter.div $model=item $field="description_html" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
+                          <@crafter.div $field="description_html" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
                           <#if item.PDFMenu_o?? && item.PDFMenu_o.item??>
                               <div class="menu-information-expand-links">
                                   <@crafter.a $model=PDFMenu_o href="${item.PDFMenu_o.item[0].key}" rel="noopener noreferrer" class="menu-information-expand-link" target="_blank">View menu</@crafter.a>
@@ -78,7 +78,7 @@
                               <img class="menu-information-expand-icon" src="" alt="">
                               
                           </div>
-                      </div>
+                      </@crafter.div>
 
                   </div>
               </div>
