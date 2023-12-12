@@ -22,7 +22,7 @@
             <div class="menu-information-expand-content-wrapper">
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
-                      <@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>
+                      <#--<@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>-->
                       <span class="menu-information-expand-operate-icon icon--cross"></span>
                   </div>
                   <div class="menu-information-expand-full-detail-wrapper" style="">
