@@ -20,7 +20,7 @@
         >
 
             <div class="menu-information-expand-content-wrapper">
-              <@crafter.div $model=item class="menu-information-expand-content">
+              <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
                       <@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>
                       <span class="menu-information-expand-operate-icon icon--cross"></span>
@@ -79,7 +79,7 @@
                           </div>
                       </div>
                   </div>
-              </@crafter.div>
+              </div>
             </div>
         </@crafter.renderRepeatGroup>      
 
