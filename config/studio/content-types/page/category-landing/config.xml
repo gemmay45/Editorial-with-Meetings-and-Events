@@ -14,5 +14,8 @@
 		<includes>
 			<pattern>^/site/website/(?!articles/)(.*)</pattern>
 		</includes>
+		<excludes>
+			<pattern>^/site/website/(?dining/)(.*)</pattern>
+		</excludes>
 	</paths>
 </content-type>
