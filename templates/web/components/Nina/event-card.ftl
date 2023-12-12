@@ -2,7 +2,7 @@
 
 <div class="component events-card-wrapper col-12 with-icon-and-desc ${contentModel.imagePosition_s}">
         <div class="component-content">
-        <div class="component sclwg-list module-component events-card-wrapper with-icon-and-desc">
+        <@crafter.div $model=contentModel class="component sclwg-list module-component events-card-wrapper with-icon-and-desc">
             <div class="component-content">
                	
                 <div uk-slider="center: true; finite: true;" class="events-card-slider-wrapper uk-slider uk-slider-container">
@@ -34,9 +34,9 @@
 				
 
                 <div class="events-card-content-wrapper">
-                    <@crafter.h2 $field="title_s" class="events-card-content-title">${contentModel.title_s}</@crafter.h2>
+                    <@crafter.h2 $model=contentModel $field="title_s" class="events-card-content-title">${contentModel.title_s}</@crafter.h2>
  
-                    <@crafter.div class="events-card-content" $field="description_html">
+                    <@crafter.div class="events-card-content" $model=contentModel $field="description_html">
                         <div>
                         ${contentModel.description_html}
                         </div>
@@ -70,7 +70,7 @@
                         </#if>
                     </div>
                 </div>
-            </div>
+            </@crafter.div>
         </div>
 
     <script src="/scripts/nina/eventsCard.js"></script>        </div>
