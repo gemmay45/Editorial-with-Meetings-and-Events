@@ -59,6 +59,7 @@
                               </div>
                           </@crafter.div>
                       </div>
+                      <#--
                       <div class="menu-information-expand-content-detail">
                           <div class="menu-information-expand-content-time"></div>
                           <@crafter.div $field="description_html" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
@@ -78,6 +79,7 @@
                               
                           </div>
                       </div>
+                      -->
                   </div>
               </div>
             </div>
