@@ -1,4 +1,4 @@
-
+<#import "/templates/system/common/crafter.ftl" as crafter />
 
 <div class="component oid-card consolidation col-12 need-to-control-bg col-12">
         <div class="component-content">
