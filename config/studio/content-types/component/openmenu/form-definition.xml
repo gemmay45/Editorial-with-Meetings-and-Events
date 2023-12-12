@@ -251,7 +251,7 @@
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value></value>
+							<value>pages</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -489,6 +489,19 @@
 							<name>useSearch</name>
 							<value>false</value>
 								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>file-browse-repo</type>
+					<id>pages</id>
+					<title>Pages</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/site/website</value>
+								<type>content-path-input</type>
 						</property>
 					</properties>
 				</datasource>
