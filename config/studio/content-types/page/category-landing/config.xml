@@ -11,11 +11,13 @@
 	<noThumbnail>false</noThumbnail>
 	<image-thumbnail>page-category-landing.png</image-thumbnail>
 	<paths>
-		<excludes>
-			<pattern>^/site/website/(?!dining/)(.*)</pattern>
-		</excludes>
 		<includes>
 			<pattern>^/site/website/(?!articles/)(.*)</pattern>
 		</includes>
+	</paths>
+	<paths>
+	    <excludes>
+			<pattern>^/site/website/dining/.*</pattern>
+		</excludes>
 	</paths>
 </content-type>
