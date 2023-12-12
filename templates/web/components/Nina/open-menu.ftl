@@ -21,13 +21,12 @@
             <div class="menu-information-expand-content-wrapper">
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
-                      <#--<@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>-->
+                      <@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>
                       <span class="menu-information-expand-operate-icon icon--cross"></span>
                   </div>
                   <div class="menu-information-expand-full-detail-wrapper" style="">
                       <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-mobile uk-slider uk-slider-container">
                           <div class="uk-position-relative uk-visible-toggle uk-light custom-slider-content" tabindex="0">
-                              <#--
                               <#if item.image1_s?hasContent>
                                 <ul class="uk-slider-items uk-grid custom-slider-list" style="transform: translate3d(0px, 0px, 0px);">
                                   
@@ -50,7 +49,7 @@
                                     </#if>
                                  </ul>
                             </#if>
-                            -->
+
                               <div class="custom-slider-bottom-operate" > <#--style="display: none;"-->
                                   <div class="custom-slider-arrow-wrapper">
                                       <a class="custom-slider-prev coustom-slider-arrow uk-icon uk-slidenav-previous uk-slidenav uk-hidden uk-invisible" href="#" uk-slidenav-previous="" uk-slider-item="previous"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
@@ -60,7 +59,7 @@
                               </div>
                           </div>
                       </div>
-                      <#--
+
                       <div class="menu-information-expand-content-detail">
                           <div class="menu-information-expand-content-time"></div>
                           <@crafter.div $field="description_html" class="menu-information-expand-content-desc">${item.description_html}</@crafter.div>
@@ -80,7 +79,7 @@
                               
                           </div>
                       </div>
-                      -->
+
                   </div>
               </div>
             </div>
@@ -102,7 +101,7 @@
             <div uk-slider="center: true; finite: true;" class="menu-information-slider-wrapper for-desktop-tablet uk-slider uk-slider-container" style="${styleAttr}">
     
               <div class="uk-position-relative uk-visible-toggle uk-light custom-slider-content" tabindex="-1">
-                <#--
+
                 <#if item.image1_s?hasContent>
                   <ul class="uk-slider-items uk-grid custom-slider-list" style="transform: translate3d(0px, 0px, 0px);">
                       
@@ -125,7 +124,7 @@
 
                   </ul>
                   </#if>
-                  -->
+
                   <div class="custom-slider-bottom-operate">
                       <div class="custom-slider-arrow-wrapper">
                           <a class="custom-slider-prev coustom-slider-arrow uk-icon uk-slidenav-previous uk-slidenav uk-hidden uk-invisible" href="#" uk-slidenav-previous="" uk-slider-item="previous"><svg width="14px" height="24px" viewBox="0 0 14 24" xmlns="http://www.w3.org/2000/svg" data-svg="slidenav-previous"><polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline></svg></a>
