@@ -18,11 +18,12 @@
         <div class="consolidation-pf">
             
             
-            <div class="consolidation-subtitle">
-                <p><strong>Opening Hours:&nbsp; &nbsp;</strong></p>
-<p><strong></strong>7:00am - 10:00pm Daily (last order 9:00pm)&nbsp;</p>
-            </div>
-            
+            <#if contentModel.openingHours_html?hasContent>
+                <div class="consolidation-subtitle">
+                    <p><strong>Opening Hours:</strong></p>
+                        <@crafter.span>${contentModel.openingHours_html}</@crafter.span>
+                </div>
+            </#if>
             
         </div>
         
@@ -31,16 +32,13 @@
         <div class="consolidation-pf">
             
             
-            <div class="consolidation-contents">
-                
-                <span>9/F Nina Hotel Tsuen Wan West</span>
-                
-                <span>8 Yeung Uk Road, Tsuen Wan</span>
-                
-                <span>Hong Kong </span>
-                
-            </div>
-            
+            <#if contentModel.address_html?hasContent>
+                <@crafter.div class="consolidation-contents">
+                    
+                    ${contentModel.address_html}
+                    
+                </@crafter.div>
+            </#if>
             
             
             <div class="contact-link">
