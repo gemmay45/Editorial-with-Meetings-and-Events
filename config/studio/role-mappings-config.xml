@@ -66,5 +66,8 @@
         <group name="site_reviewer">
             <role>reviewer</role>
         </group>
+        <group name="nina_site_author">
+            <role>author</role>
+        </group>
     </groups>
 </role-mappings>
