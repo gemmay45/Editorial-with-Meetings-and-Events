@@ -58,7 +58,7 @@
                         	        <h4 class="card-item-title"><@crafter.tag $tag="font" color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
                         	 
                                     <@crafter.p $model=tenant $field="teaserDescription_html" class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
-                                    <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
+                                    <a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</a>
                                 </@crafter.div>
                 <#else>
                                 <@crafter.div $model=tenant class="card-item">
@@ -69,7 +69,7 @@
                         	        <h4 class="card-item-title"><@crafter.tag $tag="font" color="#817456" $model=tenant $field="name_s" >${tenant.title}</@crafter.tag></h4>
                         	 
                                     <@crafter.p $model=tenant $field="teaserDescription_html" class="card-item-desc">${tenant.teaserDescription}</@crafter.p>
-                                    <@crafter.a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</@crafter.a>
+                                    <a href="${tenant.url}" rel="noopener noreferrer" class="explore-more-btn">Learn more</a>
                                 </@crafter.div>
                             </div>
                         </div>
