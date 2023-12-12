@@ -5,7 +5,7 @@
 
 
 <div class="single-card-top-wrapper" data-bg-color="">
-    <@crafter.h2 class="single-card-top-title">${contentModel.title_s}</@crafter.h2>
+    <@crafter.h2 $field="title_s" class="single-card-top-title">${contentModel.title_s}</@crafter.h2>
         <@crafter.span $field="subtitle_s" class="single-card-top-subtitle">${contentModel.subtitle_s}</@crafter.span>
 </div>
 <div class="single-card-bottom-wrapper">
