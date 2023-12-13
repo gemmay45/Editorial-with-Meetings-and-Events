@@ -43,7 +43,7 @@
 							<#assign field = "content-type" />
 							
 							<#if item??>
-							${item}
+							${item.key}
 							</#if>
                 </@crafter.forEach>    
                 
