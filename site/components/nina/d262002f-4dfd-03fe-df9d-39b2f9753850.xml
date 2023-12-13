@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/openmenu</content-type>
+	<display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d262</objectGroupId>
+	<objectId>d262002f-4dfd-03fe-df9d-39b2f9753850</objectId>
+	<file-name>d262002f-4dfd-03fe-df9d-39b2f9753850.xml</file-name>
+	<folder-name/>
+	<internal-name>Shared Open Menu</internal-name>
+	<title_s>Menu</title_s>
+	<createdDate>2023-12-13T00:53:55.909Z</createdDate>
+	<createdDate_dt>2023-12-13T00:53:55.909Z</createdDate_dt>
+	<lastModifiedDate>2023-12-13T00:53:55.909Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T00:53:55.909Z</lastModifiedDate_dt>
+</component>
