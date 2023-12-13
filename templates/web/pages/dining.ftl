@@ -28,7 +28,7 @@
             <#--<@renderComponent component=contentModel.header_o.item />-->
 
     <#--<@crafter.section $model=contentModel>-->
-                <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
+                <#--<@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>-->
     <#--</@crafter.section>-->
     
                 <@crafter.forEach contentModel.pageSections_o; item, index>
