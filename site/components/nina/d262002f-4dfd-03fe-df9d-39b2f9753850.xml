@@ -12,6 +12,19 @@
 	<title_s>Menu</title_s>
 	<createdDate>2023-12-13T00:53:55.909Z</createdDate>
 	<createdDate_dt>2023-12-13T00:53:55.909Z</createdDate_dt>
-	<lastModifiedDate>2023-12-13T00:53:55.909Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-13T00:53:55.909Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-13T01:03:04.072Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T01:03:04.072Z</lastModifiedDate_dt>
+	<menus_o item-list="true">	<item>	<name_s>Breakfast</name_s>
+	<PDFMenu_o item-list="true"/>
+	<image1_s/>
+	<image2_s/>
+	<description_html>&lt;p&gt;&lt;strong&gt;Breakfast Buffet&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;7:00am -10:30am Daily (75 minutes from the time of seating)&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;HK$168* (Adult) | HK$108* (Child, 3 - 11 years old)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt; Breakfast Set&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;7:30am - 10:30am Daily&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;*All prices are subject to 10% service charge&lt;/p&gt;</description_html>
+	</item></menus_o>
 </component>
