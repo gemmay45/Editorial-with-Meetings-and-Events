@@ -41,7 +41,10 @@
 								<#assign item =  siteItemService.getSiteItem(listItem.key) />
 							</#if>
 							<#assign field = "content-type" />
+							
+							<#attempt>
 							${item[field]}
+							</attempt>
                 </@crafter.forEach>    
                 
             </div>
