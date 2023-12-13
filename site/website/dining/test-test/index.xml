@@ -32,6 +32,22 @@
         <imageforMobile_s/>
       </component>
     </item>
+    <item inline="true">
+      <key>7b17da4f-bb55-4bc1-a8fc-317a97aa3359</key>
+      <value><![CDATA[New Open Menu]]></value>
+      <component id="7b17da4f-bb55-4bc1-a8fc-317a97aa3359">
+        <content-type>/component/openmenu</content-type>
+        <display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
+        <internal-name><![CDATA[New Open Menu]]></internal-name>
+        <file-name>7b17da4f-bb55-4bc1-a8fc-317a97aa3359.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-13T00:45:25.843Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-13T00:45:25.843Z</lastModifiedDate_dt>
+        <objectId>7b17da4f-bb55-4bc1-a8fc-317a97aa3359</objectId>
+        <title_s><![CDATA[Menu]]></title_s>
+        <menus_o/>
+      </component>
+    </item>
   </pageSections_o>
   <relatedOffers_o item-list="true"/>
   <placeInNav>false</placeInNav>
@@ -41,5 +57,5 @@
   <createdDate>2023-12-13T00:33:27.342Z</createdDate>
   <createdDate_dt>2023-12-13T00:33:27.342Z</createdDate_dt>
   <lastModifiedDate>2023-12-13T00:33:59.048Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-13T00:45:16.781Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-13T00:45:25.843Z</lastModifiedDate_dt>
 </page>
