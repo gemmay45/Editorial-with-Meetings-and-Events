@@ -43,6 +43,10 @@
 	<value>Shared Single Card</value>
 	<include>/site/components/nina/371c0316-a777-d54d-1098-542852787e22.xml</include>
 	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/nina/e63c2596-cfe7-4957-ead2-bb6597d81c23.xml</key>
+	<value>Shared Intro Card</value>
+	<include>/site/components/nina/e63c2596-cfe7-4957-ead2-bb6597d81c23.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<relatedOffers_o item-list="true"/>
 	<disabled>false</disabled>
@@ -54,6 +58,6 @@
 	<teaserDescription_html>&lt;p&gt;Test Test Teaser Description&lt;/p&gt;</teaserDescription_html>
 	<createdDate>2023-12-13T00:57:11.293Z</createdDate>
 	<createdDate_dt>2023-12-13T00:57:11.293Z</createdDate_dt>
-	<lastModifiedDate>2023-12-13T00:58:18.682Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-13T00:58:18.682Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-13T01:01:02.710Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T01:01:02.710Z</lastModifiedDate_dt>
 </page>
