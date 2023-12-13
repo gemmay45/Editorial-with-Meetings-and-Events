@@ -37,7 +37,6 @@
                     data-bs-target="#${rootElementId}"
                     data-bs-slide-to="${index}"
                     aria-label="Slide ${index}"
-                    ${(initialActiveSlideIndex == index)?then('class="active" aria-current="true"', '')}
                   ></button>
                 </@crafter.forEach>    
                 
