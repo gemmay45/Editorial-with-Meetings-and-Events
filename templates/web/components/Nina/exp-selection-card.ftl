@@ -6,7 +6,7 @@
 
 
 <div class="image-wrapper" data-bg-color="">
-    <@crafter.img $field="image_s" src=tenant.image???then(contentModel.image_s, "/static-assets/images/placeholder.png") class="lazyload-img image" alt="" width="609" height="376" alt="" />
+    <@crafter.img $field="image_s" src=contentModel.image_s???then(contentModel.image_s, "/static-assets/images/placeholder.png") class="lazyload-img image" alt="" width="609" height="376" alt="" />
 </div>
 <div class="desc">
     <@crafter.h2 $field="title_s" class="desc-title"><font color="#817456">${contentModel.title_s!""}</font></@crafter.h2>
