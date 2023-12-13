@@ -15,8 +15,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
 	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-	<lastModifiedDate>2023-12-13T00:32:17.160Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-13T00:32:17.160Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-13T02:31:24.899Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T02:31:24.899Z</lastModifiedDate_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
 	<value>New Hero Banner with Title</value>
 	<disableFlattening>false</disableFlattening>
@@ -210,6 +210,10 @@
 	<lastModifiedDate>2023-12-13T00:16:14.215Z</lastModifiedDate>
 	<description_html>&lt;p&gt;Nina has for many years been known for her authentic Palmier biscuits, and noting everyone&amp;rsquo;s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.&lt;/p&gt;</description_html>
 </component>
+	</item>	<item>	<key>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</key>
+	<value>Shared Single Card</value>
+	<include>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</include>
+	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
