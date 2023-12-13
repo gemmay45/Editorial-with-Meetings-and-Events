@@ -32,12 +32,8 @@
     <#--</@crafter.section>-->
     
                 <@crafter.forEach contentModel.pageSections_o; item, index>
-                  <button
-                    type="button"
-                    data-bs-target="#${rootElementId}"
-                    data-bs-slide-to="${index}"
-                    aria-label="Slide ${index}"
-                  ></button>
+                  ${index}
+                  ${item.key}
                 </@crafter.forEach>    
                 
             </div>
