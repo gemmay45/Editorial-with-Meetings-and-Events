@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/promocard</content-type>
+	<display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f512</objectGroupId>
+	<objectId>f512b2f6-19e6-d009-8280-93f238b3872c</objectId>
+	<file-name>f512b2f6-19e6-d009-8280-93f238b3872c.xml</file-name>
+	<folder-name/>
+	<internal-name>Shared Promo Card</internal-name>
+	<subtitle_s/>
+	<contentTitle_s/>
+	<image_s>/static-assets/images/placeholder.png</image_s>
+	<title_s/>
+	<theme_s/>
+	<description_html>&lt;p&gt;[Description goes here]&lt;/p&gt;</description_html>
+	<createdDate>2023-12-13T00:54:13.404Z</createdDate>
+	<createdDate_dt>2023-12-13T00:54:13.404Z</createdDate_dt>
+	<lastModifiedDate>2023-12-13T00:54:13.404Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T00:54:13.404Z</lastModifiedDate_dt>
+</component>
