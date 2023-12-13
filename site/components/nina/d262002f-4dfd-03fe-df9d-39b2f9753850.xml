@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-  <content-type>/component/openmenu</content-type>
-  <display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>d262</objectGroupId>
-  <objectId>d262002f-4dfd-03fe-df9d-39b2f9753850</objectId>
-  <file-name>d262002f-4dfd-03fe-df9d-39b2f9753850.xml</file-name>
-  <folder-name/>
-  <internal-name>Shared Open Menu</internal-name>
-  <title_s>Menu</title_s>
-  <createdDate>2023-12-13T00:53:55.909Z</createdDate>
-  <createdDate_dt>2023-12-13T00:53:55.909Z</createdDate_dt>
-  <lastModifiedDate>2023-12-13T01:05:01.351Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-13T01:08:59.739Z</lastModifiedDate_dt>
-  <menus_o item-list="true">
-    <item>
-      <name_s>Breakfast</name_s>
-      <PDFMenu_o item-list="true"/>
-      <image1_s>/static-assets/images/nina/dining/cafe-circles/tww_dining_cafe-circles_breakfast-buffet.jpg</image1_s>
-      <image2_s/>
-      <description_html>&lt;p&gt;&lt;strong&gt;Breakfast Buffet&lt;/strong&gt;&lt;/p&gt;
+	<content-type>/component/openmenu</content-type>
+	<display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d262</objectGroupId>
+	<objectId>d262002f-4dfd-03fe-df9d-39b2f9753850</objectId>
+	<file-name>d262002f-4dfd-03fe-df9d-39b2f9753850.xml</file-name>
+	<folder-name/>
+	<internal-name>Shared Open Menu</internal-name>
+	<title_s>Menu</title_s>
+	<createdDate>2023-12-13T00:53:55.909Z</createdDate>
+	<createdDate_dt>2023-12-13T00:53:55.909Z</createdDate_dt>
+	<lastModifiedDate>2023-12-13T01:09:05.668Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T01:09:05.668Z</lastModifiedDate_dt>
+	<menus_o item-list="true">	<item>	<name_s>Breakfast</name_s>
+	<PDFMenu_o/>
+	<image1_s>/static-assets/images/nina/dining/cafe-circles/tww_dining_cafe-circles_breakfast-buffet.jpg</image1_s>
+	<image2_s/>
+	<description_html>&lt;p&gt;&lt;strong&gt;Breakfast Buffet&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;7:00am -10:30am Daily (75 minutes from the time of seating)&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;HK$168* (Adult) | HK$108* (Child, 3 - 11 years old)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
@@ -28,13 +26,10 @@
 &lt;p&gt;7:30am - 10:30am Daily&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p&gt;*All prices are subject to 10% service charge&lt;/p&gt;</description_html>
-    </item>
-    <item>
-      <name_s/>
-      <description_html/>
-      <PDFMenu_o/>
-      <image1_s/>
-      <image2_s/>
-    </item>
-  </menus_o>
+	</item>	<item>	<name_s>Lunch</name_s>
+	<description_html>&lt;p&gt;XCXXX&lt;/p&gt;</description_html>
+	<PDFMenu_o item-list="true"/>
+	<image1_s>/static-assets/images/nina/dining/cafe-circles/ninapatisserie_eshopbanner_1441x501-01.jpg</image1_s>
+	<image2_s/>
+	</item></menus_o>
 </component>
