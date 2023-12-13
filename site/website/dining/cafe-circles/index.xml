@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/dining</content-type>
-  <display-template>/templates/web/pages/dining.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>adbe</objectGroupId>
-  <objectId>adbef803-8d20-55b2-29d6-dc16f6f2de91</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>cafe-circles</folder-name>
-  <internal-name>Café Circles</internal-name>
-  <navLabel>Café Circles</navLabel>
-  <relatedOffers_o item-list="true"/>
-  <placeInNav>false</placeInNav>
-  <orderDefault_f>-1</orderDefault_f>
-  <createdDate>2023-12-08T04:02:40.338Z</createdDate>
-  <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
-  <lastModifiedDate>2023-12-13T02:31:24.899Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-13T03:32:20.874Z</lastModifiedDate_dt>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
-      <value>New Hero Banner with Title</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="406462c0-3751-4206-8dbb-f94e4a9aa88a">
+	<content-type>/page/dining</content-type>
+	<display-template>/templates/web/pages/dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>adbe</objectGroupId>
+	<objectId>adbef803-8d20-55b2-29d6-dc16f6f2de91</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>cafe-circles</folder-name>
+	<internal-name>Café Circles</internal-name>
+	<navLabel>Café Circles</navLabel>
+	<relatedOffers_o item-list="true"/>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<createdDate>2023-12-08T04:02:40.338Z</createdDate>
+	<createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
+	<lastModifiedDate>2023-12-13T03:38:48.833Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T03:38:48.833Z</lastModifiedDate_dt>
+	<pageSections_o item-list="true">	<item inline="true">	<key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
+	<value>New Hero Banner with Title</value>
+	<disableFlattening>false</disableFlattening>
+<component id="406462c0-3751-4206-8dbb-f94e4a9aa88a">
         <content-type>/component/herobannerwithtitle</content-type>
         <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
         <no-template-required/>
@@ -39,12 +37,10 @@
         <createdDate>2023-12-08T04:56:26.573Z</createdDate>
         <lastModifiedDate>2023-12-08T04:58:35.902Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>570dc970-d35b-408b-ad08-abd725348634</key>
-      <value>New Booking Widget</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="570dc970-d35b-408b-ad08-abd725348634">
+	</item>	<item inline="true">	<key>570dc970-d35b-408b-ad08-abd725348634</key>
+	<value>New Booking Widget</value>
+	<disableFlattening>false</disableFlattening>
+<component id="570dc970-d35b-408b-ad08-abd725348634">
         <content-type>/component/bookingwidget</content-type>
         <display-template>/templates/web/components/Nina/booking-widget.ftl</display-template>
         <internal-name><![CDATA[New Booking Widget]]></internal-name>
@@ -54,12 +50,10 @@
         <lastModifiedDate_dt>2023-12-08T13:27:36.533Z</lastModifiedDate_dt>
         <objectId>570dc970-d35b-408b-ad08-abd725348634</objectId>
       </component>
-    </item>
-    <item inline="true">
-      <key>01d29a67-748f-44d4-8eab-186ba25be890</key>
-      <value>New Exp Selection Card</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="01d29a67-748f-44d4-8eab-186ba25be890">
+	</item>	<item inline="true">	<key>01d29a67-748f-44d4-8eab-186ba25be890</key>
+	<value>New Exp Selection Card</value>
+	<disableFlattening>false</disableFlattening>
+<component id="01d29a67-748f-44d4-8eab-186ba25be890">
         <content-type>/component/expselectioncard</content-type>
         <display-template>/templates/web/components/Nina/exp-selection-card.ftl</display-template>
         <no-template-required/>
@@ -76,12 +70,14 @@
         <image_s>/static-assets/images/nina/dining/cafe-circles/dessert-buffet-table---wide-shot_600x900.jpg</image_s>
         <description_html>&lt;p&gt;Caf&amp;eacute; Circles is a unique setting for any occasion. Centred around a 12-metre long communal table that encourages everyone to be social, the caf&amp;eacute; attracts a crowd who loves its famous buffet. Open all day, and the perfect place to congregate or escape, Caf&amp;eacute; Circles serves delicious international and Asian food, to a backdrop of views across Tsuen Wan and the Rambler Channel.&lt;/p&gt;</description_html>
       </component>
-    </item>
-    <item inline="true">
-      <key>173e8121-4402-45cf-9427-7ae56b976e7a</key>
-      <value>New OID Card</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="173e8121-4402-45cf-9427-7ae56b976e7a">
+	</item>	<item>	<key>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</key>
+	<value>Shared Single Card</value>
+	<include>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>173e8121-4402-45cf-9427-7ae56b976e7a</key>
+	<value>New OID Card</value>
+	<disableFlattening>false</disableFlattening>
+<component id="173e8121-4402-45cf-9427-7ae56b976e7a">
         <content-type>/component/oidcard</content-type>
         <display-template>/templates/web/components/Nina/oid-card.ftl</display-template>
         <no-template-required/>
@@ -102,13 +98,10 @@
         <createdDate>2023-12-12T01:00:22.428Z</createdDate>
         <lastModifiedDate>2023-12-12T01:06:09.235Z</lastModifiedDate>
       </component>
-    </item>
-
-    <item inline="true">
-      <key>2794d623-6937-4af8-80b0-f1df6a9137f4</key>
-      <value>New Open Menu</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="2794d623-6937-4af8-80b0-f1df6a9137f4">
+	</item>	<item inline="true">	<key>2794d623-6937-4af8-80b0-f1df6a9137f4</key>
+	<value>New Open Menu</value>
+	<disableFlattening>false</disableFlattening>
+<component id="2794d623-6937-4af8-80b0-f1df6a9137f4">
         <content-type>/component/openmenu</content-type>
         <display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
         <no-template-required/>
@@ -187,12 +180,10 @@
           </item>
         </menus_o>
       </component>
-    </item>
-    <item inline="true">
-      <key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
-      <value>New Promo Card</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="e1c349f1-1d97-4716-9ad8-23888fa88116">
+	</item>	<item inline="true">	<key>e1c349f1-1d97-4716-9ad8-23888fa88116</key>
+	<value>New Promo Card</value>
+	<disableFlattening>false</disableFlattening>
+<component id="e1c349f1-1d97-4716-9ad8-23888fa88116">
         <content-type>/component/promocard</content-type>
         <display-template>/templates/web/components/Nina/promo-card.ftl</display-template>
         <no-template-required/>
@@ -213,12 +204,10 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description_html>
         <theme_s>rgba(175, 162, 133, 0.2)</theme_s>
       </component>
-    </item>
-    <item inline="true">
-      <key>988c47cf-1dce-432a-bf69-d86cd6a2567b</key>
-      <value>New Fullwidth Callout</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="988c47cf-1dce-432a-bf69-d86cd6a2567b">
+	</item>	<item inline="true">	<key>988c47cf-1dce-432a-bf69-d86cd6a2567b</key>
+	<value>New Fullwidth Callout</value>
+	<disableFlattening>false</disableFlattening>
+<component id="988c47cf-1dce-432a-bf69-d86cd6a2567b">
         <content-type>/component/fullwidthcallout</content-type>
         <display-template>/templates/web/components/Nina/fullwidth-callout.ftl</display-template>
         <no-template-required/>
@@ -237,18 +226,11 @@
         <lastModifiedDate>2023-12-13T00:16:14.215Z</lastModifiedDate>
         <description_html>&lt;p&gt;Nina has for many years been known for her authentic Palmier biscuits, and noting everyone&amp;rsquo;s love for them, we decided to create a range of delightful patisserie for you to enjoy not just within our hotels and restaurants, but also at home.&lt;/p&gt;</description_html>
       </component>
-    </item>
-    <item>
-      <key>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</key>
-      <value>Shared Single Card</value>
-      <include>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
-  </pageSections_o>
-  <disabled>false</disabled>
-  <header_o item-list="true"/>
-  <leftRail_o item-list="true"/>
-  <teaserImage_s>/static-assets/images/nina/dining/cafe-circles/tww_cafecircles_food.jpg</teaserImage_s>
-  <name_s>Café Circles</name_s>
-  <teaserDescription_html>&lt;p&gt;Choose from tasty international and Asian dishes in the all-day dining caf&amp;eacute;, accompanied with high ceilings, elegant modern d&amp;eacute;cor, generous seating and expansive sea and city views. The caf&amp;eacute; attracts patrons from all corners of Hong Kong with the international cuisine buffet, a major draw for food lovers of all ages. The palatable dishes, grand-looking restaurant layout with seating for 200 people make the caf&amp;eacute; a great place for businesses and families to hold dinners and parties of all occasions.&lt;/p&gt;</teaserDescription_html>
+	</item></pageSections_o>
+	<disabled>false</disabled>
+	<header_o item-list="true"/>
+	<leftRail_o item-list="true"/>
+	<teaserImage_s>/static-assets/images/nina/dining/cafe-circles/tww_cafecircles_food.jpg</teaserImage_s>
+	<name_s>Café Circles</name_s>
+	<teaserDescription_html>&lt;p&gt;Choose from tasty international and Asian dishes in the all-day dining caf&amp;eacute;, accompanied with high ceilings, elegant modern d&amp;eacute;cor, generous seating and expansive sea and city views. The caf&amp;eacute; attracts patrons from all corners of Hong Kong with the international cuisine buffet, a major draw for food lovers of all ages. The palatable dishes, grand-looking restaurant layout with seating for 200 people make the caf&amp;eacute; a great place for businesses and families to hold dinners and parties of all occasions.&lt;/p&gt;</teaserDescription_html>
 </page>
