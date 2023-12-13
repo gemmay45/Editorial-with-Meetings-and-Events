@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/expselectioncard</content-type>
+	<display-template>/templates/web/components/Nina/exp-selection-card.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ac4b</objectGroupId>
+	<objectId>ac4bf98b-5d0c-fc4b-c347-d6178ab88cdf</objectId>
+	<file-name>ac4bf98b-5d0c-fc4b-c347-d6178ab88cdf.xml</file-name>
+	<folder-name/>
+	<internal-name>Shared Exp Selection Card</internal-name>
+	<title_s>Shared Exp Selection Card</title_s>
+	<image_s>/static-assets/images/placeholder.png</image_s>
+	<description_html>&lt;p&gt;[Description goes here]&lt;/p&gt;</description_html>
+	<createdDate>2023-12-13T00:50:48.545Z</createdDate>
+	<createdDate_dt>2023-12-13T00:50:48.545Z</createdDate_dt>
+	<lastModifiedDate>2023-12-13T00:50:48.545Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T00:50:48.545Z</lastModifiedDate_dt>
+</component>
