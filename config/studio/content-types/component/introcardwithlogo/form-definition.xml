@@ -99,7 +99,7 @@
 					<iceId></iceId>
 					<title>Logo</title>
 					<description></description>
-					<defaultValue>/static-assets/images/placeholder.png?s=180</defaultValue>
+					<defaultValue>/static-assets/images/placeholder.png</defaultValue>
 					<help></help>
 					<properties>
 						<property>
