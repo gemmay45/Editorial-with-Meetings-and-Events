@@ -279,7 +279,7 @@
 					<iceId></iceId>
 					<title>Name</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>[Name goes here]</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -327,7 +327,7 @@
 					<iceId></iceId>
 					<title>Teaser Description</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>[Teaser Description goes here]</defaultValue>
 					<help></help>
 					<properties>
 						<property>
