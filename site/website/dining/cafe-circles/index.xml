@@ -16,7 +16,7 @@
   <createdDate>2023-12-08T04:02:40.338Z</createdDate>
   <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
   <lastModifiedDate>2023-12-13T03:38:48.833Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-13T03:39:25.762Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-13T03:39:31.872Z</lastModifiedDate_dt>
   <pageSections_o item-list="true">
     <item inline="true">
       <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
@@ -55,12 +55,6 @@
         <objectId>570dc970-d35b-408b-ad08-abd725348634</objectId>
       </component>
     </item>
-    <item>
-      <key>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</key>
-      <value>Shared Single Card</value>
-      <include>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
     <item inline="true">
       <key>01d29a67-748f-44d4-8eab-186ba25be890</key>
       <value>New Exp Selection Card</value>
@@ -83,6 +77,13 @@
         <description_html>&lt;p&gt;Caf&amp;eacute; Circles is a unique setting for any occasion. Centred around a 12-metre long communal table that encourages everyone to be social, the caf&amp;eacute; attracts a crowd who loves its famous buffet. Open all day, and the perfect place to congregate or escape, Caf&amp;eacute; Circles serves delicious international and Asian food, to a backdrop of views across Tsuen Wan and the Rambler Channel.&lt;/p&gt;</description_html>
       </component>
     </item>
+    <item>
+      <key>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</key>
+      <value>Shared Single Card</value>
+      <include>/site/components/nina/ac274c23-a7aa-26a1-6807-31ccfdb94c3c.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
+
     <item inline="true">
       <key>173e8121-4402-45cf-9427-7ae56b976e7a</key>
       <value>New OID Card</value>
