@@ -31,9 +31,16 @@
                 <#--<@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>-->
     <#--</@crafter.section>-->
     
-                <@crafter.forEach contentModel.pageSections_o; item, index>
+                <@crafter.forEach contentModel.pageSections_o; listItem, index>
                   ${index}<br/>
-                  ${item.key}<br/>
+                  ${listItem.key}<br/>
+
+                        <#assign item = siteItemService.getSiteItem(listItem.key)/>
+                        <#if item != null>
+                            XXXXX
+                        <#else>
+                            
+                        </#if>
                 </@crafter.forEach>    
                 
             </div>
