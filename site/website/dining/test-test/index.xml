@@ -1,27 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/dining</content-type>
-	<display-template>/templates/web/pages/dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>814a</objectGroupId>
-	<objectId>814af731-10bf-f845-a845-8d292b235289</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>test-test</folder-name>
-	<internal-name>Test Test</internal-name>
-	<navLabel>Test Test</navLabel>
-	<name_s/>
-	<disabled>false</disabled>
-	<header_o item-list="true"/>
-	<leftRail_o item-list="true"/>
-	<pageSections_o item-list="true"/>
-	<relatedOffers_o item-list="true"/>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<teaserImage_s/>
-	<teaserDescription_html/>
-	<createdDate>2023-12-13T00:33:27.342Z</createdDate>
-	<createdDate_dt>2023-12-13T00:33:27.342Z</createdDate_dt>
-	<lastModifiedDate>2023-12-13T00:33:59.048Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-13T00:33:59.048Z</lastModifiedDate_dt>
+  <content-type>/page/dining</content-type>
+  <display-template>/templates/web/pages/dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>814a</objectGroupId>
+  <objectId>814af731-10bf-f845-a845-8d292b235289</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>test-test</folder-name>
+  <internal-name>Test Test</internal-name>
+  <navLabel>Test Test</navLabel>
+  <name_s/>
+  <disabled>false</disabled>
+  <header_o item-list="true"/>
+  <leftRail_o item-list="true"/>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>2fef2491-5008-4d09-a386-4cd7f0e74cda</key>
+      <value><![CDATA[New Hero Banner with Title]]></value>
+      <component id="2fef2491-5008-4d09-a386-4cd7f0e74cda">
+        <content-type>/component/herobannerwithtitle</content-type>
+        <display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+        <internal-name><![CDATA[New Hero Banner with Title]]></internal-name>
+        <file-name>2fef2491-5008-4d09-a386-4cd7f0e74cda.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-13T00:36:34.198Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-13T00:36:34.198Z</lastModifiedDate_dt>
+        <objectId>2fef2491-5008-4d09-a386-4cd7f0e74cda</objectId>
+        <title_s><![CDATA[[Title goes here]]]></title_s>
+        <imageforDesktop_s><![CDATA[/static-assets/images/placeholder.png]]></imageforDesktop_s>
+        <imageforMobile_s/>
+      </component>
+    </item>
+  </pageSections_o>
+  <relatedOffers_o item-list="true"/>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <teaserImage_s/>
+  <teaserDescription_html/>
+  <createdDate>2023-12-13T00:33:27.342Z</createdDate>
+  <createdDate_dt>2023-12-13T00:33:27.342Z</createdDate_dt>
+  <lastModifiedDate>2023-12-13T00:33:59.048Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-13T00:36:34.198Z</lastModifiedDate_dt>
 </page>
