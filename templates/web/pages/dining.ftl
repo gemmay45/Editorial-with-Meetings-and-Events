@@ -44,7 +44,7 @@
 							
 							<#if item.id??>
 							<@crafter.div $field="pageSections_o" $index=index>
-								<@renderComponent component=item />
+								<@renderComponent component=listItem />
 							</@crafter.div>
 							
 							${item[field]}
