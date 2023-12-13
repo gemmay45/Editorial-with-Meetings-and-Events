@@ -32,9 +32,6 @@
     <#--</@crafter.section>-->
     
                 <@crafter.forEach contentModel.pageSections_o; listItem, index>
-                  ${index}<br/>
-                  ${listItem.key}<br/>
-
 							<#if listItem.component??>
 								<#assign item = listItem.component />
 							<#else>
@@ -46,7 +43,6 @@
 								<@renderComponent component=listItem />
 							</@crafter.div>
 							
-							${item[field]}
                 </@crafter.forEach>    
                 
             </div>
