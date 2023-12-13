@@ -42,13 +42,11 @@
 							</#if>
 							<#assign field = "content-type" />
 							
-							<#if item.id??>
 							<@crafter.div $field="pageSections_o" $index=index>
 								<@renderComponent component=listItem />
 							</@crafter.div>
 							
 							${item[field]}
-							</#if>
                 </@crafter.forEach>    
                 
             </div>
