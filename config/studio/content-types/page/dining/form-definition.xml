@@ -622,7 +622,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/herobannerwithtitle,/component/expselectioncard,/component/oidcard,/component/openmenu,/component/promocard,/component/fullwidthcallout,/component/bookingwidget,/component/introcardwithlogo,/component/introcard</value>
+							<value>/component/herobannerwithtitle,/component/expselectioncard,/component/oidcard,/component/openmenu,/component/promocard,/component/fullwidthcallout,/component/bookingwidget,/component/introcardwithlogo,/component/introcard,/component/singlecard</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
