@@ -35,12 +35,13 @@
                   ${index}<br/>
                   ${listItem.key}<br/>
 
-                        <#assign item = siteItemService.getSiteItem(listItem.key)/>
-                        <#if item != null>
-                            XXXXX
-                        <#else>
-                            
-                        </#if>
+							<#if listItem.component??>
+								<#assign item = listItem.component />
+							<#else>
+								<#assign item =  siteItemService.getSiteItem(listItem.key) />
+							</#if>
+							<#assign field = "content-type" />
+							${item[field]}
                 </@crafter.forEach>    
                 
             </div>
