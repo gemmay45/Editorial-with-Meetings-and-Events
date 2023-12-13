@@ -32,8 +32,8 @@
     <#--</@crafter.section>-->
     
                 <@crafter.forEach contentModel.pageSections_o; item, index>
-                  ${index}
-                  ${item.key}
+                  ${index}<br/>
+                  ${item.key}<br/>
                 </@crafter.forEach>    
                 
             </div>
