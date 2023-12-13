@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/dining</content-type>
+	<display-template>/templates/web/pages/dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b2d8</objectGroupId>
+	<objectId>b2d88b5d-bbba-f013-e732-7a9d98a45716</objectId>
+	<internal-name>Test Test</internal-name>
+	<navLabel>Test Test</navLabel>
+	<name_s>[Name goes here]</name_s>
+	<disabled>false</disabled>
+	<file-name>index.xml</file-name>
+	<folder-name>test-test</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<header_o item-list="true"/>
+	<leftRail_o item-list="true"/>
+	<pageSections_o item-list="true"/>
+	<relatedOffers_o item-list="true"/>
+	<teaserImage_s/>
+	<teaserDescription_html>&lt;p&gt;[Teaser Description goes here]&lt;/p&gt;</teaserDescription_html>
+	<createdDate>2023-12-13T01:10:43.063Z</createdDate>
+	<createdDate_dt>2023-12-13T01:10:43.063Z</createdDate_dt>
+	<lastModifiedDate>2023-12-13T01:10:43.063Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T01:10:43.063Z</lastModifiedDate_dt>
+</page>
