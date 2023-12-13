@@ -11,7 +11,6 @@
     )
 
     const initHeight = (refs, isInit = true) => {
-        console.log("initHeight");
         for (let i = 0; i < refs.$expand.length; i++) {
             const $cur = $(refs.$expand[i]),
                   $curCon = $cur.find('.menu-information-expand-content-wrapper'),
