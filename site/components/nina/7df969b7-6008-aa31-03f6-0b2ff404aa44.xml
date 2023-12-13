@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/herobannerwithtitle</content-type>
+	<display-template>/templates/web/components/Nina/hero-banner-with-title.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7df9</objectGroupId>
+	<objectId>7df969b7-6008-aa31-03f6-0b2ff404aa44</objectId>
+	<file-name>7df969b7-6008-aa31-03f6-0b2ff404aa44.xml</file-name>
+	<folder-name/>
+	<internal-name>Shared Hero Banner with Title</internal-name>
+	<title_s>[Title goes here]</title_s>
+	<imageforDesktop_s>/static-assets/images/placeholder.png</imageforDesktop_s>
+	<imageforMobile_s/>
+	<createdDate>2023-12-13T00:52:01.805Z</createdDate>
+	<createdDate_dt>2023-12-13T00:52:01.805Z</createdDate_dt>
+	<lastModifiedDate>2023-12-13T00:52:01.805Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-13T00:52:01.805Z</lastModifiedDate_dt>
+</component>
