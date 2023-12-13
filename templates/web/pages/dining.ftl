@@ -38,7 +38,9 @@
 							<#if listItem.component??>
 								<#assign item = listItem.component />
 							<#else>
+							<#attempt>
 								<#assign item =  siteItemService.getSiteItem(listItem.key) />
+							</#attempt>
 							</#if>
 							<#assign field = "content-type" />
 							
