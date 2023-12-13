@@ -42,9 +42,9 @@
 							</#if>
 							<#assign field = "content-type" />
 							
-							<#if item?hasContent>
+							<#attempt>
 							${item[field]}
-							</#if>
+							</#attempt>
                 </@crafter.forEach>    
                 
             </div>
