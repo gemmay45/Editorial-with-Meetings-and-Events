@@ -54,7 +54,7 @@
             <br>
         </div>
         
-        <script src="/scripts/nina/singleCardLayout.js"></script>
+        <script src="/static-assets/js/singleCardLayout.js"></script>
         <script src="/scripts/nina/playVideo.js"></script>
     </div>
 </div>
