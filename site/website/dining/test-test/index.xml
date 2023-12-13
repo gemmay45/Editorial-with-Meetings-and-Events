@@ -32,6 +32,23 @@
         <imageforMobile_s/>
       </component>
     </item>
+    <item inline="true">
+      <key>adfd0478-d522-4270-99db-9e0de9f1b1b3</key>
+      <value><![CDATA[New Exp Selection Card]]></value>
+      <component id="adfd0478-d522-4270-99db-9e0de9f1b1b3">
+        <content-type>/component/expselectioncard</content-type>
+        <display-template>/templates/web/components/Nina/exp-selection-card.ftl</display-template>
+        <internal-name><![CDATA[New Exp Selection Card]]></internal-name>
+        <file-name>adfd0478-d522-4270-99db-9e0de9f1b1b3.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-13T00:40:07.810Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-13T00:40:07.810Z</lastModifiedDate_dt>
+        <objectId>adfd0478-d522-4270-99db-9e0de9f1b1b3</objectId>
+        <title_s/>
+        <description_html><![CDATA[[Description goes here]]]></description_html>
+        <image_s/>
+      </component>
+    </item>
   </pageSections_o>
   <relatedOffers_o item-list="true"/>
   <placeInNav>false</placeInNav>
@@ -41,5 +58,5 @@
   <createdDate>2023-12-13T00:33:27.342Z</createdDate>
   <createdDate_dt>2023-12-13T00:33:27.342Z</createdDate_dt>
   <lastModifiedDate>2023-12-13T00:33:59.048Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-13T00:40:01.312Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-13T00:40:07.810Z</lastModifiedDate_dt>
 </page>
