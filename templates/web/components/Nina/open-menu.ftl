@@ -13,11 +13,14 @@
           $field="menus_o"
           $containerTag="div"
           $containerAttributes={'class': 'menu-information-left-part'}
-          $itemTag="div"
-          $itemAttributes={'class': 'menu-information-expand-wrapper'};
+          <#--$itemTag="div"
+          $itemAttributes={'class': 'menu-information-expand-wrapper'}-->;
           item, index
         >
-
+            <@crafter.div
+            $model=menus_o
+            $index=index
+          >
             <div class="menu-information-expand-content-wrapper">
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
@@ -83,6 +86,7 @@
                   </div>
               </div>
             </div>
+            </@crafter.div>
         </@crafter.renderRepeatGroup>      
 
         <@crafter.renderRepeatGroup
