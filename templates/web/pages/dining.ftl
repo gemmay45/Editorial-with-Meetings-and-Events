@@ -34,16 +34,18 @@
                 <@crafter.forEach contentModel.pageSections_o; listItem, index>
 							<#if listItem.component??>
 								<#assign item = listItem.component />
+								<@crafter.div $field="pageSections_o" $index=index>
+								    <@renderComponent component=listItem />
+							    </@crafter.div>
 							<#else>
 								<#assign item =  siteItemService.getSiteItem(listItem.key)?? />
-							</#if>
-							<#assign field = "content-type" />
-							
-							<#if item??>
+							<#if siteItemService.getSiteItem(listItem.key)??>
 							<@crafter.div $field="pageSections_o" $index=index>
 								<@renderComponent component=listItem />
 							</@crafter.div>
 							</#if>
+							</#if>
+
                 </@crafter.forEach>    
                 
             </div>
