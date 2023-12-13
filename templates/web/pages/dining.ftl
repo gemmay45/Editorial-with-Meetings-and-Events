@@ -21,20 +21,28 @@
 
     <div id="main">
     	<!-- Main -->
-       <main>
-        <div class="inner">
+        <main>
+            <div class="inner">
     
             <!-- Header -->
             <#--<@renderComponent component=contentModel.header_o.item />-->
 
     <#--<@crafter.section $model=contentModel>-->
-            <#attempt>
                 <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
-            </#attempt>
     <#--</@crafter.section>-->
     
+                <@crafter.forEach contentModel.pageSections_o; item, index>
+                  <button
+                    type="button"
+                    data-bs-target="#${rootElementId}"
+                    data-bs-slide-to="${index}"
+                    aria-label="Slide ${index}"
+                    ${(initialActiveSlideIndex == index)?then('class="active" aria-current="true"', '')}
+                  ></button>
+                </@crafter.forEach>    
+                
             </div>
-      </main>
+        </main>
     </div>
     
   <!-- Left Rail -->
