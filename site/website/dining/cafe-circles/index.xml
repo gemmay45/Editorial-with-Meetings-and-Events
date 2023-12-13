@@ -16,7 +16,7 @@
   <createdDate>2023-12-08T04:02:40.338Z</createdDate>
   <createdDate_dt>2023-12-08T04:02:40.338Z</createdDate_dt>
   <lastModifiedDate>2023-12-13T02:31:24.899Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-13T03:32:15.309Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-13T03:32:20.874Z</lastModifiedDate_dt>
   <pageSections_o item-list="true">
     <item inline="true">
       <key>406462c0-3751-4206-8dbb-f94e4a9aa88a</key>
@@ -56,6 +56,28 @@
       </component>
     </item>
     <item inline="true">
+      <key>01d29a67-748f-44d4-8eab-186ba25be890</key>
+      <value>New Exp Selection Card</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="01d29a67-748f-44d4-8eab-186ba25be890">
+        <content-type>/component/expselectioncard</content-type>
+        <display-template>/templates/web/components/Nina/exp-selection-card.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Exp Selection Card</internal-name>
+        <file-name>01d29a67-748f-44d4-8eab-186ba25be890.xml</file-name>
+        <createdDate_dt>2023-12-08T06:16:00.112Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-08T06:35:35.833Z</lastModifiedDate_dt>
+        <objectId>01d29a67-748f-44d4-8eab-186ba25be890</objectId>
+        <folder-name/>
+        <createdDate>2023-12-08T06:16:00.112Z</createdDate>
+        <lastModifiedDate>2023-12-08T06:35:35.833Z</lastModifiedDate>
+        <title_s>Café Circles</title_s>
+        <image_s>/static-assets/images/nina/dining/cafe-circles/dessert-buffet-table---wide-shot_600x900.jpg</image_s>
+        <description_html>&lt;p&gt;Caf&amp;eacute; Circles is a unique setting for any occasion. Centred around a 12-metre long communal table that encourages everyone to be social, the caf&amp;eacute; attracts a crowd who loves its famous buffet. Open all day, and the perfect place to congregate or escape, Caf&amp;eacute; Circles serves delicious international and Asian food, to a backdrop of views across Tsuen Wan and the Rambler Channel.&lt;/p&gt;</description_html>
+      </component>
+    </item>
+    <item inline="true">
       <key>173e8121-4402-45cf-9427-7ae56b976e7a</key>
       <value>New OID Card</value>
       <disableFlattening>false</disableFlattening>
@@ -81,28 +103,7 @@
         <lastModifiedDate>2023-12-12T01:06:09.235Z</lastModifiedDate>
       </component>
     </item>
-    <item inline="true">
-      <key>01d29a67-748f-44d4-8eab-186ba25be890</key>
-      <value>New Exp Selection Card</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="01d29a67-748f-44d4-8eab-186ba25be890">
-        <content-type>/component/expselectioncard</content-type>
-        <display-template>/templates/web/components/Nina/exp-selection-card.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Exp Selection Card</internal-name>
-        <file-name>01d29a67-748f-44d4-8eab-186ba25be890.xml</file-name>
-        <createdDate_dt>2023-12-08T06:16:00.112Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-08T06:35:35.833Z</lastModifiedDate_dt>
-        <objectId>01d29a67-748f-44d4-8eab-186ba25be890</objectId>
-        <folder-name/>
-        <createdDate>2023-12-08T06:16:00.112Z</createdDate>
-        <lastModifiedDate>2023-12-08T06:35:35.833Z</lastModifiedDate>
-        <title_s>Café Circles</title_s>
-        <image_s>/static-assets/images/nina/dining/cafe-circles/dessert-buffet-table---wide-shot_600x900.jpg</image_s>
-        <description_html>&lt;p&gt;Caf&amp;eacute; Circles is a unique setting for any occasion. Centred around a 12-metre long communal table that encourages everyone to be social, the caf&amp;eacute; attracts a crowd who loves its famous buffet. Open all day, and the perfect place to congregate or escape, Caf&amp;eacute; Circles serves delicious international and Asian food, to a backdrop of views across Tsuen Wan and the Rambler Channel.&lt;/p&gt;</description_html>
-      </component>
-    </item>
+
     <item inline="true">
       <key>2794d623-6937-4af8-80b0-f1df6a9137f4</key>
       <value>New Open Menu</value>
