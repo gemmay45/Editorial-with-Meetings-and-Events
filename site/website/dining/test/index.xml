@@ -1,27 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/dining</content-type>
-	<display-template>/templates/web/pages/dining.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>d53f</objectGroupId>
-	<objectId>d53fbfbc-ad22-3812-fb2b-584747193595</objectId>
-	<internal-name>test</internal-name>
-	<navLabel>test</navLabel>
-	<name_s>[Name goes here]</name_s>
-	<file-name>index.xml</file-name>
-	<folder-name>test</folder-name>
-	<disabled>false</disabled>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<header_o item-list="true"/>
-	<leftRail_o item-list="true"/>
-	<pageSections_o item-list="true"/>
-	<relatedOffers_o item-list="true"/>
-	<teaserImage_s/>
-	<teaserDescription_html>&lt;p&gt;[Teaser Description goes here]&lt;/p&gt;</teaserDescription_html>
-	<createdDate>2023-12-14T06:12:46.311Z</createdDate>
-	<createdDate_dt>2023-12-14T06:12:46.311Z</createdDate_dt>
-	<lastModifiedDate>2023-12-14T06:25:24.702Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-14T06:25:24.702Z</lastModifiedDate_dt>
+  <content-type>/page/dining</content-type>
+  <display-template>/templates/web/pages/dining.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>d53f</objectGroupId>
+  <objectId>d53fbfbc-ad22-3812-fb2b-584747193595</objectId>
+  <internal-name>test</internal-name>
+  <navLabel>test</navLabel>
+  <name_s>[Name goes here]</name_s>
+  <file-name>index.xml</file-name>
+  <folder-name>test</folder-name>
+  <disabled>false</disabled>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <header_o item-list="true"/>
+  <leftRail_o item-list="true"/>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>27153f32-9936-44b2-8224-661647378adc</key>
+      <value><![CDATA[New Intro Card with Logo]]></value>
+      <component id="27153f32-9936-44b2-8224-661647378adc">
+        <content-type>/component/introcardwithlogo</content-type>
+        <display-template>/templates/web/components/Nina/intro-card-with-logo.ftl</display-template>
+        <internal-name><![CDATA[New Intro Card with Logo]]></internal-name>
+        <file-name>27153f32-9936-44b2-8224-661647378adc.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-14T06:26:05.537Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-14T06:26:05.537Z</lastModifiedDate_dt>
+        <objectId>27153f32-9936-44b2-8224-661647378adc</objectId>
+        <logo_s><![CDATA[/static-assets/images/placeholder.png]]></logo_s>
+        <bodyContent_html/>
+      </component>
+    </item>
+  </pageSections_o>
+  <relatedOffers_o item-list="true"/>
+  <teaserImage_s/>
+  <teaserDescription_html>&lt;p&gt;[Teaser Description goes here]&lt;/p&gt;</teaserDescription_html>
+  <createdDate>2023-12-14T06:12:46.311Z</createdDate>
+  <createdDate_dt>2023-12-14T06:12:46.311Z</createdDate_dt>
+  <lastModifiedDate>2023-12-14T06:25:24.702Z</lastModifiedDate>
+  <lastModifiedDate_dt>2023-12-14T06:26:05.537Z</lastModifiedDate_dt>
 </page>
