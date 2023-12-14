@@ -32,7 +32,7 @@
     <#--</@crafter.section>-->
     
                 <!-- alternate approach to avoid share component being removed -->
-                <#if contentModel.pageSections_o?? && contentModel.pageSections_o.items??>
+                <#if contentModel.pageSections_o?? && contentModel.pageSections_o.item??>
                     <@crafter.div class="" $model=ContentModel $field="pageSections_o">
                         <@crafter.forEach contentModel.pageSections_o; listItem, index>
         					<#if listItem.component??>
