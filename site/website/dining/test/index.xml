@@ -1,60 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/dining</content-type>
-  <display-template>/templates/web/pages/dining.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>d53f</objectGroupId>
-  <objectId>d53fbfbc-ad22-3812-fb2b-584747193595</objectId>
-  <internal-name>test</internal-name>
-  <navLabel>test</navLabel>
-  <name_s>[Name goes here]</name_s>
-  <file-name>index.xml</file-name>
-  <folder-name>test</folder-name>
-  <disabled>false</disabled>
-  <placeInNav>false</placeInNav>
-  <orderDefault_f>-1</orderDefault_f>
-  <header_o item-list="true"/>
-  <leftRail_o item-list="true"/>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>f842b9fb-840b-4116-a30f-0a3f228dc240</key>
-      <value><![CDATA[New Intro Card with Logo]]></value>
-      <component id="f842b9fb-840b-4116-a30f-0a3f228dc240">
-        <content-type>/component/introcardwithlogo</content-type>
-        <display-template>/templates/web/components/Nina/intro-card-with-logo.ftl</display-template>
-        <internal-name><![CDATA[New Intro Card with Logo]]></internal-name>
-        <file-name>f842b9fb-840b-4116-a30f-0a3f228dc240.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-14T06:27:06.596Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-14T06:27:06.596Z</lastModifiedDate_dt>
-        <objectId>f842b9fb-840b-4116-a30f-0a3f228dc240</objectId>
-        <logo_s><![CDATA[/static-assets/images/placeholder.png]]></logo_s>
-        <bodyContent_html/>
-      </component>
-    </item>
-    <item inline="true">
-      <key>d06dcb5f-d3f6-4e65-b7f1-6872884ae1dd</key>
-      <value><![CDATA[New Intro Card with Logo]]></value>
-      <component id="d06dcb5f-d3f6-4e65-b7f1-6872884ae1dd">
-        <content-type>/component/introcardwithlogo</content-type>
-        <display-template>/templates/web/components/Nina/intro-card-with-logo.ftl</display-template>
-        <internal-name><![CDATA[New Intro Card with Logo]]></internal-name>
-        <file-name>d06dcb5f-d3f6-4e65-b7f1-6872884ae1dd.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-12-14T06:26:59.697Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-14T06:26:59.697Z</lastModifiedDate_dt>
-        <objectId>d06dcb5f-d3f6-4e65-b7f1-6872884ae1dd</objectId>
-        <logo_s><![CDATA[/static-assets/images/placeholder.png]]></logo_s>
-        <bodyContent_html/>
-      </component>
-    </item>
-  </pageSections_o>
-  <relatedOffers_o item-list="true"/>
-  <teaserImage_s/>
-  <teaserDescription_html>&lt;p&gt;[Teaser Description goes here]&lt;/p&gt;</teaserDescription_html>
-  <createdDate>2023-12-14T06:12:46.311Z</createdDate>
-  <createdDate_dt>2023-12-14T06:12:46.311Z</createdDate_dt>
-  <lastModifiedDate>2023-12-14T06:25:24.702Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-14T06:27:06.597Z</lastModifiedDate_dt>
+	<content-type>/page/dining</content-type>
+	<display-template>/templates/web/pages/dining.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d53f</objectGroupId>
+	<objectId>d53fbfbc-ad22-3812-fb2b-584747193595</objectId>
+	<internal-name>test</internal-name>
+	<navLabel>test</navLabel>
+	<name_s>[Name goes here]</name_s>
+	<file-name>index.xml</file-name>
+	<folder-name>test</folder-name>
+	<disabled>false</disabled>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<header_o item-list="true"/>
+	<leftRail_o item-list="true"/>
+	<pageSections_o item-list="true"/>
+	<relatedOffers_o item-list="true"/>
+	<teaserImage_s/>
+	<teaserDescription_html>&lt;p&gt;[Teaser Description goes here]&lt;/p&gt;</teaserDescription_html>
+	<createdDate>2023-12-14T06:12:46.311Z</createdDate>
+	<createdDate_dt>2023-12-14T06:12:46.311Z</createdDate_dt>
+	<lastModifiedDate>2023-12-14T06:27:17.929Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-14T06:27:17.929Z</lastModifiedDate_dt>
 </page>
