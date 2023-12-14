@@ -28,25 +28,29 @@
             <#--<@renderComponent component=contentModel.header_o.item />-->
 
     <#--<@crafter.section $model=contentModel>-->
-                <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
+                <#--<@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>-->
     <#--</@crafter.section>-->
     
                 <!-- alternate approach to avoid share component being removed -->
-                <@crafter.forEach contentModel.pageSections_o; listItem, index>
-					<#if listItem.component??>
-						<#assign item = listItem.component />
-						<@crafter.div $field="pageSections_o" $index=index>
-						    <@renderComponent component=listItem />
-					    </@crafter.div>
-					<#else>
-						<#assign item =  siteItemService.getSiteItem(listItem.key)?? />
-					<#if siteItemService.getSiteItem(listItem.key)??>
-					<@crafter.div $field="pageSections_o" $index=index>
-						<@renderComponent component=listItem />
-					</@crafter.div>
-					</#if>
-					</#if>
-                </@crafter.forEach>    
+                <#if contentModel.pageSections_o?? && contentModel.pageSections_o.items??>
+                    <@crafter.forEach contentModel.pageSections_o; listItem, index>
+    					<#if listItem.component??>
+    						<#assign item = listItem.component />
+    						<@crafter.div $field="pageSections_o" $index=index>
+    						    <@renderComponent component=listItem />
+    					    </@crafter.div>
+    					<#else>
+    						<#assign item =  siteItemService.getSiteItem(listItem.key)?? />
+    					<#if siteItemService.getSiteItem(listItem.key)??>
+    					<@crafter.div $field="pageSections_o" $index=index>
+    						<@renderComponent component=listItem />
+    					</@crafter.div>
+    					</#if>
+    					</#if>
+                    </@crafter.forEach>
+                <#else>
+                    <@crafter.div class="craftercms-empty-collection" $model=ContentModel $field="pageSections_o"></@crafter.div>
+                </#if>
                 
             </div>
         </main>
