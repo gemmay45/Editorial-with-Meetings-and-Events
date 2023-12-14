@@ -18,6 +18,22 @@
   <leftRail_o item-list="true"/>
   <pageSections_o item-list="true">
     <item inline="true">
+      <key>f842b9fb-840b-4116-a30f-0a3f228dc240</key>
+      <value><![CDATA[New Intro Card with Logo]]></value>
+      <component id="f842b9fb-840b-4116-a30f-0a3f228dc240">
+        <content-type>/component/introcardwithlogo</content-type>
+        <display-template>/templates/web/components/Nina/intro-card-with-logo.ftl</display-template>
+        <internal-name><![CDATA[New Intro Card with Logo]]></internal-name>
+        <file-name>f842b9fb-840b-4116-a30f-0a3f228dc240.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-14T06:27:06.596Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-14T06:27:06.596Z</lastModifiedDate_dt>
+        <objectId>f842b9fb-840b-4116-a30f-0a3f228dc240</objectId>
+        <logo_s><![CDATA[/static-assets/images/placeholder.png]]></logo_s>
+        <bodyContent_html/>
+      </component>
+    </item>
+    <item inline="true">
       <key>d06dcb5f-d3f6-4e65-b7f1-6872884ae1dd</key>
       <value><![CDATA[New Intro Card with Logo]]></value>
       <component id="d06dcb5f-d3f6-4e65-b7f1-6872884ae1dd">
@@ -40,5 +56,5 @@
   <createdDate>2023-12-14T06:12:46.311Z</createdDate>
   <createdDate_dt>2023-12-14T06:12:46.311Z</createdDate_dt>
   <lastModifiedDate>2023-12-14T06:25:24.702Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-14T06:26:59.697Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-14T06:27:06.597Z</lastModifiedDate_dt>
 </page>
