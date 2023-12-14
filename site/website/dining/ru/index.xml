@@ -54,6 +54,22 @@
       </component>
     </item>
     <item inline="true">
+      <key>d41268bd-b018-4c47-8056-74b39041dd84</key>
+      <value><![CDATA[New Open Menu]]></value>
+      <component id="d41268bd-b018-4c47-8056-74b39041dd84">
+        <content-type>/component/openmenu</content-type>
+        <display-template>/templates/web/components/Nina/open-menu.ftl</display-template>
+        <internal-name><![CDATA[New Open Menu]]></internal-name>
+        <file-name>d41268bd-b018-4c47-8056-74b39041dd84.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-12-14T06:27:38.406Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-12-14T06:27:38.406Z</lastModifiedDate_dt>
+        <objectId>d41268bd-b018-4c47-8056-74b39041dd84</objectId>
+        <title_s><![CDATA[Menu]]></title_s>
+        <menus_o/>
+      </component>
+    </item>
+    <item inline="true">
       <key>41b64a79-fdd3-4a13-bee8-36e3d6a36720</key>
       <value>New Intro Card with Logo</value>
       <disableFlattening>false</disableFlattening>
@@ -216,7 +232,7 @@
   <createdDate>2023-12-08T13:39:56.453Z</createdDate>
   <createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
   <lastModifiedDate>2023-12-12T01:52:03.325Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-12T01:53:13.982Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-14T06:27:38.407Z</lastModifiedDate_dt>
   <teaserImage_s>/static-assets/images/nina/dining/ru/221223_new-ru_group-shot_500x500.jpg</teaserImage_s>
   <name_s>RÚ</name_s>
   <teaserDescription_html>&lt;p&gt;R&amp;Uacute; celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours.&lt;/p&gt;</teaserDescription_html>
