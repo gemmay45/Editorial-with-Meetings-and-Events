@@ -15,7 +15,7 @@
   <createdDate>2023-12-07T08:22:09.676Z</createdDate>
   <createdDate_dt>2023-12-07T08:22:09.676Z</createdDate_dt>
   <lastModifiedDate>2023-12-08T07:20:55.756Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-12-17T23:44:04.630Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-12-17T23:44:08.042Z</lastModifiedDate_dt>
   <header_o item-list="true">
     <item>
       <key>/site/components/headers/header.xml</key>
@@ -88,17 +88,17 @@
         <internal-name>New Stats Bar</internal-name>
         <file-name>be921e1d-f243-4676-a530-72d9468ea02b.xml</file-name>
         <createdDate_dt>2023-12-07T13:48:54.429Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-12-17T23:44:04.630Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2023-12-17T23:44:08.042Z</lastModifiedDate_dt>
         <objectId>be921e1d-f243-4676-a530-72d9468ea02b</objectId>
         <title_s>SERVICES WE OFFER</title_s>
         <statsItems_o item-list="true">
           <item>
-            <name_s>Audio &amp; Visual Equipment</name_s>
-            <icon_s>/static-assets/images/nina/icons/ninahospitality-audiosoundsystem-icon.svg</icon_s>
-          </item>
-          <item>
             <name_s>Accommodation</name_s>
             <icon_s>/static-assets/images/nina/icons/ninahospitality-numberofbeds-icon.png</icon_s>
+          </item>
+          <item>
+            <name_s>Audio &amp; Visual Equipment</name_s>
+            <icon_s>/static-assets/images/nina/icons/ninahospitality-audiosoundsystem-icon.svg</icon_s>
           </item>
 
           <item>
