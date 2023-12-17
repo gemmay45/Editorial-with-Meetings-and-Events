@@ -20,7 +20,7 @@
             >
             
                 <@crafter.img $field="statsItems_o" class="image lazyload-img" src="${item.icon_s}" />
-                <@crafter.p $field="statsItems_o" class="stats-bar-detail-desc">${item.name_s}</@crafter.p>
+                <@crafter.p $field="name_s" class="stats-bar-detail-desc">${item.name_s}</@crafter.p>
 
 </@crafter.renderRepeatGroup>
         
