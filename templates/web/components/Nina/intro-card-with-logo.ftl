@@ -19,10 +19,10 @@
             })();
         </script>
     </div>
-    <div class="offersContent-section-text" $field="bodyContent_html">
+    <@crafter.div class="offersContent-section-text" $field="bodyContent_html">
         ${contentModel.bodyContent_html!""}
         <span class="offersContent-section-subtitle"></span>
-    </div>
+    </@crafter.div>
 </div>
 
         </div>
