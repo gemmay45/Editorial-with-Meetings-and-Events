@@ -21,7 +21,7 @@
             <@crafter.div $model=item class="menu-information-expand-content-wrapper">
               <div class="menu-information-expand-content">
                   <div class="menu-information-expand-operate">
-                      <@crafter.h5 class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>
+                      <@crafter.h5 $field="menus_o.name_s" $index=index class="menu-information-expand-operate-text">${item.name_s}</@crafter.h5>
                       <span class="menu-information-expand-operate-icon icon--cross"></span>
                   </div>
                   <div class="menu-information-expand-full-detail-wrapper" style="">
@@ -33,7 +33,7 @@
                                   <li tabindex="-1" class="uk-active">
                                       <div class="uk-card uk-card-default custom-slider-card">
                                           <div class="uk-card-media-top custom-slider-card-media-top">
-                                              <@crafter.img $model=item $field="image1_s" src="${item.image1_s}" class="m-image" alt="" width="609" height="376" />
+                                              <@crafter.img $field="menus_o.image1_s" $index=index src="${item.image1_s}" class="m-image" alt="" width="609" height="376" />
                                           </div>
                                       </div>
                                   </li>
@@ -42,7 +42,7 @@
                                     <li tabindex="-1" class="uk-active">
                                         <div class="uk-card uk-card-default custom-slider-card">
                                             <div class="uk-card-media-top custom-slider-card-media-top">
-                                                <@crafter.img $model=item $field="image2_s" src="${item.image2_s}" class="m-image" alt="" width="609" height="376" />
+                                                <@crafter.img $field="menus_o.image2_s" $index=index src="${item.image2_s}" class="m-image" alt="" width="609" height="376" />
                                             </div>
                                         </div>
                                     </li>
@@ -108,7 +108,7 @@
                       <li tabindex="-1" class="uk-active">
                           <div class="uk-card uk-card-default custom-slider-card">
                               <div class="uk-card-media-top custom-slider-card-media-top">
-                                  <@crafter.img $model=item $field="image1_s" src="${item.image1_s}" class="m-image" alt="" width="609" height="376" />
+                                  <@crafter.img $field="menus_o.image1_s" $index=index src="${item.image1_s}" class="m-image" alt="" width="609" height="376" />
                               </div>
                           </div>
                       </li>
@@ -116,7 +116,7 @@
                       <li tabindex="-1" class="uk-active">
                           <div class="uk-card uk-card-default custom-slider-card">
                               <div class="uk-card-media-top custom-slider-card-media-top">
-                                  <@crafter.img $model=item $field="image2_s" src="${item.image2_s}" class="m-image" alt="" width="609" height="376" />
+                                  <@crafter.img $field="menus_o.image2_s" $index=index src="${item.image2_s}" class="m-image" alt="" width="609" height="376" />
                               </div>
                           </div>
                       </li>
