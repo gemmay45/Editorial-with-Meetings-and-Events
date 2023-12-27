@@ -25,7 +25,7 @@ CStudioForms.Controls.imageWithAltText = CStudioForms.Controls.imageWithAltText 
       return this;
     }
 
-YAHOO.extend(CStudioForms.Controls.ImagePicker, CStudioForms.CStudioFormField, {
+YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormField, {
   getLabel: function () {
     return CMgs.format(langBundle, 'image');
   },
@@ -133,26 +133,26 @@ YAHOO.extend(CStudioForms.Controls.ImagePicker, CStudioForms.CStudioFormField, {
     CStudioAuthoring.Utils.decreaseFormDialog();
   },
 
-  setImageData: function (imagePicker, imageData) {
+  setImageData: function (imageWithAltText, imageData) {
     let CMgs = CStudioAuthoring.Messages;
     let langBundle = CMgs.getBundle('contentTypes', CStudioAuthoringContext.lang);
-    imagePicker.inputEl.value = imageData.relativeUrl;
+    imageWithAltText.inputEl.value = imageData.relativeUrl;
 
-    imagePicker.previewEl.src = imageData.previewUrl.replace(/ /g, '%20') + '?' + new Date().getTime();
-    imagePicker.urlEl.textContent = imageData.relativeUrl.replace('?crafterCMIS=true', '');
-    imagePicker.downloadEl.href = imageData.previewUrl;
-    imagePicker.remote = imageData.remote && imageData.remote === true ? true : false;
+    imageWithAltText.previewEl.src = imageData.previewUrl.replace(/ /g, '%20') + '?' + new Date().getTime();
+    imageWithAltText.urlEl.textContent = imageData.relativeUrl.replace('?crafterCMIS=true', '');
+    imageWithAltText.downloadEl.href = imageData.previewUrl;
+    imageWithAltText.remote = imageData.remote && imageData.remote === true ? true : false;
 
-    imagePicker.$addBtn.text(CMgs.format(langBundle, 'replace'));
+    imageWithAltText.$addBtn.text(CMgs.format(langBundle, 'replace'));
 
-    imagePicker.noPreviewEl.style.display = 'none';
-    imagePicker.noPreviewEl.parentElement.classList.remove('no-selection');
-    imagePicker.previewEl.style.display = 'inline';
-    YAHOO.util.Dom.addClass(imagePicker.previewEl, 'cstudio-form-control-asset-picker-preview-content');
+    imageWithAltText.noPreviewEl.style.display = 'none';
+    imageWithAltText.noPreviewEl.parentElement.classList.remove('no-selection');
+    imageWithAltText.previewEl.style.display = 'inline';
+    YAHOO.util.Dom.addClass(imageWithAltText.previewEl, 'cstudio-form-control-asset-picker-preview-content');
 
-    imagePicker.adjustImage();
+    imageWithAltText.adjustImage();
 
-    imagePicker._onChangeVal(null, imagePicker);
+    imageWithAltText._onChangeVal(null, imageWithAltText);
   },
 
   increaseFormDialogForCrop: function () {
@@ -200,40 +200,40 @@ YAHOO.extend(CStudioForms.Controls.ImagePicker, CStudioForms.CStudioFormField, {
     if (datasourceEl && datasourceEl.insertImageAction) {
       var self = this;
       datasourceEl.insertImageAction({
-        imagePicker: this,
+        imageWithAltText: this,
         success: function (imageData, repoImage) {
           var valid = false,
             message = '',
             repoImage;
 
-          if (this.imagePicker.validExtensions.includes(imageData.fileExtension?.toLowerCase().trim())) {
+          if (this.imageWithAltText.validExtensions.includes(imageData.fileExtension?.toLowerCase().trim())) {
             valid = true;
           } else {
             message = 'The uploaded file is not of type image';
           }
 
           if (!valid) {
-            this.imagePicker.showAlert(message);
+            this.imageWithAltText.showAlert(message);
           } else {
             var image = new Image();
-            var imagePicker = this.imagePicker;
+            var imageWithAltText = this.imageWithAltText;
 
             function imageLoaded() {
-              imagePicker.originalWidth = this.width;
-              imagePicker.originalHeight = this.height;
+              imageWithAltText.originalWidth = this.width;
+              imageWithAltText.originalHeight = this.height;
 
-              valid = imagePicker.isImageValid();
+              valid = imageWithAltText.isImageValid();
               if (!valid) {
                 var widthConstrains = JSON.parse(self.width);
                 var heightConstrains = JSON.parse(self.height);
                 message = 'The uploaded file does not meet the specified width & height constraints';
                 if (
-                  (widthConstrains.min && imagePicker.originalWidth < widthConstrains.min) ||
-                  (heightConstrains.min && imagePicker.originalHeight < heightConstrains.min) ||
-                  (widthConstrains.exact && imagePicker.originalWidth < widthConstrains.exact) ||
-                  (heightConstrains.exact && imagePicker.originalHeight < heightConstrains.exact) ||
-                  (widthConstrains && imagePicker.originalWidth < widthConstrains) ||
-                  (heightConstrains && imagePicker.originalHeight < heightConstrains)
+                  (widthConstrains.min && imageWithAltText.originalWidth < widthConstrains.min) ||
+                  (heightConstrains.min && imageWithAltText.originalHeight < heightConstrains.min) ||
+                  (widthConstrains.exact && imageWithAltText.originalWidth < widthConstrains.exact) ||
+                  (heightConstrains.exact && imageWithAltText.originalHeight < heightConstrains.exact) ||
+                  (widthConstrains && imageWithAltText.originalWidth < widthConstrains) ||
+                  (heightConstrains && imageWithAltText.originalHeight < heightConstrains)
                 ) {
                   message = 'Image is smaller than the constraint size';
                   self.showAlert(message);
@@ -241,7 +241,7 @@ YAHOO.extend(CStudioForms.Controls.ImagePicker, CStudioForms.CStudioFormField, {
                   (function (self) {
                     var callbackCropper = {
                       success: function (content) {
-                        var imagePicker = self;
+                        var imageWithAltText = self;
 
                         imageData.relativeUrl = imageData.renameRelativeUrl
                           ? imageData.renameRelativeUrl
@@ -250,7 +250,7 @@ YAHOO.extend(CStudioForms.Controls.ImagePicker, CStudioForms.CStudioFormField, {
                           ? imageData.renamePreviewUrl
                           : imageData.previewUrl;
 
-                        self.setImageData(imagePicker, imageData);
+                        self.setImageData(imageWithAltText, imageData);
                       }
                     };
 
@@ -270,16 +270,16 @@ YAHOO.extend(CStudioForms.Controls.ImagePicker, CStudioForms.CStudioFormField, {
                 var formContainer = this.form ? this.form.containerEl : self.form.containerEl;
                 if ($(formContainer).find('#ice-body .cstudio-form-field-container').length > 1) {
                   if (this.setImageData) {
-                    this.setImageData(imagePicker, imageData);
+                    this.setImageData(imageWithAltText, imageData);
                   } else {
-                    self.setImageData(imagePicker, imageData);
+                    self.setImageData(imageWithAltText, imageData);
                   }
                 } else {
                   if (this.setImageData) {
-                    this.setImageData(imagePicker, imageData);
+                    this.setImageData(imageWithAltText, imageData);
                     CStudioAuthoring.Utils.decreaseFormDialog();
                   } else {
-                    self.setImageData(imagePicker, imageData);
+                    self.setImageData(imageWithAltText, imageData);
                     CStudioAuthoring.Utils.decreaseFormDialog();
                   }
                 }
@@ -288,7 +288,7 @@ YAHOO.extend(CStudioForms.Controls.ImagePicker, CStudioForms.CStudioFormField, {
             image.addEventListener('load', imageLoaded, false);
             image.addEventListener('error', function () {
               message = 'Unable to load the selected image. Please try again or select another image';
-              imagePicker.showAlert(message);
+              imageWithAltText.showAlert(message);
             });
             CStudioAuthoring.Operations.getImageRequest({
               url: imageData.previewUrl,
@@ -297,7 +297,7 @@ YAHOO.extend(CStudioForms.Controls.ImagePicker, CStudioForms.CStudioFormField, {
           }
         },
         failure: function (message) {
-          this.imagePicker.showAlert(message);
+          this.imageWithAltText.showAlert(message);
         }
       });
     }
@@ -740,7 +740,7 @@ YAHOO.extend(CStudioForms.Controls.ImagePicker, CStudioForms.CStudioFormField, {
   },
 
   getName: function () {
-    return 'image-picker';
+    return 'image-with-alt-text';
   },
 
   getSupportedProperties: function () {
