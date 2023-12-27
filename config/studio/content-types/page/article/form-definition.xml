@@ -278,55 +278,6 @@
 						</constraint>
 					</constraints>
 				</field>
-				<field>
-					<type>text-input</type>
-					<id>input</id>
-					<iceId></iceId>
-					<title>Input</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<plugin>
-						<pluginId>org.craftercms.plugin.excontrol</pluginId>
-						<type>control</type>
-						<name>text-input</name>
-						<filename>main.js</filename>
-					</plugin>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
 			</fields>
 		</section>
 		<section>
