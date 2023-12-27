@@ -172,6 +172,17 @@
                         <class>fa-globe</class>
                     </icon>
                 </control>
+                <control>
+        10        <plugin>
+        11            <pluginId>org.craftercms.plugin.excontrol</pluginId>
+        12            <type>control</type>
+        13            <name>text-input</name>
+        14            <filename>main.js</filename>
+        15        </plugin>
+        16        <icon>
+        17            <class>fa-pencil-square-o</class>
+        18        </icon>
+        19      </control>
             </controls>
             <datasources>
                 <datasource>
