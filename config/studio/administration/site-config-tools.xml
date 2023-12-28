@@ -81,6 +81,17 @@
                     </icon>
                 </control>
                 <control>
+                    <plugin>
+                        <pluginId>org.craftercms.plugin.excontrol</pluginId>
+                        <type>control</type>
+                        <name>extended-link-input</name>
+                        <filename>main.js</filename>
+                    </plugin>
+                    <icon>
+                        <class>fa-linko</class>
+                    </icon>
+                </control>
+                <control>
                     <name>dropdown</name>
                     <icon>
                         <class>fa-sort-desc</class>
@@ -181,12 +192,6 @@
                     <name>locale-selector</name>
                     <icon>
                         <class>fa-globe</class>
-                    </icon>
-                </control>
-                <control>
-                    <name>link-input</name>
-                    <icon>
-                        <class>fa-link</class>
                     </icon>
                 </control>
             </controls>
