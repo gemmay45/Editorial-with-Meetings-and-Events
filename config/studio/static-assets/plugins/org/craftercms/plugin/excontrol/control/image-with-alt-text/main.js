@@ -566,12 +566,12 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
       altEl,
       'change',
       function (e) {
-        var value = this.getFieldValue();
+        /*var value = this.getFieldValue();
 
-        /*this.timezone = this.getSelectedTimezone(timezoneEl);
+        this.timezone = this.getSelectedTimezone(timezoneEl);
         this._setValue(value, this.timezone);
         this.form.updateModel(this.id, value);*/
-        this.form.updateModel(this.altId, value);
+        this.form.updateModel(this.altId, this.altEl.value);
       },
       altEl,
       this
