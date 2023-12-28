@@ -196,6 +196,17 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Dom.addClass(validEl, 'cstudio-form-control-validation fa fa-check');
     controlWidgetContainerEl.appendChild(validEl);
 
+    var editEl = document.createElement('input');
+    this.editEl = editEl;
+    YAHOO.util.Dom.addClass(editEl, 'btn btn-default btn-sm edit');
+    editEl.type = 'button';
+    editEl.value = 'Edit Position';
+    editEl.style.padding = '1px 5px';
+    editEl.style.marginLeft = '5px';
+    editEl.style.display = 'inline';
+
+    containerEl.appendChild(editEl);
+
     var inputEl = document.createElement('input');
     this.inputEl = inputEl;
     this.inputEl.disabled = true;
@@ -215,17 +226,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     YAHOO.util.Event.on(inputEl, 'change', this._onChangeVal, this);
     YAHOO.util.Event.on(inputEl, 'blur', this._onChange, this);
-
-    var editEl = document.createElement('input');
-    this.editEl = editEl;
-    YAHOO.util.Dom.addClass(editEl, 'btn btn-default btn-sm edit');
-    editEl.type = 'button';
-    editEl.value = 'Edit Position';
-    editEl.style.padding = '1px 5px';
-    editEl.style.marginLeft = '5px';
-    editEl.style.display = 'inline';
-
-    controlWidgetContainerEl.appendChild(editEl);
 
     for (var i = 0; i < config.properties.length; i++) {
       var prop = config.properties[i];
