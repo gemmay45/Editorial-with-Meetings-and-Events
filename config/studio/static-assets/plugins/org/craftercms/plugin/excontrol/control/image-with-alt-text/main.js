@@ -711,6 +711,9 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     this.remote = attribute === true ? true : false;
     this.inputEl.value = value;
 
+    console.log("setValue");
+    console.log(this.altEl.value);
+
     this.inputEl.setAttribute('alt-list', this.altEl.value);
 
     var CMgs = CStudioAuthoring.Messages;
