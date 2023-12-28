@@ -513,6 +513,8 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
       }
     }
 
+    this.form.registerDynamicField(this.altId);
+
     var helpContainerEl = document.createElement('div');
     YAHOO.util.Dom.addClass(helpContainerEl, 'cstudio-form-field-help-container');
     ctrlOptionsEl.appendChild(helpContainerEl);
@@ -553,6 +555,21 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     if (!this.$addBtn.attr('disabled')) {
       this.addImage();
     }
+
+    YAHOO.util.Event.addListener(
+      altEl,
+      'change',
+      function (e) {
+        var value = this.getFieldValue();
+
+        /*this.timezone = this.getSelectedTimezone(timezoneEl);
+        this._setValue(value, this.timezone);
+        this.form.updateModel(this.id, value);*/
+        this.form.updateModel(this.altId, value);
+      },
+      altEl,
+      this
+    );
 
     YAHOO.util.Event.addListener(
       $addBtn[0],
