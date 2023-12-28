@@ -6,7 +6,8 @@ CStudioForms.Controls.imageWithAltText = CStudioForms.Controls.imageWithAltText 
       this.properties = properties;
       this.constraints = constraints;
       this.inputEl = null;
-      this.altEl = null;
+      this.altEl = '';
+      this.altId = this.id + '_alt';
       this.required = false;
       this.value = '_not-set';
       this.form = form;
@@ -27,9 +28,13 @@ CStudioForms.Controls.imageWithAltText = CStudioForms.Controls.imageWithAltText 
     }
 
 YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormField, {
+  getAdditionalFields: function () {
+    return [this.altId];
+  },
+  
   getLabel: function() {
     return "Image with Alt Text";
-} ,
+  } ,
 
   _onChange: function (evt, obj) {
     obj.value = obj.inputEl.value;
@@ -48,6 +53,7 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
 
     obj.owner.notifyValidation();
     obj.form.updateModel(obj.id, obj.getValue(), obj.remote);
+    obj.form.updateModel(obj.altId, obj.altEl.value);
   },
 
   _onChangeVal: function (evt, obj) {
