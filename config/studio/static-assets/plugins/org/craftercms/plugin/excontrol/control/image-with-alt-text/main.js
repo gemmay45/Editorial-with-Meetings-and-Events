@@ -6,6 +6,7 @@ CStudioForms.Controls.imageWithAltText = CStudioForms.Controls.imageWithAltText 
       this.properties = properties;
       this.constraints = constraints;
       this.inputEl = null;
+      this.altEl = null;
       this.required = false;
       this.value = '_not-set';
       this.form = form;
@@ -315,6 +316,7 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
 
     if (this.inputEl.value !== '') {
       this.inputEl.value = '';
+      this.altEl.value = '';
       this.urlEl.innerHTML = '';
       this.previewEl.style.display = 'none';
       this.previewEl.src = '';
