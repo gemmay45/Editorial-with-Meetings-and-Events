@@ -183,6 +183,12 @@
                         <class>fa-picture-o</class>
                     </icon>
                 </control>
+                <control>
+                    <name>link-input</name>
+                    <icon>
+                        <class>fa-link</class>
+                    </icon>
+                </control>
             </controls>
             <datasources>
                 <datasource>
