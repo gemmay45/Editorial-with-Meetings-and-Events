@@ -210,6 +210,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var inputEl = document.createElement('input');
     this.inputEl = inputEl;
     this.inputEl.disabled = true;
+    this.inputEl.maxlength = 250;
     YAHOO.util.Dom.addClass(inputEl, 'cstudio-form-control-input-container no-wrap input-wrapper disabled');
     inputEl.value = (this.value = '_not-set') ? config.defaultValue : this.value;
     controlWidgetContainerEl.appendChild(inputEl);
