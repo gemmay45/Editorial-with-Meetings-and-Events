@@ -36,7 +36,7 @@ CStudioForms.Controls.ExtendedLinkInput =
 
 YAHOO.extend(CStudioForms.Controls.ExtendedLinkInput, CStudioForms.CStudioFormField, {
   getLabel: function () {
-    return CMgs.format(langBundle, 'ExtendedLinkInput');
+    return "Extended Link Input";
   },
 
   _onChange: function (evt, obj) {
