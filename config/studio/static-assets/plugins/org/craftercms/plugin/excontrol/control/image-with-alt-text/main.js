@@ -549,7 +549,7 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
       imageEl,
       'click',
       function (evt, context) {
-        this._onChangeVal(null, this);
+        context.form.setFocusedField(context);
       },
       this,
       true
@@ -563,8 +563,8 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     YAHOO.util.Event.addListener(
       altEl,
       'change',
-      function (e, context) {
-        context.form.setFocusedField(context);
+      function (e) {
+        this._onChangeVal(null, this);
       },
       altEl,
       this
