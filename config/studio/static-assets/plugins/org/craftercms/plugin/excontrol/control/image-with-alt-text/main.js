@@ -468,15 +468,12 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
 
     ctrlOptionsEl.appendChild(delEl);
 
-    var alt = YDom.get(this.id + '_alt')
     var altEl = document.createElement('input');
-    this.altEl = altEl;
+    altEl.id = this.id + '-alt';
     altEl.disabled = false;
-    if (alt == '')
-    {
-      altEl.placeholder = '(Alt Text)';
-    }
-    altEl.value = alt;
+    altEl.placeholder = '(Alt Text)';
+    this.altEl = altEl;
+
     YAHOO.util.Dom.addClass(altEl, 'datum cstudio-form-control-input');
     altEl.style.marginBottom = '5px';
     controlWidgetContainerEl.appendChild(altEl);
@@ -565,13 +562,8 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     YAHOO.util.Event.addListener(
       altEl,
       'change',
-      function (e) {
-        /*var value = this.getFieldValue();
-
-        this.timezone = this.getSelectedTimezone(timezoneEl);
-        this._setValue(value, this.timezone);
-        this.form.updateModel(this.id, value);*/
-        this.form.updateModel(this.altId, this.altEl.value);
+      function (e, context) {
+        context.form.setFocusedField(context);
       },
       altEl,
       this
@@ -621,7 +613,6 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
   },
 
   getValue: function () {
-      console.log(this.value);
       return this.value;
   },
 
