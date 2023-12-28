@@ -26,9 +26,9 @@ CStudioForms.Controls.imageWithAltText = CStudioForms.Controls.imageWithAltText 
     }
 
 YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormField, {
-  getLabel: function () {
-    return CMgs.format(langBundle, 'image');
-  },
+  getLabel: function() {
+    return "Image with Alt Text";
+} ,
 
   _onChange: function (evt, obj) {
     obj.value = obj.inputEl.value;
