@@ -225,7 +225,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     editEl.style.marginLeft = '5px';
     editEl.style.display = 'none';
 
-    containerEl.appendChild(editPEl);
+    containerEl.appendChild(editEl);
 
     for (var i = 0; i < config.properties.length; i++) {
       var prop = config.properties[i];
