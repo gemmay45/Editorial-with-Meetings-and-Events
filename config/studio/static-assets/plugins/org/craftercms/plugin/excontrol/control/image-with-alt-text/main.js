@@ -592,8 +592,7 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
   },
 
   getValue: function () {
-    console.log(this.value);
-    return this.value;
+     return this.value;
   },
 
   renderImageConstraints: function (containerEl) {
@@ -711,6 +710,8 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     this.value = value;
     this.remote = attribute === true ? true : false;
     this.inputEl.value = value;
+
+    this.inputEl.setAttribute('alt-list', this.altEl.value);
 
     var CMgs = CStudioAuthoring.Messages;
     var langBundle = CMgs.getBundle('contentTypes', CStudioAuthoringContext.lang);
