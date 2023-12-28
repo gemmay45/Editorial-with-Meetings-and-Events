@@ -476,7 +476,8 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     altEl.id = this.id + '-alt';
     altEl.disabled = false;
     altEl.value = this.escapeContent ? CStudioForms.Util.unEscapeXml(this.form.model[this.altId]) : this.form.model[this.altId];
-    if ((altEl.value == "undefined") || (altEl.value == ''))
+    if (altEl.value == "undefined") altEl.value = '';
+    if (altEl.value == '')
     {
       altEl.placeholder = '(' + this.fieldName + ' - Alt Text)';
     }
