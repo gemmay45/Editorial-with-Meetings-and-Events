@@ -209,6 +209,63 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>image-with-alt-text</type>
+					<id>logo2</id>
+					<iceId></iceId>
+					<title>Logo 2</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<plugin>
+						<pluginId>org.craftercms.plugin.excontrol</pluginId>
+						<type>control</type>
+						<name>image-with-alt-text</name>
+						<filename>main.js</filename>
+					</plugin>
+					<properties>
+						<property>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>thumbnailHeight</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value></value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+					<additionalFields>
+						<id>logo2_alt</id>
+					</additionalFields>
+				</field>
 			</fields>
 		</section>
 	</sections>
