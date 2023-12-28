@@ -468,10 +468,15 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
 
     ctrlOptionsEl.appendChild(delEl);
 
+    var alt = YDom.get(this.id + '_alt')
     var altEl = document.createElement('input');
     this.altEl = altEl;
     altEl.disabled = false;
-    altEl.placeholder = '(Alt Text)';
+    if (alt == '')
+    {
+      altEl.placeholder = '(Alt Text)';
+    }
+    altEl.value = alt;
     YAHOO.util.Dom.addClass(altEl, 'datum cstudio-form-control-input');
     altEl.style.marginBottom = '5px';
     controlWidgetContainerEl.appendChild(altEl);
