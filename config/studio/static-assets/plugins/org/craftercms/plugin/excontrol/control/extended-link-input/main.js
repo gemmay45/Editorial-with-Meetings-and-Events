@@ -198,12 +198,12 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     var editEl = document.createElement('input');
     this.editEl = editEl;
-    YAHOO.util.Dom.addClass(editEl, 'btn btn-default btn-sm edit');
+    YAHOO.util.Dom.addClass(editEl, 'btn btn-default btn-sm cstudio-button');
     editEl.type = 'button';
     editEl.value = 'Edit';
     editEl.style.padding = '1px 5px';
     editEl.style.marginLeft = '5px';
-    editEl.style.display = 'inline';
+    editEl.style.minWidth = '0px';
 
     containerEl.appendChild(editEl);
 
