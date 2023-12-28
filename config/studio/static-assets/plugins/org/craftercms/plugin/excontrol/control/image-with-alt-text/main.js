@@ -6,6 +6,7 @@ CStudioForms.Controls.imageWithAltText = CStudioForms.Controls.imageWithAltText 
       this.properties = properties;
       this.constraints = constraints;
       this.inputEl = null;
+      this.id = id;
       this.altEl = '';
       this.altId = this.id + '_alt';
       this.required = false;
