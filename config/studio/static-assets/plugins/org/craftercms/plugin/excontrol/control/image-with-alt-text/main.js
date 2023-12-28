@@ -472,7 +472,7 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     altEl.id = this.id + '-alt';
     altEl.disabled = false;
     /*altEl.placeholder = '(Alt Text)';*/
-    altEl.value = this.escapeContent ? CStudioForms.Util.unEscapeXml(this.form.model.logo_alt) : this.form.model.logo_alt;
+    altEl.value = this.escapeContent ? CStudioForms.Util.unEscapeXml(this.form.model.logo2_alt) : this.form.model.logo2_alt;
     this.altEl = altEl;
 
     YAHOO.util.Dom.addClass(altEl, 'datum cstudio-form-control-input');
