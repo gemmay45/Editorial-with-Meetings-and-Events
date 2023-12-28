@@ -217,8 +217,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Event.on(inputEl, 'blur', this._onChange, this);
 
     var editEl = document.createElement('input');
-    this.editEl = editPositionEl;
-    YAHOO.util.Dom.addClass(editPositionEl, 'btn btn-default btn-sm edit');
+    this.editEl = editEl;
+    YAHOO.util.Dom.addClass(editEl, 'btn btn-default btn-sm edit');
     editEl.type = 'button';
     editEl.value = 'Edit Position';
     editEl.style.padding = '1px 5px';
