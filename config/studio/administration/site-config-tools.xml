@@ -88,7 +88,7 @@
                         <filename>main.js</filename>
                     </plugin>
                     <icon>
-                        <class>fa-external-link</class>
+                        <class>fa-link</class>
                     </icon>
                 </control>
                 <control>
