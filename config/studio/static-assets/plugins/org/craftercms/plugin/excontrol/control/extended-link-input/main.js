@@ -14,8 +14,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-CStudioForms.Controls.ExtendedLinkInput =
-  CStudioForms.Controls.ExtendedLinkInput ||
+CStudioForms.Controls.extendedLinkInput =
+  CStudioForms.Controls.extendedLinkInput ||
   function (id, form, owner, properties, constraints, readonly) {
     this.owner = owner;
     this.owner.registerField(this);
@@ -34,7 +34,7 @@ CStudioForms.Controls.ExtendedLinkInput =
     return this;
   };
 
-YAHOO.extend(CStudioForms.Controls.ExtendedLinkInput, CStudioForms.CStudioFormField, {
+YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormField, {
   getLabel: function () {
     return "Extended Link Input";
   },
@@ -318,4 +318,4 @@ YAHOO.extend(CStudioForms.Controls.ExtendedLinkInput, CStudioForms.CStudioFormFi
   }
 });
 
-CStudioAuthoring.Module.moduleLoaded('cstudio-forms-controls-link-input', CStudioForms.Controls.ExtendedLinkInput);
+CStudioAuthoring.Module.moduleLoaded('extended-link-input', CStudioForms.Controls.extendedLinkInput);
