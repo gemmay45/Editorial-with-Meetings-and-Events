@@ -205,7 +205,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     editEl.style.marginLeft = '5px';
     editEl.style.minWidth = '0px';
 
-    containerEl.appendChild(editEl);
+    controlWidgetContainerEl.appendChild(editEl);
 
     var inputEl = document.createElement('input');
     this.inputEl = inputEl;
