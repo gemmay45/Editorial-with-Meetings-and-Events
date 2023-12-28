@@ -592,6 +592,7 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
   },
 
   getValue: function () {
+    console.log(this.value);
     return this.value;
   },
 
