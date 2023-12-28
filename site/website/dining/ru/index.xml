@@ -59,18 +59,18 @@
 	<internal-name>New Intro Card with Logo</internal-name>
 	<file-name>41b64a79-fdd3-4a13-bee8-36e3d6a36720.xml</file-name>
 	<createdDate_dt>2023-12-09T13:36:32.938Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-12-28T05:39:29.963Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-12-28T05:40:18.204Z</lastModifiedDate_dt>
 	<objectId>41b64a79-fdd3-4a13-bee8-36e3d6a36720</objectId>
 	<logo_s>/static-assets/images/nina/dining/ru/221228_ru-logo_180x128.png</logo_s>
 	<bodyContent_html>&lt;p&gt;R&amp;Uacute; celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours. Sharing the same commitment to sustainability with our parent company Chinachem Group, ingredients are sourced locally and prepared authentically as an ode to the preservation of our environment and culture. The exquisite interior design pampers diners in a sophisticated ambience. With impeccable service that surprises and delights our guests, we transform a superior dining experience into a feast to remember.&lt;/p&gt;</bodyContent_html>
 	<folder-name/>
 	<createdDate>2023-12-09T13:36:32.938Z</createdDate>
-	<lastModifiedDate>2023-12-28T05:39:29.963Z</lastModifiedDate>
+	<lastModifiedDate>2023-12-28T05:40:18.204Z</lastModifiedDate>
 	<logo2>/static-assets/images/nina/dining/cafe-circles/tww_cafecircles_food.jpg</logo2>
 	<num_i>123</num_i>
 	<time_to>03:34:14</time_to>
 	<time_to_tz>Asia/Hong_Kong</time_to_tz>
-	<logo2_alt>Test Alt 3</logo2_alt>
+	<logo2_alt>Test Alt 5</logo2_alt>
 	<link/>
 </component>
 	</item>	<item inline="true">	<key>99b72113-56d4-4475-8227-d2cbb54279d8</key>
@@ -206,8 +206,8 @@
 	<relatedOffers_o item-list="true"/>
 	<createdDate>2023-12-08T13:39:56.453Z</createdDate>
 	<createdDate_dt>2023-12-08T13:39:56.453Z</createdDate_dt>
-	<lastModifiedDate>2023-12-28T05:39:28.864Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-12-28T05:39:28.864Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-12-28T05:40:17.089Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-12-28T05:40:17.089Z</lastModifiedDate_dt>
 	<teaserImage_s>/static-assets/images/nina/dining/ru/221223_new-ru_group-shot_500x500.jpg</teaserImage_s>
 	<name_s>RÚ</name_s>
 	<teaserDescription_html>&lt;p&gt;R&amp;Uacute; celebrates authentic Chinese culinary arts in tasteful modern elegance. Reimagined by our master chefs, classic Cantonese specialities are turned into award-winning dishes with vibrant seasonal flavours.&lt;/p&gt;</teaserDescription_html>
