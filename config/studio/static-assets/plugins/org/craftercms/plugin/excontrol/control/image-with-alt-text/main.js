@@ -324,6 +324,7 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     if (this.inputEl.value !== '') {
       this.inputEl.value = '';
       this.altEl.value = '';
+      this.altEl.placeholder = '(Alt Text)';
       this.urlEl.innerHTML = '';
       this.previewEl.style.display = 'none';
       this.previewEl.src = '';
