@@ -223,9 +223,9 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     editEl.value = 'Edit Position';
     editEl.style.padding = '1px 5px';
     editEl.style.marginLeft = '5px';
-    editEl.style.display = 'none';
+    editEl.style.display = 'inline';
 
-    containerEl.appendChild(editEl);
+    controlWidgetContainerEl.appendChild(editEl);
 
     for (var i = 0; i < config.properties.length; i++) {
       var prop = config.properties[i];
