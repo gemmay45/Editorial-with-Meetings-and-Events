@@ -200,7 +200,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     this.editEl = editEl;
     YAHOO.util.Dom.addClass(editEl, 'btn btn-default btn-sm edit');
     editEl.type = 'button';
-    editEl.value = 'Edit Position';
+    editEl.value = 'Edit';
     editEl.style.padding = '1px 5px';
     editEl.style.marginLeft = '5px';
     editEl.style.display = 'inline';
