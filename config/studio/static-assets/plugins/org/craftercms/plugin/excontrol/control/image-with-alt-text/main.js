@@ -23,6 +23,7 @@ CStudioForms.Controls.imageWithAltText = CStudioForms.Controls.imageWithAltText 
       this.previewBoxHeight = 100;
       this.previewBoxWidth = 300;
       this.external = null;
+      this.fieldName = '';
       this.supportedPostFixes = ['_s'];
 
       return this;
@@ -324,7 +325,7 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     if (this.inputEl.value !== '') {
       this.inputEl.value = '';
       this.altEl.value = '';
-      this.altEl.placeholder = '(Alt Text)';
+      this.altEl.placeholder = '(' + this.fieldName + ' - Alt Text)';
       this.urlEl.innerHTML = '';
       this.previewEl.style.display = 'none';
       this.previewEl.src = '';
@@ -362,6 +363,8 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
 
     YAHOO.util.Dom.addClass(titleEl, 'cstudio-form-field-title');
     titleEl.textContent = config.title;
+
+    this.fieldName = titleEl.textContent;
 
     var controlWidgetContainerEl = document.createElement('div');
     YAHOO.util.Dom.addClass(controlWidgetContainerEl, 'cstudio-form-control-image-picker-container');
@@ -472,11 +475,10 @@ YAHOO.extend(CStudioForms.Controls.imageWithAltText, CStudioForms.CStudioFormFie
     var altEl = document.createElement('input');
     altEl.id = this.id + '-alt';
     altEl.disabled = false;
-    /*altEl.placeholder = '(Alt Text)';*/
     altEl.value = this.escapeContent ? CStudioForms.Util.unEscapeXml(this.form.model[this.altId]) : this.form.model[this.altId];
     if (altEl.value == '')
     {
-      altEl.placeholder = '(Alt Text)';
+      altEl.placeholder = '(' + this.fieldName + ' - Alt Text)';
     }
     this.altEl = altEl;
 
