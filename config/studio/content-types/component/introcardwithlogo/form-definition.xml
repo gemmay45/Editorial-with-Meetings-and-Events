@@ -213,7 +213,7 @@
 					<type>image-with-alt-text</type>
 					<id>logo2</id>
 					<iceId></iceId>
-					<title>Logo2</title>
+					<title>logo2</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -246,7 +246,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value>uploadImages,existingImages</value>
+							<value></value>
 							<type>datasource:image</type>
 						</property>
 						<property>
