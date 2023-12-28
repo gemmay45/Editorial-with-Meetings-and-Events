@@ -124,6 +124,17 @@
                     </icon>
                 </control>
                 <control>
+                    <plugin>
+                        <pluginId>org.craftercms.plugin.excontrol</pluginId>
+                        <type>control</type>
+                        <name>image-with-alt-text</name>
+                        <filename>main.js</filename>
+                    </plugin>
+                    <icon>
+                        <class>fa-picture-o</class>
+                    </icon>
+                </control>
+                <control>
                     <name>video-picker</name>
                     <icon>
                         <class>fa-video-camera</class>
@@ -170,17 +181,6 @@
                     <name>locale-selector</name>
                     <icon>
                         <class>fa-globe</class>
-                    </icon>
-                </control>
-                <control>
-                    <plugin>
-                        <pluginId>org.craftercms.plugin.excontrol</pluginId>
-                        <type>control</type>
-                        <name>image-with-alt-text</name>
-                        <filename>main.js</filename>
-                    </plugin>
-                    <icon>
-                        <class>fa-picture-o</class>
                     </icon>
                 </control>
                 <control>
