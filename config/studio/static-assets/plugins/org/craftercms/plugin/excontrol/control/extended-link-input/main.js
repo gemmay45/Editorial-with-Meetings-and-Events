@@ -341,6 +341,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YDom.removeClass('cstudio-wcm-popup-div', 'yui-pe-content');
 
     var newdiv = YDom.get('cstudio-wcm-popup-div');
+    
     if (newdiv == undefined) {
       newdiv = document.createElement('div');
       document.body.appendChild(newdiv);
@@ -349,7 +350,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var divIdName = 'cstudio-wcm-popup-div';
     newdiv.setAttribute('id', divIdName);
     newdiv.className = 'yui-pe-content video-dialog';
-    var url = ''; /*!this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value;*/
+    /*
+    var url = !this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value;
 
     newdiv.innerHTML =
       '<embed src="' +
@@ -357,7 +359,9 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       '" width="500px" height="500px"></embed>' +
       '<input type="button" class="zoom-button btn btn-primary cstudio-form-control-asset-picker-zoom-cancel-button" id="zoomCancelButton" value="Close"/>' +
       '<input type="button" class="zoom-button btn btn-primary cstudio-form-control-asset-picker-zoom-full-button" id="zoomFullButton" value="Full"/>';
-
+    
+    */
+   
     // Instantiate the Dialog
     upload_dialog = new YAHOO.widget.Dialog('cstudio-wcm-popup-div', {
       fixedcenter: true,
