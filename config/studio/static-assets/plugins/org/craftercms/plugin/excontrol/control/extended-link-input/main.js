@@ -196,9 +196,9 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Dom.addClass(validEl, 'cstudio-form-control-validation fa fa-check');
     controlWidgetContainerEl.appendChild(validEl);
 
-    var inputDivEl = document.createElement('div');
-    YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-filename-edit');
-    controlWidgetContainerEl.appendChild(inputDivEl);
+    var editDivEl = document.createElement('div');
+    YAHOO.util.Dom.addClass(editDivEl, 'cstudio-form-control-filename-edit');
+    controlWidgetContainerEl.appendChild(editDivEl);
     
     var editEl = document.createElement('input');
     this.editEl = editEl;
@@ -209,7 +209,11 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     editEl.style.marginLeft = '5px';
     editEl.style.minWidth = '0px';
 
-    inputDivEl.appendChild(editEl);
+    editDivEl.appendChild(editEl);
+
+    var inputDivEl = document.createElement('div');
+    YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-input-container no-wrap input-wrapper disabled');
+    controlWidgetContainerEl.appendChild(inputDivEl);
 
     var inputEl = document.createElement('input');
     this.inputEl = inputEl;
@@ -217,7 +221,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     this.inputEl.maxlength = 250;
     YAHOO.util.Dom.addClass(inputEl, 'cstudio-form-control-input-container no-wrap input-wrapper disabled');
     inputEl.value = (this.value = '_not-set') ? config.defaultValue : this.value;
-    controlWidgetContainerEl.appendChild(inputEl);
+    inputDivEl.appendChild(inputEl);
 
     YAHOO.util.Event.on(
       inputEl,
