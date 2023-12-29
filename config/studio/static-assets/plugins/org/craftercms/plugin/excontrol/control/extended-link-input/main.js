@@ -212,7 +212,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     editDivEl.appendChild(editEl);
 
     var inputContainerDivEl = document.createElement('div');
-    YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-input-container no-wrap input-wrapper disabled');
+    YAHOO.util.Dom.addClass(inputContainerDivEl, 'cstudio-form-control-input-container no-wrap input-wrapper disabled');
     controlWidgetContainerEl.appendChild(inputContainerDivEl);
 
     var inputDivEl = document.createElement('div');
