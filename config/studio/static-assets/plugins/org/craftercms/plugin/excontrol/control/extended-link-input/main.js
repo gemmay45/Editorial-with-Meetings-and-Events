@@ -393,7 +393,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     // Render the Dialog
     upload_dialog.render();
-    YAHOO.util.Event.addListener('zoomCancelButton', 'click', this.uploadPopupCancel, this, true);
+    YAHOO.util.Event.addListener('dndCancelButton', 'click', this.uploadPopupCancel, this, true);
     YAHOO.util.Event.addListener(
       'zoomFullButton',
       'click',
@@ -408,6 +408,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     upload_dialog.element.style.setProperty('z-index', '1040', 'important');
     upload_dialog.mask.style.zIndex = '1030';
+  },
+
+  uploadPopupCancel: function (event) {
+    this.upload_dialog.destroy();
   },
 
   showEditLinkDialog: function () {
