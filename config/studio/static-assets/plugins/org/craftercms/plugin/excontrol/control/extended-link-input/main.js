@@ -196,6 +196,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Dom.addClass(validEl, 'cstudio-form-control-validation fa fa-check');
     controlWidgetContainerEl.appendChild(validEl);
 
+    var inputDivEl = document.createElement('div');
+    YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-filename-edit');
+    controlWidgetContainerEl.appendChild(inputDivEl);
+    
     var editEl = document.createElement('input');
     this.editEl = editEl;
     YAHOO.util.Dom.addClass(editEl, 'btn btn-default btn-sm cstudio-button');
@@ -205,12 +209,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     editEl.style.marginLeft = '5px';
     editEl.style.minWidth = '0px';
 
-    controlWidgetContainerEl.appendChild(editEl);
+    inputDivEl.appendChild(editEl);
 
-    var inputDivEl = document.createElement('div');
-    YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-filename-edit');
-    controlWidgetContainerEl.appendChild(inputDivEl);
-    
     var inputEl = document.createElement('input');
     this.inputEl = inputEl;
     this.inputEl.disabled = true;
