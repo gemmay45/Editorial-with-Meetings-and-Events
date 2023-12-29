@@ -188,14 +188,16 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Dom.addClass(titleEl, 'cstudio-form-field-title');
     titleEl.textContent = config.title;
 
+    var controlWidgetContainerEl = document.createElement('div');
+    
     var validEl = document.createElement('span');
     YAHOO.util.Dom.addClass(validEl, 'validation-hint');
     YAHOO.util.Dom.addClass(validEl, 'cstudio-form-control-validation fa fa-check');
-    containerEl.appendChild(validEl);
+    controlWidgetContainerEl.appendChild(validEl);
 
     var editDivEl = document.createElement('div');
     YAHOO.util.Dom.addClass(editDivEl, 'cstudio-form-control-filename-edit');
-    containerEl.appendChild(editDivEl);
+    controlWidgetContainerEl.appendChild(editDivEl);
     
     var editEl = document.createElement('input');
     this.editEl = editEl;
@@ -210,7 +212,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     var inputContainerDivEl = document.createElement('div');
     YAHOO.util.Dom.addClass(inputContainerDivEl, 'cstudio-form-control-input-container no-wrap input-wrapper disabled');
-    containerEl.appendChild(inputContainerDivEl);
+    controlWidgetContainerEl.appendChild(inputContainerDivEl);
 
     var inputDivEl = document.createElement('div');
     YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-file-name-container');
@@ -274,7 +276,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Event.on(inputEl, 'mouseup', this.count, countEl);
     */
 
-    this.renderHelp(config, containerEl);
+    this.renderHelp(config, controlWidgetContainerEl);
 
     /*
     var descriptionEl = document.createElement('span');
