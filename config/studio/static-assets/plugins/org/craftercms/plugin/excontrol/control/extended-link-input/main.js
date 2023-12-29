@@ -353,7 +353,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     newdiv.setAttribute('class', 'tox tox-silver-sink tox-tinymce-aux yui-panel-container');
     
     newdiv.innerHTML =
-      '<div id="panel1" class="yui-module yui-overlay yui-panel mui-126xj0f" style="visibility: inherit;width: 480px; z-index:1050">' +
+      '<div id="panel1" class="yui-module yui-overlay yui-panel mui-126xj0f" style="visibility: inherit;width: 480px;">' +
       '<div role="dialog" aria-modal="true" tabindex="-1" class="tox-dialogX" aria-labelledby="dialog-label_362831062241703822078255" aria-describedby="dialog-describe_8249867402251703822078255" style="position: relative;">' +
       '<div class="wrapper" style="margin:25px">' + 
       '<div class="tox-formX">' +
@@ -404,6 +404,9 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     );
     this.upload_dialog = upload_dialog;
     upload_dialog.show();
+
+    upload_dialog.element.style.setProperty('z-index', '1040', 'important');
+    upload_dialog.mask.style.zIndex = '1030';
   },
 
   showEditLinkDialog: function () {
