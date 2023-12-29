@@ -358,7 +358,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
   
 
     // Instantiate the Dialog
-    upload_dialog = new YAHOO.widget.Dialog('cstudio-wcm-popup-div', {
+    upload_dialog = new YAHOO.widget.Dialog('tox-dialog', {
       fixedcenter: true,
       visible: false,
       modal: true,
