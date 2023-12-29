@@ -410,14 +410,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     upload_dialog.mask.style.zIndex = '1030';
   },
 
-  /*YAHOO.util.Event.addListener('dndOKButton', 'click', function () {
-    onDnDsubmitClick();
-  });*/
-
-  YAHOO.util.Event.addListener('dndCancelButton', 'click', function () {
-    this.upload_dialog.destroy();
-  });
-
   showEditLinkDialog: function () {
     var CMgs = CStudioAuthoring.Messages;
     var langBundle = CMgs.getBundle('forms', CStudioAuthoringContext.lang);
