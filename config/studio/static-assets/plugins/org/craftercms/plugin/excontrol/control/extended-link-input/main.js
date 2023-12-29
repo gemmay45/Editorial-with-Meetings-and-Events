@@ -203,7 +203,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     this.editEl = editEl;
     YAHOO.util.Dom.addClass(editEl, 'btn btn-default btn-sm cstudio-button');
     editEl.type = 'button';
-    editEl.value = 'Edit';
+    editEl.value = 'Insert Link';
     editEl.style.padding = '1px 5px';
     editEl.style.marginLeft = '5px';
     editEl.style.minWidth = '0px';
@@ -289,7 +289,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     containerEl.appendChild(controlWidgetContainerEl);
     /*containerEl.appendChild(descriptionEl);*/
 
-    YAHOO.util.Event.addListener(editEl, 'click', this.showEditLinkDialog, this, true);
+    YAHOO.util.Event.addListener(editEl, 'click', this.createDialog, this, true);
   },
 
   getValue: function () {
@@ -332,6 +332,61 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       { label: CMgs.format(langBundle, 'required'), name: 'required', type: 'boolean' },
       { label: CMgs.format(langBundle, 'matchPattern'), name: 'pattern', type: 'string' }
     ];
+  },
+
+  /**
+   * create dialog
+   */
+  createDialog: function () {
+    YDom.removeClass('cstudio-wcm-popup-div', 'yui-pe-content');
+
+    var newdiv = YDom.get('cstudio-wcm-popup-div');
+    if (newdiv == undefined) {
+      newdiv = document.createElement('div');
+      document.body.appendChild(newdiv);
+    }
+
+    var divIdName = 'cstudio-wcm-popup-div';
+    newdiv.setAttribute('id', divIdName);
+    newdiv.className = 'yui-pe-content video-dialog';
+    var url = !this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value;
+
+    newdiv.innerHTML =
+      '<embed src="' +
+      url +
+      '" width="500px" height="500px"></embed>' +
+      '<input type="button" class="zoom-button btn btn-primary cstudio-form-control-asset-picker-zoom-cancel-button" id="zoomCancelButton" value="Close"/>' +
+      '<input type="button" class="zoom-button btn btn-primary cstudio-form-control-asset-picker-zoom-full-button" id="zoomFullButton" value="Full"/>';
+
+    // Instantiate the Dialog
+    upload_dialog = new YAHOO.widget.Dialog('cstudio-wcm-popup-div', {
+      fixedcenter: true,
+      visible: false,
+      modal: true,
+      close: true,
+      constraintoviewport: true,
+      underlay: 'none',
+      keylisteners: new YAHOO.util.KeyListener(
+        document,
+        { ctrl: false, keys: 27 },
+        { fn: this.uploadPopupCancel, correctScope: true }
+      )
+    });
+
+    // Render the Dialog
+    upload_dialog.render();
+    YAHOO.util.Event.addListener('zoomCancelButton', 'click', this.uploadPopupCancel, this, true);
+    YAHOO.util.Event.addListener(
+      'zoomFullButton',
+      'click',
+      function () {
+        this.fullImageTab(!this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value);
+      },
+      this,
+      true
+    );
+    this.upload_dialog = upload_dialog;
+    upload_dialog.show();
   },
 
   showEditLinkDialog: function () {
