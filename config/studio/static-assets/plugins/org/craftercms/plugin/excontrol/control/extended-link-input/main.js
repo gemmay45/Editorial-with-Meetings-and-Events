@@ -399,7 +399,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       'click',
       function () {
         var url = document.getElementById('form-field_591596152161703822078253');
-        this.inputEl = url.value;
+        this.inputEl.value = url.value;
+        this.upload_dialog.destroy();
         /*this.fullImageTab(!this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value);*/
       },
       this,
