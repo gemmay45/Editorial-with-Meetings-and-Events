@@ -349,7 +349,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var divIdName = 'cstudio-wcm-popup-div';
     newdiv.setAttribute('id', divIdName);
     newdiv.className = 'yui-pe-content video-dialog';
-    var url = !this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value;
+    var url = ''; /*!this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value;*/
 
     newdiv.innerHTML =
       '<embed src="' +
