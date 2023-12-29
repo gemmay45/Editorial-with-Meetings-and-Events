@@ -363,7 +363,7 @@
 					<properties>
 						<property>
 							<name>videoManager</name>
-							<value></value>
+							<value>s3Transcode</value>
 							<type>datasource:transcoded-video</type>
 						</property>
 						<property>
@@ -411,6 +411,24 @@
 							<name>useSearch</name>
 							<value>false</value>
 								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>video-S3-transcoding</type>
+					<id>s3Transcode</id>
+					<title>S3Transcode</title>
+					<interface>transcoded-video</interface>
+					<properties>
+						<property>
+							<name>inputProfileId</name>
+							<value></value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>outputProfileId</name>
+							<value></value>
+								<type>string</type>
 						</property>
 					</properties>
 				</datasource>
