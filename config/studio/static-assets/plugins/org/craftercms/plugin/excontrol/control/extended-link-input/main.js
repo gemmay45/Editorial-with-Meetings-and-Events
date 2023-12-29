@@ -273,6 +273,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     containerEl.appendChild(titleEl);
     containerEl.appendChild(controlWidgetContainerEl);
     containerEl.appendChild(descriptionEl);
+
+    YAHOO.util.Event.addListener(editEl, 'click', this.showEditLinkDialog, this, true);
   },
 
   getValue: function () {
@@ -315,6 +317,65 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       { label: CMgs.format(langBundle, 'required'), name: 'required', type: 'boolean' },
       { label: CMgs.format(langBundle, 'matchPattern'), name: 'pattern', type: 'string' }
     ];
+  },
+
+  showEditLinkDialog: function () {
+    var CMgs = CStudioAuthoring.Messages;
+    var langBundle = CMgs.getBundle('forms', CStudioAuthoringContext.lang);
+    // Disable Edit button to not allow double clicks
+    this.editEl.disabled = true;
+
+    var query = location.search.substring(1);
+    var thisPage = CStudioAuthoring.Utils.getQueryVariable(query, 'path');
+    var order = 'default';
+
+    var callback = {
+      success: function (contentTypes) {
+        var query = location.search.substring(1);
+        var currentPath = CStudioAuthoring.Utils.getQueryVariable(query, 'path');
+        var contentTypeSize = contentTypes.order.length;
+
+        var pageFound = 'false';
+        for (var i = 0; i < contentTypeSize; i++) {
+          var orderId = contentTypes.order[i].id;
+
+          if (orderId == currentPath) {
+            contentTypes.order[i].internalName = CMgs.format(langBundle, 'currentPage');
+            contentTypes.order[i].order = this.parentControl.orderValue;
+            pageFound = 'true';
+            break;
+          }
+        }
+
+        if (pageFound == 'false') {
+          contentTypes.order.push({
+            id: currentPath,
+            order: this.parentControl.orderValue,
+            internalName: CMgs.format(langBundle, 'currentPage'),
+            name: CMgs.format(langBundle, 'currentPage')
+          });
+        }
+
+        panelId = 'panel1';
+        CStudioAuthoring.Service.reorderServiceCreatePanel(
+          panelId,
+          contentTypes,
+          CStudioAuthoringContext.site,
+          this.parentControl
+        );
+        // Enable Edit button
+        this.parentControl.editEl.disabled = false;
+      },
+
+      failure: function () {
+        // Enable Edit button
+        this.parentControl.editEl.disabled = false;
+      }
+    };
+    callback.parentControl = this;
+
+    CStudioAuthoring.Service.getOrderServiceRequest(CStudioAuthoringContext.site, thisPage, order, callback);
+    this.editEl.disabled = false;
   }
 });
 
