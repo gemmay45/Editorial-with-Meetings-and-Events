@@ -398,8 +398,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       'dndInsertButton',
       'click',
       function () {
-        var contentTypesSelectEl = document.getElementById('form-field_591596152161703822078253');
-        console.log(contentTypesSelectEl.value);
+        var url = document.getElementById('form-field_591596152161703822078253');
+        this.inputEl = url.value;
         /*this.fullImageTab(!this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value);*/
       },
       this,
