@@ -356,8 +356,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       '<div id="panel1" class="yui-module yui-overlay yui-panel" style="visibility: inherit;width: 480px; ">' +
       '<div role="dialog" aria-modal="true" tabindex="-1" class="tox-dialogX" aria-labelledby="dialog-label_362831062241703822078255" aria-describedby="dialog-describe_8249867402251703822078255" style="position: relative;">' +
       '<div class="wrapper" style="margin:25px">' + 
-      '<div class="tox-form">' +
-      '<div class="tox-form__group" aria-disabled="false">' +
+      '<div class="tox-formX">' +
+      '<div class="tox-form__groupX" aria-disabled="false">' +
       '<label class="tox-label" for="form-field_591596152161703822078253">URL</label>' +
       '<div class="tox-form__controls-h-stack">' +
       '<div class="tox-control-wrap" aria-disabled="false">' +
