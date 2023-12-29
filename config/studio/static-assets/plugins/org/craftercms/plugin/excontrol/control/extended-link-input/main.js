@@ -24,7 +24,7 @@ CStudioForms.Controls.extendedLinkInput =
     this.constraints = constraints;
     this.inputEl = null;
     this.patternErrEl = null;
-    this.countEl = null;
+    /*this.countEl = null;*/
     this.required = false;
     this.value = '_not-set';
     this.form = form;
@@ -135,7 +135,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
    * @param evt event
    * @param el element
    */
-  count: function (evt, countEl, el) {
+  /*count: function (evt, countEl, el) {
     // 'this' is the input box
     el = el ? el : this;
     var text = el.value;
@@ -176,7 +176,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     } else {
       countEl.innerHTML = charCount;
     }
-  },
+  },*/
 
   render: function (config, containerEl) {
     // we need to make the general layout of a control inherit from common
@@ -207,6 +207,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     controlWidgetContainerEl.appendChild(editEl);
 
+    var inputDivEl = document.createElement('div');
+    YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-filename-edit');
+    controlWidgetContainerEl.appendChild(inputDivEl);
+    
     var inputEl = document.createElement('input');
     this.inputEl = inputEl;
     this.inputEl.disabled = true;
@@ -247,7 +251,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       inputEl.disabled = true;
     }*/
 
-    var countEl = document.createElement('div');
+    /*var countEl = document.createElement('div');
     YAHOO.util.Dom.addClass(countEl, 'char-count');
     YAHOO.util.Dom.addClass(countEl, 'cstudio-form-control-input-count');
     controlWidgetContainerEl.appendChild(countEl);
@@ -262,17 +266,20 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Event.on(inputEl, 'keyup', this.count, countEl);
     YAHOO.util.Event.on(inputEl, 'keypress', this.count, countEl);
     YAHOO.util.Event.on(inputEl, 'mouseup', this.count, countEl);
+    */
 
     this.renderHelp(config, controlWidgetContainerEl);
 
+    /*
     var descriptionEl = document.createElement('span');
     YAHOO.util.Dom.addClass(descriptionEl, 'description');
     YAHOO.util.Dom.addClass(descriptionEl, 'cstudio-form-field-description');
     descriptionEl.textContent = config.description;
+    */
 
     containerEl.appendChild(titleEl);
     containerEl.appendChild(controlWidgetContainerEl);
-    containerEl.appendChild(descriptionEl);
+    /*containerEl.appendChild(descriptionEl);*/
 
     YAHOO.util.Event.addListener(editEl, 'click', this.showEditLinkDialog, this, true);
   },
@@ -284,7 +291,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
   setValue: function (value) {
     this.value = value;
     this.inputEl.value = value;
-    this.count(null, this.countEl, this.inputEl);
+    /*this.count(null, this.countEl, this.inputEl);*/
     this._onChange(null, this);
     this.edited = false;
   },
