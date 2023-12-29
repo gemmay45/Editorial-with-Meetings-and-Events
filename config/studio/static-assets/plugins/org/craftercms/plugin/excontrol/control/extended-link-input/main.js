@@ -365,12 +365,12 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       modal: true,
       close: true,
       constraintoviewport: true,
-      underlay: 'none',
+      underlay: 'none'/*,
       keylisteners: new YAHOO.util.KeyListener(
         document,
         { ctrl: false, keys: 27 },
         { fn: this.uploadPopupCancel, correctScope: true }
-      )
+      )*/
     });
 
     // Render the Dialog
