@@ -189,7 +189,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     titleEl.textContent = config.title;
 
     var controlWidgetContainerEl = document.createElement('div');
-    YAHOO.util.Dom.addClass(controlWidgetContainerEl, 'cstudio-form-control-link-input-container');
+    YAHOO.util.Dom.addClass(controlWidgetContainerEl, 'cstudio-form-control-file-name-container');
 
     var validEl = document.createElement('span');
     YAHOO.util.Dom.addClass(validEl, 'validation-hint');
@@ -211,15 +211,20 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     editDivEl.appendChild(editEl);
 
-    var inputDivEl = document.createElement('div');
+    var inputContainerDivEl = document.createElement('div');
     YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-input-container no-wrap input-wrapper disabled');
-    controlWidgetContainerEl.appendChild(inputDivEl);
+    controlWidgetContainerEl.appendChild(inputContainerDivEl);
+
+    var inputDivEl = document.createElement('div');
+    YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-file-name-container');
+    inputContainerDivEl.appendChild(inputDivEl);
 
     var inputEl = document.createElement('input');
     this.inputEl = inputEl;
     this.inputEl.disabled = true;
     this.inputEl.maxlength = 250;
-    YAHOO.util.Dom.addClass(inputEl, 'cstudio-form-control-input-container no-wrap input-wrapper disabled');
+    YAHOO.util.Dom.addClass(inputEl, 'datum');
+    YAHOO.util.Dom.addClass(inputEl, 'cstudio-form-control-input cstudio-form-control-file-name');
     inputEl.value = (this.value = '_not-set') ? config.defaultValue : this.value;
     inputDivEl.appendChild(inputEl);
 
