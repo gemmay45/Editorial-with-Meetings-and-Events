@@ -348,6 +348,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     }
 
     var divIdName = 'tox-dialog';
+    newdiv.setAttribute('id', divIdName);
     newdiv.setAttribute('style', 'position: relative;');
     newdiv.className = 'tox-dialog';
     
