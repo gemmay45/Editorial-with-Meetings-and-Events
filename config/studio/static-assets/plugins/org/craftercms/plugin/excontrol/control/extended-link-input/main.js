@@ -354,7 +354,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     newdiv.setAttribute('class', 'tox');
     
     newdiv.innerHTML =
-      '<div id="panel1" class="tox yui-module yui-overlay yui-panel" style="visibility: inherit;width: 480px;">' +
+      '<div id="panel1" style="visibility: inherit;width: 480px;">' +
       '<div role="dialog" aria-modal="true" tabindex="-1" class="tox-dialogX" aria-labelledby="dialog-label_362831062241703822078255" aria-describedby="dialog-describe_8249867402251703822078255" style="position: relative;">' +
       '<div class="wrapper" style="margin:25px">' + 
       '<div class="tox-formX">' +
