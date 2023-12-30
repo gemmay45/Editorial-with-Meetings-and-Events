@@ -356,7 +356,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     '<div class="wrapper" style="margin:25px">' + 
     '<div class="tox-formX">' +
     '<div class="tox-form__groupX" aria-disabled="false">' +
-    '<label class="tox-label" for="form-field_591596152161703822078253">URL</label>' +ß
+    '<label class="tox-label" for="form-field_591596152161703822078253">URL</label>' +
     '<div class="tox-form__controls-h-stack">' +
     '<div class="tox-control-wrap" aria-disabled="false">' +
     '<input type="url" aria-errormessage="aria-invalid_526777492591703822075552" role="combobox" aria-autocomplete="list" aria-haspopup="true" tabindex="-1" data-alloy-tabstop="true" class="tox-textfield" aria-expanded="false" id="form-field_591596152161703822078253">' +
