@@ -351,10 +351,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var divIdName = 'tox-dialog';
     newdiv.setAttribute('id', divIdName);
     newdiv.setAttribute('style', 'position: relative;');
-    newdiv.setAttribute('class', 'tox tox-silver-sink tox-tinymce-aux yui-panel-container');
+    newdiv.setAttribute('class', 'tox yui-panel-container');
     
     newdiv.innerHTML =
-      '<div id="panel1" class="yui-module yui-overlay yui-panel mui-126xj0f" style="visibility: inherit;width: 480px;">' +
+      '<div id="panel1" class="yui-module yui-overlay yui-panel" style="visibility: inherit;width: 480px;">' +
       '<div role="dialog" aria-modal="true" tabindex="-1" class="tox-dialogX" aria-labelledby="dialog-label_362831062241703822078255" aria-describedby="dialog-describe_8249867402251703822078255" style="position: relative;">' +
       '<div class="wrapper" style="margin:25px">' + 
       '<div class="tox-formX">' +
