@@ -351,7 +351,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var divIdName = 'tox-dialog';
     newdiv.setAttribute('id', divIdName);
     newdiv.setAttribute('style', 'position: relative;');
-    newdiv.setAttribute('class', 'tox yui-panel-container');
+    newdiv.setAttribute('class', 'tox');
     
     newdiv.innerHTML =
       '<div id="panel1" class="tox yui-module yui-overlay yui-panel" style="visibility: inherit;width: 480px;">' +
