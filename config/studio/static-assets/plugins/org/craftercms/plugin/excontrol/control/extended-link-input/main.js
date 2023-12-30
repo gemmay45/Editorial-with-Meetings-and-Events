@@ -404,7 +404,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
   
 
     // Instantiate the Dialog
-    upload_dialog = new YAHOO.widget.Dialog('tox-dialog', {
+    upload_dialog = new YAHOO.widget.Dialog('panel1_c', {
       fixedcenter: true,
       visible: false,
       modal: true,
