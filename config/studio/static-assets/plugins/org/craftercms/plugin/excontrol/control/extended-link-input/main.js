@@ -315,6 +315,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     var cb = {
       success: function (list) {
+        console.log("cb");
         keyValueList = list;
         var titleEl = document.createElement('span');
 
