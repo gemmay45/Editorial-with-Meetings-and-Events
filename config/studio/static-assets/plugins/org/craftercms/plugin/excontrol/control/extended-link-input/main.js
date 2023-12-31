@@ -182,6 +182,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
   },*/
 
   onDatasourceLoaded: function (data) {
+    console.log("***onDatasourceLoaded***");
     if (this.datasourceName === data.name && !this.datasource) {
       var datasource = this.form.datasourceMap[this.datasourceName];
       this.datasource = datasource;
