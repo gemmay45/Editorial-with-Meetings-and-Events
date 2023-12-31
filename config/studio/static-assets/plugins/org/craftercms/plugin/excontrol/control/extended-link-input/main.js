@@ -315,7 +315,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     var cb = {
       success: function (list) {
-        console.log("cb");
         keyValueList = list;
         var titleEl = document.createElement('span');
 
@@ -346,6 +345,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
           for (var j = 0; j < keyValueList.length; j++) {
             var item = keyValueList[j];
             var optionEl = document.createElement('option');
+            console.log("keyValueList");
             console.log(item.value);
             optionEl.text = item.value;
             optionEl.value = item.key;
@@ -392,8 +392,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     };
     
     var datasource = this.form.datasourceMap[this.datasourceName];
-    console.log("check ds");
-    console.log(datasource);
     if (datasource) {
       this.datasource = datasource;
       datasource.getList(cb);
