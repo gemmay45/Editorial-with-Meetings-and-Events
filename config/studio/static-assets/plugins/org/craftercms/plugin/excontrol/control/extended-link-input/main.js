@@ -32,7 +32,7 @@ CStudioForms.Controls.extendedLinkInput =
     this.id = id;
     this.readonly = readonly;
 
-    mplify.subscribe('/datasource/loaded', this, this.onDatasourceLoaded);
+    amplify.subscribe('/datasource/loaded', this, this.onDatasourceLoaded);
 
     return this;
   };
