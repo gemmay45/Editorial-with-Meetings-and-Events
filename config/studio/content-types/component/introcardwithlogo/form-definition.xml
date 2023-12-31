@@ -461,6 +461,39 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>dropdown</type>
+					<id>dD_s</id>
+					<iceId></iceId>
+					<title>DD</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>fileBrowse,filefromS3</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 	</sections>
