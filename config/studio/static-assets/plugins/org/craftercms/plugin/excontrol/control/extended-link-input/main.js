@@ -260,6 +260,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
           this.datasourceName = this.datasourceName.replace('["', '').replace('"]', '');
           console.log("datasource");
           console.log(this.datasourceName);
+          this.fileManagerName = prop.value && prop.Value != '' ? prop.value : null;
         }
       }
 
@@ -393,6 +394,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     };
     
     var datasourcesNames = '';
+    var fileManagerNames = this.fileManagerName;
 
     var datasourceMap = this.form.datasourceMap;
     var datasourceDef = this.form.definition.datasources;
