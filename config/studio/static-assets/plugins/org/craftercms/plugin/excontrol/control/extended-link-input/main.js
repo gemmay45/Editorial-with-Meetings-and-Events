@@ -254,7 +254,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     for (var i = 0; i < config.properties.length; i++) {
       var prop = config.properties[i];
 
-      if (prop.name == 'fileManager') {
+      if (prop.name == 'datasource') {
         this.fileManagerName = prop.value && prop.Value != '' ? prop.value : null;
         /*
         if (prop.value && prop.value != '') {
@@ -460,7 +460,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       },
       { label: CMgs.format(langBundle, 'readonly'), name: 'readonly', type: 'boolean' },
       { label: 'Tokenize for Indexing', name: 'tokenize', type: 'boolean', defaultValue: 'false' },
-      { label: CMgs.format(langBundle, 'File Manager'), name: 'fileManager', type: 'datasource:item' }
+      { label: CMgs.format(langBundle, 'File Manager'), name: 'datasource', type: 'datasource:item' }
     ];
   },
 
@@ -607,7 +607,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       }
     };
     datasourceDef.forEach(addMenuOption);
-    
+
     upload_dialog.show();
 
     upload_dialog.element.style.setProperty('z-index', '1040', 'important');
