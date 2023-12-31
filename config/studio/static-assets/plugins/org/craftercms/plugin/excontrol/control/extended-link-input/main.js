@@ -400,6 +400,13 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var datasourceDef = this.form.definition.datasources;
     var addFunction = this.addManagedFile;
 
+    if (fileManagerNames !== '') {
+      if (datasourcesNames !== '') {
+        datasourcesNames += ',';
+      }
+      datasourcesNames += fileManagerNames;
+    }
+
     var addMenuOption = function (el) {
       // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
       // would fail if a datasource id string is a substring of another datasource id)
