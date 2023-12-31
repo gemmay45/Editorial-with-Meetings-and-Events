@@ -252,7 +252,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     for (var i = 0; i < config.properties.length; i++) {
       var prop = config.properties[i];
-      console.log(prop.name);
 
       if (prop.name === 'fileManager') {
         if (prop.value && prop.value !== '') {
@@ -343,6 +342,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
           for (var j = 0; j < keyValueList.length; j++) {
             var item = keyValueList[j];
             var optionEl = document.createElement('option');
+            console.log(item.value);
             optionEl.text = item.value;
             optionEl.value = item.key;
             inputEl.add(optionEl);
