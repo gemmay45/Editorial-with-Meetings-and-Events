@@ -556,6 +556,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     var type = 'item';
     var addContainerEl;
+    var linkInputContainer = $('.tox-dialog')
 
     if (fileManagerNames !== '') {
       if (datasourcesNames !== '') {
@@ -570,7 +571,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       $('.cstudio-form-control-image-picker-add-container').remove();
     } else {
       addContainerEl = document.createElement('div');
-      tinyMCEContainer.append(addContainerEl);
+      linkInputContainer.append(addContainerEl);
       YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-form-control-image-picker-add-container');
       YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-tinymce');
       this.addContainerEl = addContainerEl;
