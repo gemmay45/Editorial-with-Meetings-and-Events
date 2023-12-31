@@ -30,6 +30,7 @@ CStudioForms.Controls.extendedLinkInput =
     this.form = form;
     this.id = id;
     this.readonly = readonly;
+    this.datasources = null;
 
     return this;
   };
@@ -241,6 +242,13 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     for (var i = 0; i < config.properties.length; i++) {
       var prop = config.properties[i];
+      console.log(prop.name);
+
+      if (prop.name === 'fileManager') {
+        if (prop.value && prop.value !== '') {
+          this.datasources = prop.value;
+        }
+      }
 
       if (prop.name == 'size') {
         inputEl.size = prop.value;
@@ -323,7 +331,12 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         defaultValue: '50'
       },
       { label: CMgs.format(langBundle, 'readonly'), name: 'readonly', type: 'boolean' },
-      { label: 'Tokenize for Indexing', name: 'tokenize', type: 'boolean', defaultValue: 'false' }
+      { label: 'Tokenize for Indexing', name: 'tokenize', type: 'boolean', defaultValue: 'false' },
+      {
+        label: CMgs.format(langBundle, 'datasource'),
+        name: 'fileManager',
+        type: 'datasource:file'
+      },
     ];
   },
 
