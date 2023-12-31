@@ -392,7 +392,15 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       }
     };
     
+    var datasourceMap = this.form.datasourceMap;
+    var datasourceDef = this.form.definition.datasources;
+
     var datasource = this.form.datasourceMap[this.datasourceName];
+    /*
+                var datasourceMap = this.form.datasourceMap,
+              datasourceDef = this.form.definition.datasources,
+    */
+
     if (datasource) {
       this.datasource = datasource;
       datasource.getList(cb);
