@@ -395,18 +395,57 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var datasourceMap = this.form.datasourceMap;
     var datasourceDef = this.form.definition.datasources;
 
-    var datasource = this.form.datasourceMap[this.datasourceName];
-    /*
-                var datasourceMap = this.form.datasourceMap,
-              datasourceDef = this.form.definition.datasources,
-    */
+    var addMenuOption = function (el) {
+      // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
+      // would fail if a datasource id string is a substring of another datasource id)
+      var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
+        mapDatasource;
 
+      if (datasourcesNames.indexOf(el.id) != -1 && el.interface === type) {
+        mapDatasource = datasourceMap[el.id];
+
+        var itemEl = document.createElement('div');
+        YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
+        itemEl.textContent = el.title;
+        addContainerEl.appendChild(itemEl);
+
+        YAHOO.util.Event.on(
+          itemEl,
+          'click',
+          function () {
+            _self.addContainerEl = null;
+            $('.cstudio-form-control-image-picker-add-container').remove();
+
+            try {
+              addFunction(mapDatasource, cb); // video or image add function
+            } catch (e) {
+              CStudioAuthoring.Operations.showSimpleDialog(
+                'datasourceError',
+                CStudioAuthoring.Operations.simpleDialogTypeINFO,
+                _self.formatMessage(_self.words.notification),
+                _self.formatMessage(_self.messages.incompatibleDatasource),
+                null, // use default button
+                YAHOO.widget.SimpleDialog.ICON_BLOCK,
+                'studioDialog',
+                null,
+                1301
+              );
+            }
+          },
+          itemEl
+        );
+      }
+    };
+    datasourceDef.forEach(addMenuOption);
+
+    /*var datasource = this.form.datasourceMap[this.datasourceName];
+   
     if (datasource) {
       this.datasource = datasource;
       datasource.getList(cb);
     } else {
       this.callback = cb;
-    }
+    }*/
   },
 
   getValue: function () {
