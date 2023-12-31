@@ -394,6 +394,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     
     var datasourceMap = this.form.datasourceMap;
     var datasourceDef = this.form.definition.datasources;
+    var addFunction = _self.addManagedFile;
 
     var addMenuOption = function (el) {
       // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
@@ -448,6 +449,30 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     }*/
   },
 
+  addManagedFile(datasource, cb) {
+    if (datasource && datasource.add) {
+      datasource.add(
+        {
+          insertItem: function (fileData) {
+            cb(fileData, {});
+          },
+          failure: function (message) {
+            CStudioAuthoring.Operations.showSimpleDialog(
+              'message-dialog',
+              CStudioAuthoring.Operations.simpleDialogTypeINFO,
+              CMgs.format(langBundle, 'notification'),
+              message,
+              null,
+              YAHOO.widget.SimpleDialog.ICON_BLOCK,
+              'studioDialog'
+            );
+          }
+        },
+        false
+      );
+    }
+  },
+  
   getValue: function () {
     return this.value;
   },
