@@ -554,10 +554,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var datasourcesNames = '';
     var fileManagerNames = this.fileManagerName;
 
-    var datasourceMap = this.form.datasourceMap;
-    var datasourceDef = this.form.definition.datasources;
-    var addFunction = this.addManagedFile;
     var type = 'item';
+    var addContainerEl;
 
     if (fileManagerNames !== '') {
       if (datasourcesNames !== '') {
@@ -566,6 +564,25 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       datasourcesNames += fileManagerNames;
     }
 
+    if (this.addContainerEl) {
+      addContainerEl = this.addContainerEl;
+      this.addContainerEl = null;
+      $('.cstudio-form-control-image-picker-add-container').remove();
+    } else {
+      addContainerEl = document.createElement('div');
+      tinyMCEContainer.append(addContainerEl);
+      YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-form-control-image-picker-add-container');
+      YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-tinymce');
+      this.addContainerEl = addContainerEl;
+
+      addContainerEl.style.position = 'absolute';
+      addContainerEl.style.right = '15px';
+      addContainerEl.style.top = '113px';
+
+      var datasourceMap = this.form.datasourceMap;
+      var datasourceDef = this.form.definition.datasources;
+      var addFunction = this.addManagedFile;
+  
     var addMenuOption = function (el) {
       // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
       // would fail if a datasource id string is a substring of another datasource id)
@@ -608,7 +625,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       }
     };
     datasourceDef.forEach(addMenuOption);
-
+    }
     upload_dialog.show();
 
     upload_dialog.element.style.setProperty('z-index', '1040', 'important');
