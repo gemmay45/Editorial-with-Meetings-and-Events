@@ -98,12 +98,6 @@
                     </icon>
                 </control>
                 <control>
-                    <name>cstudio-forms-controls-linked-dropdown</name>
-                    <icon>
-                        <class>fa-sort-desc</class>
-                    </icon>
-                </control>
-                <control>
                     <name>time</name>
                     <icon>
                         <class>fa-clock-o</class>
