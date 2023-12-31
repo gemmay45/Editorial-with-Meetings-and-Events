@@ -332,11 +332,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       },
       { label: CMgs.format(langBundle, 'readonly'), name: 'readonly', type: 'boolean' },
       { label: 'Tokenize for Indexing', name: 'tokenize', type: 'boolean', defaultValue: 'false' },
-      {
-        label: CMgs.format(langBundle, 'datasource'),
-        name: 'fileManager',
-        type: 'datasource:file'
-      },
+      { label: CMgs.format(langBundle, 'datasource'), name: 'datasource', type: 'datasource:item' }
     ];
   },
 
