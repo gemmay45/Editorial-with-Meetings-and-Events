@@ -391,6 +391,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     };
     
     var datasource = this.form.datasourceMap[this.datasourceName];
+    console.log("check ds");
+    console.log(datasource);
     if (datasource) {
       this.datasource = datasource;
       datasource.getList(cb);
