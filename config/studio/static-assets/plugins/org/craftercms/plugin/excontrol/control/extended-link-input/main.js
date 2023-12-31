@@ -188,7 +188,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       datasource.getList(this.callback);
     }
   },
-
+  
   render: function (config, containerEl) {
     // we need to make the general layout of a control inherit from common
     // you should be able to override it -- but most of the time it wil be the same
@@ -294,82 +294,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Event.on(inputEl, 'mouseup', this.count, countEl);
     */
 
-        var keyValueList = null;
-
-    var cb = {
-      success: function (list) {
-        keyValueList = list;
-        var titleEl = document.createElement('span');
-
-        YAHOO.util.Dom.addClass(titleEl, 'cstudio-form-field-title');
-        titleEl.textContent = config.title;
-
-        var controlWidgetContainerEl = document.createElement('div');
-        YAHOO.util.Dom.addClass(controlWidgetContainerEl, 'cstudio-form-control-linked-dropdown-container');
-
-        var validEl = document.createElement('span');
-        YAHOO.util.Dom.addClass(validEl, 'validation-hint');
-        YAHOO.util.Dom.addClass(validEl, 'cstudio-form-control-validation fa fa-check');
-        controlWidgetContainerEl.appendChild(validEl);
-
-        var inputEl = document.createElement('select');
-        _self.inputEl = inputEl;
-        YAHOO.util.Dom.addClass(inputEl, 'datum');
-        YAHOO.util.Dom.addClass(inputEl, 'cstudio-form-control-linked-dropdown');
-
-        if (showEmptyValue) {
-          var optionEl = document.createElement('option');
-          optionEl.text = '';
-          optionEl.value = '';
-          inputEl.add(optionEl);
-        }
-
-        if (keyValueList) {
-          for (var j = 0; j < keyValueList.length; j++) {
-            var item = keyValueList[j];
-            var optionEl = document.createElement('option');
-            optionEl.text = item.value;
-            optionEl.value = item.key;
-            inputEl.add(optionEl);
-          }
-        }
-
-        inputEl.value = _self.value == '_not-set' ? config.defaultValue : _self.value;
-
-        controlWidgetContainerEl.appendChild(inputEl);
-
-        if (_self.readonly == true) {
-          inputEl.disabled = true;
-        }
-
-        YAHOO.util.Event.on(
-          inputEl,
-          'focus',
-          function (evt, context) {
-            context.form.setFocusedField(context);
-          },
-          _self
-        );
-        YAHOO.util.Event.on(inputEl, 'change', _self._onChangeVal, _self);
-
-        _self.renderHelp(config, controlWidgetContainerEl);
-
-        var descriptionEl = document.createElement('span');
-        YAHOO.util.Dom.addClass(descriptionEl, 'description');
-        YAHOO.util.Dom.addClass(descriptionEl, 'cstudio-form-field-description');
-        descriptionEl.textContent = config.description;
-
-        containerEl.appendChild(titleEl);
-        containerEl.appendChild(controlWidgetContainerEl);
-        containerEl.appendChild(descriptionEl);
-
-        // TODO remove comment once CRAFTERCMS-41 is closed
-        // This call only makes sense for user actioned changes and
-        // it is actually wiping out the value of the model when initialising
-        // _self._onChange(null, _self);
-      }
-    };
-
     this.renderHelp(config, controlWidgetContainerEl);
 
     /*
@@ -384,14 +308,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     /*containerEl.appendChild(descriptionEl);*/
 
     YAHOO.util.Event.addListener(editEl, 'click', this.createDialog, this, true);
-
-    var datasource = this.form.datasourceMap[this.datasourceName];
-    if (datasource) {
-      this.datasource = datasource;
-      datasource.getList(cb);
-    } else {
-      this.callback = cb;
-    }
   },
 
   getValue: function () {
