@@ -197,7 +197,7 @@
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value>filefromS3</value>
+							<value>filefromS3,fileBrowse</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
