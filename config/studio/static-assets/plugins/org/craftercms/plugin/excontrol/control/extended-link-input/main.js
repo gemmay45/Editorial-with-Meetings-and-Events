@@ -392,6 +392,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       }
     };
     
+    var datasourcesNames = '';
+
     var datasourceMap = this.form.datasourceMap;
     var datasourceDef = this.form.definition.datasources;
     var addFunction = this.addManagedFile;
