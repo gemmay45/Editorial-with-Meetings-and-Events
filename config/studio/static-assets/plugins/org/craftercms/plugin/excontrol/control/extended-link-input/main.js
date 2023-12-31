@@ -181,14 +181,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     }
   },*/
 
-  onDatasourceLoaded: function (data) {
-    if (this.datasourceName === data.name && !this.datasource) {
-      var datasource = this.form.datasourceMap[this.datasourceName];
-      this.datasource = datasource;
-      datasource.getList(this.callback);
-    }
-  },
-  
   render: function (config, containerEl) {
     // we need to make the general layout of a control inherit from common
     // you should be able to override it -- but most of the time it wil be the same
