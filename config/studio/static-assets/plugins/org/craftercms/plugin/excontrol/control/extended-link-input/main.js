@@ -254,14 +254,15 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     for (var i = 0; i < config.properties.length; i++) {
       var prop = config.properties[i];
 
-      if (prop.name == 'datasource') {
+      if (prop.name == 'fileManager') {
+        this.fileManagerName = prop.value && prop.Value != '' ? prop.value : null;
+        /*
         if (prop.value && prop.value != '') {
           this.datasourceName = Array.isArray(prop.value) ? prop.value[0] : prop.value;
           this.datasourceName = this.datasourceName.replace('["', '').replace('"]', '');
           console.log("datasource");
           console.log(this.datasourceName);
-          this.fileManagerName = prop.value && prop.Value != '' ? prop.value : null;
-        }
+        }*/
       }
 
       if (prop.name == 'size') {
@@ -392,63 +393,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         */
       }
     };
-    
-    var datasourcesNames = '';
-    var fileManagerNames = this.fileManagerName;
-
-    var datasourceMap = this.form.datasourceMap;
-    var datasourceDef = this.form.definition.datasources;
-    var addFunction = this.addManagedFile;
-
-    if (fileManagerNames !== '') {
-      if (datasourcesNames !== '') {
-        datasourcesNames += ',';
-      }
-      datasourcesNames += fileManagerNames;
-    }
-
-    var addMenuOption = function (el) {
-      // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
-      // would fail if a datasource id string is a substring of another datasource id)
-      var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
-        mapDatasource;
-
-      if (datasourcesNames.indexOf(el.id) != -1 && el.interface === type) {
-        mapDatasource = datasourceMap[el.id];
-
-        var itemEl = document.createElement('div');
-        YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
-        itemEl.textContent = el.title;
-        addContainerEl.appendChild(itemEl);
-
-        YAHOO.util.Event.on(
-          itemEl,
-          'click',
-          function () {
-            _self.addContainerEl = null;
-            $('.cstudio-form-control-image-picker-add-container').remove();
-
-            try {
-              addFunction(mapDatasource, cb); // video or image add function
-            } catch (e) {
-              CStudioAuthoring.Operations.showSimpleDialog(
-                'datasourceError',
-                CStudioAuthoring.Operations.simpleDialogTypeINFO,
-                _self.formatMessage(_self.words.notification),
-                _self.formatMessage(_self.messages.incompatibleDatasource),
-                null, // use default button
-                YAHOO.widget.SimpleDialog.ICON_BLOCK,
-                'studioDialog',
-                null,
-                1301
-              );
-            }
-          },
-          itemEl
-        );
-      }
-    };
-    datasourceDef.forEach(addMenuOption);
 
     /*var datasource = this.form.datasourceMap[this.datasourceName];
    
@@ -516,7 +460,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       },
       { label: CMgs.format(langBundle, 'readonly'), name: 'readonly', type: 'boolean' },
       { label: 'Tokenize for Indexing', name: 'tokenize', type: 'boolean', defaultValue: 'false' },
-      { label: CMgs.format(langBundle, 'File Manager'), name: 'datasource', type: 'datasource:item' }
+      { label: CMgs.format(langBundle, 'File Manager'), name: 'fileManager', type: 'datasource:item' }
     ];
   },
 
@@ -606,6 +550,64 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     titleEl.style = "padding-left:25px";
     titleEl.removeChild(titleEl.firstChild);
     titleEl.appendChild(txt);
+
+    var datasourcesNames = '';
+    var fileManagerNames = this.fileManagerName;
+
+    var datasourceMap = this.form.datasourceMap;
+    var datasourceDef = this.form.definition.datasources;
+    var addFunction = this.addManagedFile;
+
+    if (fileManagerNames !== '') {
+      if (datasourcesNames !== '') {
+        datasourcesNames += ',';
+      }
+      datasourcesNames += fileManagerNames;
+    }
+
+    var addMenuOption = function (el) {
+      // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
+      // would fail if a datasource id string is a substring of another datasource id)
+      var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
+        mapDatasource;
+
+      if (datasourcesNames.indexOf(el.id) != -1 && el.interface === type) {
+        mapDatasource = datasourceMap[el.id];
+
+        var itemEl = document.createElement('div');
+        YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
+        itemEl.textContent = el.title;
+        addContainerEl.appendChild(itemEl);
+
+        YAHOO.util.Event.on(
+          itemEl,
+          'click',
+          function () {
+            _self.addContainerEl = null;
+            $('.cstudio-form-control-image-picker-add-container').remove();
+
+            try {
+              addFunction(mapDatasource, cb); // video or image add function
+            } catch (e) {
+              CStudioAuthoring.Operations.showSimpleDialog(
+                'datasourceError',
+                CStudioAuthoring.Operations.simpleDialogTypeINFO,
+                _self.formatMessage(_self.words.notification),
+                _self.formatMessage(_self.messages.incompatibleDatasource),
+                null, // use default button
+                YAHOO.widget.SimpleDialog.ICON_BLOCK,
+                'studioDialog',
+                null,
+                1301
+              );
+            }
+          },
+          itemEl
+        );
+      }
+    };
+    datasourceDef.forEach(addMenuOption);
+    
     upload_dialog.show();
 
     upload_dialog.element.style.setProperty('z-index', '1040', 'important');
