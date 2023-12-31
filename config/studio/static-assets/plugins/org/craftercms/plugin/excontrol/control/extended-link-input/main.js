@@ -557,6 +557,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var datasourceMap = this.form.datasourceMap;
     var datasourceDef = this.form.definition.datasources;
     var addFunction = this.addManagedFile;
+    var type = 'item';
 
     if (fileManagerNames !== '') {
       if (datasourcesNames !== '') {
