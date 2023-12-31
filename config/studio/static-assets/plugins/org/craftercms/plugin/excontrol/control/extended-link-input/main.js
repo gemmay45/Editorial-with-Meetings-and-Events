@@ -258,6 +258,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         if (prop.value && prop.value != '') {
           this.datasourceName = Array.isArray(prop.value) ? prop.value[0] : prop.value;
           this.datasourceName = this.datasourceName.replace('["', '').replace('"]', '');
+          console.log(this.datasourceName);
         }
       }
 
