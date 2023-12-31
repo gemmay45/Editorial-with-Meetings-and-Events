@@ -254,9 +254,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     for (var i = 0; i < config.properties.length; i++) {
       var prop = config.properties[i];
 
-      if (prop.name === 'fileManager') {
-        if (prop.value && prop.value !== '') {
-          this.datasources = prop.value;
+      if (prop.name == 'datasource') {
+        if (prop.value && prop.value != '') {
+          this.datasourceName = Array.isArray(prop.value) ? prop.value[0] : prop.value;
+          this.datasourceName = this.datasourceName.replace('["', '').replace('"]', '');
         }
       }
 
