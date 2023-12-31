@@ -539,7 +539,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/</value>
+							<value>/site/</value>
 								<type>content-path-input</type>
 						</property>
 					</properties>
