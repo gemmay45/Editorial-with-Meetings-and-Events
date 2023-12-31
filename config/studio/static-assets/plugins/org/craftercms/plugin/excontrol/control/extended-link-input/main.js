@@ -408,7 +408,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       true
     );
     this.upload_dialog = upload_dialog;
-    var titleEl = upload_dialog.getElementById('tox-dialog_h');
+    var titleEl = document.getElementById('tox-dialog_h');
     var txt = document.createTextNode('Insert/Edit Link');
     titleEl.appendChild(txt);
     upload_dialog.show();
