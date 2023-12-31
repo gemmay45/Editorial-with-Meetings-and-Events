@@ -472,7 +472,7 @@
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value>fileBrowse,filefromS3</value>
+							<value>taxonomy</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
