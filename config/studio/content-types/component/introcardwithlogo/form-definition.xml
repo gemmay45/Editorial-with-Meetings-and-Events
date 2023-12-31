@@ -197,7 +197,7 @@
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value></value>
+							<value>filefromS3</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -498,6 +498,24 @@
 						</property>
 						<property>
 							<name>outputProfileId</name>
+							<value></value>
+								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>S3-repo</type>
+					<id>filefromS3</id>
+					<title>File from S3</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>path</name>
+							<value></value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>profileId</name>
 							<value></value>
 								<type>string</type>
 						</property>
