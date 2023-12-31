@@ -602,7 +602,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
           itemEl,
           'click',
           function () {
-            _self.addContainerEl = null;
+            this.addContainerEl = null;
             $('.cstudio-form-control-image-picker-add-container').remove();
 
             try {
@@ -611,8 +611,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
               CStudioAuthoring.Operations.showSimpleDialog(
                 'datasourceError',
                 CStudioAuthoring.Operations.simpleDialogTypeINFO,
-                _self.formatMessage(_self.words.notification),
-                _self.formatMessage(_self.messages.incompatibleDatasource),
+                this.formatMessage(this.words.notification),
+                this.formatMessage(this.messages.incompatibleDatasource),
                 null, // use default button
                 YAHOO.widget.SimpleDialog.ICON_BLOCK,
                 'studioDialog',
