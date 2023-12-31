@@ -571,7 +571,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
         mapDatasource;
 
-      if (datasourcesNames[0].indexOf(el.id) != -1 && el.interface === type) {
+      if (datasourcesNames.indexOf(el.id) != -1 && el.interface === type) {
         mapDatasource = datasourceMap[el.id];
 
         var itemEl = document.createElement('div');
