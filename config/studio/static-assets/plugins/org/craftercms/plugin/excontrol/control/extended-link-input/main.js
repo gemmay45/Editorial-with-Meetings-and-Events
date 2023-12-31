@@ -394,7 +394,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     
     var datasourceMap = this.form.datasourceMap;
     var datasourceDef = this.form.definition.datasources;
-    var addFunction = _self.addManagedFile;
+    var addFunction = this.addManagedFile;
 
     var addMenuOption = function (el) {
       // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
@@ -472,7 +472,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       );
     }
   },
-  
+
   getValue: function () {
     return this.value;
   },
