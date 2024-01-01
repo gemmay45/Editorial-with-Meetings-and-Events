@@ -551,6 +551,11 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     titleEl.removeChild(titleEl.firstChild);
     titleEl.appendChild(txt);
 
+    upload_dialog.show();
+
+    upload_dialog.element.style.setProperty('z-index', '1040', 'important');
+    upload_dialog.mask.style.zIndex = '1030';
+
     var datasourcesNames = '';
     var fileManagerNames = this.fileManagerName;
 
@@ -635,10 +640,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         addContainerEl.appendChild(itemEl);
       }
     }
-    upload_dialog.show();
-
-    upload_dialog.element.style.setProperty('z-index', '1040', 'important');
-    upload_dialog.mask.style.zIndex = '1030';
   },
 
   uploadPopupCancel: function (event) {
