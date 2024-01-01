@@ -540,7 +540,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     
         var type = 'item';
         var addContainerEl;
-        var linkInputContainer = $('.tox-dialog')
+        var linkInputContainer = $('.tox-dialogX')
     
         if (fileManagerNames !== '') {
           if (datasourcesNames !== '') {
