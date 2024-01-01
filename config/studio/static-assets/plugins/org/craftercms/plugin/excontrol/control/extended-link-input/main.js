@@ -534,92 +534,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Event.addListener(
       'optionButton',
       'click', 
-      function() {
-        var datasourcesNames = '';
-        var fileManagerNames = this.fileManagerName;
-    
-        var type = 'item';
-        var addContainerEl;
-        var linkInputContainer = $('.tox-dialogX')
-    
-        if (fileManagerNames !== '') {
-          if (datasourcesNames !== '') {
-            datasourcesNames += ',';
-          }
-          datasourcesNames += fileManagerNames;
-        }
-    
-        if (this.addContainerEl) {
-          addContainerEl = this.addContainerEl;
-          this.addContainerEl = null;
-          $('.cstudio-form-control-image-picker-add-container').remove();
-        } else {
-          addContainerEl = document.createElement('div');
-          linkInputContainer.append(addContainerEl);
-          YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-form-control-image-picker-add-container');
-          YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-tinymce');
-          this.addContainerEl = addContainerEl;
-    
-          addContainerEl.style.position = 'absolute';
-          addContainerEl.style.right = '25px';
-          addContainerEl.style.top = '55px';
-    
-          var datasourceMap = this.form.datasourceMap;
-          var datasourceDef = this.form.definition.datasources;
-          var addFunction = this.addManagedFile;
-      
-          var addMenuOption = function (el) {
-            // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
-            // would fail if a datasource id string is a substring of another datasource id)
-            var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
-              mapDatasource;
-    
-            if (datasourcesNames.indexOf(el.id) != -1 && el.interface === type) {
-              mapDatasource = datasourceMap[el.id];
-    
-              var itemEl = document.createElement('div');
-              YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
-              itemEl.textContent = el.title;
-              addContainerEl.appendChild(itemEl);
-    
-              YAHOO.util.Event.on(
-                itemEl,
-                'click',
-                function () {
-                  this.addContainerEl = null;
-                  $('.cstudio-form-control-image-picker-add-container').remove();
-    
-                  try {
-                    addFunction(mapDatasource, cb); // video or image add function
-                  } catch (e) {
-                    CStudioAuthoring.Operations.showSimpleDialog(
-                      'datasourceError',
-                      CStudioAuthoring.Operations.simpleDialogTypeINFO,
-                      this.formatMessage(this.words.notification),
-                      this.formatMessage(this.messages.incompatibleDatasource),
-                      null, // use default button
-                      YAHOO.widget.SimpleDialog.ICON_BLOCK,
-                      'studioDialog',
-                      null,
-                      1301
-                    );
-                  }
-                },
-                itemEl
-              );
-            }
-          };
-          datasourceDef.forEach(addMenuOption);
-    
-          // If no datasources for type
-          if ($(addContainerEl).children().length === 0) {
-            var itemEl = document.createElement('div');
-            YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
-            itemEl.innerHTML = 'No datasources available';
-            addContainerEl.appendChild(itemEl);
-          }
-        }
-      }, this, true);
+      this.createControl, this, true);
     YAHOO.util.Event.addListener('dndCancelButton', 'click', this.uploadPopupCancel, this, true);
     YAHOO.util.Event.addListener(
       'dndInsertButton',
@@ -644,6 +559,93 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     upload_dialog.element.style.setProperty('z-index', '1040', 'important');
     upload_dialog.mask.style.zIndex = '1030';
+  },
+
+  createControl: function (cb, meta) {
+    var datasourcesNames = '';
+    var fileManagerNames = this.fileManagerName;
+
+    var type = 'item';
+    var addContainerEl;
+    var linkInputContainer = $('.tox-dialogX')
+
+    if (fileManagerNames !== '') {
+      if (datasourcesNames !== '') {
+        datasourcesNames += ',';
+      }
+      datasourcesNames += fileManagerNames;
+    }
+
+    if (this.addContainerEl) {
+      addContainerEl = this.addContainerEl;
+      this.addContainerEl = null;
+      $('.cstudio-form-control-image-picker-add-container').remove();
+    } else {
+      addContainerEl = document.createElement('div');
+      linkInputContainer.append(addContainerEl);
+      YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-form-control-image-picker-add-container');
+      YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-tinymce');
+      this.addContainerEl = addContainerEl;
+
+      addContainerEl.style.position = 'absolute';
+      addContainerEl.style.right = '25px';
+      addContainerEl.style.top = '55px';
+
+      var datasourceMap = this.form.datasourceMap;
+      var datasourceDef = this.form.definition.datasources;
+      var addFunction = this.addManagedFile;
+  
+      var addMenuOption = function (el) {
+        // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
+        // would fail if a datasource id string is a substring of another datasource id)
+        var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
+          mapDatasource;
+
+        if (datasourcesNames.indexOf(el.id) != -1 && el.interface === type) {
+          mapDatasource = datasourceMap[el.id];
+
+          var itemEl = document.createElement('div');
+          YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
+          itemEl.textContent = el.title;
+          addContainerEl.appendChild(itemEl);
+
+          YAHOO.util.Event.on(
+            itemEl,
+            'click',
+            function () {
+              this.addContainerEl = null;
+              $('.cstudio-form-control-image-picker-add-container').remove();
+
+              try {
+                addFunction(mapDatasource, cb); // video or image add function
+              } catch (e) {
+                CStudioAuthoring.Operations.showSimpleDialog(
+                  'datasourceError',
+                  CStudioAuthoring.Operations.simpleDialogTypeINFO,
+                  this.formatMessage(this.words.notification),
+                  this.formatMessage(this.messages.incompatibleDatasource),
+                  null, // use default button
+                  YAHOO.widget.SimpleDialog.ICON_BLOCK,
+                  'studioDialog',
+                  null,
+                  1301
+                );
+              }
+            },
+            itemEl
+          );
+        }
+      };
+      datasourceDef.forEach(addMenuOption);
+
+      // If no datasources for type
+      if ($(addContainerEl).children().length === 0) {
+        var itemEl = document.createElement('div');
+        YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
+        itemEl.innerHTML = 'No datasources available';
+        addContainerEl.appendChild(itemEl);
+      }
+    }
   },
 
   uploadPopupCancel: function (event) {
