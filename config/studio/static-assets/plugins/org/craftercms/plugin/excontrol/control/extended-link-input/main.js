@@ -503,7 +503,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       '<div class="tox-control-wrap__status-icon-wrap">' +
       '<div title="invalid" aria-live="polite" id="aria-invalid_526777492591703822075552" class="tox-icon tox-control-wrap__status-icon-invalid">' +
       '<svg width="24" height="24"><path d="M19.8 18.3c.2.5.3.9 0 1.2-.1.3-.5.5-1 .5H5.2c-.5 0-.9-.2-1-.5-.3-.3-.2-.7 0-1.2L11 4.7l.5-.5.5-.2c.2 0 .3 0 .5.2.2 0 .3.3.5.5l6.8 13.6zM12 18c.3 0 .5-.1.7-.3.2-.2.3-.4.3-.7a1 1 0 00-.3-.7 1 1 0 00-.7-.3 1 1 0 00-.7.3 1 1 0 00-.3.7c0 .3.1.5.3.7.2.2.4.3.7.3zm.7-3l.3-4a1 1 0 00-.3-.7 1 1 0 00-.7-.3 1 1 0 00-.7.3 1 1 0 00-.3.7l.3 4h1.4z" fill-rule="evenodd"></path></svg></div></div></div>' +
-      '<button title="URL" type="button" data-alloy-tabstop="true" tabindex="-1" class="tox-button tox-button--icon tox-button--naked tox-browse-url btn-default yui-button" style="box-shadow: none;">' +
+      '<button title="URL" type="button" data-alloy-tabstop="true" tabindex="-1" id="optionButton" class="tox-button tox-button--icon tox-button--naked tox-browse-url btn-default yui-button" style="box-shadow: none;">' +
       '<span class="tox-icon tox-tbtn__icon-wrap"><svg width="24" height="24"><path d="M19 4a2 2 0 012 2v12a2 2 0 01-2 2h-4v-2h4V8H5v10h4v2H5a2 2 0 01-2-2V6c0-1.1.9-2 2-2h14zm-8 9.4l-2.3 2.3a1 1 0 11-1.4-1.4l4-4a1 1 0 011.4 0l4 4a1 1 0 01-1.4 1.4L13 13.4V20a1 1 0 01-2 0v-6.6z" fill-rule="nonzero"></path></svg></span>' +
       '</button>' +
       '</div></div>' +
@@ -531,6 +531,95 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     // Render the Dialog
     upload_dialog.render();
+    YAHOO.util.Event.addListener(
+      'optionButton',
+      'click', 
+      function() {
+        var datasourcesNames = '';
+        var fileManagerNames = this.fileManagerName;
+    
+        var type = 'item';
+        var addContainerEl;
+        var linkInputContainer = $('.tox-dialog')
+    
+        if (fileManagerNames !== '') {
+          if (datasourcesNames !== '') {
+            datasourcesNames += ',';
+          }
+          datasourcesNames += fileManagerNames;
+        }
+    
+        if (this.addContainerEl) {
+          addContainerEl = this.addContainerEl;
+          this.addContainerEl = null;
+          $('.cstudio-form-control-image-picker-add-container').remove();
+        } else {
+          addContainerEl = document.createElement('div');
+          linkInputContainer.append(addContainerEl);
+          YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-form-control-image-picker-add-container');
+          YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-tinymce');
+          this.addContainerEl = addContainerEl;
+    
+          addContainerEl.style.position = 'absolute';
+          addContainerEl.style.right = '15px';
+          addContainerEl.style.top = '113px';
+    
+          var datasourceMap = this.form.datasourceMap;
+          var datasourceDef = this.form.definition.datasources;
+          var addFunction = this.addManagedFile;
+      
+          var addMenuOption = function (el) {
+            // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
+            // would fail if a datasource id string is a substring of another datasource id)
+            var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
+              mapDatasource;
+    
+            if (datasourcesNames.indexOf(el.id) != -1 && el.interface === type) {
+              mapDatasource = datasourceMap[el.id];
+    
+              var itemEl = document.createElement('div');
+              YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
+              itemEl.textContent = el.title;
+              addContainerEl.appendChild(itemEl);
+    
+              YAHOO.util.Event.on(
+                itemEl,
+                'click',
+                function () {
+                  this.addContainerEl = null;
+                  $('.cstudio-form-control-image-picker-add-container').remove();
+    
+                  try {
+                    addFunction(mapDatasource, cb); // video or image add function
+                  } catch (e) {
+                    CStudioAuthoring.Operations.showSimpleDialog(
+                      'datasourceError',
+                      CStudioAuthoring.Operations.simpleDialogTypeINFO,
+                      this.formatMessage(this.words.notification),
+                      this.formatMessage(this.messages.incompatibleDatasource),
+                      null, // use default button
+                      YAHOO.widget.SimpleDialog.ICON_BLOCK,
+                      'studioDialog',
+                      null,
+                      1301
+                    );
+                  }
+                },
+                itemEl
+              );
+            }
+          };
+          datasourceDef.forEach(addMenuOption);
+    
+          // If no datasources for type
+          if ($(addContainerEl).children().length === 0) {
+            var itemEl = document.createElement('div');
+            YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
+            itemEl.innerHTML = 'No datasources available';
+            addContainerEl.appendChild(itemEl);
+          }
+        }
+      }, this, true);
     YAHOO.util.Event.addListener('dndCancelButton', 'click', this.uploadPopupCancel, this, true);
     YAHOO.util.Event.addListener(
       'dndInsertButton',
@@ -555,91 +644,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     upload_dialog.element.style.setProperty('z-index', '1040', 'important');
     upload_dialog.mask.style.zIndex = '1030';
-
-    var datasourcesNames = '';
-    var fileManagerNames = this.fileManagerName;
-
-    var type = 'item';
-    var addContainerEl;
-    var linkInputContainer = $('.tox-dialog')
-
-    if (fileManagerNames !== '') {
-      if (datasourcesNames !== '') {
-        datasourcesNames += ',';
-      }
-      datasourcesNames += fileManagerNames;
-    }
-
-    if (this.addContainerEl) {
-      addContainerEl = this.addContainerEl;
-      this.addContainerEl = null;
-      $('.cstudio-form-control-image-picker-add-container').remove();
-    } else {
-      addContainerEl = document.createElement('div');
-      linkInputContainer.append(addContainerEl);
-      YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-form-control-image-picker-add-container');
-      YAHOO.util.Dom.addClass(addContainerEl, 'cstudio-tinymce');
-      this.addContainerEl = addContainerEl;
-
-      addContainerEl.style.position = 'absolute';
-      addContainerEl.style.right = '15px';
-      addContainerEl.style.top = '113px';
-
-      var datasourceMap = this.form.datasourceMap;
-      var datasourceDef = this.form.definition.datasources;
-      var addFunction = this.addManagedFile;
-  
-      var addMenuOption = function (el) {
-        // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
-        // would fail if a datasource id string is a substring of another datasource id)
-        var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
-          mapDatasource;
-
-        if (datasourcesNames.indexOf(el.id) != -1 && el.interface === type) {
-          mapDatasource = datasourceMap[el.id];
-
-          var itemEl = document.createElement('div');
-          YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
-          itemEl.textContent = el.title;
-          addContainerEl.appendChild(itemEl);
-
-          YAHOO.util.Event.on(
-            itemEl,
-            'click',
-            function () {
-              this.addContainerEl = null;
-              $('.cstudio-form-control-image-picker-add-container').remove();
-
-              try {
-                addFunction(mapDatasource, cb); // video or image add function
-              } catch (e) {
-                CStudioAuthoring.Operations.showSimpleDialog(
-                  'datasourceError',
-                  CStudioAuthoring.Operations.simpleDialogTypeINFO,
-                  this.formatMessage(this.words.notification),
-                  this.formatMessage(this.messages.incompatibleDatasource),
-                  null, // use default button
-                  YAHOO.widget.SimpleDialog.ICON_BLOCK,
-                  'studioDialog',
-                  null,
-                  1301
-                );
-              }
-            },
-            itemEl
-          );
-        }
-      };
-      datasourceDef.forEach(addMenuOption);
-
-      // If no datasources for type
-      if ($(addContainerEl).children().length === 0) {
-        var itemEl = document.createElement('div');
-        YAHOO.util.Dom.addClass(itemEl, 'cstudio-form-control-image-picker-add-container-item');
-        itemEl.innerHTML = 'No datasources available';
-        addContainerEl.appendChild(itemEl);
-      }
-    }
   },
 
   uploadPopupCancel: function (event) {
