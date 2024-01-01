@@ -562,7 +562,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     
           addContainerEl.style.position = 'absolute';
           addContainerEl.style.right = '15px';
-          addContainerEl.style.top = '113px';
+          addContainerEl.style.top = '60px';
     
           var datasourceMap = this.form.datasourceMap;
           var datasourceDef = this.form.definition.datasources;
