@@ -413,6 +413,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
           insertItem: function (fileData) {
             /*cb(fileData, {});*/
             var urlEl = document.getElementById('url');
+            this.inputEl.value = fileData;
             urlEl.value = fileData;
           },
           failure: function (message) {
