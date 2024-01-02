@@ -423,77 +423,6 @@
 						</constraint>
 					</constraints>
 				</field>
-				<field>
-					<type>checkbox-group</type>
-					<id>cBGroup_o</id>
-					<iceId></iceId>
-					<title>CB Group</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>datasource</name>
-							<value>taxonomy</value>
-							<type>datasource:item:singleSelection</type>
-						</property>
-						<property>
-							<name>selectAll</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>listDirection</name>
-							<value>[{&quot;value&quot;:&quot;horizontal&quot;,&quot;label&quot;:&quot;Horizonal&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;vertical&quot;,&quot;label&quot;:&quot;Vertical&quot;,&quot;selected&quot;:false}]</value>
-							<type>dropdown</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>minSize</name>
-							<value><![CDATA[]]></value>
-							<type>int</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>dropdown</type>
-					<id>dD_s</id>
-					<iceId></iceId>
-					<title>DD</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>datasource</name>
-							<value>taxonomy</value>
-							<type>datasource:item</type>
-						</property>
-						<property>
-							<name>emptyvalue</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
 			</fields>
 		</section>
 	</sections>
@@ -547,24 +476,6 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>S3-repo</type>
-					<id>filefromS3</id>
-					<title>File from S3</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>path</name>
-							<value></value>
-								<type>string</type>
-						</property>
-						<property>
-							<name>profileId</name>
-							<value></value>
-								<type>string</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
 					<type>file-browse-repo</type>
 					<id>fileBrowse</id>
 					<title>File Browse</title>
@@ -572,7 +483,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/site/</value>
+							<value>/site/|/static-assets/</value>
 								<type>content-path-input</type>
 						</property>
 					</properties>
