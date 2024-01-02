@@ -491,7 +491,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     newdiv.setAttribute('class', 'tox');
     
     /*<button title="Open link in..." aria-label="Open link in..." aria-haspopup="true" type="button" data-alloy-tabstop="true" unselectable="on" tabindex="-1" class="tox-listbox tox-listbox--select" aria-expanded="false" data-value="" id="form-field_1211068102191703822078254" style="user-select: none;"><span class="tox-listbox__select-label">Current window</span><div class="tox-listbox__select-chevron"><svg width="10" height="10"><path d="M8.7 2.2c.3-.3.8-.3 1 0 .4.4.4.9 0 1.2L5.7 7.8c-.3.3-.9.3-1.2 0L.2 3.4a.8.8 0 010-1.2c.3-.3.8-.3 1.1 0L5 6l3.7-3.8z" fill-rule="nonzero"></path></svg></div></button>*/
-    
+
     newdiv.innerHTML =
       '<div id="panel1" style="visibility: inherit;width: 480px;">' +
       '<div role="dialog" aria-modal="true" tabindex="-1" class="tox-dialogX" aria-labelledby="dialog-label_362831062241703822078255" aria-describedby="dialog-describe_8249867402251703822078255" style="position: relative;">' +
@@ -511,7 +511,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       '</div></div>' +
       '<div class="tox-form__group" aria-disabled="false"><label class="tox-label" for="form-field_1313059962171703822078253">Text to display</label><input type="text" tabindex="-1" data-alloy-tabstop="true" class="tox-textfield" id="form-field_1313059962171703822078253"></div>' +
       '<div class="tox-form__group" aria-disabled="false"><label class="tox-label" for="form-field_6889352342181703822078254">Title</label><input type="text" tabindex="-1" data-alloy-tabstop="true" class="tox-textfield" id="form-field_6889352342181703822078254"></div>' +
-      '<div class="tox-form__group" aria-disabled="false"><label class="tox-label" for="form-field_1211068102191703822078254">Open link in...</label><div class="tox-listboxfield"><select class="datum cstudio-form-control-dropdown"><option class="hide" disabled=""></option><option value="style">Style</option><option value="health">Health</option><option value="entertainment">Entertainment</option><option value="technology">Technology</option></select></div></div></div></div><div class="tox-dialog__footer"><div role="presentation" class="tox-dialog__footer-start"></div><div role="presentation" class="tox-dialog__footer-end">' +
+      '<div class="tox-form__group" aria-disabled="false"><label class="tox-label" for="form-field_1211068102191703822078254">Open link in...</label><div class="tox-listboxfield"><div class="cstudio-form-control-dropdown-container"><select class="datum cstudio-form-control-dropdown"><option class="hide" disabled=""></option><option value="style">Style</option><option value="health">Health</option><option value="entertainment">Entertainment</option><option value="technology">Technology</option></select></div></div></div></div></div><div class="tox-dialog__footer"><div role="presentation" class="tox-dialog__footer-start"></div><div role="presentation" class="tox-dialog__footer-end">' +
       '<button id="dndCancelButton" title="Cancel" type="button" data-alloy-tabstop="true" tabindex="-1" class="cstudio-xform-button btn btn-default">Cancel</button><button id="dndInsertButton" title="Insert" type="button" data-alloy-tabstop="true" tabindex="-1" class="cstudio-xform-button btn btn-primary">Insert</button></div></div></div></div>'; 
 
     // Instantiate the Dialog
