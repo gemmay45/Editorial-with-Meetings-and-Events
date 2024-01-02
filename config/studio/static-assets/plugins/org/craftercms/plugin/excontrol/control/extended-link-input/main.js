@@ -411,10 +411,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       datasource.add(
         {
           insertItem: function (fileData) {
-            /*cb(fileData, {});*/
-            var urlEl = document.getElementById('url');
+            cb(fileData, {});
+            /*var urlEl = document.getElementById('url');
             this.inputEl.value = fileData;
-            urlEl.value = fileData;
+            urlEl.value = fileData;*/
           },
           failure: function (message) {
             CStudioAuthoring.Operations.showSimpleDialog(
@@ -474,6 +474,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       { label: CMgs.format(langBundle, 'required'), name: 'required', type: 'boolean' },
       { label: CMgs.format(langBundle, 'matchPattern'), name: 'pattern', type: 'string' }
     ];
+  },
+
+  getUrlPicker: function (r, type) {
+    console.log("getUrlPicker");
   },
 
   /**
