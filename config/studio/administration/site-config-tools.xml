@@ -92,7 +92,7 @@
                     </icon>
                 </control>
                  <control>
-                    <name>cstudio-forms-controls-link-input</name>
+                    <name>link-input</name>
                     <icon>
                         <class>fa-link</class>
                     </icon>
