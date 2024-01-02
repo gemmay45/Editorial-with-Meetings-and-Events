@@ -514,7 +514,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/</value>
+							<value>/static-assets/files/</value>
 								<type>content-path-input</type>
 						</property>
 					</properties>
