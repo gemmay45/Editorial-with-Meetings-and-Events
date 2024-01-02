@@ -233,6 +233,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     var inputEl = document.createElement('input');
     this.inputEl = inputEl;
+    this.inputEl.id = "url"
     this.inputEl.disabled = true;
     this.inputEl.maxlength = 250;
     YAHOO.util.Dom.addClass(inputEl, 'datum');
@@ -411,7 +412,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         {
           insertItem: function (fileData) {
             /*cb(fileData, {});*/
-            this.urlPath = fileData;
+            var urlEl = document.getElementById('url');
+            urlEl.value = fileData;
           },
           failure: function (message) {
             CStudioAuthoring.Operations.showSimpleDialog(
