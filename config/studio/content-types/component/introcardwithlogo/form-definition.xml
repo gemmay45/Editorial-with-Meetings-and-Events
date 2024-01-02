@@ -340,7 +340,7 @@
 						</property>
 						<property>
 							<name>datasource</name>
-							<value>filefromS3,fileBrowse</value>
+							<value>fileBrowse,pageBrowse</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -477,8 +477,8 @@
 				</datasource>
 				<datasource>
 					<type>file-browse-repo</type>
-					<id>fileBrowse</id>
-					<title>File Browse</title>
+					<id>pageBrowse</id>
+					<title>Page Browse</title>
 					<interface>item</interface>
 					<properties>
 						<property>
@@ -503,6 +503,19 @@
 							<name>componentPath</name>
 							<value>/site/taxonomy/categories.xml</value>
 								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>file-browse-repo</type>
+					<id>fileBrowse</id>
+					<title>File Browse</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/</value>
+								<type>content-path-input</type>
 						</property>
 					</properties>
 				</datasource>
