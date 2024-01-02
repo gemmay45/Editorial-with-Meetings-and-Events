@@ -385,44 +385,6 @@
 						</constraint>
 					</constraints>
 				</field>
-				<field>
-					<type>linked-dropdown</type>
-					<id>linkedDropdown</id>
-					<iceId></iceId>
-					<title>Linked Dropdown</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>datasource</name>
-							<value>filefromS3,fileBrowse</value>
-							<type>datasource:item</type>
-						</property>
-						<property>
-							<name>emptyvalue</name>
-							<value>true</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>depends</name>
-							<value></value>
-							<type>string</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
 			</fields>
 		</section>
 	</sections>
