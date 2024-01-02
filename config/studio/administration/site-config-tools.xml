@@ -92,19 +92,13 @@
                     </icon>
                 </control>
                  <control>
-                    <name>linked-input</name>
+                    <name>cstudio-forms-controls-link-input</name>
                     <icon>
                         <class>fa-link</class>
                     </icon>
                 </control>
                <control>
                     <name>dropdown</name>
-                    <icon>
-                        <class>fa-sort-desc</class>
-                    </icon>
-                </control>
-                <control>
-                    <name>linked-dropdown</name>
                     <icon>
                         <class>fa-sort-desc</class>
                     </icon>
