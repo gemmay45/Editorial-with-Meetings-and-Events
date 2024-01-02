@@ -98,12 +98,6 @@
                     </icon>
                 </control>
                 <control>
-                    <name>linked-input</name>
-                    <icon>
-                        <class>fa-link</class>
-                    </icon>
-                </control>
-                <control>
                     <name>time</name>
                     <icon>
                         <class>fa-clock-o</class>
