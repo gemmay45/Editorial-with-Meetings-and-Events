@@ -29,6 +29,7 @@ CStudioForms.Controls.extendedLinkInput =
     this.value = '_not-set';
     this.form = form;
     this.datasources = null;
+    this.urlPath = '';
     this.id = id;
     this.readonly = readonly;
 
@@ -410,7 +411,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         {
           insertItem: function (fileData) {
             /*cb(fileData, {});*/
-            this.inputEl.value = fileData;
+            this.urlPath = fileData;
           },
           failure: function (message) {
             CStudioAuthoring.Operations.showSimpleDialog(
