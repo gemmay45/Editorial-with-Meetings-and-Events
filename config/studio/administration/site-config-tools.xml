@@ -100,7 +100,7 @@
                 <control>
                     <name>linked-input</name>
                     <icon>
-                        <class>external-link</class>
+                        <class>fa-link</class>
                     </icon>
                 </control>
                 <control>
