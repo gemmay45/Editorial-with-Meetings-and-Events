@@ -195,6 +195,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     // we need to make the general layout of a control inherit from common
     // you should be able to override it -- but most of the time it wil be the same
     containerEl.id = this.id;
+    this.containerEl = containerEl;
 
     var titleEl = document.createElement('span');
 
@@ -408,10 +409,12 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
   addManagedFile(datasource, cb) {
     if (datasource && datasource.add) {
+      var self = this;
       datasource.add(
         {
           insertItem: function (fileData) {
-            this.getUrlPicker(fileData, {});
+            var formContainer = this.form ? this.form.containerEl : self.form.containerEl;
+            /*cb(fileData, {});*/
             /*var urlEl = document.getElementById('url');
             this.inputEl.value = fileData;
             urlEl.value = fileData;*/
