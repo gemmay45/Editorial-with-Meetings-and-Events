@@ -409,7 +409,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       datasource.add(
         {
           insertItem: function (fileData) {
-            cb(fileData, {});
+            /*cb(fileData, {});*/
+            this.inputEl.value = fileData;
           },
           failure: function (message) {
             CStudioAuthoring.Operations.showSimpleDialog(
