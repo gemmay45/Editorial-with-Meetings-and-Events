@@ -98,9 +98,9 @@
                     </icon>
                 </control>
                 <control>
-                    <name>linked-dropdown</name>
+                    <name>linked-input</name>
                     <icon>
-                        <class>fa-sort-desc</class>
+                        <class>external-link</class>
                     </icon>
                 </control>
                 <control>
