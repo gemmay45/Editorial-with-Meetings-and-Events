@@ -407,6 +407,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     }*/
   },
 
+  /*
   addManagedFile(datasource, cb) {
     if (datasource && datasource.add) {
       var self = this;
@@ -414,10 +415,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         {
           insertItem: function (fileData) {
             urlPicker: this;
-            /*cb(fileData, {});*/
-            /*var urlEl = document.getElementById('url');
-            this.inputEl.value = fileData;
-            urlEl.value = fileData;*/
+            //cb(fileData, {});
+            //var urlEl = document.getElementById('url');
+            //this.inputEl.value = fileData;
+            //urlEl.value = fileData;
           },
           failure: function (message) {
             CStudioAuthoring.Operations.showSimpleDialog(
@@ -433,6 +434,122 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         },
         false
       );
+    }
+  },
+  */
+
+  addManagedFile: function (datasourceEl) {
+    if (datasourceEl && datasourceEl.insertItem) {
+      var self = this;
+      datasourceEl.insertItem({
+        imagePicker: this,
+        success: function (linkData) {
+          var valid = false,
+            message = '',
+            repoImage;
+
+          /*if (this.imagePicker.validExtensions.includes(imageData.fileExtension?.toLowerCase().trim())) {
+            valid = true;
+          } else {
+            message = 'The uploaded file is not of type image';
+          }
+
+          if (!valid) {
+            this.imagePicker.showAlert(message);
+          } else {
+            var image = new Image();
+            var imagePicker = this.imagePicker;
+
+            function imageLoaded() {
+              imagePicker.originalWidth = this.width;
+              imagePicker.originalHeight = this.height;
+
+              valid = imagePicker.isImageValid();
+              if (!valid) {
+                var widthConstrains = JSON.parse(self.width);
+                var heightConstrains = JSON.parse(self.height);
+                message = 'The uploaded file does not meet the specified width & height constraints';
+                if (
+                  (widthConstrains.min && imagePicker.originalWidth < widthConstrains.min) ||
+                  (heightConstrains.min && imagePicker.originalHeight < heightConstrains.min) ||
+                  (widthConstrains.exact && imagePicker.originalWidth < widthConstrains.exact) ||
+                  (heightConstrains.exact && imagePicker.originalHeight < heightConstrains.exact) ||
+                  (widthConstrains && imagePicker.originalWidth < widthConstrains) ||
+                  (heightConstrains && imagePicker.originalHeight < heightConstrains)
+                ) {
+                  message = 'Image is smaller than the constraint size';
+                  self.showAlert(message);
+                } else {
+                  (function (self) {
+                    var callbackCropper = {
+                      success: function (content) {
+                        var imagePicker = self;
+
+                        imageData.relativeUrl = imageData.renameRelativeUrl
+                          ? imageData.renameRelativeUrl
+                          : imageData.relativeUrl;
+                        imageData.previewUrl = imageData.renamePreviewUrl
+                          ? imageData.renamePreviewUrl
+                          : imageData.previewUrl;
+
+                        self.setImageData(imagePicker, imageData);
+                      }
+                    };
+
+                    CStudioAuthoring.Operations.cropperImage(
+                      CStudioAuthoringContext.site,
+                      message,
+                      imageData,
+                      self.width,
+                      self.height,
+                      self.width / self.height,
+                      repoImage,
+                      callbackCropper
+                    );
+                  })(self);
+                }
+              } else {
+                var formContainer = this.form ? this.form.containerEl : self.form.containerEl;
+                if ($(formContainer).find('#ice-body .cstudio-form-field-container').length > 1) {
+                  if (this.setImageData) {
+                    this.setImageData(imagePicker, imageData);
+                  } else {
+                    self.setImageData(imagePicker, imageData);
+                  }
+                } else {
+                  if (this.setImageData) {
+                    this.setImageData(imagePicker, imageData);
+                    CStudioAuthoring.Utils.decreaseFormDialog();
+                  } else {
+                    self.setImageData(imagePicker, imageData);
+                    CStudioAuthoring.Utils.decreaseFormDialog();
+                  }
+                }
+              }
+            }
+            image.addEventListener('load', imageLoaded, false);
+            image.addEventListener('error', function () {
+              message = 'Unable to load the selected image. Please try again or select another image';
+              imagePicker.showAlert(message);
+            });
+            CStudioAuthoring.Operations.getImageRequest({
+              url: imageData.previewUrl,
+              image: image
+            });
+          }*/
+        },
+        failure: function (message) {
+          CStudioAuthoring.Operations.showSimpleDialog(
+            'message-dialog',
+            CStudioAuthoring.Operations.simpleDialogTypeINFO,
+            CMgs.format(langBundle, 'notification'),
+            message,
+            null,
+            YAHOO.widget.SimpleDialog.ICON_BLOCK,
+            'studioDialog'
+          );
+        }
+      });
     }
   },
 
@@ -610,6 +727,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       var addFunction = this.addManagedFile;
   
       var addMenuOption = function (el) {
+        var _self = this;
+
         // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
         // would fail if a datasource id string is a substring of another datasource id)
         var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
@@ -623,7 +742,12 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
           itemEl.textContent = el.title;
           addContainerEl.appendChild(itemEl);
 
-          YAHOO.util.Event.on(
+          $itemEl.on('click', function () {
+            _self.addManagedFile(mapDatasource);
+          });
+
+
+          /*YAHOO.util.Event.on(
             itemEl,
             'click',
             function () {
@@ -647,7 +771,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
               }
             },
             itemEl
-          );
+          );*/
         }
       };
       datasourceDef.forEach(addMenuOption);
