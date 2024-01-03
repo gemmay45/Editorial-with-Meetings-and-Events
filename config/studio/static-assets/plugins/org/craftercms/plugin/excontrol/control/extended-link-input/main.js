@@ -252,6 +252,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     this.displayTxtEl = displayTxtEl;
     this.displayTxtEl.id = "displayTxt"
     this.displayTxtEl.disabled = true;
+    this.displayTxtEl.setAttribute('style','width: 100%;display: flex;background: #fafafa;border: 1px solid #ced4da;border-radius: 0 0 4px 4px;align-items: center;');
     var txt = document.createTextNode(" ");
     this.displayTxtEl.appendChild(txt)
     inputDivEl.appendChild(displayTxtEl);
