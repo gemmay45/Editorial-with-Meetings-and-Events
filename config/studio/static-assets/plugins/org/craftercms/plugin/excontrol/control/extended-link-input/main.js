@@ -727,8 +727,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       var addFunction = this.addManagedFile;
   
       var addMenuOption = function (el) {
-        var _self = this;
-
         // We want to avoid possible substring conflicts by using a reg exp (a simple indexOf
         // would fail if a datasource id string is a substring of another datasource id)
         var regexpr = new RegExp('(' + el.id + ')[\\s,]|(' + el.id + ')$'),
@@ -746,7 +744,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
             itemEl,
             'click',
             function () {
-              addManagedFile(mapDatasource);
+              this.addManagedFile(mapDatasource);
             },
             itemEl
           );
