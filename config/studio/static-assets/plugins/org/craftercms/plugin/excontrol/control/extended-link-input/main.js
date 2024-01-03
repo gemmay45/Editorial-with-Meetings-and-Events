@@ -31,6 +31,7 @@ CStudioForms.Controls.extendedLinkInput =
     this.datasources = null;
     this.urlPath = '';
     this.id = id;
+    this.fileData = null;
     this.readonly = readonly;
 
     amplify.subscribe('/datasource/loaded', this, this.onDatasourceLoaded);
@@ -444,7 +445,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       datasourceEl.add({
         urlPicker: this,
         insertItem: function (fileData) {
-          console.log(this.urlPicker);
+          this.fileData =fileData;
         },
         success: function (fileData) {
           var valid = false,
@@ -597,10 +598,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       { label: CMgs.format(langBundle, 'required'), name: 'required', type: 'boolean' },
       { label: CMgs.format(langBundle, 'matchPattern'), name: 'pattern', type: 'string' }
     ];
-  },
-
-  getUrlPicker: function (r, type) {
-    console.log("getUrlPicker");
   },
 
   /**
