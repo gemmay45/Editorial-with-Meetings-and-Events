@@ -320,7 +320,7 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>250</value>
 							<type>int</type>
 						</property>
 						<property>
