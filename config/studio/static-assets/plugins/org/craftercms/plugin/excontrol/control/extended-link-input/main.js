@@ -445,7 +445,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       datasourceEl.add({
         urlPicker: this,
         insertItem: function (fileData) {
-          var inputEl = YDom.get('form-field_591596152161703822078253');
+          var inputEl = YDom.get('form-field_url');
           inputEl.value =fileData;
         },
         success: function (fileData) {
@@ -628,10 +628,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       '<div class="wrapper" style="margin:25px">' + 
       '<div class="tox-formX">' +
       '<div class="tox-form__group" aria-disabled="false">' +
-      '<label class="tox-label" for="form-field_591596152161703822078253">URL</label>' +
+      '<label class="tox-label" for="form-field_url">URL</label>' +
       '<div class="tox-form__controls-h-stack">' +
       '<div class="tox-control-wrap" aria-disabled="false">' +
-      '<input type="url" aria-errormessage="aria-invalid_526777492591703822075552" role="combobox" aria-autocomplete="list" aria-haspopup="true" tabindex="-1" data-alloy-tabstop="true" class="tox-textfield" aria-expanded="false" id="form-field_591596152161703822078253">' +
+      '<input type="url" aria-errormessage="aria-invalid_526777492591703822075552" role="combobox" aria-autocomplete="list" aria-haspopup="true" tabindex="-1" data-alloy-tabstop="true" class="tox-textfield" aria-expanded="false" id="form-field_url">' +
       '<div class="tox-control-wrap__status-icon-wrap">' +
       '<div title="invalid" aria-live="polite" id="aria-invalid_526777492591703822075552" class="tox-icon tox-control-wrap__status-icon-invalid">' +
       '<svg width="24" height="24"><path d="M19.8 18.3c.2.5.3.9 0 1.2-.1.3-.5.5-1 .5H5.2c-.5 0-.9-.2-1-.5-.3-.3-.2-.7 0-1.2L11 4.7l.5-.5.5-.2c.2 0 .3 0 .5.2.2 0 .3.3.5.5l6.8 13.6zM12 18c.3 0 .5-.1.7-.3.2-.2.3-.4.3-.7a1 1 0 00-.3-.7 1 1 0 00-.7-.3 1 1 0 00-.7.3 1 1 0 00-.3.7c0 .3.1.5.3.7.2.2.4.3.7.3zm.7-3l.3-4a1 1 0 00-.3-.7 1 1 0 00-.7-.3 1 1 0 00-.7.3 1 1 0 00-.3.7l.3 4h1.4z" fill-rule="evenodd"></path></svg></div></div></div>' +
@@ -672,7 +672,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       'dndInsertButton',
       'click',
       function () {
-        var url = document.getElementById('form-field_591596152161703822078253');
+        var url = document.getElementById('form-field_url');
         this.inputEl.value = url.value;
         this.upload_dialog.destroy();
         /*this.fullImageTab(!this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value);*/
