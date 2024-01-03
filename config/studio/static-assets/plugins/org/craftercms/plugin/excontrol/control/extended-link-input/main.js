@@ -438,7 +438,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
   },
   */
 
-  addManagedFile: function (datasourceEl) {
+  addManagedFile: function (datasourceEl, cb) {
     if (datasourceEl && datasourceEl.add) {
       var self = this;
       datasourceEl.add({
@@ -747,7 +747,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
               this.addContainerEl = null;
               $('.cstudio-form-control-image-picker-add-container').remove();
 
-              addFunction(mapDatasource);
+              addFunction(mapDatasource, cb);
             },
             itemEl
           );
