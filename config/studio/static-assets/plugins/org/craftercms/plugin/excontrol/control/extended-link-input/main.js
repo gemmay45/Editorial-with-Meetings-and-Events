@@ -247,7 +247,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Dom.addClass(inputEl, 'datum');
     YAHOO.util.Dom.addClass(inputEl, 'cstudio-form-control-input cstudio-form-control-file-name');
     inputEl.value = (this.value = '_not-set') ? config.defaultValue : this.value;
-    inputContainerDivEl.appendChild(inputEl);
+    inputDivEl.appendChild(inputEl);
 
     var displayTxtEl = document.createElement('div');
     this.displayTxtEl = displayTxtEl;
@@ -256,7 +256,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     this.displayTxtEl.setAttribute('style','width: 100%;display: flex;background: #fafafa;border: 1px solid #ced4da;border-radius: 0 0 4px 4px;align-items: center;');
     var txt = document.createTextNode(" ");
     this.displayTxtEl.appendChild(txt)
-    inputDivEl.appendChild(displayTxtEl);
+    inputContainerDivEl.appendChild(displayTxtEl);
 
     YAHOO.util.Event.on(
       inputEl,
