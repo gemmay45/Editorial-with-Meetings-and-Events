@@ -744,7 +744,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
             itemEl,
             'click',
             function () {
-              this.addManagedFile(mapDatasource);
+              this.addContainerEl = null;
+              $('.cstudio-form-control-image-picker-add-container').remove();
+
+              addFunction(mapDatasource);
             },
             itemEl
           );
