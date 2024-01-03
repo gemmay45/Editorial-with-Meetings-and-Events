@@ -236,7 +236,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
     var inputDivEl = document.createElement('div');
     YAHOO.util.Dom.addClass(inputDivEl, 'cstudio-form-control-input-container no-wrap input-wrapper disabled');
-    inputDivEl.setAttribute('style','border-radius: 4px 4px 0 0');
+    inputDivEl.setAttribute('style','border-radius: 4px 4px 0 0; border-bottom: 0');
     inputContainerDivEl.appendChild(inputDivEl);
 
     var inputEl = document.createElement('input');
@@ -253,7 +253,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     this.displayTxtEl = displayTxtEl;
     this.displayTxtEl.id = "displayTxt"
     this.displayTxtEl.disabled = true;
-    this.displayTxtEl.setAttribute('style','width: 100%;display: flex;background: #fafafa;border: 1px solid #ced4da;border-radius: 0 0 4px 4px;align-items: center;');
+    this.displayTxtEl.setAttribute('style','padding: 5px 10px; width: 100%;display: flex;background: #fafafa;border: 1px solid #ced4da;border-radius: 0 0 4px 4px;align-items: center;');
     var txt = document.createTextNode("-");
     this.displayTxtEl.appendChild(txt)
     inputContainerDivEl.appendChild(displayTxtEl);
