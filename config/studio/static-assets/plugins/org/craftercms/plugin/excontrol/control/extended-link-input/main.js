@@ -692,7 +692,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         //this.displayTxtEl.removeChild(this.displayTxtEl.firstChild);
         //this.displayTxtEl.appendChild(txt);
 
-        this.displayTxtEl.innerHTML = displayTxt;
+        this.displayTxtEl.innerHTML = displayTxt.value;
 
         this.upload_dialog.destroy();
         this._onChangeVal(null, this);
