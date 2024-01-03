@@ -251,7 +251,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     var displayTxtEl = document.createElement('div');
     this.displayTxtEl = displayTxtEl;
     this.displayTxtEl.id = "displayTxt"
-    this.inputEl.disabled = true;
+    this.displayTxtEl.disabled = true;
+    this.displayTxtEl.appendChild("&nbsp;")
     inputDivEl.appendChild(displayTxtEl);
 
     YAHOO.util.Event.on(
