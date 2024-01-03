@@ -439,10 +439,10 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
   */
 
   addManagedFile: function (datasourceEl) {
-    if (datasourceEl) {
+    if (datasourceEl && datasourceEl.add) {
       var self = this;
-      datasourceEl.insertItem({
-        imagePicker: this,
+      datasourceEl.add({
+      linkData: this,
         success: function (linkData) {
           var valid = false,
             message = '',
