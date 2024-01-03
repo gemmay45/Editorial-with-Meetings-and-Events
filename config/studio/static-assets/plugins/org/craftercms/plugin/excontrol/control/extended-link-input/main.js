@@ -445,8 +445,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       datasourceEl.add({
         urlPicker: this,
         insertItem: function (fileData) {
-          var newdiv = YDom.get('tox-dialog');
-          this.fileData =fileData;
+          var inputEl = YDom.get('form-field_591596152161703822078253');
+          inputEl.value =fileData;
         },
         success: function (fileData) {
           var valid = false,
