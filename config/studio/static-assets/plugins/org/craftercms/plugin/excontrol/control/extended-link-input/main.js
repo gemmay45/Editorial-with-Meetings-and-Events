@@ -742,9 +742,14 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
           itemEl.textContent = el.title;
           addContainerEl.appendChild(itemEl);
 
-          itemEl.on('click', function () {
-            _self.addManagedFile(mapDatasource);
-          });
+          YAHOO.util.Event.on(
+            itemEl,
+            'click',
+            function () {
+              _self.addManagedFile(mapDatasource);
+            }
+            itemEl
+          );
 
 
           /*YAHOO.util.Event.on(
