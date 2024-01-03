@@ -254,8 +254,9 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     this.displayTxtEl.id = "displayTxt"
     this.displayTxtEl.disabled = true;
     this.displayTxtEl.setAttribute('style','padding: 5px 10px; width: 100%;display: flex;background: #fafafa;border: 1px solid #ced4da;border-radius: 0 0 4px 4px;align-items: center;');
-    var txt = document.createTextNode("<span> </span>");
-    this.displayTxtEl.appendChild(txt)
+    var displayTxtSpanEl = document.createElement('span');
+    //    var txt = document.createTextNode("&lt;span> </span>");
+    this.displayTxtEl.appendChild(displayTxtSpanEl)
     inputContainerDivEl.appendChild(displayTxtEl);
 
     YAHOO.util.Event.on(
