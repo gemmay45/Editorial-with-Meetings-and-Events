@@ -747,7 +747,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
             'click',
             function () {
               _self.addManagedFile(mapDatasource);
-            }
+            },
             itemEl
           );
 
