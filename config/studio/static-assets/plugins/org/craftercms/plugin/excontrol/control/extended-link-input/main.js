@@ -675,6 +675,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         var url = document.getElementById('form-field_url');
         this.inputEl.value = url.value;
         this.upload_dialog.destroy();
+        this._onChangeVal(null, this);
         /*this.fullImageTab(!this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value);*/
       },
       this,
