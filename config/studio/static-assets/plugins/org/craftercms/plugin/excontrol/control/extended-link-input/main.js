@@ -450,125 +450,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     }
   },
 
-  /*addManagedFile: function (datasourceEl, cb) {
-    if (datasourceEl && datasourceEl.add) {
-      var self = this;
-      datasourceEl.add({
-        urlPicker: this,
-        insertItem: function (fileData) {
-          var inputEl = YDom.get('form-field_url');
-          inputEl.value =fileData;
-        },
-        success: function (fileData) {
-          var valid = false,
-            message = '',
-            repoImage;
-
-          if (this.imagePicker.validExtensions.includes(imageData.fileExtension?.toLowerCase().trim())) {
-            valid = true;
-          } else {
-            message = 'The uploaded file is not of type image';
-          }
-
-          if (!valid) {
-            this.imagePicker.showAlert(message);
-          } else {
-            var image = new Image();
-            var imagePicker = this.imagePicker;
-
-            function imageLoaded() {
-              imagePicker.originalWidth = this.width;
-              imagePicker.originalHeight = this.height;
-
-              valid = imagePicker.isImageValid();
-              if (!valid) {
-                var widthConstrains = JSON.parse(self.width);
-                var heightConstrains = JSON.parse(self.height);
-                message = 'The uploaded file does not meet the specified width & height constraints';
-                if (
-                  (widthConstrains.min && imagePicker.originalWidth < widthConstrains.min) ||
-                  (heightConstrains.min && imagePicker.originalHeight < heightConstrains.min) ||
-                  (widthConstrains.exact && imagePicker.originalWidth < widthConstrains.exact) ||
-                  (heightConstrains.exact && imagePicker.originalHeight < heightConstrains.exact) ||
-                  (widthConstrains && imagePicker.originalWidth < widthConstrains) ||
-                  (heightConstrains && imagePicker.originalHeight < heightConstrains)
-                ) {
-                  message = 'Image is smaller than the constraint size';
-                  self.showAlert(message);
-                } else {
-                  (function (self) {
-                    var callbackCropper = {
-                      success: function (content) {
-                        var imagePicker = self;
-
-                        imageData.relativeUrl = imageData.renameRelativeUrl
-                          ? imageData.renameRelativeUrl
-                          : imageData.relativeUrl;
-                        imageData.previewUrl = imageData.renamePreviewUrl
-                          ? imageData.renamePreviewUrl
-                          : imageData.previewUrl;
-
-                        self.setImageData(imagePicker, imageData);
-                      }
-                    };
-
-                    CStudioAuthoring.Operations.cropperImage(
-                      CStudioAuthoringContext.site,
-                      message,
-                      imageData,
-                      self.width,
-                      self.height,
-                      self.width / self.height,
-                      repoImage,
-                      callbackCropper
-                    );
-                  })(self);
-                }
-              } else {
-                var formContainer = this.form ? this.form.containerEl : self.form.containerEl;
-                if ($(formContainer).find('#ice-body .cstudio-form-field-container').length > 1) {
-                  if (this.setImageData) {
-                    this.setImageData(imagePicker, imageData);
-                  } else {
-                    self.setImageData(imagePicker, imageData);
-                  }
-                } else {
-                  if (this.setImageData) {
-                    this.setImageData(imagePicker, imageData);
-                    CStudioAuthoring.Utils.decreaseFormDialog();
-                  } else {
-                    self.setImageData(imagePicker, imageData);
-                    CStudioAuthoring.Utils.decreaseFormDialog();
-                  }
-                }
-              }
-            }
-            image.addEventListener('load', imageLoaded, false);
-            image.addEventListener('error', function () {
-              message = 'Unable to load the selected image. Please try again or select another image';
-              imagePicker.showAlert(message);
-            });
-            CStudioAuthoring.Operations.getImageRequest({
-              url: imageData.previewUrl,
-              image: image
-            });
-          }
-        },
-        failure: function (message) {
-          CStudioAuthoring.Operations.showSimpleDialog(
-            'message-dialog',
-            CStudioAuthoring.Operations.simpleDialogTypeINFO,
-            CMgs.format(langBundle, 'notification'),
-            message,
-            null,
-            YAHOO.widget.SimpleDialog.ICON_BLOCK,
-            'studioDialog'
-          );
-        }
-      });
-    }
-  },*/
-
   getValue: function () {
     return this.value;
   },
@@ -687,10 +568,6 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         this.inputEl.value = url.value;
 
         var displayTxt = document.getElementById('form-field_1313059962171703822078253');
-
-        //var txt = document.createTextNode(displayTxt.value);
-        //this.displayTxtEl.removeChild(this.displayTxtEl.firstChild);
-        //this.displayTxtEl.appendChild(txt);
 
         this.displayTxtEl.innerHTML = displayTxt.value;
 
