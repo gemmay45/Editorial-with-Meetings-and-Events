@@ -210,77 +210,6 @@
 					</constraints>
 				</field>
 				<field>
-					<type>date-time</type>
-					<id>dateTime_dt</id>
-					<iceId></iceId>
-					<title>DateTime</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>showDate</name>
-							<value>true</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>showTime</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>showClear</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>showNowLink</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>populate</name>
-							<value>true</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>allowPastDate</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>populateDateExp</name>
-							<value>now</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>useCustomTimezone</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>readonlyEdit</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-					<additionalFields>
-						<id>dateTime_dt_tz</id>
-					</additionalFields>
-				</field>
-				<field>
 					<type>page-nav-order</type>
 					<id>pageNavOrder</id>
 					<iceId></iceId>
@@ -354,34 +283,6 @@
 							<name>pattern</name>
 							<value><![CDATA[]]></value>
 							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>transcoded-video-picker</type>
-					<id>transcode_o</id>
-					<iceId></iceId>
-					<title>Transcode</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>videoManager</name>
-							<value>s3Transcode</value>
-							<type>datasource:transcoded-video</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
 						</constraint>
 					</constraints>
 				</field>
@@ -559,24 +460,6 @@
 							<name>useSearch</name>
 							<value>false</value>
 								<type>boolean</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>video-S3-transcoding</type>
-					<id>s3Transcode</id>
-					<title>S3Transcode</title>
-					<interface>transcoded-video</interface>
-					<properties>
-						<property>
-							<name>inputProfileId</name>
-							<value></value>
-								<type>string</type>
-						</property>
-						<property>
-							<name>outputProfileId</name>
-							<value></value>
-								<type>string</type>
 						</property>
 					</properties>
 				</datasource>
