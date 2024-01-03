@@ -442,8 +442,11 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     if (datasourceEl && datasourceEl.add) {
       var self = this;
       datasourceEl.add({
-      linkData: this,
-        success: function (linkData) {
+        fileData: this,
+        insertItem: function (fileData) {
+          urlPicker: this;
+        },
+        success: function (fileData) {
           var valid = false,
             message = '',
             repoImage;
