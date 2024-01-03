@@ -197,7 +197,7 @@
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value>filefromS3,fileBrowse</value>
+							<value>fileBrowse,s3</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -567,6 +567,24 @@
 						</property>
 						<property>
 							<name>type</name>
+							<value></value>
+								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>S3-upload</type>
+					<id>s3</id>
+					<title>S3</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value></value>
+								<type>string</type>
+						</property>
+						<property>
+							<name>profileId</name>
 							<value></value>
 								<type>string</type>
 						</property>
