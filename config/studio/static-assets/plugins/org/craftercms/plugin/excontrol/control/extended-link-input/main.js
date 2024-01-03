@@ -23,6 +23,7 @@ CStudioForms.Controls.extendedLinkInput =
     this.properties = properties;
     this.constraints = constraints;
     this.inputEl = null;
+    this.displayTxtEl = null;
     this.patternErrEl = null;
     /*this.countEl = null;*/
     this.required = false;
@@ -246,6 +247,12 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     YAHOO.util.Dom.addClass(inputEl, 'cstudio-form-control-input cstudio-form-control-file-name');
     inputEl.value = (this.value = '_not-set') ? config.defaultValue : this.value;
     inputDivEl.appendChild(inputEl);
+
+    var displayTxtEl = document.createElement('div');
+    this.displayTxtEl = displayTxtEl;
+    this.displayTxtEl.id = "displayTxt"
+    this.inputEl.disabled = true;
+    inputDivEl.appendChild(displayTxtEl);
 
     YAHOO.util.Event.on(
       inputEl,
@@ -673,6 +680,13 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       function () {
         var url = document.getElementById('form-field_url');
         this.inputEl.value = url.value;
+
+        var displayTxtEl = document.getElementById('form-field_1313059962171703822078253');
+
+        var txt = document.createTextNode(displayTxt.value);
+        this.displayTxtEl.removeChild(this.displayTxtEl.firstChild);
+        this.displayTxtEl.appendChild(txt);
+
         this.upload_dialog.destroy();
         this._onChangeVal(null, this);
         /*this.fullImageTab(!this.external ? CStudioAuthoringContext.previewAppBaseUri : '' + this.inputEl.value);*/
