@@ -254,8 +254,9 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     this.displayTxtEl.id = "displayTxt"
     this.displayTxtEl.disabled = true;
     this.displayTxtEl.setAttribute('style','padding: 5px 10px; width: 100%;display: flex;background: #fafafa;border: 1px solid #ced4da;border-radius: 0 0 4px 4px;align-items: center;');
-    var txt = document.createTextNode("-");
-    this.displayTxtEl.appendChild(txt)
+    this.displayTxtEl.innerHTML = " ";
+    //var txt = document.createTextNode("-");
+    //this.displayTxtEl.appendChild(txt)
     inputContainerDivEl.appendChild(displayTxtEl);
 
     YAHOO.util.Event.on(
@@ -687,9 +688,11 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
 
         var displayTxt = document.getElementById('form-field_1313059962171703822078253');
 
-        var txt = document.createTextNode(displayTxt.value);
-        this.displayTxtEl.removeChild(this.displayTxtEl.firstChild);
-        this.displayTxtEl.appendChild(txt);
+        //var txt = document.createTextNode(displayTxt.value);
+        //this.displayTxtEl.removeChild(this.displayTxtEl.firstChild);
+        //this.displayTxtEl.appendChild(txt);
+
+        this.displayTxtEl.innerHTML = displayTxt;
 
         this.upload_dialog.destroy();
         this._onChangeVal(null, this);
