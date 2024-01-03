@@ -252,7 +252,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     this.displayTxtEl = displayTxtEl;
     this.displayTxtEl.id = "displayTxt"
     this.displayTxtEl.disabled = true;
-    var txt = document.createTextNode("&nbsp;");
+    var txt = document.createTextNode(" ");
     this.displayTxtEl.appendChild(txt)
     inputDivEl.appendChild(displayTxtEl);
 
@@ -683,7 +683,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         var url = document.getElementById('form-field_url');
         this.inputEl.value = url.value;
 
-        var displayTxtEl = document.getElementById('form-field_1313059962171703822078253');
+        var displayTxt = document.getElementById('form-field_1313059962171703822078253');
 
         var txt = document.createTextNode(displayTxt.value);
         this.displayTxtEl.removeChild(this.displayTxtEl.firstChild);
