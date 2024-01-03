@@ -34,6 +34,10 @@ CStudioForms.Controls.extendedLinkInput =
     this.fileData = null;
     this.readonly = readonly;
 
+    this.formatMessage = CrafterCMSNext.i18n.intl.formatMessage;
+    this.words = CrafterCMSNext.i18n.messages.words;
+    this.messages = CrafterCMSNext.i18n.messages.rteControlMessages;
+
     amplify.subscribe('/datasource/loaded', this, this.onDatasourceLoaded);
 
     return this;
@@ -408,18 +412,14 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     }*/
   },
 
-  /*
   addManagedFile(datasource, cb) {
     if (datasource && datasource.add) {
       var self = this;
       datasource.add(
         {
           insertItem: function (fileData) {
-            urlPicker: this;
-            //cb(fileData, {});
-            //var urlEl = document.getElementById('url');
-            //this.inputEl.value = fileData;
-            //urlEl.value = fileData;
+            var inputEl = YDom.get('form-field_url');
+            inputEl.value =fileData;
           },
           failure: function (message) {
             CStudioAuthoring.Operations.showSimpleDialog(
@@ -437,9 +437,8 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
       );
     }
   },
-  */
 
-  addManagedFile: function (datasourceEl, cb) {
+  /*addManagedFile: function (datasourceEl, cb) {
     if (datasourceEl && datasourceEl.add) {
       var self = this;
       datasourceEl.add({
@@ -453,7 +452,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
             message = '',
             repoImage;
 
-          /*if (this.imagePicker.validExtensions.includes(imageData.fileExtension?.toLowerCase().trim())) {
+          if (this.imagePicker.validExtensions.includes(imageData.fileExtension?.toLowerCase().trim())) {
             valid = true;
           } else {
             message = 'The uploaded file is not of type image';
@@ -541,7 +540,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
               url: imageData.previewUrl,
               image: image
             });
-          }*/
+          }
         },
         failure: function (message) {
           CStudioAuthoring.Operations.showSimpleDialog(
@@ -556,7 +555,7 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
         }
       });
     }
-  },
+  },*/
 
   getValue: function () {
     return this.value;
