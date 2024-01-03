@@ -442,9 +442,9 @@ YAHOO.extend(CStudioForms.Controls.extendedLinkInput, CStudioForms.CStudioFormFi
     if (datasourceEl && datasourceEl.add) {
       var self = this;
       datasourceEl.add({
-        fileData: this,
+        urlPicker: this,
         insertItem: function (fileData) {
-          urlPicker: this;
+          console.log(urlPicker);
         },
         success: function (fileData) {
           var valid = false,
